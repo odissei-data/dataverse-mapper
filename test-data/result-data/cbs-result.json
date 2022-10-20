@@ -1,0 +1,306 @@
+{
+  "datasetVersion": {
+    "metadataBlocks": {
+      "citation": {
+        "fields": [
+          {
+            "typeName": "title",
+            "typeClass": "primitive",
+            "multiple": false,
+            "value": "Wanbetalers Zorgverzekeringswet"
+          },
+          {
+            "typeName": "alternativeTitle",
+            "typeClass": "primitive",
+            "multiple": false,
+            "value": "WANBZVWJJJJTABVV"
+          },
+          {
+            "typeName": "otherId",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "otherIdAgency": {
+                  "typeName": "otherIdAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "CBS Dataontwerp ID"
+                }
+              },
+              {
+                "otherIdAgency": {
+                  "typeName": "otherIdAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": null
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Centraal Bureau voor Statistiek"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": null
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactEmail": {
+                  "typeName": "datasetContactEmail",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Microdata@cbs.nl"
+                }
+              },
+              {
+                "datasetContactEmail": {
+                  "typeName": "datasetContactEmail",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": null
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Per 1 september 2009 is de Wet structurele maatregelen wanbetalers zorgverzekering in werking getreden. In het kader van deze wet worden wanbetalers opgespoord. Hiervoor doen zorgverzekeraars opgave aan het CAK (tot 2016 was dit aan het Zorginstituut Nederland) van hun verzekerden met een premieachterstand van ten minste zes maanden. Het CAK int vervolgens een bestuursrechtelijke premie (d.w.z. een verhoogde premie) door middel van inhouding op het loon of de uitkering (bronheffing). Als bronheffing niet (geheel) mogelijk is, wordt de premie met behulp van het Centraal Justitieel Incasso Bureau (CJIB) geïncasseerd.Voor het gebruik van dit bestand is toestemming nodig van de dataleverancier. Deze toestemming is te verkrijgen door een mail met een korte samenvatting van het doel van het onderzoek en de onderbouwing van het gebruik van de data, het analyseplan of het projectvoorstel te sturen naar CBS. SGZ beoordeelt de aanvrag en neemt contact op met de dataleverancier om de toestemming te regelen."
+                }
+              },
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "typeClass": "controlledVocabulary",
+            "multiple": true,
+            "value": [
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Zorgverzekeringswet (ZVW)"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Zorgverzekeringswet (ZVW)"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Sociaaleconomische en ruimtelijke statistieken/Gezondheid en zorg/Zorgverzekeringswet (Zvw)"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "topicClassification",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "RINPERSOONS"
+                }
+              },
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "RINPERSOON"
+                }
+              },
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Gezondheid en welzijn"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "producer",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "producerName": {
+                  "typeName": "producerName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Centraal Bureau voor Statistiek"
+                },
+                "producerAbbreviation": {
+                  "typeName": "producerAbbreviation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "CBS"
+                }
+              },
+              {
+                "producerName": {
+                  "typeName": "producerName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": null
+                },
+                "producerAbbreviation": {
+                  "typeName": "producerAbbreviation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": null
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "distributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "distributorName": {
+                  "typeName": "distributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Centraal Bureau voor Statistiek"
+                }
+              },
+              {
+                "distributorName": {
+                  "typeName": "distributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": null
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "distributionDate",
+            "typeClass": "primitive",
+            "multiple": false,
+            "value": "2010-12-31"
+          },
+          {
+            "typeName": "kindOfData",
+            "typeClass": "primitive",
+            "multiple": true,
+            "value": [
+              "Micro"
+            ]
+          }
+        ]
+      },
+      "socialscience": {
+        "fields": [
+          {
+            "typeName": "frequencyOfDataCollection",
+            "typeClass": "primitive",
+            "multiple": false,
+            "value": "Jaar"
+          }
+        ]
+      },
+      "odissei": {
+        "fields": [
+          {
+            "typeName": "variable",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "variableName": {
+                  "typeName": "variableName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "RINPERSOONS"
+                },
+                "variableLabel": {
+                  "typeName": "variableLabel",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Samen met RINPERSOON identificeert dit nummer de persoon"
+                }
+              },
+              {
+                "variableName": {
+                  "typeName": "variableName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "RINPERSOON"
+                },
+                "variableLabel": {
+                  "typeName": "variableLabel",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Samen met RINPERSOONS identificeert dit nummer de persoon"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "license": "DANS MA KA Licence"
+  }
+}

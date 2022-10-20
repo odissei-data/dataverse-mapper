@@ -1,0 +1,206 @@
+[
+  {
+    "typeName": "title",
+    "typeClass": "primitive",
+    "multiple": false,
+    "value": "Cultural differences between European countries : Centerdata Telepanel"
+  },
+  {
+    "typeName": "author",
+    "multiple": true,
+    "typeClass": "compound",
+    "value": [
+      {
+        "authorName": {
+          "typeName": "authorName",
+          "multiple": false,
+          "typeClass": "primitive",
+          "value": "CenterData, Universiteit Brabant, Tilburg"
+        }
+      }
+    ]
+  },
+  {
+    "typeName": "datasetContact",
+    "multiple": true,
+    "typeClass": "compound",
+    "value": [
+      {
+        "datasetContactEmail": {
+          "typeName": "datasetContactEmail",
+          "multiple": false,
+          "typeClass": "primitive",
+          "value": null
+        }
+      }
+    ]
+  },
+  {
+    "typeName": "dsDescription",
+    "multiple": true,
+    "typeClass": "compound",
+    "value": [
+      {
+        "dsDescriptionValue": {
+          "typeName": "dsDescriptionValue",
+          "multiple": false,
+          "typeClass": "primitive",
+          "value": "This survey is part of Centerdata's Telepanel project. Telepanel consists of  approx. 2000 households, surveyed weekly.  Besides the Centerdatabase offers\topportunities to compose tailor-made datasets.  Awareness of  cultural differences between countries of the European Union /  allocation of tasks  between men and women / differences in power / mode of cohabitation / dealing with uncertainty Background Variables: Age, year of birth / Sex   Ownership of house   Nr. of children living with family/household / Position in family/household / Size of family/household / Other: presence of partner in family/household   Respondent: occupational status   Respondent: gross income / Respondent: net income / Total family/household: gross income / Total family/ household: net income   Respondent: highest grade attained / Respondent: highest type attended   Other: constructed variable ( social economic class ) according to GFK * Dongen."
+        }
+      }
+    ]
+  },
+  {
+    "typeName": "subject",
+    "typeClass": "controlledVocabulary",
+    "multiple": true,
+    "value": null
+  },
+  {
+    "typeName": "keyword",
+    "multiple": true,
+    "typeClass": "compound",
+    "value": [
+      {
+        "keywordValue": {
+          "typeName": "keywordValue",
+          "multiple": false,
+          "typeClass": "primitive",
+          "value": "public opinion"
+        }
+      },
+      {
+        "keywordValue": {
+          "typeName": "keywordValue",
+          "multiple": false,
+          "typeClass": "primitive",
+          "value": "european community"
+        }
+      }
+    ]
+  },
+  {
+    "typeName": "topicClassification",
+    "multiple": true,
+    "typeClass": "compound",
+    "value": [
+      {
+        "topicClassValue": {
+          "typeName": "topicClassValue",
+          "multiple": false,
+          "typeClass": "primitive",
+          "value": "Social sciences"
+        }
+      },
+      {
+        "topicClassValue": {
+          "typeName": "topicClassValue",
+          "multiple": false,
+          "typeClass": "primitive",
+          "value": "test"
+        }
+      }
+    ]
+  },
+  {
+    "typeName": "contributor",
+    "multiple": true,
+    "typeClass": "compound",
+    "value": [
+      {
+        "contributorName": {
+          "typeName": "contributorName",
+          "multiple": false,
+          "typeClass": "primitive",
+          "value": "CenterData, Universiteit Brabant, Tilburg (primary investigator)"
+        }
+      },
+      {
+        "contributorName": {
+          "typeName": "contributorName",
+          "multiple": false,
+          "typeClass": "primitive",
+          "value": "Centerdata Tilburg University (depositor)"
+        }
+      },
+      {
+        "contributorName": {
+          "typeName": "contributorName",
+          "multiple": false,
+          "typeClass": "primitive",
+          "value": "CenterData, Universiteit Brabant, Tilburg (research initiator)"
+        }
+      },
+      {
+        "contributorName": {
+          "typeName": "contributorName",
+          "multiple": false,
+          "typeClass": "primitive",
+          "value": "CenterData, Universiteit Brabant, Tilburg (data collector)"
+        }
+      }
+    ]
+  },
+  {
+    "typeName": "topicClassification",
+    "multiple": true,
+    "typeClass": "compound",
+    "value": [
+      {
+        "topicClassValue": {
+          "typeName": "topicClassValue",
+          "multiple": false,
+          "typeClass": "primitive",
+          "value": "Social sciences"
+        },
+        "topicClassVocab": {
+          "typeName": "topicClassVocab",
+          "multiple": false,
+          "typeClass": "primitive",
+          "value": "NARCIS-classification"
+        },
+        "topicClassVocabURI": {
+          "typeName": "topicClassVocabURI",
+          "multiple": false,
+          "typeClass": "primitive",
+          "value": null
+        }
+      },
+      {
+        "topicClassValue": {
+          "typeName": "topicClassValue",
+          "multiple": false,
+          "typeClass": "primitive",
+          "value": "test"
+        },
+        "topicClassVocab": {
+          "typeName": "topicClassVocab",
+          "multiple": false,
+          "typeClass": "primitive",
+          "value": "test-classification"
+        }
+      }
+    ]
+  },
+  {
+    "typeName": "distributor",
+    "multiple": true,
+    "typeClass": "compound",
+    "value": [
+      {
+        "distributorName": {
+          "typeName": "distributorName",
+          "multiple": false,
+          "typeClass": "primitive",
+          "value": "DANS-KNAW"
+        },
+        "distributorURL": {
+          "typeName": "distributorURL",
+          "multiple": false,
+          "typeClass": "primitive",
+          "value": "http://easy.dans.knaw.nl"
+        }
+      }
+    ]
+  }
+]
