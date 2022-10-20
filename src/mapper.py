@@ -155,13 +155,16 @@ class MetadataMapper:
         return result_dict_list
 
     def create_mapped_value_list_dict(self, template_dict: dict):
-        """ Creates a dictionary where the key is the name of a nested field
+        """ Creates a dictionary to use for filling the nested fields.
+
+        Loops through all nested fields in the template. For a field name
+        it finds all values in the metadata and places them in to a list.
+        If there is already a default value in place, the value is added to the
+        list.
+
+        :param template_dict: The nested fields for mapping values to.
+        :return: a dictionary where the key is the name of a nested field
         and the value is a list of all values belonging to that nested field.
-
-
-
-        :param template_dict:
-        :return:
         """
         list_dict = {}
         for k, v in template_dict.items():
@@ -177,11 +180,13 @@ class MetadataMapper:
 
     @staticmethod
     def create_result_dict_list(list_dict: dict, template_dict):
-        """
+        """ Creates the nested field dictionaries to be used as the compound
+        field value.
 
         TODO: Merging the dicts could made to be more efficient.
-        :param list_dict:
-        :param template_dict:
+        :param list_dict: a dictionary where the key is the name of a nested field
+        and the value is a list of all values belonging to that nested field.
+        :param template_dict: The nested fields for mapping values to.
         :return:
         """
         result_dict_list = []
