@@ -200,3 +200,18 @@ class MetadataMapper:
             dict_copy = copy.deepcopy(result_dict)
             result_dict_list.append(dict_copy)
         return result_dict_list
+
+    def map_persistent_identifier(self):
+        """ Maps the dataset's doi to a specific field in the template.
+
+        TODO: Needs exception handling
+        Uses a mapping to retrieve the dataset's doi from the metadata.
+        Because there can be multiple persistent identifier, this method checks
+        if the id is an actual doi. It also formats the doi to the expected
+        format.
+        """
+        persistent_ids = self.map_value("datasetPersistentId")
+        for pid in persistent_ids:
+            if "https://doi.org/" in pid:
+                doi = 'doi:' + pid.split("/", 3)[3]
+                self.template["datasetVersion"]["datasetPersistentId"] = doi

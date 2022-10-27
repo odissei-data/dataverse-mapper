@@ -3,8 +3,9 @@ from typing import Any
 from pydantic import BaseModel
 
 
-class JSONInput(BaseModel):
+class Input(BaseModel):
     metadata: list | dict | Any
     template: list | dict | Any
     mapping: list | dict | Any
+    has_existing_doi: bool = None
 
