@@ -25,6 +25,8 @@ def drill_down(obj, path: list[str]):
                 value_list.append(value[path[0]])
             return value_list
         else:
+            if obj.get(path[0]) is None:
+                return None
             return obj[path[0]]
     else:
         if obj.get(path[0]) is None:
@@ -75,10 +77,10 @@ class MetadataMapper:
         :return: the template with the mapped values.
         """
         metadata_blocks = self.template["datasetVersion"]["metadataBlocks"]
-
         for template_fields in metadata_blocks.values():
             for field in template_fields["fields"]:
-                if field['value'] and field['typeClass'] != 'compound':
+                if field['value'] and field['typeClass'] != 'compound' and \
+                        field['multiple']:
                     continue
                 if field['typeClass'] == 'compound' and field['multiple']:
                     field['value'] = self.map_compound_multiple_field(field)
@@ -86,7 +88,7 @@ class MetadataMapper:
                     'multiple']:
                     field['value'] = self.map_compound_field(field)
                 elif field['multiple']:
-                    field['value'] = self.map_value(field['typeName'])
+                    field['value'].extend(self.map_value(field['typeName']))
                 else:
                     field['value'] = self.map_value(field['typeName'])[0]
         return self.template
@@ -150,8 +152,9 @@ class MetadataMapper:
         """
         template_dict = compound_template_field['value'][0]
         list_dict = self.create_mapped_value_list_dict(template_dict)
+        template_dict_copy = copy.deepcopy(template_dict)
         result_dict_list = self.create_result_dict_list(list_dict,
-                                                        template_dict)
+                                                        template_dict_copy)
         return result_dict_list
 
     def create_mapped_value_list_dict(self, template_dict: dict):
@@ -170,8 +173,10 @@ class MetadataMapper:
         for k, v in template_dict.items():
             list_dict[k] = []
             if v['value']:
-                list_dict[k].append(v)
+                list_dict[k].append(v['value'])
             mapped_value = self.map_value(v['typeName'])
+            if not mapped_value:
+                continue
             if isinstance(mapped_value, list):
                 list_dict[k].extend(mapped_value)
             else:
