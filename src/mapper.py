@@ -79,14 +79,17 @@ class MetadataMapper:
         metadata_blocks = self.template["datasetVersion"]["metadataBlocks"]
         for template_fields in metadata_blocks.values():
             for field in template_fields["fields"]:
+                # guard clause for singular default values
                 if field['value'] and field['typeClass'] != 'compound' and \
-                        field['multiple']:
+                        not field['multiple']:
                     continue
-                if field['typeClass'] == 'compound' and field['multiple']:
-                    field['value'] = self.map_compound_multiple_field(field)
-                elif field['typeClass'] == 'compound' and not field[
-                    'multiple']:
+                if field['typeClass'] == 'compound' and not field['multiple']:
                     field['value'] = self.map_compound_field(field)
+                elif field['typeClass'] == 'compound' and field['multiple']:
+                    field['value'] = self.map_compound_multiple_field(field)
+                # guard clause to skip unmappable primitives
+                elif not self.map_value(field['typeName']):
+                    continue
                 elif field['multiple']:
                     field['value'].extend(self.map_value(field['typeName']))
                 else:
