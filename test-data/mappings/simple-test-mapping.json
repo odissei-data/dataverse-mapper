@@ -1,0 +1,6 @@
+{
+  "singleValue": ["test/singleValue"],
+  "multipleValues": ["test/multipleValues"],
+  "deeplyNestedValue": ["test/deeply/nested/value"],
+  "defaultPrimitiveValue": ["test/singleValue"]
+}

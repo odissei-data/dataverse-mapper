@@ -1,0 +1,26 @@
+{
+  "datasetVersion": {
+    "metadataBlocks": {
+      "citation": {
+        "fields": [
+          {
+            "typeName": "defaultPrimitiveMultiple",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "test_value",
+              "test_value2"
+            ]
+          },
+          {
+            "typeName": "defaultPrimitiveValue",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "default_value"
+          }
+        ]
+      }
+    },
+    "license": "DANS MA KA Licence"
+  }
+}
