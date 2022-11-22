@@ -107,11 +107,14 @@ class MetadataMapper:
         :return: a list of values belonging to the given field in the template.
         """
         if type_name not in self.mapping:
-            return None
+            return []
+
         value_list = []
         for path in self.mapping[type_name]:
             split_path = path.split('/')
             value = drill_down(self.metadata, split_path)
+            if not value:
+                continue
             if isinstance(value, list):
                 value_list.extend(value)
             else:
@@ -132,10 +135,7 @@ class MetadataMapper:
         result_dict = {}
         for k, v in compound_template_field.items():
             mapped_value = self.map_value(v['typeName'])
-            if isinstance(mapped_value, list):
-                v['value'] = mapped_value[0]
-            else:
-                v['value'] = mapped_value
+            v['value'] = mapped_value[0]
             result_dict[k] = v
         return result_dict
 
@@ -178,12 +178,8 @@ class MetadataMapper:
             if v['value']:
                 list_dict[k].append(v['value'])
             mapped_value = self.map_value(v['typeName'])
-            if not mapped_value:
-                continue
-            if isinstance(mapped_value, list):
+            if mapped_value:
                 list_dict[k].extend(mapped_value)
-            else:
-                list_dict[k].append(mapped_value)
         return list_dict
 
     @staticmethod
