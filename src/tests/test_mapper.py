@@ -11,7 +11,7 @@ def open_json_file(json_path):
 
 @pytest.fixture()
 def cbs_metadata():
-    return open_json_file("test-data/input-data/cbs-filtered-true.json")
+    return open_json_file("test-data/input-data/cbs-test-metadata.json")
 
 
 @pytest.fixture()
@@ -27,7 +27,28 @@ def cbs_template():
 
 @pytest.fixture()
 def cbs_result():
-    return open_json_file("test-data/result-data/cbs-result.json")
+    return open_json_file("test-data/expected-result-data/cbs-result.json")
+
+
+@pytest.fixture()
+def easy_metadata():
+    return open_json_file("test-data/input-data/easy-test-metadata.json")
+
+
+@pytest.fixture()
+def easy_mapping():
+    return open_json_file("test-data/mappings/easy-mapping.json")
+
+
+@pytest.fixture()
+def easy_template():
+    return open_json_file(
+        "test-data/template-data/easy_dataverse_template.json")
+
+
+@pytest.fixture()
+def easy_result():
+    return open_json_file("test-data/expected-result-data/easy-result.json")
 
 
 @pytest.fixture()
@@ -53,6 +74,11 @@ def cbs_mapper(cbs_metadata, cbs_template, cbs_mapping):
 
 
 @pytest.fixture()
+def easy_mapper(easy_metadata, easy_template, easy_mapping):
+    return MetadataMapper(easy_metadata, easy_template, easy_mapping)
+
+
+@pytest.fixture()
 def simple_test_mapper(simple_test_input_metadata, simple_test_template,
                        simple_test_mapping):
     return MetadataMapper(simple_test_input_metadata, simple_test_template,
@@ -61,10 +87,18 @@ def simple_test_mapper(simple_test_input_metadata, simple_test_template,
 
 def test_cbs_mapper(cbs_mapper, cbs_result):
     mapped_result = cbs_mapper.map_metadata()
-    test_output_filename = "test-data/test-output/test_output.json"
+    test_output_filename = "test-data/test-output/cbs-test-output.json"
     with open(test_output_filename, 'w') as outfile:
         json.dump(mapped_result, outfile)
     assert mapped_result == cbs_result
+
+
+def test_easy_mapper(easy_mapper, easy_result):
+    mapped_result = easy_mapper.map_metadata()
+    test_output_filename = "test-data/test-output/easy-test-output.json"
+    with open(test_output_filename, 'w') as outfile:
+        json.dump(mapped_result, outfile)
+    assert mapped_result == easy_result
 
 
 def test_map_value_single_value(simple_test_mapper):

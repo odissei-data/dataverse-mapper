@@ -7,13 +7,13 @@
             "typeName": "title",
             "typeClass": "primitive",
             "multiple": false,
-            "value": ""
+            "value": "Wanbetalers Zorgverzekeringswet"
           },
           {
             "typeName": "alternativeTitle",
             "typeClass": "primitive",
             "multiple": false,
-            "value": ""
+            "value": "WANBZVWJJJJTABVV"
           },
           {
             "typeName": "otherId",
@@ -26,14 +26,6 @@
                   "multiple": false,
                   "typeClass": "primitive",
                   "value": "CBS Dataontwerp ID"
-                }
-              },
-              {
-                "otherIdValue": {
-                  "typeName": "otherIdValue",
-                  "multiple": false,
-                  "typeClass": "primitive",
-                  "value": ""
                 }
               }
             ]
@@ -78,7 +70,7 @@
                   "typeName": "dsDescriptionValue",
                   "multiple": false,
                   "typeClass": "primitive",
-                  "value": ""
+                  "value": "Per 1 september 2009 is de Wet structurele maatregelen wanbetalers zorgverzekering in werking getreden. In het kader van deze wet worden wanbetalers opgespoord. Hiervoor doen zorgverzekeraars opgave aan het CAK (tot 2016 was dit aan het Zorginstituut Nederland) van hun verzekerden met een premieachterstand van ten minste zes maanden. Het CAK int vervolgens een bestuursrechtelijke premie (d.w.z. een verhoogde premie) door middel van inhouding op het loon of de uitkering (bronheffing). Als bronheffing niet (geheel) mogelijk is, wordt de premie met behulp van het Centraal Justitieel Incasso Bureau (CJIB) ge\u00efncasseerd.\n\nVoor het gebruik van dit bestand is toestemming nodig van de dataleverancier. Deze toestemming is te verkrijgen door een mail met een korte samenvatting van het doel van het onderzoek en de onderbouwing van het gebruik van de data, het analyseplan of het projectvoorstel te sturen naar CBS. SGZ beoordeelt de aanvrag en neemt contact op met de dataleverancier om de toestemming te regelen."
                 }
               }
             ]
@@ -101,7 +93,23 @@
                   "typeName": "keywordValue",
                   "multiple": false,
                   "typeClass": "primitive",
-                  "value": ""
+                  "value": "Zorgverzekeringswet (ZVW)"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Zorgverzekeringswet (ZVW)"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Sociaaleconomische en ruimtelijke statistieken/Gezondheid en zorg/Zorgverzekeringswet (Zvw)"
                 }
               }
             ]
@@ -116,7 +124,7 @@
                   "typeName": "topicClassValue",
                   "multiple": false,
                   "typeClass": "primitive",
-                  "value": ""
+                  "value": "Gezondheid en welzijn"
                 }
               }
             ]
@@ -161,13 +169,15 @@
             "typeName": "distributionDate",
             "typeClass": "primitive",
             "multiple": false,
-            "value": ""
+            "value": "2010-12-31"
           },
           {
             "typeName": "kindOfData",
             "typeClass": "primitive",
             "multiple": true,
-            "value": []
+            "value": [
+              "Micro"
+            ]
           }
         ]
       },
@@ -177,19 +187,21 @@
             "typeName": "universe",
             "multiple": true,
             "typeClass": "primitive",
-            "value": []
+            "value": [
+              "Personen die minimaal 6 maanden geen premie voor hun basisverzekering betaald hebben, op peildatum in de Basisregistratie personen (BRP) staan ingeschreven, aangemeld zijn bij het CAK, in het bestuursrechtelijke premieregime zitten en 18 jaar of ouder zijn. Personen waarbij er sprake is van een stabilisatie-overeenkomst of die in een goed-betaler-regeling zitten behoren niet tot de populatie."
+            ]
           },
           {
             "typeName": "frequencyOfDataCollection",
             "typeClass": "primitive",
             "multiple": false,
-            "value": ""
+            "value": "Jaar"
           },
           {
             "typeName": "samplingProcedure",
             "multiple": false,
             "typeClass": "primitive",
-            "value": ""
+            "value": "Het CBS ontvangt van het CAK een bestand met informatie over personen die op 31 december van het betreffende jaar bij hen geregistreerd staan als wanbetaler. Dit wordt gekoppeld aan de BRP. Personen die aan de wanbetalerdefinitie voldoen worden in de DSC-component opgenomen."
           },
           {
             "typeName": "socialScienceNotes",
@@ -200,7 +212,7 @@
                 "typeName": "socialScienceNotesSubject",
                 "multiple": false,
                 "typeClass": "primitive",
-                "value": ""
+                "value": "Het CAK-bestand wordt via een uploadkanaal aan het CBS aangeboden. De BSN\"s worden verrind door de koppelgroep van SET en het verrinde bestand wordt voor verdere verwerking aan SGZ ter beschikking gesteld."
               }
             }
           }
@@ -218,13 +230,27 @@
                   "typeName": "variableName",
                   "multiple": false,
                   "typeClass": "primitive",
-                  "value": ""
+                  "value": "RINPERSOONS"
                 },
                 "variableLabel": {
                   "typeName": "variableLabel",
                   "multiple": false,
                   "typeClass": "primitive",
-                  "value": ""
+                  "value": "Samen met RINPERSOON identificeert dit nummer de persoon"
+                }
+              },
+              {
+                "variableName": {
+                  "typeName": "variableName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "RINPERSOON"
+                },
+                "variableLabel": {
+                  "typeName": "variableLabel",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Samen met RINPERSOONS identificeert dit nummer de persoon"
                 }
               }
             ]
