@@ -133,10 +133,14 @@ class MetadataMapper:
         :return: a dictionary containing the nested fields with mapped values.
         """
         result_dict = {}
-        for k, v in compound_template_field.items():
+        for k, v in compound_template_field['value'].items():
+            if v['value']:
+                result_dict[k] = v
+                continue
             mapped_value = self.map_value(v['typeName'])
-            v['value'] = mapped_value[0]
-            result_dict[k] = v
+            if mapped_value:
+                v['value'] = mapped_value[0]
+                result_dict[k] = v
         return result_dict
 
     def map_compound_multiple_field(self, compound_template_field: dict):
