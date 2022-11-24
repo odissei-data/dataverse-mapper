@@ -22,7 +22,8 @@ def map_metadata(input_data: Input):
     mapper = MetadataMapper(input_data.metadata, input_data.template,
                             input_data.mapping)
     if input_data.has_existing_doi:
-        mapper.map_persistent_identifier()
+        mapper.template["datasetVersion"][
+            "datasetPersistentId"] = mapper.get_persistent_identifier()
     mapped_metadata = mapper.map_metadata()
     return mapped_metadata
 
@@ -40,4 +41,3 @@ def validate_dataverse_json(dataverse_json):
         json.dump(dataverse_json, outfile)
     ds.from_json(read_file(filename))
     return ds.validate_json()
-
