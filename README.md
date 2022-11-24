@@ -22,7 +22,7 @@ Returns the current version of the API
 
 ### Mapper
 Maps JSON metadata to JSON metadata formatted for Dataverse.
-####Parameters
+#### Parameters
 - metadata - [EASY metadata example](https://github.com/odissei-data/dataverse-mapper/blob/development/test-data/input-data/easy-test-metadata.json) - The input metadata describing a dataset in JSON.
 - template - [EASY template example](https://github.com/odissei-data/dataverse-mapper/blob/development/test-data/template-data/cbs_dataverse_template.json) - A template with the value you expect to map from the input metadata.
 - mapping - [EASY mapping example](https://github.com/odissei-data/dataverse-mapper/blob/development/test-data/mappings/easy-mapping.json) - A dictionary with key value pairs. The key is the _typeName_ of the field in the template. The value is the path to the value in the input metadata.
