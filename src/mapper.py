@@ -59,7 +59,6 @@ class MetadataMapper:
         and a list of paths to corresponding values in the input metadata
         as the value. For example: "title": "path/to/the/value/in/metadata".
     """
-
     def __init__(self, metadata: list | dict | Any,
                  template: list | dict | Any,
                  mapping: list | dict | Any):
@@ -212,17 +211,22 @@ class MetadataMapper:
             result_dict_list.append(dict_copy)
         return result_dict_list
 
-    def map_persistent_identifier(self):
+    def get_persistent_identifier(self):
         """ Maps the dataset's doi to a specific field in the template.
 
         TODO: Needs exception handling
         Uses a mapping to retrieve the dataset's doi from the metadata.
         Because there can be multiple persistent identifier, this method checks
         if the id is an actual doi. It also formats the doi to the expected
-        format.
+        format if needed.
         """
+        from schema.exceptions import NonExistentPIDException
         persistent_ids = self.map_value("datasetPersistentId")
         for pid in persistent_ids:
             if "https://doi.org/" in pid:
                 doi = 'doi:' + pid.split("/", 3)[3]
-                self.template["datasetVersion"]["datasetPersistentId"] = doi
+                return doi
+            elif "doi:" in pid:
+                return pid
+        raise NonExistentPIDException(persistent_ids)
+
