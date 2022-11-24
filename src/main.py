@@ -17,6 +17,7 @@ async def info():
     return {"version": result}
 
 
+# TODO: use Response model
 @app.post("/mapper")
 def map_metadata(input_data: Input):
     mapper = MetadataMapper(input_data.metadata, input_data.template,
