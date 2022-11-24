@@ -1,9 +1,7 @@
 import json
-
 import pytest
-
+from fastapi import HTTPException
 from ..mapper import MetadataMapper
-from schema.exceptions import NonExistentPIDException
 
 
 def open_json_file(json_path):
@@ -226,6 +224,6 @@ def test_persistent_identifier_mapping(simple_test_mapper):
 
 
 def test_nonexistent_persistent_identifier_mapping(cbs_mapper):
-    with pytest.raises(NonExistentPIDException):
+    with pytest.raises(HTTPException):
         cbs_mapper.get_persistent_identifier()
 

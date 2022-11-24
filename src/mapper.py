@@ -1,5 +1,6 @@
 import copy
 from typing import Any
+from fastapi import HTTPException
 
 
 def drill_down(obj, path: list[str]):
@@ -59,6 +60,7 @@ class MetadataMapper:
         and a list of paths to corresponding values in the input metadata
         as the value. For example: "title": "path/to/the/value/in/metadata".
     """
+
     def __init__(self, metadata: list | dict | Any,
                  template: list | dict | Any,
                  mapping: list | dict | Any):
@@ -220,7 +222,6 @@ class MetadataMapper:
         if the id is an actual doi. It also formats the doi to the expected
         format if needed.
         """
-        from schema.exceptions import NonExistentPIDException
         persistent_ids = self.map_value("datasetPersistentId")
         for pid in persistent_ids:
             if "https://doi.org/" in pid:
@@ -228,5 +229,6 @@ class MetadataMapper:
                 return doi
             elif "doi:" in pid:
                 return pid
-        raise NonExistentPIDException(persistent_ids)
-
+        raise HTTPException(
+            status_code=422,
+            detail="No useable DOI in mapped persistent identifiers")
