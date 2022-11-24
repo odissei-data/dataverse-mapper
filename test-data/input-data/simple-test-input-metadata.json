@@ -1,0 +1,16 @@
+{
+  "test": {
+    "singleValue": "single_value",
+    "multipleValues": [
+      "multiple_value_1",
+      "multiple_value_2",
+      "multiple_value_3"
+    ],
+    "deeply": {
+      "nested": {
+        "value": "deeply_nested_value"
+      }
+    },
+    "testIdentifier": "doi:10.5072/FK2/APTZLV"
+  }
+}

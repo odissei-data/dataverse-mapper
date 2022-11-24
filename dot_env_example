@@ -1,0 +1,6 @@
+# RENAME TO .env
+# ==============
+
+CONTAINER_NAME=dataverse-mapper-v2
+PORT=8080
+APPLICATION_DIR=src

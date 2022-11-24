@@ -1,0 +1,147 @@
+{
+  "result": {
+    "record": {
+      "@xmlns": "http://www.openarchives.org/OAI/2.0/",
+      "header": {
+        "identifier": "oai:easy.dans.knaw.nl:easy-dataset:3511",
+        "datestamp": "2021-04-15T21:05:10Z",
+        "setSpec": [
+          "D60000",
+          "easy-collection:7"
+        ]
+      },
+      "metadata": {
+        "ddi:codeBook": {
+          "@xmlns:ddi": "ddi:codebook:2_5",
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xmlns:oai_dc": "http://www.openarchives.org/OAI/2.0/oai_dc/",
+          "@xmlns:dc": "http://purl.org/dc/elements/1.1/",
+          "@xsi:schemaLocation": "ddi:codebook:2_5 http://www.ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/codebook.xsd",
+          "@version": "2.5",
+          "@xml:lang": "en",
+          "ddi:docDscr": {
+            "ddi:citation": {
+              "ddi:titlStmt": {
+                "ddi:titl": null
+              },
+              "ddi:prodStmt": {
+                "ddi:producer": {
+                  "@xml:lang": "en",
+                  "#text": "DANS-KNAW"
+                }
+              },
+              "ddi:holdings": {
+                "@xml:lang": "en",
+                "@URI": "http://easy.dans.knaw.nl"
+              }
+            }
+          },
+          "ddi:stdyDscr": {
+            "ddi:citation": {
+              "ddi:titlStmt": {
+                "ddi:titl": {
+                  "@xml:lang": "en",
+                  "#text": "Cultural differences between European countries : Centerdata Telepanel"
+                },
+                "ddi:IDNo": [
+                  {
+                    "@agency": "DOI",
+                    "#text": "https://doi.org/10.17026/dans-xnh-wt5n"
+                  },
+                  {
+                    "@agency": "DANS-KNAW",
+                    "#text": "oai:easy.dans.knaw.nl:easy-dataset:3511"
+                  }
+                ]
+              },
+              "ddi:rspStmt": {
+                "ddi:AuthEnty": {
+                  "@xml:lang": "en",
+                  "#text": "CenterData, Universiteit Brabant, Tilburg"
+                },
+                "ddi:othId": [
+                  {
+                    "@xml:lang": "en",
+                    "@role": "contributor",
+                    "#text": "CenterData, Universiteit Brabant, Tilburg (primary investigator)"
+                  },
+                  {
+                    "@xml:lang": "en",
+                    "@role": "contributor",
+                    "#text": "Centerdata Tilburg University (depositor)"
+                  },
+                  {
+                    "@xml:lang": "en",
+                    "@role": "contributor",
+                    "#text": "CenterData, Universiteit Brabant, Tilburg (research initiator)"
+                  },
+                  {
+                    "@xml:lang": "en",
+                    "@role": "contributor",
+                    "#text": "CenterData, Universiteit Brabant, Tilburg (data collector)"
+                  }
+                ]
+              },
+              "ddi:distStmt": null
+            },
+            "ddi:stdyInfo": {
+              "ddi:subject": {
+                "ddi:keyword": [
+                  {
+                    "@xml:lang": "en",
+                    "#text": "public opinion"
+                  },
+                  {
+                    "@xml:lang": "en",
+                    "#text": "european community"
+                  }
+                ],
+                "ddi:topcClas": [
+                  {
+                    "@xml:lang": "en",
+                    "@vocab": "NARCIS-classification",
+                    "@vocabURI": "http://www.narcis.nl/classification",
+                    "#text": "Social sciences"
+                  },
+                  {
+                    "@xml:lang": "en",
+                    "@vocab": "test-classification",
+                    "@vocabURI": "www.google.com",
+                    "#text": "test"
+                  }
+                ]
+              },
+              "ddi:abstract": {
+                "@xml:lang": "en",
+                "#text": "This survey is part of Centerdata's Telepanel project. Telepanel consists of  approx. 2000 households, surveyed weekly.  Besides the Centerdatabase offers\topportunities to compose tailor-made datasets.  Awareness of  cultural differences between countries of the European Union /  allocation of tasks  between men and women / differences in power / mode of cohabitation / dealing with uncertainty Background Variables: Age, year of birth / Sex   Ownership of house   Nr. of children living with family/household / Position in family/household / Size of family/household / Other: presence of partner in family/household   Respondent: occupational status   Respondent: gross income / Respondent: net income / Total family/household: gross income / Total family/ household: net income   Respondent: highest grade attained / Respondent: highest type attended   Other: constructed variable ( social economic class ) according to GFK * Dongen."
+              },
+              "ddi:sumDscr": {
+                "ddi:collDate": {
+                  "@event": "single",
+                  "#text": "1996"
+                }
+              }
+            },
+            "ddi:dataAccs": {
+              "ddi:useStmt": {
+                "ddi:restrctn": {
+                  "@xml:lang": "en",
+                  "#text": "REQUEST_PERMISSION"
+                },
+                "ddi:conditions": {
+                  "@xml:lang": "en",
+                  "#text": "License: https://dans.knaw.nl/en/about/organisation-and-policy/legal-information/DANSLicence.pdf"
+                }
+              }
+            }
+          },
+          "ddi:fileDscr": {
+            "ddi:fileTxt": {
+              "@xml:lang": "nl"
+            }
+          }
+        }
+      }
+    }
+  }
+}
