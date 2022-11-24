@@ -10,6 +10,7 @@
       "nested": {
         "value": "deeply_nested_value"
       }
-    }
+    },
+    "testIdentifier": "doi:10.5072/FK2/APTZLV"
   }
 }

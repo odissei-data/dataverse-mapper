@@ -2,5 +2,10 @@
   "singleValue": ["test/singleValue"],
   "multipleValues": ["test/multipleValues"],
   "deeplyNestedValue": ["test/deeply/nested/value"],
-  "defaultPrimitiveValue": ["test/singleValue"]
+  "defaultPrimitiveValue": ["test/singleValue"],
+  "firstObject": ["test/multipleValues"],
+  "secondObject": ["test/deeply/nested/value"],
+  "firstMultipleObject": ["test/multipleValues"],
+  "secondMultipleObject": ["test/deeply/nested/value"],
+  "datasetPersistentId": ["test/testIdentifier"]
 }

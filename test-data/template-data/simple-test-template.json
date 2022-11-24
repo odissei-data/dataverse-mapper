@@ -17,10 +17,63 @@
             "multiple": false,
             "typeClass": "primitive",
             "value": "default_value"
+          },
+          {
+            "typeName": "compoundSingleObject",
+            "multiple": false,
+            "typeClass": "compound",
+            "value": {
+              "firstObject": {
+                "typeName": "firstObject",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "default"
+              },
+              "secondObject": {
+                "typeName": "secondObject",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": ""
+              }
+            }
+          },
+          {
+            "typeName": "compoundMultipleObject",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "firstMultipleObject": {
+                  "typeName": "firstMultipleObject",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "secondMultipleObject": {
+                  "typeName": "secondMultipleObject",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                }
+              },
+              {
+                "firstMultipleObject": {
+                  "typeName": "firstMultipleObject",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "secondMultipleObject": {
+                  "typeName": "secondMultipleObject",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                }
+              }
+            ]
           }
         ]
       }
-    },
-    "license": "DANS MA KA Licence"
+    }
   }
 }

@@ -1,7 +1,9 @@
 import json
 
 import pytest
+
 from ..mapper import MetadataMapper
+from schema.exceptions import NonExistentPIDException
 
 
 def open_json_file(json_path):
@@ -132,5 +134,98 @@ def test_default_value_guard_clause(simple_test_mapper):
         "typeClass": "primitive",
         "value": "default_value"
     }
-    assert default_value_object in mapped_result["datasetVersion"]["metadataBlocks"]["citation"][
-        "fields"]
+    assert default_value_object in mapped_result["datasetVersion"][
+        "metadataBlocks"]["citation"]["fields"]
+
+
+def test_map_single_object_compound_object(simple_test_mapper):
+    expected_compound = {
+        "firstObject": {
+            "typeName": "firstObject",
+            "multiple": False,
+            "typeClass": "primitive",
+            "value": "default"
+        },
+        "secondObject": {
+            "typeName": "secondObject",
+            "multiple": False,
+            "typeClass": "primitive",
+            "value": "deeply_nested_value"
+        }
+    }
+
+    fields = simple_test_mapper.template["datasetVersion"]["metadataBlocks"][
+        "citation"]["fields"]
+    compound_single_object = next((field for field in fields if field.get(
+        "typeName") == "compoundSingleObject"), None)
+    map_value_result = simple_test_mapper.map_compound_field(
+        compound_single_object)
+    assert expected_compound == map_value_result
+
+
+def test_map_multiple_objects_compound_object(simple_test_mapper):
+    expected_compound = [
+        {
+            'firstMultipleObject':
+                {
+                    'multiple': False,
+                    'typeClass': 'primitive',
+                    'typeName': 'firstMultipleObject',
+                    'value': 'multiple_value_1'
+                },
+            'secondMultipleObject':
+                {
+                    'multiple': False,
+                    'typeClass': 'primitive',
+                    'typeName': 'secondMultipleObject',
+                    'value': 'deeply_nested_value'
+                }
+        },
+        {
+            'firstMultipleObject':
+                {
+                    'multiple': False,
+                    'typeClass': 'primitive',
+                    'typeName': 'firstMultipleObject',
+                    'value': 'multiple_value_2'
+                }
+        },
+        {
+            'firstMultipleObject':
+                {
+                    'multiple': False,
+                    'typeClass': 'primitive',
+                    'typeName': 'firstMultipleObject',
+                    'value': 'multiple_value_3'
+                }
+        }
+    ]
+    fields = simple_test_mapper.template["datasetVersion"]["metadataBlocks"][
+        "citation"]["fields"]
+    compound_multiple_objects = next((field for field in fields if field.get(
+        "typeName") == "compoundMultipleObject"), None)
+
+    map_value_result = simple_test_mapper.map_compound_multiple_field(
+        compound_multiple_objects)
+
+    assert expected_compound == map_value_result
+
+
+# Mapped pid is formatted as https://doi.org/10.17026/dans-xnh-wt5n
+def test_easy_persistent_identifier_mapping(easy_mapper):
+    expected_pid = 'doi:10.17026/dans-xnh-wt5n'
+    mapped_pid = easy_mapper.get_persistent_identifier()
+    assert mapped_pid == expected_pid
+
+
+# Mapped pid is formatted as doi:10.5072/FK2/APTZLV
+def test_persistent_identifier_mapping(simple_test_mapper):
+    expected_pid = 'doi:10.5072/FK2/APTZLV'
+    mapped_pid = simple_test_mapper.get_persistent_identifier()
+    assert mapped_pid == expected_pid
+
+
+def test_nonexistent_persistent_identifier_mapping(cbs_mapper):
+    with pytest.raises(NonExistentPIDException):
+        cbs_mapper.get_persistent_identifier()
+
