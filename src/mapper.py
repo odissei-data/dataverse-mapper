@@ -129,6 +129,9 @@ class MetadataMapper:
         metadata using the mapping. Those fields are then joined in the
         result_dict.
 
+        This method checks and adds default values to the compound.
+        It also checks if the mapped value exists before adding it as a value.
+
         :param compound_template_field: the field containing the nested fields.
         :return: a dictionary containing the nested fields with mapped values.
         """
