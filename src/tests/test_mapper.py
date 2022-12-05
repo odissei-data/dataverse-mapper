@@ -52,6 +52,27 @@ def easy_result():
 
 
 @pytest.fixture()
+def liss_metadata():
+    return open_json_file("test-data/input-data/liss-test-metadata.json")
+
+
+@pytest.fixture()
+def liss_mapping():
+    return open_json_file("test-data/mappings/liss-mapping.json")
+
+
+@pytest.fixture()
+def liss_template():
+    return open_json_file(
+        "test-data/template-data/liss_dataverse_template.json")
+
+
+@pytest.fixture()
+def liss_result():
+    return open_json_file("test-data/expected-result-data/liss-result.json")
+
+
+@pytest.fixture()
 def simple_test_input_metadata():
     return open_json_file(
         "test-data/input-data/simple-test-input-metadata.json")
@@ -79,6 +100,11 @@ def easy_mapper(easy_metadata, easy_template, easy_mapping):
 
 
 @pytest.fixture()
+def liss_mapper(liss_metadata, liss_template, liss_mapping):
+    return MetadataMapper(liss_metadata, liss_template, liss_mapping)
+
+
+@pytest.fixture()
 def simple_test_mapper(simple_test_input_metadata, simple_test_template,
                        simple_test_mapping):
     return MetadataMapper(simple_test_input_metadata, simple_test_template,
@@ -99,6 +125,14 @@ def test_easy_mapper(easy_mapper, easy_result):
     with open(test_output_filename, 'w') as outfile:
         json.dump(mapped_result, outfile)
     assert mapped_result == easy_result
+
+
+def test_liss_mapper(liss_mapper, liss_result):
+    mapped_result = easy_mapper.map_metadata()
+    test_output_filename = "test-data/test-output/liss-test-output.json"
+    with open(test_output_filename, 'w') as outfile:
+        json.dump(mapped_result, outfile)
+    assert mapped_result == liss_result
 
 
 def test_map_value_single_value(simple_test_mapper):
@@ -213,6 +247,12 @@ def test_map_multiple_objects_compound_object(simple_test_mapper):
 def test_easy_persistent_identifier_mapping(easy_mapper):
     expected_pid = 'doi:10.17026/dans-xnh-wt5n'
     mapped_pid = easy_mapper.get_persistent_identifier()
+    assert mapped_pid == expected_pid
+
+
+def test_liss_persistent_identifier_mapping(liss_mapper):
+    expected_pid = 'doi:10.17026/dans-x26-tttv'
+    mapped_pid = liss_mapper.get_persistent_identifier()
     assert mapped_pid == expected_pid
 
 
