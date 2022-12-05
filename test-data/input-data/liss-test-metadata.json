@@ -1,0 +1,28 @@
+{
+  "result": {
+    "record": {
+      "@xmlns": "http://www.openarchives.org/OAI/2.0/",
+      "header": {
+        "identifier": "oai:lissdata.nl:79",
+        "datestamp": "2022-10-03"
+      },
+      "metadata": {
+        "oai_dc:dc": {
+          "@xmlns:oai_dc": "http://www.openarchives.org/OAI/2.0/oai_dc/",
+          "@xmlns:dc": "http://purl.org/dc/elements/1.1/",
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:schemaLocation": "http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd",
+
+
+          "dc:title": "LISS panel > Work and Schooling > Wave 2",
+          "dc:creator": "Jan Nelissen (CentERdata)",
+          "dc:description": "This is the second wave of the LISS Core Study module called Work and Schooling. The survey focuses on labour market participation, job characteristics, pensions, schooling and courses.",
+          "dc:publisher": "CentERdata",
+          "dc:date": "2009-04-04",
+          "dc:identifier": "https://doi.org/10.17026/dans-x26-tttv",
+          "dc:rights": "2009 CentERdata"
+        }
+      }
+    }
+  }
+}
