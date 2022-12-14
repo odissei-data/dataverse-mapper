@@ -26,6 +26,12 @@
                   "multiple": false,
                   "typeClass": "primitive",
                   "value": "CBS Dataontwerp ID"
+                },
+                "otherIdValue": {
+                  "typeName": "otherIdValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0b01e410801eede6"
                 }
               }
             ]
@@ -55,7 +61,7 @@
                   "typeName": "datasetContactEmail",
                   "multiple": false,
                   "typeClass": "primitive",
-                  "value": "Microdata@cbs.nl"
+                  "value": "portal@odissei.nl"
                 }
               }
             ]

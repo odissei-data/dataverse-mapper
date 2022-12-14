@@ -11,18 +11,6 @@
             "value": ""
           },
           {
-            "typeName": "subtitle",
-            "multiple": false,
-            "typeClass": "primitive",
-            "value": ""
-          },
-          {
-            "typeName": "alternativeTitle",
-            "multiple": false,
-            "typeClass": "primitive",
-            "value": ""
-          },
-          {
             "typeName": "author",
             "multiple": true,
             "typeClass": "compound",
@@ -30,12 +18,6 @@
               {
                 "authorName": {
                   "typeName": "authorName",
-                  "multiple": false,
-                  "typeClass": "primitive",
-                  "value": ""
-                },
-                "authorAffiliation": {
-                  "typeName": "authorAffiliation",
                   "multiple": false,
                   "typeClass": "primitive",
                   "value": ""
@@ -82,49 +64,13 @@
             ]
           },
           {
-            "typeName": "keyword",
+            "typeName": "producer",
             "multiple": true,
             "typeClass": "compound",
             "value": [
               {
-                "keywordValue": {
-                  "typeName": "keywordValue",
-                  "multiple": false,
-                  "typeClass": "primitive",
-                  "value": ""
-                }
-              }
-            ]
-          },
-          {
-            "typeName": "contributor",
-            "multiple": true,
-            "typeClass": "compound",
-            "value": [
-              {
-                "contributorName": {
-                  "typeName": "contributorName",
-                  "multiple": false,
-                  "typeClass": "primitive",
-                  "value": ""
-                }
-              }
-            ]
-          },
-          {
-            "typeName": "topicClassification",
-            "multiple": true,
-            "typeClass": "compound",
-            "value": [
-              {
-                "topicClassValue": {
-                  "typeName": "topicClassValue",
-                  "multiple": false,
-                  "typeClass": "primitive",
-                  "value": ""
-                },
-                "topicClassVocab": {
-                  "typeName": "topicClassVocab",
+                "producerName": {
+                  "typeName": "producerName",
                   "multiple": false,
                   "typeClass": "primitive",
                   "value": ""
@@ -143,12 +89,6 @@
                   "multiple": false,
                   "typeClass": "primitive",
                   "value": ""
-                },
-                "distributorURL": {
-                  "typeName": "distributorURL",
-                  "multiple": false,
-                  "typeClass": "primitive",
-                  "value": ""
                 }
               }
             ]
@@ -158,30 +98,10 @@
             "multiple": false,
             "typeClass": "primitive",
             "value": ""
-          },
-          {
-            "typeName": "timePeriodCovered",
-            "multiple": true,
-            "typeClass": "compound",
-            "value": [
-              {
-                "timePeriodCoveredStart": {
-                  "typeName": "timePeriodCoveredStart",
-                  "multiple": false,
-                  "typeClass": "primitive",
-                  "value": ""
-                },
-                "timePeriodCoveredEnd": {
-                  "typeName": "timePeriodCoveredEnd",
-                  "multiple": false,
-                  "typeClass": "primitive",
-                  "value": ""
-                }
-              }
-            ]
           }
         ]
       }
-    }
+    },
+    "license": "LISS Licence"
   }
 }

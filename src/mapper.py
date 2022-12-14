@@ -2,38 +2,7 @@ import copy
 from typing import Any
 from fastapi import HTTPException
 
-
-def drill_down(obj, path: list[str]):
-    """ Drills down to a value in the metadata hierarchy using a path.
-
-    Recursively goes through the metadata, using the keys in path list to
-    descent to the value at the end of the path.
-
-    TODO: Deal with path finding a list before it reaches the final key
-    :param obj: the object, can be nested or not depending on how far down
-                We've drilled.
-    :param path: A list containing the keys of the path through the object.
-    :return: The value or list of values retrieved at the end of the path.
-    """
-
-    if len(path) == 1:
-        # if path has a single element, return that key of the dict
-        if isinstance(obj, list):
-            value_list = []
-            for value in obj:
-                if value.get(path[0]) is None:
-                    continue
-                value_list.append(value[path[0]])
-            return value_list
-        else:
-            if obj.get(path[0]) is None:
-                return None
-            return obj[path[0]]
-    else:
-        if obj.get(path[0]) is None:
-            return None
-        # Take the key given by the first element of path and drill down.
-        return drill_down(obj[path[0]], path[1:])
+import utils
 
 
 class MetadataMapper:
@@ -113,7 +82,7 @@ class MetadataMapper:
         value_list = []
         for path in self.mapping[type_name]:
             split_path = path.split('/')
-            value = drill_down(self.metadata, split_path)
+            value = utils.drill_down(self.metadata, split_path)
             if not value:
                 continue
             if isinstance(value, list):
@@ -161,30 +130,31 @@ class MetadataMapper:
         :param compound_template_field: a compound field from the template.
         :return: a list of dictionaries with sets of nested fields.
         """
-        template_dict = compound_template_field['value'][0]
-        list_dict = self.create_mapped_value_list_dict(template_dict)
-        template_dict_copy = copy.deepcopy(template_dict)
+        compound_dict = compound_template_field['value'][0]
+        list_dict = self.create_mapped_value_list_dict(compound_dict)
+        template_dict_copy = copy.deepcopy(compound_dict)
         result_dict_list = self.create_result_dict_list(list_dict,
                                                         template_dict_copy)
         return result_dict_list
 
-    def create_mapped_value_list_dict(self, template_dict: dict):
+    def create_mapped_value_list_dict(self, compound_dict: dict):
         """ Creates a dictionary to use for filling the nested fields.
 
-        Loops through all nested fields in the template. For a field name
+        Loops through all nested fields in the compound. For a field name
         it finds all values in the metadata and places them in to a list.
         If there is already a default value in place, the value is added to the
         list.
 
-        :param template_dict: The nested fields for mapping values to.
+        :param compound_dict: The nested fields for mapping values to.
         :return: a dictionary where the key is the name of a nested field
         and the value is a list of all values belonging to that nested field.
         """
         list_dict = {}
-        for k, v in template_dict.items():
+        for k, v in compound_dict.items():
             list_dict[k] = []
             if v['value']:
                 list_dict[k].append(v['value'])
+                continue
             mapped_value = self.map_value(v['typeName'])
             if mapped_value:
                 list_dict[k].extend(mapped_value)
@@ -231,4 +201,5 @@ class MetadataMapper:
                 return pid
         raise HTTPException(
             status_code=422,
-            detail="No useable DOI in mapped persistent identifiers")
+            detail="No usable DOI in mapped persistent identifiers"
+        )
