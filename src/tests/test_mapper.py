@@ -128,7 +128,7 @@ def test_easy_mapper(easy_mapper, easy_result):
 
 
 def test_liss_mapper(liss_mapper, liss_result):
-    mapped_result = easy_mapper.map_metadata()
+    mapped_result = liss_mapper.map_metadata()
     test_output_filename = "test-data/test-output/liss-test-output.json"
     with open(test_output_filename, 'w') as outfile:
         json.dump(mapped_result, outfile)
