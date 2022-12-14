@@ -62,5 +62,5 @@ jobs:
           password: ${{ secrets.DOCKER_HUB_ACCESS_PASSWORD }}
       - name: Push to dockerhub
         run: |
-          docker build . --file Dockerfile --tag fjodorvr/publication-date-updater:${{ env.version }}
-          docker push fjodorvr/publication-date-updater:${{ env.version }}
+          docker build . --file Dockerfile --tag fjodorvr/dataverse-mapper:${{ env.version }}
+          docker push fjodorvr/dataverse-mapper:${{ env.version }}
