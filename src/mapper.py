@@ -130,30 +130,31 @@ class MetadataMapper:
         :param compound_template_field: a compound field from the template.
         :return: a list of dictionaries with sets of nested fields.
         """
-        template_dict = compound_template_field['value'][0]
-        list_dict = self.create_mapped_value_list_dict(template_dict)
-        template_dict_copy = copy.deepcopy(template_dict)
+        compound_dict = compound_template_field['value'][0]
+        list_dict = self.create_mapped_value_list_dict(compound_dict)
+        template_dict_copy = copy.deepcopy(compound_dict)
         result_dict_list = self.create_result_dict_list(list_dict,
                                                         template_dict_copy)
         return result_dict_list
 
-    def create_mapped_value_list_dict(self, template_dict: dict):
+    def create_mapped_value_list_dict(self, compound_dict: dict):
         """ Creates a dictionary to use for filling the nested fields.
 
-        Loops through all nested fields in the template. For a field name
+        Loops through all nested fields in the compound. For a field name
         it finds all values in the metadata and places them in to a list.
         If there is already a default value in place, the value is added to the
         list.
 
-        :param template_dict: The nested fields for mapping values to.
+        :param compound_dict: The nested fields for mapping values to.
         :return: a dictionary where the key is the name of a nested field
         and the value is a list of all values belonging to that nested field.
         """
         list_dict = {}
-        for k, v in template_dict.items():
+        for k, v in compound_dict.items():
             list_dict[k] = []
             if v['value']:
                 list_dict[k].append(v['value'])
+                continue
             mapped_value = self.map_value(v['typeName'])
             if mapped_value:
                 list_dict[k].extend(mapped_value)
