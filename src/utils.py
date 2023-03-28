@@ -1,3 +1,6 @@
+import jmespath
+
+
 def drill_down(obj, path: list[str]):
     """ Drills down to a value in the metadata hierarchy using a path.
 
@@ -29,3 +32,11 @@ def drill_down(obj, path: list[str]):
             return None
         # Take the key given by the first element of path and drill down.
         return drill_down(obj[path[0]], path[1:])
+
+
+def drill_down_v2(metadata_json, path):
+    value = jmespath.search(
+        path,
+        metadata_json
+    )
+    return value
