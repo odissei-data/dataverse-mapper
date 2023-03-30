@@ -34,7 +34,7 @@ class MetadataMapper:
                  template: list | dict | Any,
                  mapping: list | dict | Any):
         self.metadata = metadata
-        self.mapping = mapping
+        self.mapping = utils.clean_mapping(mapping)
         self.template = template
 
     def map_metadata(self):
