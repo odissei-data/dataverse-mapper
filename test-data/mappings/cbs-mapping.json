@@ -10,7 +10,7 @@
   "frequencyOfDataCollection": ["result.Dataontwerpversies.Versie.Dataontwerp.TypeVerslagperiode"],
   "samplingProcedure": ["result.Dataontwerpversies.Versie.Dataontwerp.GebruikteMethodologie"],
   "socialScienceNotesSubject": ["result.Dataontwerpversies.Versie.Dataontwerp.Procesverloop"],
-  "variableName": ["result.Dataontwerpversies.Versie.Dataontwerp.Contextvariabelen.Contextvariabele[0].VerkorteSchrijfwijzeNaamVariabele"],
-  "variableLabel": ["result.Dataontwerpversies.Versie.Dataontwerp.Contextvariabelen.Contextvariabele[1].LabelVanDeVariabele"],
+  "variableName": ["result.Dataontwerpversies.Versie.Dataontwerp.Contextvariabelen.Contextvariabele[*].VerkorteSchrijfwijzeNaamVariabele"],
+  "variableLabel": ["result.Dataontwerpversies.Versie.Dataontwerp.Contextvariabelen.Contextvariabele[*].LabelVanDeVariabele"],
   "universe": ["result.Dataontwerpversies.Versie.Dataontwerp.BeschrijvingVanDePopulatie"]
 }
