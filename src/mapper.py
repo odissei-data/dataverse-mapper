@@ -81,9 +81,7 @@ class MetadataMapper:
 
         value_list = []
         for path in self.mapping[type_name]:
-            # split_path = path.split('/')
-            # value = utils.drill_down(self.metadata, split_path)
-            value = utils.drill_down_v2(self.metadata, path)
+            value = utils.drill_down(self.metadata, path)
             if not value:
                 continue
             if isinstance(value, list):
