@@ -1,0 +1,78 @@
+{
+  "id": 358700,
+  "identifier": "XQUDWV",
+  "persistentUrl": "https://doi.org/10.34894/XQUDWV",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "publisher": "DataverseNL",
+  "publicationDate": "2023-04-03",
+  "storageIdentifier": "file://10.34894/XQUDWV",
+  "metadataLanguage": "undefined",
+  "datasetVersion": {
+    "id": 24873,
+    "datasetId": 358700,
+    "datasetPersistentId": "doi:10.34894/XQUDWV",
+    "storageIdentifier": "file://10.34894/XQUDWV",
+    "versionNumber": 1,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "productionDate": "2023-03-27",
+    "lastUpdateTime": "2023-04-03T07:48:57Z",
+    "releaseTime": "2023-04-03T07:48:57Z",
+    "createTime": "2023-03-27T11:51:33Z",
+    "license": {
+      "name": "CC0 1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Co-occurence of approach and avoidance in prolonged grief"
+          },
+          {
+            "typeName": "subtitle",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "A latent class analysis"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Eisma, M.C."
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Social Sciences"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

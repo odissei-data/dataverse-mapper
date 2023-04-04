@@ -1,0 +1,7 @@
+{
+  "title": ["datasetVersion.metadataBlocks.citation.fields[?typeName == 'title'].value"],
+  "subtitle": ["datasetVersion.metadataBlocks.citation.fields[?typeName == 'subtitle'].value"],
+  "authorName": ["datasetVersion.metadataBlocks.citation.fields[?typeName == 'author'].value[*].authorName.value[]"],
+  "authorAffiliation": ["datasetVersion.metadataBlocks.citation.fields[?typeName == 'author'].value[*].authorAffiliation.value[]"],
+  "subject": ["datasetVersion.metadataBlocks.citation.fields[?typeName == 'subject'].value[]"]
+}
