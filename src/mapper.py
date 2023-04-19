@@ -53,10 +53,8 @@ class MetadataMapper:
                 if field['value'] and field['typeClass'] != 'compound' and \
                         not field['multiple']:
                     continue
-                if field['typeClass'] == 'compound' and not field['multiple']:
-                    field['value'] = self.map_compound_field(field)
-                elif field['typeClass'] == 'compound' and field['multiple']:
-                    field['value'] = self.map_compound_multiple_field(field)
+                elif field['typeClass'] == 'compound':
+                    self.map_compound(field)
                 # guard clause to skip unmappable primitives
                 elif not self.map_value(field['typeName']):
                     continue
@@ -89,6 +87,42 @@ class MetadataMapper:
             else:
                 value_list.append(value)
         return value_list
+
+    def map_compound(self, field: dict):
+        if not field['multiple']:
+            field['value'] = self.map_compound_field(field)
+        elif field['typeName'] in self.mapping:
+            field['value'] = self.map_compound_new(field)
+        else:
+            field['value'] = self.map_compound_multiple_field(field)
+
+    def map_compound_new(self, field: dict):
+        compound_mapping = self.mapping[field['typeName']]
+        compound_objects = utils.drill_down(
+            self.metadata,
+            compound_mapping['mapping']
+        )
+        child_mappings = compound_mapping['children']
+        result_dict_list = []
+        for compound_object in compound_objects:
+            compound_template_children = copy.deepcopy(field['value'][0])
+            for _, child in compound_template_children.items():
+                mapped_values = []
+                type_name = child['typeName']
+                for path in child_mappings[type_name]:
+                    mapped_value = utils.drill_down(compound_object, path)
+                    print(f'mapped value: {mapped_value}')
+                    if not mapped_value:
+                        continue
+                    mapped_values.append(mapped_value)
+                print(f'child: {child["typeName"]}, mapped_values: {mapped_values}')
+                if child['multiple']:
+                    child['value'] = mapped_values
+                elif mapped_values:
+                    child['value'] = mapped_values[0]
+            dict_copy = copy.deepcopy(compound_template_children)
+            result_dict_list.append(dict_copy)
+        return result_dict_list
 
     def map_compound_field(self, compound_template_field: dict):
         """ Maps compound field where only a single nested object is expected.
