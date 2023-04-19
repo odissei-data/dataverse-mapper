@@ -42,6 +42,9 @@ def test_cbs_mapper():
     mapped_result = mapper.map_metadata()
     assert mapped_result == expected_result
 
+    with pytest.raises(HTTPException):
+        mapper.get_persistent_identifier()
+
 
 def test_easy_mapper():
     """Test Easy mapping."""
@@ -77,18 +80,144 @@ def test_liss_mapper():
     mapped_result = mapper.map_metadata()
     assert mapped_result == expected_result
 
+    # Test if the mapper assigned the PID correctly
+    expected_pid = 'doi:10.17026/dans-x26-tttv'
+    mapped_pid = mapper.get_persistent_identifier()
+    assert mapped_pid == expected_pid
 
-# def test_simple_mapper():
-#     """A"""
-#     mapped_result = create_mapped_result(
-#         "test-data/input-data/simple-test-input-metadata.json",
-#         "test-data/mappings/simple-test-mapping.json",
-#         "test-data/template-data/simple-test-template.json",
-#
-#     )
-#
-#     expected_result = open_json_file(
-#         "test-data/expected-result-data/simple-result.json"
-#     )
-#     assert mapped_result == expected_result
 
+def test_simple_mapper():
+    """Test retrival of data."""
+    mapper = create_mapper(
+        "test-data/input-data/simple-test-input-metadata.json",
+        "test-data/mappings/simple-test-mapping.json",
+        "test-data/template-data/simple-test-template.json",
+
+    )
+
+    # Test single value mapping
+    map_value_result = mapper.map_value("singleValue")
+    assert map_value_result == [
+        "single_value"
+    ]
+
+    # Test multi value mapping
+    map_value_result = mapper.map_value("multipleValues")
+    assert map_value_result == [
+        "multiple_value_1",
+        "multiple_value_2",
+        "multiple_value_3"
+    ]
+
+    # Test deeply nested value mapping
+    map_value_result = mapper.map_value("deeplyNestedValue")
+    assert map_value_result == [
+        "deeply_nested_value"
+    ]
+
+
+def test_default_value_guard_clause():
+    """Test default value guard."""
+    mapper = create_mapper(
+        "test-data/input-data/simple-test-input-metadata.json",
+        "test-data/mappings/simple-test-mapping.json",
+        "test-data/template-data/simple-test-template.json",
+
+    )
+
+    mapped_result = mapper.map_metadata()
+    default_value_object = {
+        "typeName": "defaultPrimitiveValue",
+        "multiple": False,
+        "typeClass": "primitive",
+        "value": "default_value"
+    }
+    assert default_value_object in mapped_result["datasetVersion"][
+        "metadataBlocks"]["citation"]["fields"]
+
+
+def test_map_single_object_compound_object():
+    mapper = create_mapper(
+        "test-data/input-data/simple-test-input-metadata.json",
+        "test-data/mappings/simple-test-mapping.json",
+        "test-data/template-data/simple-test-template.json",
+
+    )
+
+    expected_compound = {
+        "firstObject": {
+            "typeName": "firstObject",
+            "multiple": False,
+            "typeClass": "primitive",
+            "value": "default"
+        },
+        "secondObject": {
+            "typeName": "secondObject",
+            "multiple": False,
+            "typeClass": "primitive",
+            "value": "deeply_nested_value"
+        }
+    }
+
+    fields = mapper.template["datasetVersion"]["metadataBlocks"][
+        "citation"]["fields"]
+    compound_single_object = next((field for field in fields if field.get(
+        "typeName") == "compoundSingleObject"), None)
+    map_value_result = mapper.map_compound_field(
+        compound_single_object)
+    assert expected_compound == map_value_result
+
+
+def test_map_multiple_objects_compound_object():
+    mapper = create_mapper(
+        "test-data/input-data/simple-test-input-metadata.json",
+        "test-data/mappings/simple-test-mapping.json",
+        "test-data/template-data/simple-test-template.json",
+
+    )
+
+    expected_compound = [
+        {
+            'firstMultipleObject':
+                {
+                    'multiple': False,
+                    'typeClass': 'primitive',
+                    'typeName': 'firstMultipleObject',
+                    'value': 'multiple_value_1'
+                },
+            'secondMultipleObject':
+                {
+                    'multiple': False,
+                    'typeClass': 'primitive',
+                    'typeName': 'secondMultipleObject',
+                    'value': 'deeply_nested_value'
+                }
+        },
+        {
+            'firstMultipleObject':
+                {
+                    'multiple': False,
+                    'typeClass': 'primitive',
+                    'typeName': 'firstMultipleObject',
+                    'value': 'multiple_value_2'
+                }
+        },
+        {
+            'firstMultipleObject':
+                {
+                    'multiple': False,
+                    'typeClass': 'primitive',
+                    'typeName': 'firstMultipleObject',
+                    'value': 'multiple_value_3'
+                }
+        }
+    ]
+    fields = mapper.template["datasetVersion"]["metadataBlocks"][
+        "citation"]["fields"]
+    compound_multiple_objects = next((field for field in fields if field.get(
+        "typeName") == "compoundMultipleObject"), None)
+
+    map_value_result = mapper.map_compound_multiple_field(
+        compound_multiple_objects)
+
+    assert expected_compound == map_value_result
