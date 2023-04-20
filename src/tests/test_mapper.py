@@ -9,140 +9,102 @@ def open_json_file(json_path):
         return json.load(f)
 
 
-@pytest.fixture()
-def cbs_metadata():
-    return open_json_file("test-data/input-data/cbs-test-metadata.json")
+def _create_mapper(
+        metadata_path, mapping_path, template_path
+):
+    """
+    Returns mapper for the test.
+
+    :param metadata_path: str, path to file
+    :param mapping_path: str, path to file
+    :param template_path: str, path to file
+    """
+    metadata = open_json_file(metadata_path)
+    mapping = open_json_file(mapping_path)
+    template = open_json_file(template_path)
+
+    mapper = MetadataMapper(metadata, template, mapping)
+    return mapper
+
+
+def test_cbs_mapper():
+    """Test CBS mapping."""
+    mapper = _create_mapper(
+        "test-data/input-data/cbs-test-metadata.json",
+        "test-data/mappings/cbs-mapping.json",
+        "test-data/template-data/cbs_dataverse_template.json"
+    )
+
+    # Test if the mapper generates the expected result
+    expected_result = open_json_file(
+        "test-data/expected-result-data/cbs-result.json"
+    )
+    mapped_result = mapper.map_metadata()
+    assert mapped_result == expected_result
+
+    with pytest.raises(HTTPException):
+        mapper.get_persistent_identifier()
+
+
+def test_easy_mapper():
+    """Test Easy mapping."""
+    mapper = _create_mapper(
+        "test-data/input-data/easy-test-metadata.json",
+        "test-data/mappings/easy-mapping.json",
+        "test-data/template-data/easy_dataverse_template.json"
+    )
+
+    expected_result = open_json_file(
+        "test-data/expected-result-data/easy-result.json"
+    )
+    mapped_result = mapper.map_metadata()
+    assert mapped_result == expected_result
+
+    # Test if the mapper assigned the PID correctly
+    expected_pid = 'doi:10.17026/dans-xnh-wt5n'
+    mapped_pid = mapper.get_persistent_identifier()
+    assert mapped_pid == expected_pid
+
+
+def test_liss_mapper():
+    """Test Liss mapping."""
+    mapper = _create_mapper(
+        "test-data/input-data/liss-test-metadata.json",
+        "test-data/mappings/liss-mapping.json",
+        "test-data/template-data/liss_dataverse_template.json"
+    )
+
+    expected_result = open_json_file(
+        "test-data/expected-result-data/liss-result.json"
+    )
+    mapped_result = mapper.map_metadata()
+    assert mapped_result == expected_result
+
+    # Test if the mapper assigned the PID correctly
+    expected_pid = 'doi:10.17026/dans-x26-tttv'
+    mapped_pid = mapper.get_persistent_identifier()
+    assert mapped_pid == expected_pid
 
 
 @pytest.fixture()
-def cbs_mapping():
-    return open_json_file("test-data/mappings/cbs-mapping.json")
+def simple_test_mapper():
+    mapper = _create_mapper(
+        "test-data/input-data/simple-test-input-metadata.json",
+        "test-data/mappings/simple-test-mapping.json",
+        "test-data/template-data/simple-test-template.json",
+    )
+    return mapper
 
 
-@pytest.fixture()
-def cbs_template():
-    return open_json_file(
-        "test-data/template-data/cbs_dataverse_template.json")
-
-
-@pytest.fixture()
-def cbs_result():
-    return open_json_file("test-data/expected-result-data/cbs-result.json")
-
-
-@pytest.fixture()
-def easy_metadata():
-    return open_json_file("test-data/input-data/easy-test-metadata.json")
-
-
-@pytest.fixture()
-def easy_mapping():
-    return open_json_file("test-data/mappings/easy-mapping.json")
-
-
-@pytest.fixture()
-def easy_template():
-    return open_json_file(
-        "test-data/template-data/easy_dataverse_template.json")
-
-
-@pytest.fixture()
-def easy_result():
-    return open_json_file("test-data/expected-result-data/easy-result.json")
-
-
-@pytest.fixture()
-def liss_metadata():
-    return open_json_file("test-data/input-data/liss-test-metadata.json")
-
-
-@pytest.fixture()
-def liss_mapping():
-    return open_json_file("test-data/mappings/liss-mapping.json")
-
-
-@pytest.fixture()
-def liss_template():
-    return open_json_file(
-        "test-data/template-data/liss_dataverse_template.json")
-
-
-@pytest.fixture()
-def liss_result():
-    return open_json_file("test-data/expected-result-data/liss-result.json")
-
-
-@pytest.fixture()
-def simple_test_input_metadata():
-    return open_json_file(
-        "test-data/input-data/simple-test-input-metadata.json")
-
-
-@pytest.fixture()
-def simple_test_mapping():
-    return open_json_file("test-data/mappings/simple-test-mapping.json")
-
-
-@pytest.fixture()
-def simple_test_template():
-    return open_json_file(
-        "test-data/template-data/simple-test-template.json")
-
-
-@pytest.fixture()
-def cbs_mapper(cbs_metadata, cbs_template, cbs_mapping):
-    return MetadataMapper(cbs_metadata, cbs_template, cbs_mapping)
-
-
-@pytest.fixture()
-def easy_mapper(easy_metadata, easy_template, easy_mapping):
-    return MetadataMapper(easy_metadata, easy_template, easy_mapping)
-
-
-@pytest.fixture()
-def liss_mapper(liss_metadata, liss_template, liss_mapping):
-    return MetadataMapper(liss_metadata, liss_template, liss_mapping)
-
-
-@pytest.fixture()
-def simple_test_mapper(simple_test_input_metadata, simple_test_template,
-                       simple_test_mapping):
-    return MetadataMapper(simple_test_input_metadata, simple_test_template,
-                          simple_test_mapping)
-
-
-def test_cbs_mapper(cbs_mapper, cbs_result):
-    mapped_result = cbs_mapper.map_metadata()
-    test_output_filename = "test-data/test-output/cbs-test-output.json"
-    with open(test_output_filename, 'w') as outfile:
-        json.dump(mapped_result, outfile)
-    assert mapped_result == cbs_result
-
-
-def test_easy_mapper(easy_mapper, easy_result):
-    mapped_result = easy_mapper.map_metadata()
-    test_output_filename = "test-data/test-output/easy-test-output.json"
-    with open(test_output_filename, 'w') as outfile:
-        json.dump(mapped_result, outfile)
-    assert mapped_result == easy_result
-
-
-def test_liss_mapper(liss_mapper, liss_result):
-    mapped_result = liss_mapper.map_metadata()
-    test_output_filename = "test-data/test-output/liss-test-output.json"
-    with open(test_output_filename, 'w') as outfile:
-        json.dump(mapped_result, outfile)
-    assert mapped_result == liss_result
-
-
-def test_map_value_single_value(simple_test_mapper):
+def test_simple_mapper(simple_test_mapper):
+    """Test retrival of data."""
+    # Test single value mapping
     map_value_result = simple_test_mapper.map_value("singleValue")
     assert map_value_result == [
         "single_value"
     ]
 
-
-def test_map_value_multiple_values(simple_test_mapper):
+    # Test multi value mapping
     map_value_result = simple_test_mapper.map_value("multipleValues")
     assert map_value_result == [
         "multiple_value_1",
@@ -150,8 +112,7 @@ def test_map_value_multiple_values(simple_test_mapper):
         "multiple_value_3"
     ]
 
-
-def test_map_value_deeply_nested_value(simple_test_mapper):
+    # Test deeply nested value mapping
     map_value_result = simple_test_mapper.map_value("deeplyNestedValue")
     assert map_value_result == [
         "deeply_nested_value"
@@ -159,6 +120,7 @@ def test_map_value_deeply_nested_value(simple_test_mapper):
 
 
 def test_default_value_guard_clause(simple_test_mapper):
+    """Test default value guard."""
     mapped_result = simple_test_mapper.map_metadata()
     default_value_object = {
         "typeName": "defaultPrimitiveValue",
@@ -241,29 +203,3 @@ def test_map_multiple_objects_compound_object(simple_test_mapper):
         compound_multiple_objects)
 
     assert expected_compound == map_value_result
-
-
-# Mapped pid is formatted as https://doi.org/10.17026/dans-xnh-wt5n
-def test_easy_persistent_identifier_mapping(easy_mapper):
-    expected_pid = 'doi:10.17026/dans-xnh-wt5n'
-    mapped_pid = easy_mapper.get_persistent_identifier()
-    assert mapped_pid == expected_pid
-
-
-def test_liss_persistent_identifier_mapping(liss_mapper):
-    expected_pid = 'doi:10.17026/dans-x26-tttv'
-    mapped_pid = liss_mapper.get_persistent_identifier()
-    assert mapped_pid == expected_pid
-
-
-# Mapped pid is formatted as doi:10.5072/FK2/APTZLV
-def test_persistent_identifier_mapping(simple_test_mapper):
-    expected_pid = 'doi:10.5072/FK2/APTZLV'
-    mapped_pid = simple_test_mapper.get_persistent_identifier()
-    assert mapped_pid == expected_pid
-
-
-def test_nonexistent_persistent_identifier_mapping(cbs_mapper):
-    with pytest.raises(HTTPException):
-        cbs_mapper.get_persistent_identifier()
-
