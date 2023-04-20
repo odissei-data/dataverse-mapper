@@ -86,23 +86,27 @@ def test_liss_mapper():
     assert mapped_pid == expected_pid
 
 
-def test_simple_mapper():
-    """Test retrival of data."""
+@pytest.fixture()
+def simple_test_mapper():
     mapper = create_mapper(
         "test-data/input-data/simple-test-input-metadata.json",
         "test-data/mappings/simple-test-mapping.json",
         "test-data/template-data/simple-test-template.json",
 
     )
+    return mapper
 
+
+def test_simple_mapper(simple_test_mapper):
+    """Test retrival of data."""
     # Test single value mapping
-    map_value_result = mapper.map_value("singleValue")
+    map_value_result = simple_test_mapper.map_value("singleValue")
     assert map_value_result == [
         "single_value"
     ]
 
     # Test multi value mapping
-    map_value_result = mapper.map_value("multipleValues")
+    map_value_result = simple_test_mapper.map_value("multipleValues")
     assert map_value_result == [
         "multiple_value_1",
         "multiple_value_2",
@@ -110,22 +114,15 @@ def test_simple_mapper():
     ]
 
     # Test deeply nested value mapping
-    map_value_result = mapper.map_value("deeplyNestedValue")
+    map_value_result = simple_test_mapper.map_value("deeplyNestedValue")
     assert map_value_result == [
         "deeply_nested_value"
     ]
 
 
-def test_default_value_guard_clause():
+def test_default_value_guard_clause(simple_test_mapper):
     """Test default value guard."""
-    mapper = create_mapper(
-        "test-data/input-data/simple-test-input-metadata.json",
-        "test-data/mappings/simple-test-mapping.json",
-        "test-data/template-data/simple-test-template.json",
-
-    )
-
-    mapped_result = mapper.map_metadata()
+    mapped_result = simple_test_mapper.map_metadata()
     default_value_object = {
         "typeName": "defaultPrimitiveValue",
         "multiple": False,
@@ -136,14 +133,7 @@ def test_default_value_guard_clause():
         "metadataBlocks"]["citation"]["fields"]
 
 
-def test_map_single_object_compound_object():
-    mapper = create_mapper(
-        "test-data/input-data/simple-test-input-metadata.json",
-        "test-data/mappings/simple-test-mapping.json",
-        "test-data/template-data/simple-test-template.json",
-
-    )
-
+def test_map_single_object_compound_object(simple_test_mapper):
     expected_compound = {
         "firstObject": {
             "typeName": "firstObject",
@@ -159,23 +149,16 @@ def test_map_single_object_compound_object():
         }
     }
 
-    fields = mapper.template["datasetVersion"]["metadataBlocks"][
+    fields = simple_test_mapper.template["datasetVersion"]["metadataBlocks"][
         "citation"]["fields"]
     compound_single_object = next((field for field in fields if field.get(
         "typeName") == "compoundSingleObject"), None)
-    map_value_result = mapper.map_compound_field(
+    map_value_result = simple_test_mapper.map_compound_field(
         compound_single_object)
     assert expected_compound == map_value_result
 
 
-def test_map_multiple_objects_compound_object():
-    mapper = create_mapper(
-        "test-data/input-data/simple-test-input-metadata.json",
-        "test-data/mappings/simple-test-mapping.json",
-        "test-data/template-data/simple-test-template.json",
-
-    )
-
+def test_map_multiple_objects_compound_object(simple_test_mapper):
     expected_compound = [
         {
             'firstMultipleObject':
@@ -212,12 +195,12 @@ def test_map_multiple_objects_compound_object():
                 }
         }
     ]
-    fields = mapper.template["datasetVersion"]["metadataBlocks"][
+    fields = simple_test_mapper.template["datasetVersion"]["metadataBlocks"][
         "citation"]["fields"]
     compound_multiple_objects = next((field for field in fields if field.get(
         "typeName") == "compoundMultipleObject"), None)
 
-    map_value_result = mapper.map_compound_multiple_field(
+    map_value_result = simple_test_mapper.map_compound_multiple_field(
         compound_multiple_objects)
 
     assert expected_compound == map_value_result
