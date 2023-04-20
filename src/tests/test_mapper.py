@@ -9,7 +9,7 @@ def open_json_file(json_path):
         return json.load(f)
 
 
-def create_mapper(
+def _create_mapper(
         metadata_path, mapping_path, template_path
 ):
     """
@@ -29,7 +29,7 @@ def create_mapper(
 
 def test_cbs_mapper():
     """Test CBS mapping."""
-    mapper = create_mapper(
+    mapper = _create_mapper(
         "test-data/input-data/cbs-test-metadata.json",
         "test-data/mappings/cbs-mapping.json",
         "test-data/template-data/cbs_dataverse_template.json"
@@ -48,7 +48,7 @@ def test_cbs_mapper():
 
 def test_easy_mapper():
     """Test Easy mapping."""
-    mapper = create_mapper(
+    mapper = _create_mapper(
         "test-data/input-data/easy-test-metadata.json",
         "test-data/mappings/easy-mapping.json",
         "test-data/template-data/easy_dataverse_template.json"
@@ -68,7 +68,7 @@ def test_easy_mapper():
 
 def test_liss_mapper():
     """Test Liss mapping."""
-    mapper = create_mapper(
+    mapper = _create_mapper(
         "test-data/input-data/liss-test-metadata.json",
         "test-data/mappings/liss-mapping.json",
         "test-data/template-data/liss_dataverse_template.json"
@@ -88,11 +88,10 @@ def test_liss_mapper():
 
 @pytest.fixture()
 def simple_test_mapper():
-    mapper = create_mapper(
+    mapper = _create_mapper(
         "test-data/input-data/simple-test-input-metadata.json",
         "test-data/mappings/simple-test-mapping.json",
         "test-data/template-data/simple-test-template.json",
-
     )
     return mapper
 
