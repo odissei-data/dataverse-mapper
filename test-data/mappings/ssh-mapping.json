@@ -1,4 +1,5 @@
 {
+  "datasetPersistentId": ["datasetVersion.datasetPersistentId"],
   "title": ["datasetVersion.metadataBlocks.citation.fields[?typeName == 'title'].value"],
   "subtitle": ["datasetVersion.metadataBlocks.citation.fields[?typeName == 'subtitle'].value"],
   "alternativeTitle": ["datasetVersion.metadataBlocks.citation.fields[?typeName == 'alternativeTitle'].value"],
