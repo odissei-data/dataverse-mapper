@@ -304,9 +304,9 @@
                 },
                 "conceptVariableThema": {
                   "typeName": "conceptVariableThema",
-                  "multiple": false,
+                  "multiple": true,
                   "typeClass": "primitive",
-                  "value": ""
+                  "value": []
                 },
                 "variableVolgnummer": {
                   "typeName": "variableVolgnummer",
@@ -316,9 +316,9 @@
                 },
                 "variableTrefwoord": {
                   "typeName": "variableTrefwoord",
-                  "multiple": false,
+                  "multiple": true,
                   "typeClass": "primitive",
-                  "value": ""
+                  "value": []
                 }
               }
             ]
