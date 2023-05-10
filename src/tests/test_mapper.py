@@ -86,6 +86,26 @@ def test_liss_mapper():
     assert mapped_pid == expected_pid
 
 
+def test_ssh_mapper():
+    """Test SSH mapping."""
+    mapper = _create_mapper(
+        "test-data/input-data/ssh-test-input-metadata.json",
+        "test-data/mappings/ssh-mapping.json",
+        "test-data/template-data/ssh-dataverse-template.json"
+    )
+
+    expected_result = open_json_file(
+        "test-data/expected-result-data/ssh-result.json"
+    )
+    mapped_result = mapper.map_metadata()
+    assert mapped_result == expected_result
+
+    # Test if the mapper assigned the PID correctly
+    expected_pid = "doi:10.5072/TSS/SYDZNZ"
+    mapped_pid = mapper.get_persistent_identifier()
+    assert mapped_pid == expected_pid
+
+
 @pytest.fixture()
 def simple_test_mapper():
     mapper = _create_mapper(
