@@ -1,31 +1,70 @@
-def drill_down(obj, path: list[str]):
-    """ Drills down to a value in the metadata hierarchy using a path.
+import jmespath
 
-    Recursively goes through the metadata, using the keys in path list to
-    descent to the value at the end of the path.
+SPECIAL_CHARACTERS_LIST = [":", "@", "#"]
 
-    TODO: Deal with path finding a list before it reaches the final key
-    :param obj: the object, can be nested or not depending on how far down
-                We've drilled.
-    :param path: A list containing the keys of the path through the object.
-    :return: The value or list of values retrieved at the end of the path.
+
+def drill_down(metadata_json, path):
     """
+    Returns value found at the end of the path.
 
-    if len(path) == 1:
-        # if path has a single element, return that key of the dict
-        if isinstance(obj, list):
-            value_list = []
-            for value in obj:
-                if value.get(path[0]) is None:
-                    continue
-                value_list.append(value[path[0]])
-            return value_list
+    This method assumes that the paths have been cleaned.
+
+    :param metadata_json: metadata in json format
+    :param path: string
+    :return: string or list
+    """
+    value = jmespath.search(path, metadata_json)
+    return value
+
+
+def clean_mapping(mapping):
+    """
+    Returns cleaned mapping.
+
+    :param mapping: json
+    :return: json
+    """
+    for key in mapping.keys():
+        path_list = mapping[key]
+
+        for counter, path in enumerate(path_list):
+            if any(character in path for character in SPECIAL_CHARACTERS_LIST):
+                cleaned_path = clean_path(path)
+                path_list[counter] = cleaned_path
+
+    return mapping
+
+
+def clean_path(path):
+    """
+    Returns cleaned path.
+
+    Some mappings contain special characters in their keys. This breaks
+    jmespath, so they must be escaped by placing the key between double quotes.
+    While cleaning slicing must also be handles properly.
+
+    Examples:
+    - The key 'hello:world' needs to become '"hello:world"'
+    - The key 'foo:bar[2]' needs to become '"foo:bar"[2]'
+
+    :param path: string
+    :return: string
+    """
+    new_path = ''
+
+    split_path = path.split(".")
+    for step in split_path:
+        index = step.find('[')
+        if index == -1:
+            new_step = f'."{step}"'
         else:
-            if obj.get(path[0]) is None:
-                return None
-            return obj[path[0]]
-    else:
-        if obj.get(path[0]) is None:
-            return None
-        # Take the key given by the first element of path and drill down.
-        return drill_down(obj[path[0]], path[1:])
+            key = step[:index]
+            slice_index = step[index:]
+            new_step = f'."{key}"{slice_index}'
+
+        new_path += new_step
+
+    # remove the leading '.' from the path
+    cleaned_path = new_path[1:]
+
+    return cleaned_path
