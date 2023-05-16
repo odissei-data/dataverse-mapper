@@ -64,29 +64,39 @@ class MetadataMapper:
                     field['value'] = self.map_value(field['typeName'])[0]
         return self.template
 
-    def map_value(self, type_name: str):
+    def map_value(self, type_name: str, mapping: dict = None,
+                  metadata: dict = None):
         """ Retrieves all values from the metadata for a field in the template.
 
         map_value creates a list of values retrieved from the input metadata.
         It uses the list of paths given by the mapping given by the field's
         name. The retrieved value is handled depending on if it is a list
         or single object.
+        :param mapping: The mapping from the source value to template field.
+        :param metadata: The source metadata which contains the source value.
         :param type_name: the name of the field in the template.
         :return: a list of values belonging to the given field in the template.
         """
-        if type_name not in self.mapping:
+
+        if mapping is None:
+            mapping = self.mapping
+
+        if metadata is None:
+            metadata = self.metadata
+
+        if type_name not in mapping:
             return []
 
-        value_list = []
-        for path in self.mapping[type_name]:
-            value = utils.drill_down(self.metadata, path)
-            if not value:
+        mapped_values = []
+        for path in mapping[type_name]:
+            mapped_value = utils.drill_down(metadata, path)
+            if not mapped_value:
                 continue
-            if isinstance(value, list):
-                value_list.extend(value)
+            if isinstance(mapped_value, list):
+                mapped_values.extend(mapped_value)
             else:
-                value_list.append(value)
-        return value_list
+                mapped_values.append(mapped_value)
+        return mapped_values
 
     def map_compound(self, field: dict):
         if not field['multiple']:
@@ -108,25 +118,13 @@ class MetadataMapper:
             # Make a copy of the template object to use for mapping to.
             compound_template_children = copy.deepcopy(field['value'][0])
             for _, child in compound_template_children.items():
-                mapped_values = self.get_mapped_values(child, child_mappings,
-                                                       compound_object)
+                type_name = child['typeName']
+                mapped_values = self.map_value(type_name, child_mappings,
+                                               compound_object)
                 self.set_child_value(child, mapped_values)
             dict_copy = copy.deepcopy(compound_template_children)
             result_dict_list.append(dict_copy)
         return result_dict_list
-
-    def get_mapped_values(self, child, child_mappings, compound_object):
-        type_name = child['typeName']
-        mapped_values = []
-        for path in child_mappings[type_name]:
-            mapped_value = utils.drill_down(compound_object, path)
-            if not mapped_value:
-                continue
-            if isinstance(mapped_value, list):
-                mapped_values.extend(mapped_value)
-            else:
-                mapped_values.append(mapped_value)
-        return mapped_values
 
     def set_child_value(self, child, mapped_values):
         if child['multiple']:

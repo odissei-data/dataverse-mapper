@@ -1,0 +1,29 @@
+{
+  "result": {
+    "Dataontwerpversies": {
+      "Versie": {
+        "Dataontwerp": {
+          "Contextvariabelen": {
+            "Contextvariabele": [
+              {
+                "Variabele": {
+                  "Definitie": "Definition1"
+                },
+                "VerkorteSchrijfwijzeNaamVariabele": "Variable1",
+                "LabelVanDeVariabele": "Label1"
+              },
+              {
+                "Variabele": {
+                  "Definitie": "Definition2",
+                  "GeldigVanaf": "2023-01-01"
+                },
+                "VerkorteSchrijfwijzeNaamVariabele": "Variable2",
+                "LabelVanDeVariabele": "Label2"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

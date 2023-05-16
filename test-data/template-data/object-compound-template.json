@@ -1,0 +1,43 @@
+{
+  "datasetVersion": {
+    "metadataBlocks": {
+      "variableInformation": {
+        "fields": [
+          {
+            "typeName": "variable",
+            "typeClass": "compound",
+            "multiple": true,
+            "value": [
+              {
+                "variableName": {
+                  "typeName": "variableName",
+                  "typeClass": "primitive",
+                  "multiple": false,
+                  "value": ""
+                },
+                "variableLabel": {
+                  "typeName": "variableLabel",
+                  "typeClass": "primitive",
+                  "multiple": false,
+                  "value": ""
+                },
+                "conceptVariableDefinition": {
+                  "typeName": "conceptVariableDefinition",
+                  "typeClass": "primitive",
+                  "multiple": false,
+                  "value": ""
+                },
+                "conceptVariableValidFrom": {
+                  "typeName": "conceptVariableValidFrom",
+                  "typeClass": "primitive",
+                  "multiple": false,
+                  "value": ""
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -42,8 +42,10 @@ def test_cbs_mapper():
     mapped_result = mapper.map_metadata()
     assert mapped_result == expected_result
 
-    with pytest.raises(HTTPException):
-        mapper.get_persistent_identifier()
+    # Test if the mapper assigned the PID correctly
+    expected_pid = 'doi:10.57934/0b01e4108001d345'
+    mapped_pid = mapper.get_persistent_identifier()
+    assert mapped_pid == expected_pid
 
 
 def test_easy_mapper():
@@ -223,3 +225,66 @@ def test_map_multiple_objects_compound_object(simple_test_mapper):
         compound_multiple_objects)
 
     assert expected_compound == map_value_result
+
+
+def test_map_object_onto_compound_multiple_objects_with_missing_values():
+
+    mapper = _create_mapper(
+        "test-data/input-data/object-compound-test-metadata.json",
+        "test-data/mappings/cbs-mapping.json",
+        "test-data/template-data/object-compound-template.json"
+    )
+
+    variable_compound = mapper.template['datasetVersion']['metadataBlocks'][
+        'variableInformation']['fields'][0]
+
+    expected_result = [
+        {
+            "variableName": {
+                "typeName": "variableName",
+                "typeClass": "primitive",
+                "multiple": False,
+                "value": "Variable1"},
+            "variableLabel": {
+                "typeName": "variableLabel",
+                "typeClass": "primitive",
+                "multiple": False,
+                "value": "Label1"},
+            "conceptVariableDefinition": {
+                "typeName": "conceptVariableDefinition",
+                "typeClass": "primitive",
+                "multiple": False,
+                "value": "Definition1"},
+            "conceptVariableValidFrom": {
+                "typeName": "conceptVariableValidFrom",
+                "typeClass": "primitive",
+                "multiple": False,
+                "value": ""}
+        },
+        {
+            "variableName": {
+                "typeName": "variableName",
+                "typeClass": "primitive",
+                "multiple": False,
+                "value": "Variable2"},
+            "variableLabel": {
+                "typeName": "variableLabel",
+                "typeClass": "primitive",
+                "multiple": False,
+                "value": "Label2"},
+            "conceptVariableDefinition": {
+                "typeName": "conceptVariableDefinition",
+                "typeClass": "primitive",
+                "multiple": False,
+                "value": "Definition2"},
+            "conceptVariableValidFrom": {
+                "typeName": "conceptVariableValidFrom",
+                "typeClass": "primitive",
+                "multiple": False,
+                "value": "2023-01-01"}
+        }
+    ]
+
+    result = mapper.map_object_onto_compound(variable_compound)
+
+    assert result == expected_result
