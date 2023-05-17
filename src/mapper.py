@@ -99,6 +99,22 @@ class MetadataMapper:
         return mapped_values
 
     def map_compound(self, field: dict):
+        """ This method handles the different ways of mapping to a compound.
+
+        There are currently three different ways of mapping to a compound.
+        The complex way is to map an entire object in the source metadata
+        to a compound in its entirety. map_object_onto_compound() does this.
+
+        The basic way for multiple compounds is to create lists of all source
+        metadata mapped to the child fields of the compound.
+        Those lists create the compounds by simply adding the fields with
+        the same index to the same compound.
+
+        The basic way for non-multiple compounds is to create the same list,
+        but to just take the first item in every list for every child field.
+
+        :param field: The compound field that requires mapping.
+        """
         if not field['multiple']:
             field['value'] = self.map_compound_field(field)
         elif field['typeName'] in self.mapping:
@@ -107,6 +123,17 @@ class MetadataMapper:
             field['value'] = self.map_compound_multiple_field(field)
 
     def map_object_onto_compound(self, field: dict):
+        """ Maps an entire object from the source metadata to a compound.
+
+        This method maps an entire object retrieved from the source
+        to a compound field in the target template. It first grabs all
+        the objects mapped to the compound. Then for every object
+        it grabs the values in the object mapped to the children in the
+        compound and adds them to the compound.
+
+        :param field: The compound to map an object onto.
+        :return: List of instances of the compound that was mapped.
+        """
         compound_mapping = self.mapping[field['typeName']]
         compound_objects = utils.drill_down(
             self.metadata,
@@ -127,6 +154,11 @@ class MetadataMapper:
         return result_dict_list
 
     def set_child_value(self, child, mapped_values):
+        """ Sets the retrieved child values in the compound field.
+
+        :param child: The child field in the compound field.
+        :param mapped_values: The values to be added to the child field.
+        """
         if child['multiple']:
             child['value'].extend(mapped_values)
         elif mapped_values:
