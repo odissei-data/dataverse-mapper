@@ -53,10 +53,8 @@ class MetadataMapper:
                 if field['value'] and field['typeClass'] != 'compound' and \
                         not field['multiple']:
                     continue
-                if field['typeClass'] == 'compound' and not field['multiple']:
-                    field['value'] = self.map_compound_field(field)
-                elif field['typeClass'] == 'compound' and field['multiple']:
-                    field['value'] = self.map_compound_multiple_field(field)
+                elif field['typeClass'] == 'compound':
+                    self.map_compound(field)
                 # guard clause to skip unmappable primitives
                 elif not self.map_value(field['typeName']):
                     continue
@@ -66,29 +64,105 @@ class MetadataMapper:
                     field['value'] = self.map_value(field['typeName'])[0]
         return self.template
 
-    def map_value(self, type_name: str):
+    def map_value(self, type_name: str, mapping: dict = None,
+                  metadata: dict = None):
         """ Retrieves all values from the metadata for a field in the template.
 
         map_value creates a list of values retrieved from the input metadata.
         It uses the list of paths given by the mapping given by the field's
         name. The retrieved value is handled depending on if it is a list
         or single object.
+        :param mapping: The mapping from the source value to template field.
+        :param metadata: The source metadata which contains the source value.
         :param type_name: the name of the field in the template.
         :return: a list of values belonging to the given field in the template.
         """
-        if type_name not in self.mapping:
+
+        if mapping is None:
+            mapping = self.mapping
+
+        if metadata is None:
+            metadata = self.metadata
+
+        if type_name not in mapping:
             return []
 
-        value_list = []
-        for path in self.mapping[type_name]:
-            value = utils.drill_down(self.metadata, path)
-            if not value:
+        mapped_values = []
+        for path in mapping[type_name]:
+            mapped_value = utils.drill_down(metadata, path)
+            if not mapped_value:
                 continue
-            if isinstance(value, list):
-                value_list.extend(value)
+            if isinstance(mapped_value, list):
+                mapped_values.extend(mapped_value)
             else:
-                value_list.append(value)
-        return value_list
+                mapped_values.append(mapped_value)
+        return mapped_values
+
+    def map_compound(self, field: dict):
+        """ This method handles the different ways of mapping to a compound.
+
+        There are currently three different ways of mapping to a compound.
+        The complex way is to map an entire object in the source metadata
+        to a compound in its entirety. map_object_onto_compound() does this.
+
+        The basic way for multiple compounds is to create lists of all source
+        metadata mapped to the child fields of the compound.
+        Those lists create the compounds by simply adding the fields with
+        the same index to the same compound.
+
+        The basic way for non-multiple compounds is to create the same list,
+        but to just take the first item in every list for every child field.
+
+        :param field: The compound field that requires mapping.
+        """
+        if not field['multiple']:
+            field['value'] = self.map_compound_field(field)
+        elif field['typeName'] in self.mapping:
+            field['value'] = self.map_object_onto_compound(field)
+        else:
+            field['value'] = self.map_compound_multiple_field(field)
+
+    def map_object_onto_compound(self, field: dict):
+        """ Maps an entire object from the source metadata to a compound.
+
+        This method maps an entire object retrieved from the source
+        to a compound field in the target template. It first grabs all
+        the objects mapped to the compound. Then for every object
+        it grabs the values in the object mapped to the children in the
+        compound and adds them to the compound.
+
+        :param field: The compound to map an object onto.
+        :return: List of instances of the compound that was mapped.
+        """
+        compound_mapping = self.mapping[field['typeName']]
+        compound_objects = utils.drill_down(
+            self.metadata,
+            compound_mapping['mapping']
+        )
+        child_mappings = compound_mapping['children']
+        result_dict_list = []
+        for compound_object in compound_objects:
+            # Make a copy of the template object to use for mapping to.
+            compound_template_children = copy.deepcopy(field['value'][0])
+            for _, child in compound_template_children.items():
+                type_name = child['typeName']
+                mapped_values = self.map_value(type_name, child_mappings,
+                                               compound_object)
+                self.set_child_value(child, mapped_values)
+            dict_copy = copy.deepcopy(compound_template_children)
+            result_dict_list.append(dict_copy)
+        return result_dict_list
+
+    def set_child_value(self, child, mapped_values):
+        """ Sets the retrieved child values in the compound field.
+
+        :param child: The child field in the compound field.
+        :param mapped_values: The values to be added to the child field.
+        """
+        if child['multiple']:
+            child['value'].extend(mapped_values)
+        elif mapped_values:
+            child['value'] = mapped_values[0]
 
     def map_compound_field(self, compound_template_field: dict):
         """ Maps compound field where only a single nested object is expected.
