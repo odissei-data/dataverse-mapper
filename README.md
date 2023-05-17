@@ -4,11 +4,8 @@
 
 The dataverse-mapper API can be used to map any JSON metadata to JSON metadata
 formatted for Dataverse. The metadata file will be formatted according to
-what's expected by
-the [Dataverse Native API](https://guides.dataverse.org/en/latest/api/native-api.html#import-a-dataset-into-a-dataverse-collection)
-. If you have XML metadata you can use
-the [DANS transformer service](https://transformer.labs.dans.knaw.nl/docs#/Transform/Transform_xml_to_json_format__transform_xml_to_json_post)
-to map it to JSON.
+what's expected by the [Dataverse Native API](https://guides.dataverse.org/en/latest/api/native-api.html#import-a-dataset-into-a-dataverse-collection). 
+If you have XML metadata you can use the [DANS transformer service](https://transformer.labs.dans.knaw.nl/docs#/Transform/Transform_xml_to_json_format__transform_xml_to_json_post) to map it to JSON.
 
 ## Frameworks
 
