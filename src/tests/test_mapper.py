@@ -1,6 +1,5 @@
 import json
 import pytest
-from fastapi import HTTPException
 from ..mapper import MetadataMapper
 
 
@@ -25,6 +24,39 @@ def _create_mapper(
 
     mapper = MetadataMapper(metadata, template, mapping)
     return mapper
+
+
+def test_liss_json_mapper():
+    """Test LISS JSON metadata mapping."""
+    mapper_child = _create_mapper(
+        "test-data/input-data/liss-child-metadata.json",
+        "test-data/mappings/liss-json-mapping.json",
+        "test-data/template-data/liss_json_dataverse_template.json"
+    )
+    mapper_parent = _create_mapper(
+        "test-data/input-data/liss-parent-metadata.json",
+        "test-data/mappings/liss-json-mapping.json",
+        "test-data/template-data/liss_json_dataverse_template.json"
+    )
+
+    mapped_child_result = mapper_child.map_metadata()
+    mapped_parent_result = mapper_parent.map_metadata()
+
+    expected_child_result = open_json_file(
+        "test-data/expected-result-data/liss-child-result.json"
+    )
+
+    expected_parent_result = open_json_file(
+        "test-data/expected-result-data/liss-parent-result.json")
+
+    assert mapped_child_result == expected_child_result
+    assert mapped_parent_result == expected_parent_result
+
+    expected_pid = 'doi:10.17026/dans-zaf-casa'
+    mapped_child_pid = mapper_child.get_persistent_identifier()
+    mapped_parent_pid = mapper_parent.get_persistent_identifier()
+    assert mapped_child_pid == expected_pid
+    assert mapped_parent_pid == expected_pid
 
 
 def test_cbs_mapper():
@@ -228,7 +260,6 @@ def test_map_multiple_objects_compound_object(simple_test_mapper):
 
 
 def test_map_object_onto_compound_multiple_objects_with_missing_values():
-
     mapper = _create_mapper(
         "test-data/input-data/object-compound-test-metadata.json",
         "test-data/mappings/cbs-mapping.json",
