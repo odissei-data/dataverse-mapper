@@ -139,6 +139,8 @@ class MetadataMapper:
             self.metadata,
             compound_mapping['mapping']
         )
+        if compound_objects is None:
+            return []
         child_mappings = compound_mapping['children']
         result_dict_list = []
         for compound_object in compound_objects:
@@ -268,10 +270,10 @@ class MetadataMapper:
         persistent_ids = self.map_value("datasetPersistentId")
         for pid in persistent_ids:
             if "https://doi.org/" in pid:
-                doi = 'doi:' + pid.split("/", 3)[3]
-                return doi
+                return 'doi:' + pid.split("/", 3)[3]
             elif "doi:" in pid:
                 return pid
+
         raise HTTPException(
             status_code=422,
             detail="No usable DOI in mapped persistent identifiers"
