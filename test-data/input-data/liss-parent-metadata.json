@@ -1,0 +1,1062 @@
+{
+  "id": "6",
+  "title": "LISS panel > Social Integration and Leisure",
+  "creator": "Mara Verheijen (Centerdata)",
+  "publisher": "Centerdata",
+  "copyright": "© 2022 Centerdata",
+  "abstract": "This questionnaire is part of the LISS Core Study, a longitudinal survey delivering a broad range of social core information about the panel members. \r\nThe survey focuses on social integration and leisure.",
+  "DOI": "https:\/\/doi.org\/10.17026\/dans-zaf-casa",
+  "created": "2009-01-05",
+  "longitudinal_type": "Longitudinal Study",
+  "panel": "LISS panel",
+  "children": [
+    {
+      "id": 7,
+      "title": "LISS panel > Social Integration and Leisure > Wave 1"
+    },
+    {
+      "id": 47,
+      "title": "LISS panel > Social Integration and Leisure > Wave 2"
+    },
+    {
+      "id": 112,
+      "title": "LISS panel > Social Integration and Leisure > Wave 3"
+    },
+    {
+      "id": 221,
+      "title": "LISS panel > Social Integration and Leisure > Wave 4"
+    },
+    {
+      "id": 286,
+      "title": "LISS panel > Social Integration and Leisure > Wave 5"
+    },
+    {
+      "id": 479,
+      "title": "LISS panel > Social Integration and Leisure > Wave 6"
+    },
+    {
+      "id": 563,
+      "title": "LISS panel > Social Integration and Leisure > Wave 7"
+    },
+    {
+      "id": 644,
+      "title": "LISS panel > Social Integration and Leisure > Wave 8"
+    },
+    {
+      "id": 672,
+      "title": "LISS panel > Social Integration and Leisure > Wave 9"
+    },
+    {
+      "id": 721,
+      "title": "LISS panel > Social Integration and Leisure > Wave 10"
+    },
+    {
+      "id": 905,
+      "title": "LISS panel > Social Integration and Leisure > Wave 11"
+    },
+    {
+      "id": 993,
+      "title": "LISS panel > Social Integration and Leisure > Wave 12"
+    },
+    {
+      "id": 1043,
+      "title": "LISS panel > Social Integration and Leisure > Wave 13"
+    },
+    {
+      "id": 1189,
+      "title": "LISS panel > Social Integration and Leisure > Wave 14"
+    },
+    {
+      "id": 1363,
+      "title": "LISS panel > Social Integration and Leisure > Wave 15"
+    }
+  ],
+  "topics": [
+    "Communication, language and media",
+    "Leisure, recreation and culture",
+    "Social behavior",
+    "Travel and transport"
+  ],
+  "publications": [
+    {
+      "id": 26,
+      "publication_year": "2010",
+      "title": "The influence of economic and cultural capital on drinking behavior",
+      "creator": "Wagemakers, S.\r\nArustei, G.\r\nLoeffen, S.",
+      "source": "Working paper"
+    },
+    {
+      "id": 140,
+      "publication_year": "2012",
+      "title": "Reminders in Web-Based Data Collection : Increasing Response at the Price of retention?",
+      "creator": "G\u00f6ritz, Anja S.\r\nCrutzen, Rik",
+      "publisher": "sagepub",
+      "intl_identifier": "DOI: 10.1177\/1098214011421956",
+      "source": "American Journal of Evaluation, 33(2), 240-250",
+      "url": "http:\/\/aje.sagepub.com"
+    },
+    {
+      "id": 339,
+      "publication_year": "2012",
+      "title": "Computer crime victimization: Role of security software and online behavior",
+      "creator": "Angelidakis, P.",
+      "source": "Master thesis, Economics, Tilburg University"
+    },
+    {
+      "id": 290,
+      "publication_year": "2014",
+      "title": "The influence of holiday-taking on affect and contentment",
+      "creator": "Kroesen, M.\r\nHandy, S.",
+      "intl_identifier": "http:\/\/dx.doi.org\/10.1016\/j.annals.2013.12.006",
+      "source": "Annals of Tourism Research, Volume 45, Pages 89-101",
+      "url": "http:\/\/www.sciencedirect.com\/science\/article\/pii\/S016073831300162X"
+    },
+    {
+      "id": 371,
+      "publication_year": "2014",
+      "title": "The Impact of Non-Coverage in Web Surveys",
+      "creator": "Hendriks, Y.",
+      "source": "Faculty of Social Sciences, Psychology, Utrecht University"
+    },
+    {
+      "id": 382,
+      "publication_year": "2014",
+      "title": "Dynamics in the radical right\u2019s electorate",
+      "subtitle": "study towards the effects of attitudes and social network\u2019s sympathy with the PVV on the changes in voting PVV in the Netherlands from 2008 to 2013",
+      "creator": "Sipma, T.",
+      "source": "Radboud University Nijmegen, Research Master Social Cultural Science"
+    },
+    {
+      "id": 390,
+      "publication_year": "2014",
+      "title": "Informing panel members about study results: effects of traditional and innovative forms of feedback on participation",
+      "creator": "Scherpenzeel, Annette and Toepoel, Vera",
+      "publisher": "Wiley",
+      "source": "In: M. Callegaro, R. Baker, J. Bethlehem, A. S. G\u00f6ritz, J. A. Krosnick and P. J. Lavrakas (Eds.). Online Panel Research: An Interdisciplinary Approach. Wiley."
+    },
+    {
+      "id": 392,
+      "publication_year": "2014",
+      "title": "De mythe van de linkse hobby",
+      "subtitle": "Over het subsidi\u00ebren van podiumkunsten en politieke voorkeur",
+      "creator": "Liempt, A. van,\r\nRooij, P. de,\r\nBastiaansen, M.,\r\nBerg, F. van den,\r\nYang, H.X.",
+      "publisher": "NRIT Media",
+      "source": "Vrijetijdstudies nummer 3, jaargang 32, 2014, pagina 21-35",
+      "url": "http:\/\/www.nritmedia.nl\/kennisbank\/33864"
+    },
+    {
+      "id": 401,
+      "publication_year": "2013",
+      "title": "From Headscarves to Donation",
+      "subtitle": "Three Essays on the Economics of Gender, Health and Happiness",
+      "creator": "Ugur, Z.B.",
+      "publisher": "CentER Dissertation Series",
+      "intl_identifier": "ISBN: 978 90 5668 365 8",
+      "url": "https:\/\/pure.uvt.nl\/portal\/files\/1540321\/thesis_zeynep_burcu_ugur_11.09.2013.pdf"
+    },
+    {
+      "id": 402,
+      "publication_year": "2012",
+      "title": "Musicals",
+      "subtitle": "A story about their visitors",
+      "creator": "Bont, A.W.M. de,\r\nParidaans, S.F.M.",
+      "source": "Tilburg University - Department of Leisure Studies"
+    },
+    {
+      "id": 444,
+      "publication_year": "2015",
+      "title": "De Politieke Macht van de Culturele Elite",
+      "creator": "Boer, T. de",
+      "source": "Utrechtse School voor Bestuurs- en Organisatiewetenschap, Universiteit Utrecht"
+    },
+    {
+      "id": 450,
+      "publication_year": "2015",
+      "title": "Does house lock hurt?",
+      "subtitle": "The effect on relationship dissolution, health, mobility and consumption of Dutch households",
+      "creator": "Verkoeijen, E.",
+      "source": "Tilburg University, Economics"
+    },
+    {
+      "id": 449,
+      "publication_year": "2015",
+      "title": "Cultuur in Noord-Brabant. Een benchmark",
+      "creator": "Vinken, H.",
+      "publisher": "bkkc brabants kenniscentrum kunst en cultuur,\r\nKunstbalie,\r\nErfgoed Brabant,\r\nDe Kunst van Brabant",
+      "source": "Pyrrhula Research Consultants, in opdracht van \r\nbkkc brabants kenniscentrum kunst en cultuur,\r\nKunstbalie,\r\nErfgoed Brabant,\r\nDe Kunst van Brabant"
+    },
+    {
+      "id": 456,
+      "publication_year": "2015",
+      "title": "Smartphone and tablet use among survey participants: a stepwise model",
+      "creator": "Vogelaar, M.",
+      "source": "Utrecht University"
+    },
+    {
+      "id": 506,
+      "publication_year": "2016",
+      "title": "The effect of the individual's household composition on leisure satisfaction",
+      "creator": "Lucassen, G.,\r\nHollema, J.",
+      "source": "NHTV University of Applied Sciences, Breda"
+    },
+    {
+      "id": 513,
+      "publication_year": "2016",
+      "title": "Determinanten der Teilnahme von Privatinvestoren am Aktienmarkt",
+      "creator": "Cambier, Myriam",
+      "source": "Institut f\u00fcr Banken und Finanzierung, Leibniz Universit\u00e4t Hannover"
+    },
+    {
+      "id": 514,
+      "publication_year": "2016",
+      "title": "Online Coping After Negative Life Events: Measurement, Prevalence, and Relation With Internet Activities and Well-Being",
+      "creator": "Van Ingen, Erik,\r\nUtz, Sonja,\r\nToepoel, Vera",
+      "source": "Social Science Computer Review, 34(5), 511-529.",
+      "url": "http:\/\/ssc.sagepub.com\/content\/34\/5\/511"
+    },
+    {
+      "id": 152,
+      "publication_year": "2012",
+      "title": "Ageing, Leisure, and Social Connectedness: How could Leisure Help Reduce Social Isolation of Older People?",
+      "creator": "Toepoel, V.",
+      "publisher": "Springer",
+      "intl_identifier": "DOI 10.1007\/s11205-012-0097-6",
+      "source": "Social Indicators Research, 113; 355-372",
+      "url": "http:\/\/link.springer.com\/article\/10.1007%2Fs11205-012-0097-6?LI=true"
+    },
+    {
+      "id": 319,
+      "publication_year": "2013",
+      "title": "Generalized Trust Through Civic Engagement?",
+      "subtitle": "Evidence from Five National Panel Studies",
+      "creator": "Van Ingen, E.\r\nBekkers, R.",
+      "publisher": "Wiley Online",
+      "intl_identifier": "DOI: 10.1111\/pops.12105",
+      "source": "Political Psychology, 36(3)",
+      "url": "http:\/\/onlinelibrary.wiley.com\/doi\/10.1111\/pops.12105\/abstract"
+    },
+    {
+      "id": 587,
+      "publication_year": "2017",
+      "title": "Diversity in Older Adults\u2019 Use of the Internet: Identifying Subgroups Through Latent Class Analysis",
+      "creator": "Boekel, L.C. van,\r\nPeek, S.T.M.,\r\nLuijkx, K.G.",
+      "publisher": "JMIR Publications",
+      "intl_identifier": "10.2196\/jmir.6853",
+      "source": "Journal of Medical Internet Research (2017), 19(5), e180, 1-11",
+      "url": "http:\/\/www.jmir.org\/2017\/5\/e180\/"
+    },
+    {
+      "id": 515,
+      "publication_year": "2016",
+      "title": "Predictors of Mobilizing Online Coping versus Offline Coping Resources after Negative Life Events",
+      "creator": "Van Ingen, Erik,\r\nWright, Kevin",
+      "source": "Computers in Human Behavior, 59, 431-439",
+      "url": "http:\/\/www.sciencedirect.com\/science\/article\/pii\/S0747563216301005"
+    },
+    {
+      "id": 405,
+      "publication_year": "2009",
+      "title": "Wat is 'fun' voor de funshopper?",
+      "subtitle": "Smaakpatronen in de vrijetijd met betrekking tot de funshopper",
+      "creator": "Bijvoets, J.H.M.\r\nM. Stoffelen",
+      "source": "Bachelor thesis, Department of Leisure Studies, Tilburg University"
+    },
+    {
+      "id": 404,
+      "publication_year": "2009",
+      "title": "De Sportvrijwilliger: D\u00e1t is pas sportief",
+      "subtitle": "Een onderzoek naar de smaakpatronen van vrijwilligers binnen sportverenigingen",
+      "creator": "Eltink, T.\r\nL. de Reuver",
+      "source": "Bachelor thesis, Department of Leisure Studies, Tilburg University"
+    },
+    {
+      "id": 406,
+      "publication_year": "2010",
+      "title": "What do you do when you are satisfied?",
+      "subtitle": "The influence of life satisfaction on taste patterns",
+      "creator": "Tros, A.\r\nM. Van Dongen",
+      "source": "Bachelor thesis, Department of Leisure Studies, Tilburg University"
+    },
+    {
+      "id": 516,
+      "publication_year": "2016",
+      "title": "I Volunteer, Therefore I am? Factors Affecting Volunteer Role Identity",
+      "creator": "Van Ingen, Erik,\r\nWilson, John",
+      "intl_identifier": "doi: 10.1177\/0899764016659765",
+      "source": "Nonprofit and Voluntary Sector Quarterly (2016), 46(1), 29-46",
+      "url": "http:\/\/journals.sagepub.com\/doi\/abs\/10.1177\/0899764016659765"
+    },
+    {
+      "id": 607,
+      "publication_year": "2017",
+      "title": "Are social media users different?",
+      "creator": "Vreugdenhil, J.",
+      "source": "Erasmus School of Economics, Department of Applied Economics"
+    },
+    {
+      "id": 25,
+      "publication_year": "2010",
+      "title": "Cultural participation and social capital",
+      "creator": "Mulders, M.G.",
+      "source": "Master thesis, Department of Leisure Studies, Tilburg University",
+      "url": "http:\/\/arno.uvt.nl\/show.cgi?fid=114000"
+    },
+    {
+      "id": 27,
+      "publication_year": "2010",
+      "title": "Building social capital and voluntary work. Investigating the relationship between voluntary work and social capital",
+      "creator": "Malkoch, V.",
+      "source": "Master thesis, Department of Leisure Studies, Tilburg University"
+    },
+    {
+      "id": 132,
+      "publication_year": "2011",
+      "title": "Meer of minder werken: Heterogeniteit onder werkende vrouwen",
+      "creator": "Loog, B.\r\nDohmen, T.\r\nVendrik, M.",
+      "source": "TPEdigitaal, 5(4), pp. 50-63",
+      "url": "http:\/\/tpedigitaal.nl\/assets\/static\/Loog-Dohmen-Vendrik-4-2011.pdf"
+    },
+    {
+      "id": 75,
+      "publication_year": "2010",
+      "title": "Handedness predicts social preferences evidence connecting the lab to the field",
+      "creator": "Buser, T.",
+      "publisher": "University of Amsterdam & Tinbergen Institute",
+      "source": "Tinbergen Institute, Discussion Paper No. 119\/3",
+      "url": "http:\/\/www.tinbergen.nl\/discussionpaper\/?paper=1680"
+    },
+    {
+      "id": 196,
+      "publication_year": "2012",
+      "title": "Coverage-bias in internetpanels",
+      "creator": "Brendel, M.",
+      "source": "Master thesis, Institute for Statistics, Ludwig-Maximilians-Universit\u00e4t M\u00fcnchen"
+    },
+    {
+      "id": 376,
+      "publication_year": "2014",
+      "title": "Levenstevredenheid na pensionering",
+      "subtitle": "Effecten van productieve en consumptieve activiteiten",
+      "creator": "Splinter, M.",
+      "source": "Bachelor thesis, Department of Sociology, University of Amsterdam"
+    },
+    {
+      "id": 294,
+      "publication_year": "2014",
+      "title": "lavaan.survey: An R Package for Complex Survey Analysis of Structural Equation Models",
+      "creator": "Oberski, D.L.",
+      "publisher": "the Foundation for Open Access Statistics",
+      "source": "Journal of Statistical Software, 57(1), pp. 1-27",
+      "url": "http:\/\/www.jstatsoft.org\/v57\/i01"
+    },
+    {
+      "id": 408,
+      "publication_year": "2014",
+      "title": "Guilty pLEISUREs - How an unhealthy diet influences leisure",
+      "creator": "Van Dijk, A. \r\nZohren, M.",
+      "source": "Bachelor thesis, International Leisure Studies, Breda University of Applied Sciences"
+    },
+    {
+      "id": 49,
+      "publication_year": "2011",
+      "title": "Evaluating the Psychometric Properties of the Mental Health Continuum-Short Form (MHC-SF)",
+      "creator": "Lamers, S.M.A.\r\nWesterhof, G.J.\r\nBohlmeijer, E.T.\r\nTen Klooster, P.M.\r\nKeyes, C.L.M.",
+      "publisher": "Wiley Periodicals",
+      "intl_identifier": "DOI: 10.1002\/jclp.20741",
+      "source": "Journal of Clinical Psychology, 67(1), pp. 99-110",
+      "url": "http:\/\/onlinelibrary.wiley.com\/doi\/10.1002\/jclp.20741\/abstract"
+    },
+    {
+      "id": 407,
+      "publication_year": "2012",
+      "title": "Volunteers: More social during leisure time?",
+      "creator": "Van den Berg, R. \r\nVan Manen, A.",
+      "source": "Bachelor thesis, Department of Leisure Studies, Tilburg University"
+    },
+    {
+      "id": 432,
+      "publication_year": "2016",
+      "title": "Schools or Pools of Democracy? A Longitudinal Test of the Relation Between Civic Participation and Political Socialization",
+      "creator": "Van Ingen, E.\r\nVan der Meer, T.",
+      "intl_identifier": "doi: 10.1007\/s11109-015-9307-7",
+      "source": "Political Behavior, 38(1), pp. 81-103",
+      "url": "http:\/\/link.springer.com\/article\/10.1007\/s11109-015-9307-7"
+    },
+    {
+      "id": 403,
+      "publication_year": "2012",
+      "title": "The taste patterns of rock listeners",
+      "subtitle": "A quantitative study on the leisure preferences of people who listen to rock music",
+      "creator": "Dierckx, A.\r\nLi, H.",
+      "source": "Bachelor thesis, School of Social and Behavioural Sciences, Tilburg University"
+    },
+    {
+      "id": 629,
+      "publication_year": "2018",
+      "title": "Langdurige werkloosheid onder 50-plussers: feiten en mogelijke oplossingen?",
+      "subtitle": "-",
+      "creator": "Cuelenaere, B.,\r\nKieruj, N.,\r\nLange, A. de,\r\nDetaille, S.",
+      "publisher": "Bohn Stafleu van Loghum",
+      "intl_identifier": "-",
+      "source": "Ger\u00f3n (2018), 20(1), 63-67",
+      "url": "https:\/\/link.springer.com\/article\/10.1007\/s40718-018-0021-5"
+    },
+    {
+      "id": 633,
+      "publication_year": "2018",
+      "title": "Online activities among elder informal caregivers: results from a cross-sectional study",
+      "creator": "Reinwand, D.A.,\r\nCrutzen, R.,\r\nZank, S.",
+      "publisher": "SAGE Publications",
+      "intl_identifier": "https:\/\/doi.org\/10.1177\/2055207618779715",
+      "source": "Digital Health, first published online June 5, 2018",
+      "url": "http:\/\/journals.sagepub.com\/doi\/full\/10.1177\/2055207618779715"
+    },
+    {
+      "id": 935,
+      "publication_year": "2016",
+      "title": "The impact of pre-event and trauma related factors on post-event perceived loneliness",
+      "creator": "Pijnappel, B.",
+      "source": "Tilburg University, Victimology and Criminal Justice"
+    },
+    {
+      "id": 620,
+      "publication_year": "2017",
+      "title": "Exposure to potentially traumatic events, physical and emotional disabilities, mental health and their effect on media usage",
+      "creator": "Weijters, K.",
+      "source": "Tilburg University"
+    },
+    {
+      "id": 829,
+      "publication_year": "2019",
+      "title": "Does social networking sites use predict mental health and sleep problems when prior problems and loneliness are taken into account? A population-based prospective study",
+      "creator": "van der Velden, P. G., \r\nSetti, I., \r\nvan der Meulen, E., \r\n& Das, M.",
+      "publisher": "Elsevier",
+      "intl_identifier": "https:\/\/doi.org\/10.1016\/j.chb.2018.11.047",
+      "source": "Computers in Human Behavior, 93, 200-209",
+      "url": "https:\/\/www.sciencedirect.com\/science\/article\/pii\/S074756321830582X"
+    },
+    {
+      "id": 1163,
+      "publication_year": "2020",
+      "title": "The long and winding road to happiness: A randomized controlled trial and cost-effectiveness analysis of a positive psychology intervention for lonely people with health problems and a low socio-economic status",
+      "creator": "Weiss, L. A.,\r\nOude Voshaar, M. A. H.,\r\nBohlmeijer, E. T.,\r\n& Westerhof, G. J.",
+      "publisher": "BioMed Central",
+      "intl_identifier": "https:\/\/doi.org\/10.1186\/s12955-020-01416-x",
+      "source": "Health Qual Life Outcomes, 18(162), 1-17",
+      "url": "https:\/\/hqlo.biomedcentral.com\/articles\/10.1186\/s12955-020-01416-x"
+    },
+    {
+      "id": 1225,
+      "publication_year": "2020",
+      "title": "Temporary employment of first-generation migrants in the Netherlands",
+      "creator": "Boffi, G.",
+      "source": "Leiden University",
+      "url": "https:\/\/www.universiteitleiden.nl\/binaries\/content\/assets\/rechtsgeleerdheid\/fiscaal-en-economische-vakken\/economie\/rm_2020_01.pdf"
+    },
+    {
+      "id": 1269,
+      "publication_year": "2020",
+      "title": "De mobiliteit bij vakanties naar het buitenland",
+      "creator": "Huibregtse, O., \r\n& Knoope, M.",
+      "publisher": "Kennisinstituut voor Mobiliteitsbeleid",
+      "source": "Kennisinstituut voor Mobiliteitsbeleid, May 25, 2020",
+      "url": "https:\/\/www.kimnet.nl\/publicaties\/brochures\/2020\/05\/25\/de-mobiliteit-bij-vakanties-naar-het-buitenland"
+    },
+    {
+      "id": 1273,
+      "publication_year": "2020",
+      "title": "Three facets of planning and postponement of parenthood in the Netherlands",
+      "creator": "Verweij, R.,\r\nMills, M.,\r\nSnieder, H.,\r\n& Stulp, G.",
+      "publisher": "Demographic Research",
+      "intl_identifier": "https:\/\/doi.org\/10.4054\/DemRes.2020.43.23",
+      "source": "Demographic Research, 43(23), 659\u2013672",
+      "url": "https:\/\/www.demographic-research.org\/volumes\/vol43\/23\/"
+    },
+    {
+      "id": 1281,
+      "publication_year": "2020",
+      "title": "The health advantage of volunteers in Europe is larger for the elderly and the less healthy",
+      "creator": "de Wit, A., \r\nQu, E. H., \r\n& Bekkers, R.",
+      "source": "Working paper, first published online November 12, 2020",
+      "url": "https:\/\/osf.io\/qgeh9\/"
+    },
+    {
+      "id": 1289,
+      "publication_year": "2020",
+      "title": "Prosozialit\u00e4t und empathie als pr\u00e4diktoren von gesundheitsverhalten w\u00e4hrend der COVID-19 pandemie",
+      "subtitle": "Eine empirische Analyse",
+      "creator": "Goldbach, K.",
+      "source": "University of Bonn"
+    },
+    {
+      "id": 1193,
+      "publication_year": "2020",
+      "title": "Owner of a lonely heart: The stability of loneliness across the life span",
+      "creator": "Mund, M.,\r\nL\u00fcdtke, O.,\r\n& Neyer, F. J.",
+      "publisher": "APA PsycNet",
+      "intl_identifier": "http:\/\/dx.doi.org\/10.1037\/pspp0000262",
+      "source": "Journal of Personality and Social Psychology, 119(2), 497\u2013516",
+      "url": "https:\/\/doi.apa.org\/doiLanding?doi=10.1037%2Fpspp0000262"
+    },
+    {
+      "id": 1313,
+      "publication_year": "2019",
+      "title": "Religion and media usage: A detailed analysis using a representative longitudinal panel from the Netherlands",
+      "creator": "Bos\u00eenceanu, A.",
+      "publisher": "Tritonic Publishing House",
+      "source": "In C. Br\u0103tianu, A. Zbuchea, B. Hrib, A. Vi\u0163elar & F. Anghel (Eds.), STRATEGICA upscaling Digital Transformation in Business and Economics 7th edition (pp. 318-325)",
+      "url": "https:\/\/www.researchgate.net\/publication\/340503906_VALUE_CREATION_IN_PROJECT_MANAGEMENT_THE_EFFECT_OF_PROJECT_LIFECYCLE_MANAGEMENT_PLM_MEASURES_IN_AN_AEROSPACE_COMPANY#page=319"
+    },
+    {
+      "id": 1327,
+      "publication_year": "2021",
+      "title": "Self-esteem and satisfaction with social relationships across time",
+      "creator": "de Moor, E. L., \r\nDenissen, J. J. A., \r\nEmons, W. H. M., \r\nBleidorn, W., \r\nLuhmann, M., \r\nOrth, U., \r\n& Chung, J. M.",
+      "publisher": "APA PsycNet",
+      "intl_identifier": "https:\/\/doi.org\/10.1037\/pspp0000379",
+      "source": "Journal of Personality and Social Psychology, 120(1), 173\u2013191",
+      "url": "https:\/\/psycnet.apa.org\/record\/2021-02738-002"
+    },
+    {
+      "id": 1231,
+      "publication_year": "2020",
+      "title": "Health, environmental, and animal rights motives for vegetarian eating",
+      "creator": "Hopwood, C. J., \r\nBleidorn, W., \r\nSchwaba, T.,\r\n& Chen, S.",
+      "publisher": "PLoS ONE",
+      "intl_identifier": "https:\/\/doi.org\/10.1371\/journal.pone.0230609",
+      "source": "PLoS ONE, 15(4), 1-20",
+      "url": "https:\/\/journals.plos.org\/plosone\/article?id=10.1371\/journal.pone.0230609"
+    },
+    {
+      "id": 1409,
+      "publication_year": "2019",
+      "title": "Predictors of cybercrime victimization",
+      "subtitle": "Causal effects or biased associations?",
+      "creator": "van de Weijer, S.",
+      "publisher": "Routledge",
+      "source": "In R. Leukfeldt & T. J. Holt (Eds.), The Human Factor of Cybercrime (pp. 83\u2013110)",
+      "url": "https:\/\/www.taylorfrancis.com\/chapters\/edit\/10.4324\/9780429460593-4\/predictors-cybercrime-victimization-steve-van-de-weijer"
+    },
+    {
+      "id": 1297,
+      "publication_year": "2020",
+      "title": "Welbevinden ten tijde van corona. Eerste bevindingen op basis van een bevolkingsenqu\u00eate uit juli 2020",
+      "creator": "de Klerk, M., \r\nPlaisier, I.,\r\n& Wagemans, F.",
+      "publisher": "Sociaal Cultureel Planbureau",
+      "source": "Sociaal Cultureel Planbureau, September 9, 2020",
+      "url": "https:\/\/www.scp.nl\/onderwerpen\/corona\/documenten\/publicaties\/2020\/09\/10\/welbevinden-ten-tijde-van-corona.-eerste-bevindingen-op-basis-van-een-bevolkingsenquete-uit-juli-2020"
+    },
+    {
+      "id": 1641,
+      "publication_year": "2021",
+      "title": "Affective polarization in the digital age: Testing the direction of the relationship between social media and users\u2019 feelings for out-group parties",
+      "creator": "Nordbrandt, M.",
+      "publisher": "SAGE Journals",
+      "intl_identifier": "https:\/\/doi.org\/10.1177\/14614448211044393",
+      "source": "New Media & Society, first published online September 19, 2021",
+      "url": "https:\/\/journals.sagepub.com\/doi\/metrics\/10.1177\/14614448211044393"
+    },
+    {
+      "id": 1667,
+      "publication_year": "2021",
+      "title": "Een jaar met corona",
+      "creator": "de Klerk, M., \r\nOlsthoorn, M.,\r\nPlaisier, I.,\r\nSchaper, J.,\r\n& Wagemans, F.",
+      "publisher": "Sociaal Cultureel Planbureau",
+      "source": "Sociaal Cultureel Planbureau, March 3, 2021",
+      "url": "https:\/\/www.scp.nl\/publicaties\/publicaties\/2021\/03\/03\/een-jaar-met-corona"
+    },
+    {
+      "id": 1675,
+      "publication_year": "2019",
+      "title": "How attitudes towards immigrants are shaped by residential context: The role of ethnic diversity dynamics and immigrant visibility",
+      "creator": "van Heerden, S.,\r\n& Ruedin, D.",
+      "publisher": "SAGE Journals",
+      "intl_identifier": "https:\/\/doi.org\/10.1177\/0042098017732692",
+      "source": "Urban Studies, 56(2), 317\u2013334",
+      "url": "https:\/\/journals.sagepub.com\/doi\/10.1177\/0042098017732692"
+    },
+    {
+      "id": 977,
+      "publication_year": "2019",
+      "title": "How attitudes towards immigrants are shaped by residential context: The role of ethnic diversity dynamics and immigrant visibility",
+      "creator": "van Heerden, S., \r\n& Ruedin, D.",
+      "publisher": "SAGE Journals",
+      "intl_identifier": "https:\/\/doi.org\/10.1177\/0042098017732692",
+      "source": "Urban Studies, 56(2), 317-334",
+      "url": "https:\/\/journals.sagepub.com\/doi\/10.1177\/0042098017732692"
+    },
+    {
+      "id": 989,
+      "publication_year": "2021",
+      "title": "The Janus-face of digitalization: The relation between Internet use and civic engagement reconsidered",
+      "creator": "Erhardt, J., \r\n& Freitag, M.",
+      "publisher": "SAGE Journals",
+      "intl_identifier": "https:\/\/doi.org\/10.1177\/0894439319861966",
+      "source": "Social Science Computer Review, 39(3), 315-334",
+      "url": "https:\/\/journals.sagepub.com\/doi\/10.1177\/0894439319861966"
+    },
+    {
+      "id": 1671,
+      "publication_year": "2021",
+      "title": "Anxiety and depression symptoms, the recovery from symptoms, and loneliness before and after the COVID-19 outbreak among the general population: Findings from a Dutch population-based longitudinal study",
+      "creator": "van der Velden, P. G.,\r\nHyland, P.,\r\nContino, C.,\r\nvon Gaudecker, H. -M.,\r\nMuffels, R.,\r\n& Das, M.",
+      "publisher": "PLOS ONE",
+      "intl_identifier": "https:\/\/doi.org\/10.1371\/journal.pone.0245057",
+      "source": "PLOS ONE, 16(1), 1-17",
+      "url": "https:\/\/journals.plos.org\/plosone\/article?id=10.1371\/journal.pone.0245057"
+    },
+    {
+      "id": 1773,
+      "publication_year": "2021",
+      "title": "Contacts with benefits: How social networks affect benefit receipt dynamics in the Netherlands",
+      "creator": "Kristiansen, M. H.",
+      "source": "Utrecht University",
+      "url": "https:\/\/dspace.library.uu.nl\/handle\/1874\/400811"
+    },
+    {
+      "id": 1397,
+      "publication_year": "2021",
+      "title": "What a drag it is getting old? Mental health and loneliness beyond age 50",
+      "creator": "van Ours, J. C.",
+      "publisher": "Taylor & Francis",
+      "intl_identifier": "https:\/\/doi.org\/10.1080\/00036846.2021.1883540",
+      "source": "Applied Economics, 53(31), 3563-3576",
+      "url": "https:\/\/www.tandfonline.com\/doi\/full\/10.1080\/00036846.2021.1883540"
+    },
+    {
+      "id": 1285,
+      "publication_year": "2021",
+      "title": "Does using social media jeopardize well-being? The importance of separating within- from between-person effects",
+      "creator": "Stavrova, O.,\r\n& Denissen, J.",
+      "publisher": "SAGE Journals",
+      "intl_identifier": "https:\/\/doi.org\/10.1177\/1948550620944304",
+      "source": "Social Psychological and Personality Science, 12(6), 964-973",
+      "url": "https:\/\/journals.sagepub.com\/doi\/10.1177\/1948550620944304"
+    },
+    {
+      "id": 501,
+      "publication_year": "2015",
+      "title": "The relation between social network site usage and loneliness and mental health in community-dwelling older adults",
+      "creator": "Sil Aarts,\r\nSebastiaan T.M. Peek,\r\nEveline J Wouters",
+      "intl_identifier": "DOI: 10.1002\/gps.4241",
+      "source": "International Journal of Geriatric Psychiatry, 30(9):942-949"
+    },
+    {
+      "id": 1283,
+      "publication_year": "2021",
+      "title": "A propensity-score matched study of changes in loneliness surrounding major life events",
+      "creator": "Buecker, S.,\r\nDenissen, J. J. A.,\r\n& Luhmann, M.",
+      "publisher": "APA PsycNet",
+      "intl_identifier": "https:\/\/doi.org\/10.1037\/pspp0000373",
+      "source": "Journal of Personality and Social Psychology, 121(3), 669\u2013690",
+      "url": "https:\/\/content.apa.org\/record\/2020-80026-001"
+    },
+    {
+      "id": 1385,
+      "publication_year": "2021",
+      "title": "Log on and prosper? Little evidence for codevelopment between psychological adjustment and technology use in older adulthood",
+      "creator": "Schwaba, T.,\r\n& Bleidorn, W.",
+      "publisher": "Oxford Academic",
+      "intl_identifier": "https:\/\/doi.org\/10.1093\/geronb\/gbaa073",
+      "source": "The Journals of Gerontology: Series B, 76(1), 67\u201377",
+      "url": "https:\/\/academic.oup.com\/psychsocgerontology\/article\/76\/1\/67\/5850691"
+    },
+    {
+      "id": 1343,
+      "publication_year": "2021",
+      "title": "Lonely hearts, empty booths? The relationship between loneliness, reported voting behavior and voting as civic duty",
+      "creator": "Langenkamp, A.",
+      "publisher": "Wiley Online Library",
+      "intl_identifier": "https:\/\/doi.org\/10.1111\/ssqu.12946",
+      "source": "Social Science Quarterly, 102(4), 1239-1254",
+      "url": "https:\/\/onlinelibrary.wiley.com\/doi\/full\/10.1111\/ssqu.12946"
+    },
+    {
+      "id": 1591,
+      "publication_year": "2021",
+      "title": "Social media and job satisfaction; A challenge or hindrance stressor?",
+      "creator": "de Vries, S.,\r\n& de Mooij, S.",
+      "source": "Vrije Universiteit Amsterdam"
+    },
+    {
+      "id": 1493,
+      "publication_year": "2021",
+      "title": "Consumption and time use responses to unemployment",
+      "creator": "Been, J.,\r\nSuari-Andreu, E.,\r\nKnoef, M.,\r\n& Alessie, R.",
+      "publisher": "Netspar",
+      "source": "Network for Studies on Pensions, Aging and Retirement, Design paper No. 187",
+      "url": "https:\/\/www.netspar.nl\/assets\/uploads\/P20211011_Netspar-Design-Paper-187-WEB.pdf"
+    },
+    {
+      "id": 879,
+      "publication_year": "2019",
+      "title": "The longitudinal effect of social recognition on PTSD symptomatology and vice versa: Evidence from a population-based study",
+      "creator": "van der Velden, P. G.,\r\nOudejans, M.,\r\nDas, M.,\r\nBosmans, M. W. G.,\r\n& Maercker, A.",
+      "publisher": "Elsevier",
+      "intl_identifier": "https:\/\/doi.org\/10.1016\/j.psychres.2019.05.044",
+      "source": "Psychiatry Research, 279, 287-294",
+      "url": "https:\/\/www.sciencedirect.com\/science\/article\/pii\/S0165178119305906"
+    },
+    {
+      "id": 1852,
+      "publication_year": "2022",
+      "title": "Does pro-sociality or trust better predict staying home behavior during the Covid-19?",
+      "creator": "Umer, H.",
+      "publisher": "Elsevier",
+      "intl_identifier": "https:\/\/doi.org\/10.1016\/j.socec.2022.101926",
+      "source": "Journal of Behavioral and Experimental Economics, 100, 1-31",
+      "url": "https:\/\/www.sciencedirect.com\/science\/article\/pii\/S2214804322000982?via%3Dihub"
+    },
+    {
+      "id": 1723,
+      "publication_year": "2022",
+      "title": "Internet use and cognitive engagement in older adulthood",
+      "creator": "Schwaba, T.,\r\n& Bleidorn, W.",
+      "publisher": "SAGE Journals",
+      "intl_identifier": "https:\/\/doi.org\/10.1177\/19485506211049657",
+      "source": "Social Psychological and Personality Science, 13(5), 968\u2013977",
+      "url": "https:\/\/journals.sagepub.com\/doi\/abs\/10.1177\/19485506211049657"
+    },
+    {
+      "id": 1902,
+      "publication_year": "2022",
+      "title": "Who benefits from which activity? On the relations between personality traits, leisure activities, and well-being",
+      "creator": "Kuper, N., \r\nKroencke, L., \r\nHarari, G. M., \r\n& Denissen, J. J. A.",
+      "publisher": "APA PsycNet",
+      "intl_identifier": "https:\/\/doi.org\/10.1037\/pspp0000438",
+      "source": "Journal of Personality and Social Psychology, first published online August, 2022",
+      "url": "https:\/\/psycnet.apa.org\/record\/2023-14429-001"
+    },
+    {
+      "id": 1905,
+      "publication_year": "2022",
+      "title": "Socio-structural determinants in volunteering for humanitarian organizations: A resource-based approach",
+      "creator": "Meijeren, M.,\r\nLubbers, M., \r\n& Scheepers, P.",
+      "publisher": "SAGE Journals",
+      "intl_identifier": "https:\/\/doi.org\/10.1177\/08997640221114821",
+      "source": "Nonprofit and Voluntary Sector Quarterly, first published online August 4, 2022",
+      "url": "https:\/\/journals.sagepub.com\/doi\/full\/10.1177\/08997640221114821"
+    },
+    {
+      "id": 1906,
+      "publication_year": "2022",
+      "title": "The influence of loneliness on perceived connectedness and trust beliefs \u2013 longitudinal evidence from the Netherlands",
+      "creator": "Langenkamp, A.",
+      "publisher": "SAGE Journals",
+      "intl_identifier": "https:\/\/doi.org\/10.1177\/02654075221144716",
+      "source": "Journal of Social and Personal Relationships, first published online December 8, 2022",
+      "url": "https:\/\/journals.sagepub.com\/doi\/10.1177\/02654075221144716"
+    },
+    {
+      "id": 1919,
+      "publication_year": "2022",
+      "title": "Does the election winner\u2013loser gap extend to subjective health and well-being?",
+      "creator": "Toshkov, D., \r\n& Mazepus, H.",
+      "publisher": "SAGE Journals",
+      "intl_identifier": "https:\/\/doi.org\/10.1177\/14789299221124735",
+      "source": "Political Studies Review, first published online October 3, 2022",
+      "url": "https:\/\/journals.sagepub.com\/doi\/10.1177\/14789299221124735"
+    },
+    {
+      "id": 1925,
+      "publication_year": "2022",
+      "title": "Waarde van cultuur 2022",
+      "subtitle": "De staat van de culturele sector in Noord-Brabant",
+      "creator": "Boekmanstichting, \r\nHet PON en Telos, \r\nKunstloc Brabant, \r\n& Pyrrhula Research Consultants",
+      "publisher": "Kunstloc Brabant",
+      "source": "Kunstloc Brabant, June, 2022",
+      "url": "https:\/\/www.kunstlocbrabant.nl\/kennis-advies\/waarde-van-cultuur-2022-39255"
+    },
+    {
+      "id": 1926,
+      "publication_year": "2022",
+      "title": "Cultuurmonitor Gelderland 2022",
+      "creator": "Pyrrhula Research Consultants, \r\nHet PON & Telos,\r\n& Boekmanstichting",
+      "publisher": "Cultuur Oost",
+      "source": "Cultuur Oost, December, 2022",
+      "url": "https:\/\/www.cultuuroost.nl\/cultuurmonitor\/"
+    },
+    {
+      "id": 1932,
+      "publication_year": "2022",
+      "title": "\u201cI can\u2019t, I have to work\u201d. A study on the employment type of social contacts and feeling socially integrated",
+      "creator": "Kleefstra, R.",
+      "source": "University of Groningen"
+    },
+    {
+      "id": 1934,
+      "publication_year": "2022",
+      "title": "Leisure Time and Social Integration. The difference between online and offline leisure time and their influence on social integration",
+      "creator": "Lamain, R.",
+      "source": "University of Groningen"
+    },
+    {
+      "id": 1937,
+      "publication_year": "2022",
+      "title": "Formal leisure time and health outcomes of Dutch participants",
+      "subtitle": "What is the effect of formal leisure time (excluding physical activities) on health outcomes of Dutch participants, and is there a difference in terms of age?",
+      "creator": "Blaauw, M.",
+      "source": "University of Groningen"
+    },
+    {
+      "id": 1939,
+      "publication_year": "2022",
+      "title": "What to do with your spare time? A study of structured and formal leisure time in the Netherlands.",
+      "creator": "van Hoogstraten, J.",
+      "source": "University of Groningen"
+    },
+    {
+      "id": 1908,
+      "publication_year": "2022",
+      "title": "Geprikkeld door politieke preferenties",
+      "subtitle": "Over de invloed van politieke voorkeuren op vaccinatiebereidheid",
+      "creator": "Bliek, J.",
+      "source": "University of Groningen"
+    },
+    {
+      "id": 1897,
+      "publication_year": "2022",
+      "title": "Maakt sociale steun financieel zelfredzamer? \u2013 Does social support make us more financially selfreliant?",
+      "creator": "Wiels, T.",
+      "source": "University of Groningen"
+    },
+    {
+      "id": 1954,
+      "publication_year": "2022",
+      "title": "Equality of opportunity through education? A research to the differences in obtaining future cultural, social and economic capital through education between students from different socioeconomic backgrounds.",
+      "creator": "van Hoogstraten, R.",
+      "source": "Utrecht University",
+      "url": "https:\/\/studenttheses.uu.nl\/handle\/20.500.12932\/42983"
+    },
+    {
+      "id": 1947,
+      "publication_year": "2022",
+      "title": "Essays on social media and democracy",
+      "creator": "van Gils, F.",
+      "publisher": "CentER, Center for Economic Research",
+      "intl_identifier": "http:\/\/doi.org\/10.26116\/y9bp-2h07",
+      "source": "Tilburg University",
+      "url": "https:\/\/research.tilburguniversity.edu\/en\/publications\/essays-on-social-media-and-democracy"
+    },
+    {
+      "id": 1956,
+      "publication_year": "2022",
+      "title": "Changes in alcohol use in the Netherlands before and during the COVID-19 pandemic: Exploring the effects of personality, loneliness and gender",
+      "creator": "V\u00f6ller, M.",
+      "source": "University of Twente",
+      "url": "http:\/\/essay.utwente.nl\/93146\/"
+    },
+    {
+      "id": 1961,
+      "publication_year": "2022",
+      "title": "Social satisfaction, loneliness, and happiness before and during the COVID-19 pandemic",
+      "creator": "Sprekelmeyer, L.",
+      "source": "University of Twente",
+      "url": "http:\/\/essay.utwente.nl\/92042\/"
+    },
+    {
+      "id": 1960,
+      "publication_year": "2022",
+      "title": "Differences in civic participation between natives and immigrants living in the Netherlands",
+      "creator": "Damian, E.,\r\n& Scheepers, P.",
+      "intl_identifier": "https:\/\/doi.org\/10.31219\/osf.io\/wbgjr",
+      "source": "OSFPrePrints, first published online August 19, 2022",
+      "url": "https:\/\/osf.io\/wbgjr"
+    },
+    {
+      "id": 1973,
+      "publication_year": "2022",
+      "title": "Participating as equals? Disentangling the complex relationships between resources, incentives and political participation using Dutch panel data",
+      "creator": "Hvarfner, K.",
+      "source": "Uppsala University",
+      "url": "https:\/\/www.diva-portal.org\/smash\/record.jsf?pid=diva2%3A1702004&dswid=7026"
+    },
+    {
+      "id": 1983,
+      "publication_year": "2022",
+      "title": "What makes or breaks political trust: A fixed effects regression analysis of changes in political trust within individuals in the Netherlands between 2008 and 2018.",
+      "creator": "van Gorp, M. T. L.",
+      "source": "Radboud University",
+      "url": "https:\/\/theses.ubn.ru.nl\/handle\/123456789\/13601"
+    },
+    {
+      "id": 1985,
+      "publication_year": "2022",
+      "title": "On the relationship between personality traits and loneliness in the COVID-19 pandemic",
+      "creator": "van Rhijn, N.",
+      "source": "Utrecht University",
+      "url": "https:\/\/studenttheses.uu.nl\/handle\/20.500.12932\/43033"
+    },
+    {
+      "id": 967,
+      "publication_year": "2022",
+      "title": "How stable is leisure satisfaction over time? A latent trait-state-occasion analysis of Dutch panel data",
+      "creator": "Gelissen, J.",
+      "publisher": "Taylor & Francis",
+      "intl_identifier": "https:\/\/doi.org\/10.1080\/01490400.2018.1536567",
+      "source": "Leisure Sciences, 44(3), 267\u2013288",
+      "url": "https:\/\/www.tandfonline.com\/doi\/full\/10.1080\/01490400.2018.1536567"
+    },
+    {
+      "id": 1994,
+      "publication_year": "2022",
+      "title": "Why are general moral values poor predictors of concrete moral behavior in everyday life? A conceptual analysis and empirical study",
+      "creator": "van den Berg, T. G. C.,\r\nKroesen, M.,\r\n& Chorus, C. G.",
+      "publisher": "Frontiers",
+      "intl_identifier": "https:\/\/doi.org\/10.3389\/fpsyg.2022.817860",
+      "source": "Frontiers in Psychology, first published online June 30, 2022",
+      "url": "https:\/\/www.frontiersin.org\/articles\/10.3389\/fpsyg.2022.817860\/full"
+    },
+    {
+      "id": 2015,
+      "publication_year": "2022",
+      "title": "Using panel data to study political interest, news media trust, and news media use in the early stages of the COVID-19 pandemic",
+      "creator": "Vermeer, S.,\r\nKruikemeier, S., \r\nTrilling, D.,\r\n& de Vreese, C.",
+      "publisher": "Taylor & Francis",
+      "intl_identifier": "https:\/\/doi.org\/10.1080\/1461670X.2021.2017790",
+      "source": "Journalism Studies, 23(5-6), 740-760",
+      "url": "https:\/\/www.tandfonline.com\/doi\/full\/10.1080\/1461670X.2021.2017790"
+    },
+    {
+      "id": 2017,
+      "publication_year": "2022",
+      "title": "Personality and change in physical activity across 3\u201310 years",
+      "creator": "Caille, P.,\r\nStephan, Y.,\r\nSutin, A. R.,\r\nLuchetti, M.,\r\nCanada, B., \r\nHeraud, N.,\r\n& Terracciano, A.",
+      "publisher": "Taylor & Francis Online",
+      "intl_identifier": "https:\/\/doi.org\/10.1080\/08870446.2022.2092866",
+      "source": "Psychology & Health, first published online June 29, 2022",
+      "url": "https:\/\/www.tandfonline.com\/doi\/abs\/10.1080\/08870446.2022.2092866?journalCode=gpsh20"
+    },
+    {
+      "id": 2047,
+      "publication_year": "2022",
+      "title": "Geven in Nederland 2022",
+      "subtitle": "Maatschappelijke betrokkenheid in kaart gebracht",
+      "creator": "Bekkers, R.,\r\nvan Teunenbroek, C.,\r\nMaas, S.,\r\nGouwenberg, B.,\r\nde Gilder, D.,\r\nDe Wit, A.,\r\nvan Aken, P.,\r\nWiepking, P.,\r\n& Schuyt, T.",
+      "publisher": "Amsterdam University Press",
+      "source": "Amsterdam University Press",
+      "url": "https:\/\/www.walburgpers.nl\/nl\/book\/9789048556342\/geven-in-nederland-2022?redirect=aup"
+    },
+    {
+      "id": 2062,
+      "publication_year": "2021",
+      "title": "Intersectionele geslachts- en etniciteitsverschillen in werkloosheid; Een verklaring op basis van sociaal kapitaal",
+      "creator": "Roeleven, J. E.",
+      "source": "Utrecht University",
+      "url": "https:\/\/studenttheses.uu.nl\/handle\/20.500.12932\/40005"
+    },
+    {
+      "id": 2064,
+      "publication_year": "2013",
+      "title": "Loneliness and well-being after partner loss: A large cross-sectional study",
+      "creator": "Grimmelikhuijzen, M. R.",
+      "source": "Utrecht University",
+      "url": "https:\/\/studenttheses.uu.nl\/handle\/20.500.12932\/13719"
+    },
+    {
+      "id": 1415,
+      "publication_year": "2022",
+      "title": "A mega-analysis of personality predictions: Robustness and boundary conditions",
+      "creator": "Beck, E. D.,\r\n& Jackson, J. J.",
+      "publisher": "APA PsycNet",
+      "intl_identifier": "https:\/\/doi.org\/10.1037\/pspp0000386",
+      "source": "Journal of Personality and Social Psychology, 122(3), 523\u2013553",
+      "url": "https:\/\/psycnet.apa.org\/record\/2022-31794-002"
+    },
+    {
+      "id": 1655,
+      "publication_year": "2022",
+      "title": "Informal volunteering and socialization effects: Examining modelling and encouragement by parents and partner",
+      "creator": "Ramaekers, M. J. M., \r\nVerbakel, E., \r\n& Kraaykamp, G.",
+      "publisher": "SpringerLink",
+      "intl_identifier": "https:\/\/doi.org\/10.1007\/s11266-021-00315-z",
+      "source": "VOLUNTAS: International Journal of Voluntary and Nonprofit Organizations, 33(2), 347\u2013361",
+      "url": "https:\/\/ps.psychopen.eu\/index.php\/ps\/article\/view\/6055"
+    },
+    {
+      "id": 1847,
+      "publication_year": "2022",
+      "title": "The working hour mismatch and job satisfaction. Gender differences and the role of children",
+      "creator": "Huizen, W.",
+      "source": "University of Groningen"
+    },
+    {
+      "id": 2072,
+      "publication_year": "2019",
+      "title": "Can survey item characteristics relevant to measurement error be coded reliably? A case study on 11 Dutch general population surveys",
+      "creator": "Bais, F., \r\nSchouten, B., \r\nLugtig, P., \r\nToepoel, V., \r\nArends-T\u00f3th, J., \r\nDouhou, S., \r\nKieruj, N., \r\nMorren, M., \r\n& Vis, C.",
+      "publisher": "SAGE Journals",
+      "intl_identifier": "https:\/\/doi.org\/10.1177\/0049124117729692",
+      "source": "Sociological Methods & Research, 48(2), 263-295",
+      "url": "https:\/\/journals.sagepub.com\/doi\/10.1177\/0049124117729692"
+    },
+    {
+      "id": 1197,
+      "publication_year": "2022",
+      "title": "Assessing the relationship between lifestyle routine activities theory and online victimization using panel data",
+      "creator": "Guerra, C.,\r\n& Ingram, R. J.",
+      "publisher": "Taylor & Francis Online",
+      "intl_identifier": "https:\/\/doi.org\/10.1080\/01639625.2020.1774707",
+      "source": "Deviant Behavior, 43(1), 44\u201360",
+      "url": "https:\/\/www.tandfonline.com\/doi\/full\/10.1080\/01639625.2020.1774707"
+    },
+    {
+      "id": 1844,
+      "publication_year": "2022",
+      "title": "Preferences for in-kind and in-cash home care insurance",
+      "creator": "de Bresser J., \r\nKnoef, M., \r\n& van Ooijen, R.",
+      "publisher": "ScienceDirect",
+      "intl_identifier": "https:\/\/doi.org\/10.1016\/j.jhealeco.2022.102626",
+      "source": "Journal of Health Economics, 84, 1-26",
+      "url": "https:\/\/www.sciencedirect.com\/science\/article\/pii\/S0167629622000455?via%3Dihub"
+    },
+    {
+      "id": 1799,
+      "publication_year": "2022",
+      "title": "Stability of pro-sociality and trust amid the Covid-19: Evidence based on the panel data from the Netherlands",
+      "creator": "Umer, H.",
+      "publisher": "SSRN",
+      "intl_identifier": "http:\/\/dx.doi.org\/10.2139\/ssrn.4007903",
+      "source": "SSRN, first published online January 13, 2022",
+      "url": "https:\/\/papers.ssrn.com\/sol3\/papers.cfm?abstract_id=4007903"
+    },
+    {
+      "id": 1545,
+      "publication_year": "2022",
+      "title": "Nonlinear effect of social interaction quantity on psychological well-being: Diminishing returns or inverted U?",
+      "creator": "Ren, D., \r\nStavrova, O., \r\n& Loh, W. W.",
+      "publisher": "APA PsycNet",
+      "intl_identifier": "https:\/\/doi.org\/10.1037\/pspi0000373",
+      "source": "Journal of Personality and Social Psychology, 122(6), 1056\u20131074",
+      "url": "https:\/\/psycnet.apa.org\/doiLanding?doi=10.1037%2Fpspi0000373"
+    },
+    {
+      "id": 2069,
+      "publication_year": "2023",
+      "title": "Stability of pro-sociality and trust amid the Covid-19: panel data from the Netherlands",
+      "creator": "Umer, H.",
+      "publisher": "SpringerLink",
+      "intl_identifier": "https:\/\/doi.org\/10.1007\/s10663-022-09557-6",
+      "source": "Empirica, 50(1), 255-287",
+      "url": "https:\/\/link.springer.com\/article\/10.1007\/s10663-022-09557-6"
+    },
+    {
+      "id": 1918,
+      "publication_year": "2022",
+      "title": "Hoe leesgedrag is veranderd door corona",
+      "creator": "KVB Boekwerk,\r\nStichting Lezen,\r\n& Huysmans, F.",
+      "publisher": "KVK Boekwerk",
+      "source": "KVK Boekwerk, June 2, 2022",
+      "url": "https:\/\/kvbboekwerk.nl\/consumentenonderzoek\/hoe-leesgedrag-is-veranderd-door-corona"
+    },
+    {
+      "id": 2079,
+      "publication_year": "2023",
+      "title": "Meer Nederlanders lezen na coronaperiode dan daarvoor",
+      "creator": "KVB Boekwerk,\r\nStichting Lezen,\r\n& Huysmans, F.",
+      "publisher": "KVK Boekwerk",
+      "source": "KVK Boekwerk, March 23, 2023",
+      "url": "https:\/\/kvbboekwerk.nl\/consumentenonderzoek\/meer-nederlanders-lezen-na-coronaperiode-dan-daarvoor"
+    }
+  ]
+}
