@@ -10,8 +10,7 @@
     "mapping": "publications[*]",
     "children": {
       "publicationCitation": ["title"],
-      "publicationIDNumber": ["intl_identifier"],
-      "publicationURL": ["url"]
+      "publicationURL": ["intl_identifier"]
     }
   },
   "grantNumberAgency": ["funding_organizations[*]"],
