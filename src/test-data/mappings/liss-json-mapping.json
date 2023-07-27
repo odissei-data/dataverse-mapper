@@ -9,9 +9,8 @@
   "publication": {
     "mapping": "publications[*]",
     "children": {
-      "publicationCitation": ["[creator,title,publication_year,publisher,source]"],
-      "publicationIDNumber": ["intl_identifier"],
-      "publicationURL": ["url"]
+      "publicationCitation": ["title"],
+      "publicationURL": ["intl_identifier"]
     }
   },
   "grantNumberAgency": ["funding_organizations[*]"],
@@ -36,5 +35,6 @@
       "questionName": ["name"],
       "questionText": ["question_text"]
     }
-  }
+  },
+  "distributionDate": ["created"]
 }

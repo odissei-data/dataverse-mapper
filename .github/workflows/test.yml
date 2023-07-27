@@ -1,0 +1,39 @@
+name: Pytest action
+
+on:
+  push:
+    branches: [ "main" ]
+    tags:
+      - '*'
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+    test:
+      runs-on: ubuntu-latest
+      strategy:
+        matrix:
+          python-version: ["3.10.5"]
+      name: Run tests
+      steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+      - name: Set python version
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10.5'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pytest
+          pip install poetry
+          poetry config virtualenvs.create false
+          poetry install
+      - name: Perform gruesome hack
+        run: |
+          cp -r pyproject.toml src/stub.toml
+          cp -r pyproject.toml src/tests/stub.toml
+      - name: Run Pytest
+        working-directory: src/
+        run: python -m pytest
+

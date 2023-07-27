@@ -234,7 +234,7 @@
             "typeName": "distributionDate",
             "multiple": false,
             "typeClass": "primitive",
-            "value": ""
+            "value": "2018-04-03"
           },
           {
             "typeName": "dateOfCollection",
