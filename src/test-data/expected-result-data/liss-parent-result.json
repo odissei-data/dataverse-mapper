@@ -2366,7 +2366,7 @@
             "typeName": "distributionDate",
             "multiple": false,
             "typeClass": "primitive",
-            "value": ""
+            "value": "2009-01-05"
           },
           {
             "typeName": "dateOfCollection",

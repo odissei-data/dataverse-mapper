@@ -1,1 +1,2430 @@
-{"datasetVersion": {"datasetPersistentId": "", "metadataBlocks": {"citation": {"fields": [{"typeName": "title", "typeClass": "primitive", "multiple": false, "value": "LISS panel > Social Integration and Leisure"}, {"typeName": "author", "multiple": true, "typeClass": "compound", "value": [{"authorName": {"typeName": "authorName", "multiple": false, "typeClass": "primitive", "value": "Mara Verheijen (Centerdata)"}}]}, {"typeName": "datasetContact", "multiple": true, "typeClass": "compound", "value": [{"datasetContactEmail": {"typeName": "datasetContactEmail", "multiple": false, "typeClass": "primitive", "value": "portal@odissei.nl"}}]}, {"typeName": "dsDescription", "multiple": true, "typeClass": "compound", "value": [{"dsDescriptionValue": {"typeName": "dsDescriptionValue", "multiple": false, "typeClass": "primitive", "value": "This questionnaire is part of the LISS Core Study, a longitudinal survey delivering a broad range of social core information about the panel members. \r\nThe survey focuses on social integration and leisure."}}]}, {"typeName": "subject", "typeClass": "controlledVocabulary", "multiple": true, "value": ["Social Sciences"]}, {"typeName": "keyword", "multiple": true, "typeClass": "compound", "value": []}, {"typeName": "topicClassification", "multiple": true, "typeClass": "compound", "value": [{"topicClassValue": {"typeName": "topicClassValue", "multiple": false, "typeClass": "primitive", "value": "Communication, language and media"}}, {"topicClassValue": {"typeName": "topicClassValue", "multiple": false, "typeClass": "primitive", "value": "Leisure, recreation and culture"}}, {"topicClassValue": {"typeName": "topicClassValue", "multiple": false, "typeClass": "primitive", "value": "Social behavior"}}, {"topicClassValue": {"typeName": "topicClassValue", "multiple": false, "typeClass": "primitive", "value": "Travel and transport"}}]}, {"typeName": "publication", "multiple": true, "typeClass": "compound", "value": [{"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Wagemakers, S.\r\nArustei, G.\r\nLoeffen, S."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": ""}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "G\u00f6ritz, Anja S.\r\nCrutzen, Rik"}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": "DOI: 10.1177/1098214011421956"}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "http://aje.sagepub.com"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Angelidakis, P."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": ""}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Kroesen, M.\r\nHandy, S."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": "http://dx.doi.org/10.1016/j.annals.2013.12.006"}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "http://www.sciencedirect.com/science/article/pii/S016073831300162X"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Hendriks, Y."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": ""}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Sipma, T."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": ""}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Scherpenzeel, Annette and Toepoel, Vera"}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": ""}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Liempt, A. van,\r\nRooij, P. de,\r\nBastiaansen, M.,\r\nBerg, F. van den,\r\nYang, H.X."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "http://www.nritmedia.nl/kennisbank/33864"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Ugur, Z.B."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": "ISBN: 978 90 5668 365 8"}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://pure.uvt.nl/portal/files/1540321/thesis_zeynep_burcu_ugur_11.09.2013.pdf"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Bont, A.W.M. de,\r\nParidaans, S.F.M."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": ""}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Boer, T. de"}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": ""}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Verkoeijen, E."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": ""}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Vinken, H."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": ""}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Vogelaar, M."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": ""}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Lucassen, G.,\r\nHollema, J."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": ""}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Cambier, Myriam"}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": ""}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Van Ingen, Erik,\r\nUtz, Sonja,\r\nToepoel, Vera"}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "http://ssc.sagepub.com/content/34/5/511"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Toepoel, V."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": "DOI 10.1007/s11205-012-0097-6"}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "http://link.springer.com/article/10.1007%2Fs11205-012-0097-6?LI=true"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Van Ingen, E.\r\nBekkers, R."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": "DOI: 10.1111/pops.12105"}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "http://onlinelibrary.wiley.com/doi/10.1111/pops.12105/abstract"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Boekel, L.C. van,\r\nPeek, S.T.M.,\r\nLuijkx, K.G."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": "10.2196/jmir.6853"}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "http://www.jmir.org/2017/5/e180/"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Van Ingen, Erik,\r\nWright, Kevin"}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "http://www.sciencedirect.com/science/article/pii/S0747563216301005"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Bijvoets, J.H.M.\r\nM. Stoffelen"}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": ""}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Eltink, T.\r\nL. de Reuver"}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": ""}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Tros, A.\r\nM. Van Dongen"}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": ""}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Van Ingen, Erik,\r\nWilson, John"}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": "doi: 10.1177/0899764016659765"}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "http://journals.sagepub.com/doi/abs/10.1177/0899764016659765"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Vreugdenhil, J."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": ""}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Mulders, M.G."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "http://arno.uvt.nl/show.cgi?fid=114000"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Malkoch, V."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": ""}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Loog, B.\r\nDohmen, T.\r\nVendrik, M."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "http://tpedigitaal.nl/assets/static/Loog-Dohmen-Vendrik-4-2011.pdf"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Buser, T."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "http://www.tinbergen.nl/discussionpaper/?paper=1680"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Brendel, M."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": ""}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Splinter, M."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": ""}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Oberski, D.L."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "http://www.jstatsoft.org/v57/i01"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Van Dijk, A. \r\nZohren, M."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": ""}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Lamers, S.M.A.\r\nWesterhof, G.J.\r\nBohlmeijer, E.T.\r\nTen Klooster, P.M.\r\nKeyes, C.L.M."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": "DOI: 10.1002/jclp.20741"}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "http://onlinelibrary.wiley.com/doi/10.1002/jclp.20741/abstract"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Van den Berg, R. \r\nVan Manen, A."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": ""}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Van Ingen, E.\r\nVan der Meer, T."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": "doi: 10.1007/s11109-015-9307-7"}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "http://link.springer.com/article/10.1007/s11109-015-9307-7"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Dierckx, A.\r\nLi, H."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": ""}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Cuelenaere, B.,\r\nKieruj, N.,\r\nLange, A. de,\r\nDetaille, S."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": "-"}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://link.springer.com/article/10.1007/s40718-018-0021-5"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Reinwand, D.A.,\r\nCrutzen, R.,\r\nZank, S."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": "https://doi.org/10.1177/2055207618779715"}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "http://journals.sagepub.com/doi/full/10.1177/2055207618779715"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Pijnappel, B."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": ""}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Weijters, K."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": ""}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "van der Velden, P. G., \r\nSetti, I., \r\nvan der Meulen, E., \r\n& Das, M."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": "https://doi.org/10.1016/j.chb.2018.11.047"}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://www.sciencedirect.com/science/article/pii/S074756321830582X"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Weiss, L. A.,\r\nOude Voshaar, M. A. H.,\r\nBohlmeijer, E. T.,\r\n& Westerhof, G. J."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": "https://doi.org/10.1186/s12955-020-01416-x"}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://hqlo.biomedcentral.com/articles/10.1186/s12955-020-01416-x"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Boffi, G."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://www.universiteitleiden.nl/binaries/content/assets/rechtsgeleerdheid/fiscaal-en-economische-vakken/economie/rm_2020_01.pdf"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Huibregtse, O., \r\n& Knoope, M."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://www.kimnet.nl/publicaties/brochures/2020/05/25/de-mobiliteit-bij-vakanties-naar-het-buitenland"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Verweij, R.,\r\nMills, M.,\r\nSnieder, H.,\r\n& Stulp, G."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": "https://doi.org/10.4054/DemRes.2020.43.23"}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://www.demographic-research.org/volumes/vol43/23/"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "de Wit, A., \r\nQu, E. H., \r\n& Bekkers, R."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://osf.io/qgeh9/"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Goldbach, K."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": ""}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Mund, M.,\r\nL\u00fcdtke, O.,\r\n& Neyer, F. J."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": "http://dx.doi.org/10.1037/pspp0000262"}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://doi.apa.org/doiLanding?doi=10.1037%2Fpspp0000262"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Bos\u00eenceanu, A."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://www.researchgate.net/publication/340503906_VALUE_CREATION_IN_PROJECT_MANAGEMENT_THE_EFFECT_OF_PROJECT_LIFECYCLE_MANAGEMENT_PLM_MEASURES_IN_AN_AEROSPACE_COMPANY#page=319"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "de Moor, E. L., \r\nDenissen, J. J. A., \r\nEmons, W. H. M., \r\nBleidorn, W., \r\nLuhmann, M., \r\nOrth, U., \r\n& Chung, J. M."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": "https://doi.org/10.1037/pspp0000379"}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://psycnet.apa.org/record/2021-02738-002"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Hopwood, C. J., \r\nBleidorn, W., \r\nSchwaba, T.,\r\n& Chen, S."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": "https://doi.org/10.1371/journal.pone.0230609"}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0230609"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "van de Weijer, S."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://www.taylorfrancis.com/chapters/edit/10.4324/9780429460593-4/predictors-cybercrime-victimization-steve-van-de-weijer"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "de Klerk, M., \r\nPlaisier, I.,\r\n& Wagemans, F."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://www.scp.nl/onderwerpen/corona/documenten/publicaties/2020/09/10/welbevinden-ten-tijde-van-corona.-eerste-bevindingen-op-basis-van-een-bevolkingsenquete-uit-juli-2020"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Nordbrandt, M."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": "https://doi.org/10.1177/14614448211044393"}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://journals.sagepub.com/doi/metrics/10.1177/14614448211044393"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "de Klerk, M., \r\nOlsthoorn, M.,\r\nPlaisier, I.,\r\nSchaper, J.,\r\n& Wagemans, F."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://www.scp.nl/publicaties/publicaties/2021/03/03/een-jaar-met-corona"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "van Heerden, S.,\r\n& Ruedin, D."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": "https://doi.org/10.1177/0042098017732692"}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://journals.sagepub.com/doi/10.1177/0042098017732692"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "van Heerden, S., \r\n& Ruedin, D."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": "https://doi.org/10.1177/0042098017732692"}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://journals.sagepub.com/doi/10.1177/0042098017732692"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Erhardt, J., \r\n& Freitag, M."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": "https://doi.org/10.1177/0894439319861966"}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://journals.sagepub.com/doi/10.1177/0894439319861966"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "van der Velden, P. G.,\r\nHyland, P.,\r\nContino, C.,\r\nvon Gaudecker, H. -M.,\r\nMuffels, R.,\r\n& Das, M."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": "https://doi.org/10.1371/journal.pone.0245057"}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0245057"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Kristiansen, M. H."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://dspace.library.uu.nl/handle/1874/400811"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "van Ours, J. C."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": "https://doi.org/10.1080/00036846.2021.1883540"}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://www.tandfonline.com/doi/full/10.1080/00036846.2021.1883540"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Stavrova, O.,\r\n& Denissen, J."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": "https://doi.org/10.1177/1948550620944304"}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://journals.sagepub.com/doi/10.1177/1948550620944304"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Sil Aarts,\r\nSebastiaan T.M. Peek,\r\nEveline J Wouters"}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": "DOI: 10.1002/gps.4241"}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": ""}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Buecker, S.,\r\nDenissen, J. J. A.,\r\n& Luhmann, M."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": "https://doi.org/10.1037/pspp0000373"}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://content.apa.org/record/2020-80026-001"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Schwaba, T.,\r\n& Bleidorn, W."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": "https://doi.org/10.1093/geronb/gbaa073"}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://academic.oup.com/psychsocgerontology/article/76/1/67/5850691"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Langenkamp, A."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": "https://doi.org/10.1111/ssqu.12946"}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://onlinelibrary.wiley.com/doi/full/10.1111/ssqu.12946"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "de Vries, S.,\r\n& de Mooij, S."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": ""}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Been, J.,\r\nSuari-Andreu, E.,\r\nKnoef, M.,\r\n& Alessie, R."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://www.netspar.nl/assets/uploads/P20211011_Netspar-Design-Paper-187-WEB.pdf"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "van der Velden, P. G.,\r\nOudejans, M.,\r\nDas, M.,\r\nBosmans, M. W. G.,\r\n& Maercker, A."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": "https://doi.org/10.1016/j.psychres.2019.05.044"}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://www.sciencedirect.com/science/article/pii/S0165178119305906"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Umer, H."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": "https://doi.org/10.1016/j.socec.2022.101926"}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://www.sciencedirect.com/science/article/pii/S2214804322000982?via%3Dihub"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Schwaba, T.,\r\n& Bleidorn, W."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": "https://doi.org/10.1177/19485506211049657"}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://journals.sagepub.com/doi/abs/10.1177/19485506211049657"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Kuper, N., \r\nKroencke, L., \r\nHarari, G. M., \r\n& Denissen, J. J. A."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": "https://doi.org/10.1037/pspp0000438"}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://psycnet.apa.org/record/2023-14429-001"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Meijeren, M.,\r\nLubbers, M., \r\n& Scheepers, P."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": "https://doi.org/10.1177/08997640221114821"}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://journals.sagepub.com/doi/full/10.1177/08997640221114821"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Langenkamp, A."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": "https://doi.org/10.1177/02654075221144716"}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://journals.sagepub.com/doi/10.1177/02654075221144716"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Toshkov, D., \r\n& Mazepus, H."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": "https://doi.org/10.1177/14789299221124735"}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://journals.sagepub.com/doi/10.1177/14789299221124735"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Boekmanstichting, \r\nHet PON en Telos, \r\nKunstloc Brabant, \r\n& Pyrrhula Research Consultants"}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://www.kunstlocbrabant.nl/kennis-advies/waarde-van-cultuur-2022-39255"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Pyrrhula Research Consultants, \r\nHet PON & Telos,\r\n& Boekmanstichting"}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://www.cultuuroost.nl/cultuurmonitor/"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Kleefstra, R."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": ""}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Lamain, R."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": ""}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Blaauw, M."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": ""}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "van Hoogstraten, J."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": ""}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Bliek, J."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": ""}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Wiels, T."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": ""}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "van Hoogstraten, R."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://studenttheses.uu.nl/handle/20.500.12932/42983"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "van Gils, F."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": "http://doi.org/10.26116/y9bp-2h07"}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://research.tilburguniversity.edu/en/publications/essays-on-social-media-and-democracy"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "V\u00f6ller, M."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "http://essay.utwente.nl/93146/"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Sprekelmeyer, L."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "http://essay.utwente.nl/92042/"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Damian, E.,\r\n& Scheepers, P."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": "https://doi.org/10.31219/osf.io/wbgjr"}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://osf.io/wbgjr"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Hvarfner, K."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1702004&dswid=7026"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "van Gorp, M. T. L."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://theses.ubn.ru.nl/handle/123456789/13601"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "van Rhijn, N."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://studenttheses.uu.nl/handle/20.500.12932/43033"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Gelissen, J."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": "https://doi.org/10.1080/01490400.2018.1536567"}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://www.tandfonline.com/doi/full/10.1080/01490400.2018.1536567"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "van den Berg, T. G. C.,\r\nKroesen, M.,\r\n& Chorus, C. G."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": "https://doi.org/10.3389/fpsyg.2022.817860"}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://www.frontiersin.org/articles/10.3389/fpsyg.2022.817860/full"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Vermeer, S.,\r\nKruikemeier, S., \r\nTrilling, D.,\r\n& de Vreese, C."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": "https://doi.org/10.1080/1461670X.2021.2017790"}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://www.tandfonline.com/doi/full/10.1080/1461670X.2021.2017790"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Caille, P.,\r\nStephan, Y.,\r\nSutin, A. R.,\r\nLuchetti, M.,\r\nCanada, B., \r\nHeraud, N.,\r\n& Terracciano, A."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": "https://doi.org/10.1080/08870446.2022.2092866"}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://www.tandfonline.com/doi/abs/10.1080/08870446.2022.2092866?journalCode=gpsh20"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Bekkers, R.,\r\nvan Teunenbroek, C.,\r\nMaas, S.,\r\nGouwenberg, B.,\r\nde Gilder, D.,\r\nDe Wit, A.,\r\nvan Aken, P.,\r\nWiepking, P.,\r\n& Schuyt, T."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://www.walburgpers.nl/nl/book/9789048556342/geven-in-nederland-2022?redirect=aup"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Roeleven, J. E."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://studenttheses.uu.nl/handle/20.500.12932/40005"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Grimmelikhuijzen, M. R."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://studenttheses.uu.nl/handle/20.500.12932/13719"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Beck, E. D.,\r\n& Jackson, J. J."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": "https://doi.org/10.1037/pspp0000386"}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://psycnet.apa.org/record/2022-31794-002"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Ramaekers, M. J. M., \r\nVerbakel, E., \r\n& Kraaykamp, G."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": "https://doi.org/10.1007/s11266-021-00315-z"}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://ps.psychopen.eu/index.php/ps/article/view/6055"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Huizen, W."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": ""}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Bais, F., \r\nSchouten, B., \r\nLugtig, P., \r\nToepoel, V., \r\nArends-T\u00f3th, J., \r\nDouhou, S., \r\nKieruj, N., \r\nMorren, M., \r\n& Vis, C."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": "https://doi.org/10.1177/0049124117729692"}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://journals.sagepub.com/doi/10.1177/0049124117729692"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Guerra, C.,\r\n& Ingram, R. J."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": "https://doi.org/10.1080/01639625.2020.1774707"}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://www.tandfonline.com/doi/full/10.1080/01639625.2020.1774707"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "de Bresser J., \r\nKnoef, M., \r\n& van Ooijen, R."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": "https://doi.org/10.1016/j.jhealeco.2022.102626"}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://www.sciencedirect.com/science/article/pii/S0167629622000455?via%3Dihub"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Umer, H."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": "http://dx.doi.org/10.2139/ssrn.4007903"}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4007903"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Ren, D., \r\nStavrova, O., \r\n& Loh, W. W."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": "https://doi.org/10.1037/pspi0000373"}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://psycnet.apa.org/doiLanding?doi=10.1037%2Fpspi0000373"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "Umer, H."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": "https://doi.org/10.1007/s10663-022-09557-6"}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://link.springer.com/article/10.1007/s10663-022-09557-6"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "KVB Boekwerk,\r\nStichting Lezen,\r\n& Huysmans, F."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://kvbboekwerk.nl/consumentenonderzoek/hoe-leesgedrag-is-veranderd-door-corona"}}, {"publicationCitation": {"typeName": "publicationCitation", "multiple": false, "typeClass": "primitive", "value": "KVB Boekwerk,\r\nStichting Lezen,\r\n& Huysmans, F."}, "publicationIDNumber": {"typeName": "publicationIDNumber", "multiple": false, "typeClass": "primitive", "value": ""}, "publicationURL": {"typeName": "publicationURL", "multiple": false, "typeClass": "primitive", "value": "https://kvbboekwerk.nl/consumentenonderzoek/meer-nederlanders-lezen-na-coronaperiode-dan-daarvoor"}}]}, {"typeName": "producer", "multiple": true, "typeClass": "compound", "value": []}, {"typeName": "grantNumber", "multiple": true, "typeClass": "compound", "value": []}, {"typeName": "distributor", "multiple": true, "typeClass": "compound", "value": [{"distributorName": {"typeName": "distributorName", "multiple": false, "typeClass": "primitive", "value": "Centerdata"}}]}, {"typeName": "distributionDate", "multiple": false, "typeClass": "primitive", "value": ""}, {"typeName": "dateOfCollection", "multiple": true, "typeClass": "compound", "value": []}]}, "socialscience": {"fields": [{"typeName": "dataCollectionSituation", "multiple": false, "typeClass": "primitive", "value": ""}, {"typeName": "actionsToMinimizeLoss", "multiple": false, "typeClass": "primitive", "value": ""}]}, "variableInformation": {"fields": [{"typeName": "variable", "multiple": true, "typeClass": "compound", "value": []}]}, "questionInformation": {"fields": [{"typeName": "questionSchemeName", "multiple": false, "typeClass": "primitive", "value": ""}, {"typeName": "questionSchemeDescription", "multiple": false, "typeClass": "primitive", "value": ""}, {"typeName": "question", "multiple": true, "typeClass": "compound", "value": []}]}}, "license": "LISS Licence"}}
+{
+  "datasetVersion": {
+    "datasetPersistentId": "",
+    "metadataBlocks": {
+      "citation": {
+        "fields": [
+          {
+            "typeName": "title",
+            "typeClass": "primitive",
+            "multiple": false,
+            "value": "LISS panel > Social Integration and Leisure"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Mara Verheijen (Centerdata)"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactEmail": {
+                  "typeName": "datasetContactEmail",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "portal@odissei.nl"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This questionnaire is part of the LISS Core Study, a longitudinal survey delivering a broad range of social core information about the panel members. \r\nThe survey focuses on social integration and leisure."
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "typeClass": "controlledVocabulary",
+            "multiple": true,
+            "value": [
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": []
+          },
+          {
+            "typeName": "topicClassification",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Communication, language and media"
+                }
+              },
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Leisure, recreation and culture"
+                }
+              },
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Social behavior"
+                }
+              },
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Travel and transport"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Wagemakers, S.\r\nArustei, G.\r\nLoeffen, S."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "G\u00f6ritz, Anja S.\r\nCrutzen, Rik"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "DOI: 10.1177/1098214011421956"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://aje.sagepub.com"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Angelidakis, P."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Kroesen, M.\r\nHandy, S."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://dx.doi.org/10.1016/j.annals.2013.12.006"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://www.sciencedirect.com/science/article/pii/S016073831300162X"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Hendriks, Y."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Sipma, T."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Scherpenzeel, Annette and Toepoel, Vera"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Liempt, A. van,\r\nRooij, P. de,\r\nBastiaansen, M.,\r\nBerg, F. van den,\r\nYang, H.X."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://www.nritmedia.nl/kennisbank/33864"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Ugur, Z.B."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "ISBN: 978 90 5668 365 8"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://pure.uvt.nl/portal/files/1540321/thesis_zeynep_burcu_ugur_11.09.2013.pdf"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Bont, A.W.M. de,\r\nParidaans, S.F.M."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Boer, T. de"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Verkoeijen, E."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vinken, H."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vogelaar, M."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Lucassen, G.,\r\nHollema, J."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Cambier, Myriam"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Van Ingen, Erik,\r\nUtz, Sonja,\r\nToepoel, Vera"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://ssc.sagepub.com/content/34/5/511"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Toepoel, V."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "DOI 10.1007/s11205-012-0097-6"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://link.springer.com/article/10.1007%2Fs11205-012-0097-6?LI=true"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Van Ingen, E.\r\nBekkers, R."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "DOI: 10.1111/pops.12105"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://onlinelibrary.wiley.com/doi/10.1111/pops.12105/abstract"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Boekel, L.C. van,\r\nPeek, S.T.M.,\r\nLuijkx, K.G."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "10.2196/jmir.6853"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://www.jmir.org/2017/5/e180/"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Van Ingen, Erik,\r\nWright, Kevin"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://www.sciencedirect.com/science/article/pii/S0747563216301005"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Bijvoets, J.H.M.\r\nM. Stoffelen"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Eltink, T.\r\nL. de Reuver"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Tros, A.\r\nM. Van Dongen"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Van Ingen, Erik,\r\nWilson, John"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "doi: 10.1177/0899764016659765"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://journals.sagepub.com/doi/abs/10.1177/0899764016659765"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vreugdenhil, J."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Mulders, M.G."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://arno.uvt.nl/show.cgi?fid=114000"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Malkoch, V."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Loog, B.\r\nDohmen, T.\r\nVendrik, M."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://tpedigitaal.nl/assets/static/Loog-Dohmen-Vendrik-4-2011.pdf"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Buser, T."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://www.tinbergen.nl/discussionpaper/?paper=1680"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Brendel, M."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Splinter, M."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Oberski, D.L."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://www.jstatsoft.org/v57/i01"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Van Dijk, A. \r\nZohren, M."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Lamers, S.M.A.\r\nWesterhof, G.J.\r\nBohlmeijer, E.T.\r\nTen Klooster, P.M.\r\nKeyes, C.L.M."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "DOI: 10.1002/jclp.20741"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://onlinelibrary.wiley.com/doi/10.1002/jclp.20741/abstract"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Van den Berg, R. \r\nVan Manen, A."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Van Ingen, E.\r\nVan der Meer, T."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "doi: 10.1007/s11109-015-9307-7"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://link.springer.com/article/10.1007/s11109-015-9307-7"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Dierckx, A.\r\nLi, H."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Cuelenaere, B.,\r\nKieruj, N.,\r\nLange, A. de,\r\nDetaille, S."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "-"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://link.springer.com/article/10.1007/s40718-018-0021-5"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Reinwand, D.A.,\r\nCrutzen, R.,\r\nZank, S."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1177/2055207618779715"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://journals.sagepub.com/doi/full/10.1177/2055207618779715"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Pijnappel, B."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Weijters, K."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "van der Velden, P. G., \r\nSetti, I., \r\nvan der Meulen, E., \r\n& Das, M."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1016/j.chb.2018.11.047"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.sciencedirect.com/science/article/pii/S074756321830582X"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Weiss, L. A.,\r\nOude Voshaar, M. A. H.,\r\nBohlmeijer, E. T.,\r\n& Westerhof, G. J."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1186/s12955-020-01416-x"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://hqlo.biomedcentral.com/articles/10.1186/s12955-020-01416-x"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Boffi, G."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.universiteitleiden.nl/binaries/content/assets/rechtsgeleerdheid/fiscaal-en-economische-vakken/economie/rm_2020_01.pdf"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Huibregtse, O., \r\n& Knoope, M."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.kimnet.nl/publicaties/brochures/2020/05/25/de-mobiliteit-bij-vakanties-naar-het-buitenland"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Verweij, R.,\r\nMills, M.,\r\nSnieder, H.,\r\n& Stulp, G."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.4054/DemRes.2020.43.23"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.demographic-research.org/volumes/vol43/23/"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "de Wit, A., \r\nQu, E. H., \r\n& Bekkers, R."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://osf.io/qgeh9/"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Goldbach, K."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Mund, M.,\r\nL\u00fcdtke, O.,\r\n& Neyer, F. J."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://dx.doi.org/10.1037/pspp0000262"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.apa.org/doiLanding?doi=10.1037%2Fpspp0000262"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Bos\u00eenceanu, A."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.researchgate.net/publication/340503906_VALUE_CREATION_IN_PROJECT_MANAGEMENT_THE_EFFECT_OF_PROJECT_LIFECYCLE_MANAGEMENT_PLM_MEASURES_IN_AN_AEROSPACE_COMPANY#page=319"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "de Moor, E. L., \r\nDenissen, J. J. A., \r\nEmons, W. H. M., \r\nBleidorn, W., \r\nLuhmann, M., \r\nOrth, U., \r\n& Chung, J. M."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1037/pspp0000379"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://psycnet.apa.org/record/2021-02738-002"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Hopwood, C. J., \r\nBleidorn, W., \r\nSchwaba, T.,\r\n& Chen, S."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1371/journal.pone.0230609"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0230609"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "van de Weijer, S."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.taylorfrancis.com/chapters/edit/10.4324/9780429460593-4/predictors-cybercrime-victimization-steve-van-de-weijer"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "de Klerk, M., \r\nPlaisier, I.,\r\n& Wagemans, F."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.scp.nl/onderwerpen/corona/documenten/publicaties/2020/09/10/welbevinden-ten-tijde-van-corona.-eerste-bevindingen-op-basis-van-een-bevolkingsenquete-uit-juli-2020"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Nordbrandt, M."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1177/14614448211044393"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://journals.sagepub.com/doi/metrics/10.1177/14614448211044393"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "de Klerk, M., \r\nOlsthoorn, M.,\r\nPlaisier, I.,\r\nSchaper, J.,\r\n& Wagemans, F."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.scp.nl/publicaties/publicaties/2021/03/03/een-jaar-met-corona"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "van Heerden, S.,\r\n& Ruedin, D."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1177/0042098017732692"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://journals.sagepub.com/doi/10.1177/0042098017732692"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "van Heerden, S., \r\n& Ruedin, D."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1177/0042098017732692"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://journals.sagepub.com/doi/10.1177/0042098017732692"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Erhardt, J., \r\n& Freitag, M."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1177/0894439319861966"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://journals.sagepub.com/doi/10.1177/0894439319861966"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "van der Velden, P. G.,\r\nHyland, P.,\r\nContino, C.,\r\nvon Gaudecker, H. -M.,\r\nMuffels, R.,\r\n& Das, M."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1371/journal.pone.0245057"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0245057"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Kristiansen, M. H."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://dspace.library.uu.nl/handle/1874/400811"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "van Ours, J. C."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1080/00036846.2021.1883540"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.tandfonline.com/doi/full/10.1080/00036846.2021.1883540"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Stavrova, O.,\r\n& Denissen, J."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1177/1948550620944304"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://journals.sagepub.com/doi/10.1177/1948550620944304"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Sil Aarts,\r\nSebastiaan T.M. Peek,\r\nEveline J Wouters"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "DOI: 10.1002/gps.4241"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Buecker, S.,\r\nDenissen, J. J. A.,\r\n& Luhmann, M."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1037/pspp0000373"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://content.apa.org/record/2020-80026-001"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Schwaba, T.,\r\n& Bleidorn, W."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1093/geronb/gbaa073"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://academic.oup.com/psychsocgerontology/article/76/1/67/5850691"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Langenkamp, A."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1111/ssqu.12946"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://onlinelibrary.wiley.com/doi/full/10.1111/ssqu.12946"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "de Vries, S.,\r\n& de Mooij, S."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Been, J.,\r\nSuari-Andreu, E.,\r\nKnoef, M.,\r\n& Alessie, R."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.netspar.nl/assets/uploads/P20211011_Netspar-Design-Paper-187-WEB.pdf"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "van der Velden, P. G.,\r\nOudejans, M.,\r\nDas, M.,\r\nBosmans, M. W. G.,\r\n& Maercker, A."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1016/j.psychres.2019.05.044"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.sciencedirect.com/science/article/pii/S0165178119305906"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Umer, H."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1016/j.socec.2022.101926"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.sciencedirect.com/science/article/pii/S2214804322000982?via%3Dihub"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Schwaba, T.,\r\n& Bleidorn, W."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1177/19485506211049657"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://journals.sagepub.com/doi/abs/10.1177/19485506211049657"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Kuper, N., \r\nKroencke, L., \r\nHarari, G. M., \r\n& Denissen, J. J. A."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1037/pspp0000438"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://psycnet.apa.org/record/2023-14429-001"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Meijeren, M.,\r\nLubbers, M., \r\n& Scheepers, P."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1177/08997640221114821"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://journals.sagepub.com/doi/full/10.1177/08997640221114821"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Langenkamp, A."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1177/02654075221144716"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://journals.sagepub.com/doi/10.1177/02654075221144716"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Toshkov, D., \r\n& Mazepus, H."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1177/14789299221124735"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://journals.sagepub.com/doi/10.1177/14789299221124735"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Boekmanstichting, \r\nHet PON en Telos, \r\nKunstloc Brabant, \r\n& Pyrrhula Research Consultants"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.kunstlocbrabant.nl/kennis-advies/waarde-van-cultuur-2022-39255"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Pyrrhula Research Consultants, \r\nHet PON & Telos,\r\n& Boekmanstichting"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.cultuuroost.nl/cultuurmonitor/"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Kleefstra, R."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Lamain, R."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Blaauw, M."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "van Hoogstraten, J."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Bliek, J."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Wiels, T."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "van Hoogstraten, R."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://studenttheses.uu.nl/handle/20.500.12932/42983"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "van Gils, F."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://doi.org/10.26116/y9bp-2h07"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://research.tilburguniversity.edu/en/publications/essays-on-social-media-and-democracy"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "V\u00f6ller, M."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://essay.utwente.nl/93146/"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Sprekelmeyer, L."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://essay.utwente.nl/92042/"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Damian, E.,\r\n& Scheepers, P."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.31219/osf.io/wbgjr"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://osf.io/wbgjr"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Hvarfner, K."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1702004&dswid=7026"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "van Gorp, M. T. L."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://theses.ubn.ru.nl/handle/123456789/13601"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "van Rhijn, N."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://studenttheses.uu.nl/handle/20.500.12932/43033"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Gelissen, J."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1080/01490400.2018.1536567"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.tandfonline.com/doi/full/10.1080/01490400.2018.1536567"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "van den Berg, T. G. C.,\r\nKroesen, M.,\r\n& Chorus, C. G."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.3389/fpsyg.2022.817860"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.frontiersin.org/articles/10.3389/fpsyg.2022.817860/full"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vermeer, S.,\r\nKruikemeier, S., \r\nTrilling, D.,\r\n& de Vreese, C."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1080/1461670X.2021.2017790"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.tandfonline.com/doi/full/10.1080/1461670X.2021.2017790"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Caille, P.,\r\nStephan, Y.,\r\nSutin, A. R.,\r\nLuchetti, M.,\r\nCanada, B., \r\nHeraud, N.,\r\n& Terracciano, A."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1080/08870446.2022.2092866"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.tandfonline.com/doi/abs/10.1080/08870446.2022.2092866?journalCode=gpsh20"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Bekkers, R.,\r\nvan Teunenbroek, C.,\r\nMaas, S.,\r\nGouwenberg, B.,\r\nde Gilder, D.,\r\nDe Wit, A.,\r\nvan Aken, P.,\r\nWiepking, P.,\r\n& Schuyt, T."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.walburgpers.nl/nl/book/9789048556342/geven-in-nederland-2022?redirect=aup"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Roeleven, J. E."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://studenttheses.uu.nl/handle/20.500.12932/40005"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Grimmelikhuijzen, M. R."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://studenttheses.uu.nl/handle/20.500.12932/13719"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Beck, E. D.,\r\n& Jackson, J. J."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1037/pspp0000386"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://psycnet.apa.org/record/2022-31794-002"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Ramaekers, M. J. M., \r\nVerbakel, E., \r\n& Kraaykamp, G."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1007/s11266-021-00315-z"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ps.psychopen.eu/index.php/ps/article/view/6055"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Huizen, W."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Bais, F., \r\nSchouten, B., \r\nLugtig, P., \r\nToepoel, V., \r\nArends-T\u00f3th, J., \r\nDouhou, S., \r\nKieruj, N., \r\nMorren, M., \r\n& Vis, C."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1177/0049124117729692"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://journals.sagepub.com/doi/10.1177/0049124117729692"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Guerra, C.,\r\n& Ingram, R. J."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1080/01639625.2020.1774707"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.tandfonline.com/doi/full/10.1080/01639625.2020.1774707"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "de Bresser J., \r\nKnoef, M., \r\n& van Ooijen, R."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1016/j.jhealeco.2022.102626"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.sciencedirect.com/science/article/pii/S0167629622000455?via%3Dihub"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Umer, H."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://dx.doi.org/10.2139/ssrn.4007903"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4007903"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Ren, D., \r\nStavrova, O., \r\n& Loh, W. W."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1037/pspi0000373"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://psycnet.apa.org/doiLanding?doi=10.1037%2Fpspi0000373"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Umer, H."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1007/s10663-022-09557-6"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://link.springer.com/article/10.1007/s10663-022-09557-6"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "KVB Boekwerk,\r\nStichting Lezen,\r\n& Huysmans, F."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://kvbboekwerk.nl/consumentenonderzoek/hoe-leesgedrag-is-veranderd-door-corona"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "KVB Boekwerk,\r\nStichting Lezen,\r\n& Huysmans, F."
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://kvbboekwerk.nl/consumentenonderzoek/meer-nederlanders-lezen-na-coronaperiode-dan-daarvoor"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "producer",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": []
+          },
+          {
+            "typeName": "grantNumber",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": []
+          },
+          {
+            "typeName": "distributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "distributorName": {
+                  "typeName": "distributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Centerdata"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "distributionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2009-01-05"
+          },
+          {
+            "typeName": "dateOfCollection",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": []
+          }
+        ]
+      },
+      "socialscience": {
+        "fields": [
+          {
+            "typeName": "dataCollectionSituation",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": ""
+          },
+          {
+            "typeName": "actionsToMinimizeLoss",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": ""
+          }
+        ]
+      },
+      "variableInformation": {
+        "fields": [
+          {
+            "typeName": "variable",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": []
+          }
+        ]
+      },
+      "questionInformation": {
+        "fields": [
+          {
+            "typeName": "questionSchemeName",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": ""
+          },
+          {
+            "typeName": "questionSchemeDescription",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": ""
+          },
+          {
+            "typeName": "question",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": []
+          }
+        ]
+      }
+    },
+    "license": "LISS Licence"
+  }
+}

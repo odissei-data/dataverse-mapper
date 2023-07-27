@@ -9,7 +9,7 @@
   "publication": {
     "mapping": "publications[*]",
     "children": {
-      "publicationCitation": ["[creator,title,publication_year,publisher,source]"],
+      "publicationCitation": ["title"],
       "publicationIDNumber": ["intl_identifier"],
       "publicationURL": ["url"]
     }
@@ -36,5 +36,6 @@
       "questionName": ["name"],
       "questionText": ["question_text"]
     }
-  }
+  },
+  "distributionDate": ["created"]
 }
