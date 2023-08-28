@@ -1,1062 +1,2442 @@
 {
-  "id": "6",
-  "title": "LISS panel > Social Integration and Leisure",
-  "creator": "Mara Verheijen (Centerdata)",
+  "id": "721",
+  "title": "LISS panel > Social Integration and Leisure > Wave 10",
+  "creator": "Joris Mulder (Centerdata)",
   "publisher": "Centerdata",
-  "copyright": "© 2022 Centerdata",
-  "abstract": "This questionnaire is part of the LISS Core Study, a longitudinal survey delivering a broad range of social core information about the panel members. \r\nThe survey focuses on social integration and leisure.",
-  "DOI": "https:\/\/doi.org\/10.17026\/dans-zaf-casa",
-  "created": "2009-01-05",
-  "longitudinal_type": "Longitudinal Study",
+  "copyright": "\u00a9 2022 Centerdata",
+  "abstract": "This is the tenth wave of the LISS Core Study module called 'Social Integration and Leisure'",
+  "begin_date": "2017-10-02",
+  "end_date": "2017-11-28",
+  "DOI": "https://doi.org/10.17026/dans-zaf-casa",
+  "created": "2018-04-03",
+  "longitudinal_type": "Longitudinal Wave",
   "panel": "LISS panel",
-  "children": [
+  "parent": {
+    "id": 6,
+    "title": "LISS panel > Social Integration and Leisure"
+  },
+  "funding_organizations": [
+    "NWO"
+  ],
+  "collection_events": [
     {
-      "id": 7,
-      "title": "LISS panel > Social Integration and Leisure > Wave 1"
+      "start_date": "2017-10-02",
+      "end_date": "2017-10-31",
+      "mode": "internet survey",
+      "minimize_losses": "A reminder was twice sent to non-respondents.",
+      "selection": "panel members aged 16 years and older"
     },
     {
-      "id": 47,
-      "title": "LISS panel > Social Integration and Leisure > Wave 2"
-    },
-    {
-      "id": 112,
-      "title": "LISS panel > Social Integration and Leisure > Wave 3"
-    },
-    {
-      "id": 221,
-      "title": "LISS panel > Social Integration and Leisure > Wave 4"
-    },
-    {
-      "id": 286,
-      "title": "LISS panel > Social Integration and Leisure > Wave 5"
-    },
-    {
-      "id": 479,
-      "title": "LISS panel > Social Integration and Leisure > Wave 6"
-    },
-    {
-      "id": 563,
-      "title": "LISS panel > Social Integration and Leisure > Wave 7"
-    },
-    {
-      "id": 644,
-      "title": "LISS panel > Social Integration and Leisure > Wave 8"
-    },
-    {
-      "id": 672,
-      "title": "LISS panel > Social Integration and Leisure > Wave 9"
-    },
-    {
-      "id": 721,
-      "title": "LISS panel > Social Integration and Leisure > Wave 10"
-    },
-    {
-      "id": 905,
-      "title": "LISS panel > Social Integration and Leisure > Wave 11"
-    },
-    {
-      "id": 993,
-      "title": "LISS panel > Social Integration and Leisure > Wave 12"
-    },
-    {
-      "id": 1043,
-      "title": "LISS panel > Social Integration and Leisure > Wave 13"
-    },
-    {
-      "id": 1189,
-      "title": "LISS panel > Social Integration and Leisure > Wave 14"
-    },
-    {
-      "id": 1363,
-      "title": "LISS panel > Social Integration and Leisure > Wave 15"
+      "start_date": "2017-11-06",
+      "end_date": "2017-11-28",
+      "mode": "internet survey",
+      "minimize_losses": "A reminder was twice sent to non-respondents.",
+      "selection": "Non-respondents of the first measurement"
     }
   ],
-  "topics": [
-    "Communication, language and media",
-    "Leisure, recreation and culture",
-    "Social behavior",
-    "Travel and transport"
-  ],
-  "publications": [
-    {
-      "id": 26,
-      "publication_year": "2010",
-      "title": "The influence of economic and cultural capital on drinking behavior",
-      "creator": "Wagemakers, S.\r\nArustei, G.\r\nLoeffen, S.",
-      "source": "Working paper"
-    },
-    {
-      "id": 140,
-      "publication_year": "2012",
-      "title": "Reminders in Web-Based Data Collection : Increasing Response at the Price of retention?",
-      "creator": "G\u00f6ritz, Anja S.\r\nCrutzen, Rik",
-      "publisher": "sagepub",
-      "intl_identifier": "DOI: 10.1177\/1098214011421956",
-      "source": "American Journal of Evaluation, 33(2), 240-250",
-      "url": "http:\/\/aje.sagepub.com"
-    },
-    {
-      "id": 339,
-      "publication_year": "2012",
-      "title": "Computer crime victimization: Role of security software and online behavior",
-      "creator": "Angelidakis, P.",
-      "source": "Master thesis, Economics, Tilburg University"
-    },
-    {
-      "id": 290,
-      "publication_year": "2014",
-      "title": "The influence of holiday-taking on affect and contentment",
-      "creator": "Kroesen, M.\r\nHandy, S.",
-      "intl_identifier": "http:\/\/dx.doi.org\/10.1016\/j.annals.2013.12.006",
-      "source": "Annals of Tourism Research, Volume 45, Pages 89-101",
-      "url": "http:\/\/www.sciencedirect.com\/science\/article\/pii\/S016073831300162X"
-    },
-    {
-      "id": 371,
-      "publication_year": "2014",
-      "title": "The Impact of Non-Coverage in Web Surveys",
-      "creator": "Hendriks, Y.",
-      "source": "Faculty of Social Sciences, Psychology, Utrecht University"
-    },
-    {
-      "id": 382,
-      "publication_year": "2014",
-      "title": "Dynamics in the radical right\u2019s electorate",
-      "subtitle": "study towards the effects of attitudes and social network\u2019s sympathy with the PVV on the changes in voting PVV in the Netherlands from 2008 to 2013",
-      "creator": "Sipma, T.",
-      "source": "Radboud University Nijmegen, Research Master Social Cultural Science"
-    },
-    {
-      "id": 390,
-      "publication_year": "2014",
-      "title": "Informing panel members about study results: effects of traditional and innovative forms of feedback on participation",
-      "creator": "Scherpenzeel, Annette and Toepoel, Vera",
-      "publisher": "Wiley",
-      "source": "In: M. Callegaro, R. Baker, J. Bethlehem, A. S. G\u00f6ritz, J. A. Krosnick and P. J. Lavrakas (Eds.). Online Panel Research: An Interdisciplinary Approach. Wiley."
-    },
-    {
-      "id": 392,
-      "publication_year": "2014",
-      "title": "De mythe van de linkse hobby",
-      "subtitle": "Over het subsidi\u00ebren van podiumkunsten en politieke voorkeur",
-      "creator": "Liempt, A. van,\r\nRooij, P. de,\r\nBastiaansen, M.,\r\nBerg, F. van den,\r\nYang, H.X.",
-      "publisher": "NRIT Media",
-      "source": "Vrijetijdstudies nummer 3, jaargang 32, 2014, pagina 21-35",
-      "url": "http:\/\/www.nritmedia.nl\/kennisbank\/33864"
-    },
-    {
-      "id": 401,
-      "publication_year": "2013",
-      "title": "From Headscarves to Donation",
-      "subtitle": "Three Essays on the Economics of Gender, Health and Happiness",
-      "creator": "Ugur, Z.B.",
-      "publisher": "CentER Dissertation Series",
-      "intl_identifier": "ISBN: 978 90 5668 365 8",
-      "url": "https:\/\/pure.uvt.nl\/portal\/files\/1540321\/thesis_zeynep_burcu_ugur_11.09.2013.pdf"
-    },
-    {
-      "id": 402,
-      "publication_year": "2012",
-      "title": "Musicals",
-      "subtitle": "A story about their visitors",
-      "creator": "Bont, A.W.M. de,\r\nParidaans, S.F.M.",
-      "source": "Tilburg University - Department of Leisure Studies"
-    },
-    {
-      "id": 444,
-      "publication_year": "2015",
-      "title": "De Politieke Macht van de Culturele Elite",
-      "creator": "Boer, T. de",
-      "source": "Utrechtse School voor Bestuurs- en Organisatiewetenschap, Universiteit Utrecht"
-    },
-    {
-      "id": 450,
-      "publication_year": "2015",
-      "title": "Does house lock hurt?",
-      "subtitle": "The effect on relationship dissolution, health, mobility and consumption of Dutch households",
-      "creator": "Verkoeijen, E.",
-      "source": "Tilburg University, Economics"
-    },
-    {
-      "id": 449,
-      "publication_year": "2015",
-      "title": "Cultuur in Noord-Brabant. Een benchmark",
-      "creator": "Vinken, H.",
-      "publisher": "bkkc brabants kenniscentrum kunst en cultuur,\r\nKunstbalie,\r\nErfgoed Brabant,\r\nDe Kunst van Brabant",
-      "source": "Pyrrhula Research Consultants, in opdracht van \r\nbkkc brabants kenniscentrum kunst en cultuur,\r\nKunstbalie,\r\nErfgoed Brabant,\r\nDe Kunst van Brabant"
-    },
-    {
-      "id": 456,
-      "publication_year": "2015",
-      "title": "Smartphone and tablet use among survey participants: a stepwise model",
-      "creator": "Vogelaar, M.",
-      "source": "Utrecht University"
-    },
-    {
-      "id": 506,
-      "publication_year": "2016",
-      "title": "The effect of the individual's household composition on leisure satisfaction",
-      "creator": "Lucassen, G.,\r\nHollema, J.",
-      "source": "NHTV University of Applied Sciences, Breda"
-    },
-    {
-      "id": 513,
-      "publication_year": "2016",
-      "title": "Determinanten der Teilnahme von Privatinvestoren am Aktienmarkt",
-      "creator": "Cambier, Myriam",
-      "source": "Institut f\u00fcr Banken und Finanzierung, Leibniz Universit\u00e4t Hannover"
-    },
-    {
-      "id": 514,
-      "publication_year": "2016",
-      "title": "Online Coping After Negative Life Events: Measurement, Prevalence, and Relation With Internet Activities and Well-Being",
-      "creator": "Van Ingen, Erik,\r\nUtz, Sonja,\r\nToepoel, Vera",
-      "source": "Social Science Computer Review, 34(5), 511-529.",
-      "url": "http:\/\/ssc.sagepub.com\/content\/34\/5\/511"
-    },
-    {
-      "id": 152,
-      "publication_year": "2012",
-      "title": "Ageing, Leisure, and Social Connectedness: How could Leisure Help Reduce Social Isolation of Older People?",
-      "creator": "Toepoel, V.",
-      "publisher": "Springer",
-      "intl_identifier": "DOI 10.1007\/s11205-012-0097-6",
-      "source": "Social Indicators Research, 113; 355-372",
-      "url": "http:\/\/link.springer.com\/article\/10.1007%2Fs11205-012-0097-6?LI=true"
-    },
-    {
-      "id": 319,
-      "publication_year": "2013",
-      "title": "Generalized Trust Through Civic Engagement?",
-      "subtitle": "Evidence from Five National Panel Studies",
-      "creator": "Van Ingen, E.\r\nBekkers, R.",
-      "publisher": "Wiley Online",
-      "intl_identifier": "DOI: 10.1111\/pops.12105",
-      "source": "Political Psychology, 36(3)",
-      "url": "http:\/\/onlinelibrary.wiley.com\/doi\/10.1111\/pops.12105\/abstract"
-    },
-    {
-      "id": 587,
-      "publication_year": "2017",
-      "title": "Diversity in Older Adults\u2019 Use of the Internet: Identifying Subgroups Through Latent Class Analysis",
-      "creator": "Boekel, L.C. van,\r\nPeek, S.T.M.,\r\nLuijkx, K.G.",
-      "publisher": "JMIR Publications",
-      "intl_identifier": "10.2196\/jmir.6853",
-      "source": "Journal of Medical Internet Research (2017), 19(5), e180, 1-11",
-      "url": "http:\/\/www.jmir.org\/2017\/5\/e180\/"
-    },
-    {
-      "id": 515,
-      "publication_year": "2016",
-      "title": "Predictors of Mobilizing Online Coping versus Offline Coping Resources after Negative Life Events",
-      "creator": "Van Ingen, Erik,\r\nWright, Kevin",
-      "source": "Computers in Human Behavior, 59, 431-439",
-      "url": "http:\/\/www.sciencedirect.com\/science\/article\/pii\/S0747563216301005"
-    },
-    {
-      "id": 405,
-      "publication_year": "2009",
-      "title": "Wat is 'fun' voor de funshopper?",
-      "subtitle": "Smaakpatronen in de vrijetijd met betrekking tot de funshopper",
-      "creator": "Bijvoets, J.H.M.\r\nM. Stoffelen",
-      "source": "Bachelor thesis, Department of Leisure Studies, Tilburg University"
-    },
-    {
-      "id": 404,
-      "publication_year": "2009",
-      "title": "De Sportvrijwilliger: D\u00e1t is pas sportief",
-      "subtitle": "Een onderzoek naar de smaakpatronen van vrijwilligers binnen sportverenigingen",
-      "creator": "Eltink, T.\r\nL. de Reuver",
-      "source": "Bachelor thesis, Department of Leisure Studies, Tilburg University"
-    },
-    {
-      "id": 406,
-      "publication_year": "2010",
-      "title": "What do you do when you are satisfied?",
-      "subtitle": "The influence of life satisfaction on taste patterns",
-      "creator": "Tros, A.\r\nM. Van Dongen",
-      "source": "Bachelor thesis, Department of Leisure Studies, Tilburg University"
-    },
-    {
-      "id": 516,
-      "publication_year": "2016",
-      "title": "I Volunteer, Therefore I am? Factors Affecting Volunteer Role Identity",
-      "creator": "Van Ingen, Erik,\r\nWilson, John",
-      "intl_identifier": "doi: 10.1177\/0899764016659765",
-      "source": "Nonprofit and Voluntary Sector Quarterly (2016), 46(1), 29-46",
-      "url": "http:\/\/journals.sagepub.com\/doi\/abs\/10.1177\/0899764016659765"
-    },
-    {
-      "id": 607,
-      "publication_year": "2017",
-      "title": "Are social media users different?",
-      "creator": "Vreugdenhil, J.",
-      "source": "Erasmus School of Economics, Department of Applied Economics"
-    },
-    {
-      "id": 25,
-      "publication_year": "2010",
-      "title": "Cultural participation and social capital",
-      "creator": "Mulders, M.G.",
-      "source": "Master thesis, Department of Leisure Studies, Tilburg University",
-      "url": "http:\/\/arno.uvt.nl\/show.cgi?fid=114000"
-    },
-    {
-      "id": 27,
-      "publication_year": "2010",
-      "title": "Building social capital and voluntary work. Investigating the relationship between voluntary work and social capital",
-      "creator": "Malkoch, V.",
-      "source": "Master thesis, Department of Leisure Studies, Tilburg University"
-    },
-    {
-      "id": 132,
-      "publication_year": "2011",
-      "title": "Meer of minder werken: Heterogeniteit onder werkende vrouwen",
-      "creator": "Loog, B.\r\nDohmen, T.\r\nVendrik, M.",
-      "source": "TPEdigitaal, 5(4), pp. 50-63",
-      "url": "http:\/\/tpedigitaal.nl\/assets\/static\/Loog-Dohmen-Vendrik-4-2011.pdf"
-    },
-    {
-      "id": 75,
-      "publication_year": "2010",
-      "title": "Handedness predicts social preferences evidence connecting the lab to the field",
-      "creator": "Buser, T.",
-      "publisher": "University of Amsterdam & Tinbergen Institute",
-      "source": "Tinbergen Institute, Discussion Paper No. 119\/3",
-      "url": "http:\/\/www.tinbergen.nl\/discussionpaper\/?paper=1680"
-    },
-    {
-      "id": 196,
-      "publication_year": "2012",
-      "title": "Coverage-bias in internetpanels",
-      "creator": "Brendel, M.",
-      "source": "Master thesis, Institute for Statistics, Ludwig-Maximilians-Universit\u00e4t M\u00fcnchen"
-    },
-    {
-      "id": 376,
-      "publication_year": "2014",
-      "title": "Levenstevredenheid na pensionering",
-      "subtitle": "Effecten van productieve en consumptieve activiteiten",
-      "creator": "Splinter, M.",
-      "source": "Bachelor thesis, Department of Sociology, University of Amsterdam"
-    },
-    {
-      "id": 294,
-      "publication_year": "2014",
-      "title": "lavaan.survey: An R Package for Complex Survey Analysis of Structural Equation Models",
-      "creator": "Oberski, D.L.",
-      "publisher": "the Foundation for Open Access Statistics",
-      "source": "Journal of Statistical Software, 57(1), pp. 1-27",
-      "url": "http:\/\/www.jstatsoft.org\/v57\/i01"
-    },
-    {
-      "id": 408,
-      "publication_year": "2014",
-      "title": "Guilty pLEISUREs - How an unhealthy diet influences leisure",
-      "creator": "Van Dijk, A. \r\nZohren, M.",
-      "source": "Bachelor thesis, International Leisure Studies, Breda University of Applied Sciences"
-    },
-    {
-      "id": 49,
-      "publication_year": "2011",
-      "title": "Evaluating the Psychometric Properties of the Mental Health Continuum-Short Form (MHC-SF)",
-      "creator": "Lamers, S.M.A.\r\nWesterhof, G.J.\r\nBohlmeijer, E.T.\r\nTen Klooster, P.M.\r\nKeyes, C.L.M.",
-      "publisher": "Wiley Periodicals",
-      "intl_identifier": "DOI: 10.1002\/jclp.20741",
-      "source": "Journal of Clinical Psychology, 67(1), pp. 99-110",
-      "url": "http:\/\/onlinelibrary.wiley.com\/doi\/10.1002\/jclp.20741\/abstract"
-    },
-    {
-      "id": 407,
-      "publication_year": "2012",
-      "title": "Volunteers: More social during leisure time?",
-      "creator": "Van den Berg, R. \r\nVan Manen, A.",
-      "source": "Bachelor thesis, Department of Leisure Studies, Tilburg University"
-    },
-    {
-      "id": 432,
-      "publication_year": "2016",
-      "title": "Schools or Pools of Democracy? A Longitudinal Test of the Relation Between Civic Participation and Political Socialization",
-      "creator": "Van Ingen, E.\r\nVan der Meer, T.",
-      "intl_identifier": "doi: 10.1007\/s11109-015-9307-7",
-      "source": "Political Behavior, 38(1), pp. 81-103",
-      "url": "http:\/\/link.springer.com\/article\/10.1007\/s11109-015-9307-7"
-    },
-    {
-      "id": 403,
-      "publication_year": "2012",
-      "title": "The taste patterns of rock listeners",
-      "subtitle": "A quantitative study on the leisure preferences of people who listen to rock music",
-      "creator": "Dierckx, A.\r\nLi, H.",
-      "source": "Bachelor thesis, School of Social and Behavioural Sciences, Tilburg University"
-    },
-    {
-      "id": 629,
-      "publication_year": "2018",
-      "title": "Langdurige werkloosheid onder 50-plussers: feiten en mogelijke oplossingen?",
-      "subtitle": "-",
-      "creator": "Cuelenaere, B.,\r\nKieruj, N.,\r\nLange, A. de,\r\nDetaille, S.",
-      "publisher": "Bohn Stafleu van Loghum",
-      "intl_identifier": "-",
-      "source": "Ger\u00f3n (2018), 20(1), 63-67",
-      "url": "https:\/\/link.springer.com\/article\/10.1007\/s40718-018-0021-5"
-    },
-    {
-      "id": 633,
-      "publication_year": "2018",
-      "title": "Online activities among elder informal caregivers: results from a cross-sectional study",
-      "creator": "Reinwand, D.A.,\r\nCrutzen, R.,\r\nZank, S.",
-      "publisher": "SAGE Publications",
-      "intl_identifier": "https:\/\/doi.org\/10.1177\/2055207618779715",
-      "source": "Digital Health, first published online June 5, 2018",
-      "url": "http:\/\/journals.sagepub.com\/doi\/full\/10.1177\/2055207618779715"
-    },
-    {
-      "id": 935,
-      "publication_year": "2016",
-      "title": "The impact of pre-event and trauma related factors on post-event perceived loneliness",
-      "creator": "Pijnappel, B.",
-      "source": "Tilburg University, Victimology and Criminal Justice"
-    },
-    {
-      "id": 620,
-      "publication_year": "2017",
-      "title": "Exposure to potentially traumatic events, physical and emotional disabilities, mental health and their effect on media usage",
-      "creator": "Weijters, K.",
-      "source": "Tilburg University"
-    },
-    {
-      "id": 829,
-      "publication_year": "2019",
-      "title": "Does social networking sites use predict mental health and sleep problems when prior problems and loneliness are taken into account? A population-based prospective study",
-      "creator": "van der Velden, P. G., \r\nSetti, I., \r\nvan der Meulen, E., \r\n& Das, M.",
-      "publisher": "Elsevier",
-      "intl_identifier": "https:\/\/doi.org\/10.1016\/j.chb.2018.11.047",
-      "source": "Computers in Human Behavior, 93, 200-209",
-      "url": "https:\/\/www.sciencedirect.com\/science\/article\/pii\/S074756321830582X"
-    },
-    {
-      "id": 1163,
-      "publication_year": "2020",
-      "title": "The long and winding road to happiness: A randomized controlled trial and cost-effectiveness analysis of a positive psychology intervention for lonely people with health problems and a low socio-economic status",
-      "creator": "Weiss, L. A.,\r\nOude Voshaar, M. A. H.,\r\nBohlmeijer, E. T.,\r\n& Westerhof, G. J.",
-      "publisher": "BioMed Central",
-      "intl_identifier": "https:\/\/doi.org\/10.1186\/s12955-020-01416-x",
-      "source": "Health Qual Life Outcomes, 18(162), 1-17",
-      "url": "https:\/\/hqlo.biomedcentral.com\/articles\/10.1186\/s12955-020-01416-x"
-    },
-    {
-      "id": 1225,
-      "publication_year": "2020",
-      "title": "Temporary employment of first-generation migrants in the Netherlands",
-      "creator": "Boffi, G.",
-      "source": "Leiden University",
-      "url": "https:\/\/www.universiteitleiden.nl\/binaries\/content\/assets\/rechtsgeleerdheid\/fiscaal-en-economische-vakken\/economie\/rm_2020_01.pdf"
-    },
-    {
-      "id": 1269,
-      "publication_year": "2020",
-      "title": "De mobiliteit bij vakanties naar het buitenland",
-      "creator": "Huibregtse, O., \r\n& Knoope, M.",
-      "publisher": "Kennisinstituut voor Mobiliteitsbeleid",
-      "source": "Kennisinstituut voor Mobiliteitsbeleid, May 25, 2020",
-      "url": "https:\/\/www.kimnet.nl\/publicaties\/brochures\/2020\/05\/25\/de-mobiliteit-bij-vakanties-naar-het-buitenland"
-    },
-    {
-      "id": 1273,
-      "publication_year": "2020",
-      "title": "Three facets of planning and postponement of parenthood in the Netherlands",
-      "creator": "Verweij, R.,\r\nMills, M.,\r\nSnieder, H.,\r\n& Stulp, G.",
-      "publisher": "Demographic Research",
-      "intl_identifier": "https:\/\/doi.org\/10.4054\/DemRes.2020.43.23",
-      "source": "Demographic Research, 43(23), 659\u2013672",
-      "url": "https:\/\/www.demographic-research.org\/volumes\/vol43\/23\/"
-    },
-    {
-      "id": 1281,
-      "publication_year": "2020",
-      "title": "The health advantage of volunteers in Europe is larger for the elderly and the less healthy",
-      "creator": "de Wit, A., \r\nQu, E. H., \r\n& Bekkers, R.",
-      "source": "Working paper, first published online November 12, 2020",
-      "url": "https:\/\/osf.io\/qgeh9\/"
-    },
-    {
-      "id": 1289,
-      "publication_year": "2020",
-      "title": "Prosozialit\u00e4t und empathie als pr\u00e4diktoren von gesundheitsverhalten w\u00e4hrend der COVID-19 pandemie",
-      "subtitle": "Eine empirische Analyse",
-      "creator": "Goldbach, K.",
-      "source": "University of Bonn"
-    },
-    {
-      "id": 1193,
-      "publication_year": "2020",
-      "title": "Owner of a lonely heart: The stability of loneliness across the life span",
-      "creator": "Mund, M.,\r\nL\u00fcdtke, O.,\r\n& Neyer, F. J.",
-      "publisher": "APA PsycNet",
-      "intl_identifier": "http:\/\/dx.doi.org\/10.1037\/pspp0000262",
-      "source": "Journal of Personality and Social Psychology, 119(2), 497\u2013516",
-      "url": "https:\/\/doi.apa.org\/doiLanding?doi=10.1037%2Fpspp0000262"
-    },
-    {
-      "id": 1313,
-      "publication_year": "2019",
-      "title": "Religion and media usage: A detailed analysis using a representative longitudinal panel from the Netherlands",
-      "creator": "Bos\u00eenceanu, A.",
-      "publisher": "Tritonic Publishing House",
-      "source": "In C. Br\u0103tianu, A. Zbuchea, B. Hrib, A. Vi\u0163elar & F. Anghel (Eds.), STRATEGICA upscaling Digital Transformation in Business and Economics 7th edition (pp. 318-325)",
-      "url": "https:\/\/www.researchgate.net\/publication\/340503906_VALUE_CREATION_IN_PROJECT_MANAGEMENT_THE_EFFECT_OF_PROJECT_LIFECYCLE_MANAGEMENT_PLM_MEASURES_IN_AN_AEROSPACE_COMPANY#page=319"
-    },
-    {
-      "id": 1327,
-      "publication_year": "2021",
-      "title": "Self-esteem and satisfaction with social relationships across time",
-      "creator": "de Moor, E. L., \r\nDenissen, J. J. A., \r\nEmons, W. H. M., \r\nBleidorn, W., \r\nLuhmann, M., \r\nOrth, U., \r\n& Chung, J. M.",
-      "publisher": "APA PsycNet",
-      "intl_identifier": "https:\/\/doi.org\/10.1037\/pspp0000379",
-      "source": "Journal of Personality and Social Psychology, 120(1), 173\u2013191",
-      "url": "https:\/\/psycnet.apa.org\/record\/2021-02738-002"
-    },
-    {
-      "id": 1231,
-      "publication_year": "2020",
-      "title": "Health, environmental, and animal rights motives for vegetarian eating",
-      "creator": "Hopwood, C. J., \r\nBleidorn, W., \r\nSchwaba, T.,\r\n& Chen, S.",
-      "publisher": "PLoS ONE",
-      "intl_identifier": "https:\/\/doi.org\/10.1371\/journal.pone.0230609",
-      "source": "PLoS ONE, 15(4), 1-20",
-      "url": "https:\/\/journals.plos.org\/plosone\/article?id=10.1371\/journal.pone.0230609"
-    },
-    {
-      "id": 1409,
-      "publication_year": "2019",
-      "title": "Predictors of cybercrime victimization",
-      "subtitle": "Causal effects or biased associations?",
-      "creator": "van de Weijer, S.",
-      "publisher": "Routledge",
-      "source": "In R. Leukfeldt & T. J. Holt (Eds.), The Human Factor of Cybercrime (pp. 83\u2013110)",
-      "url": "https:\/\/www.taylorfrancis.com\/chapters\/edit\/10.4324\/9780429460593-4\/predictors-cybercrime-victimization-steve-van-de-weijer"
-    },
-    {
-      "id": 1297,
-      "publication_year": "2020",
-      "title": "Welbevinden ten tijde van corona. Eerste bevindingen op basis van een bevolkingsenqu\u00eate uit juli 2020",
-      "creator": "de Klerk, M., \r\nPlaisier, I.,\r\n& Wagemans, F.",
-      "publisher": "Sociaal Cultureel Planbureau",
-      "source": "Sociaal Cultureel Planbureau, September 9, 2020",
-      "url": "https:\/\/www.scp.nl\/onderwerpen\/corona\/documenten\/publicaties\/2020\/09\/10\/welbevinden-ten-tijde-van-corona.-eerste-bevindingen-op-basis-van-een-bevolkingsenquete-uit-juli-2020"
-    },
-    {
-      "id": 1641,
-      "publication_year": "2021",
-      "title": "Affective polarization in the digital age: Testing the direction of the relationship between social media and users\u2019 feelings for out-group parties",
-      "creator": "Nordbrandt, M.",
-      "publisher": "SAGE Journals",
-      "intl_identifier": "https:\/\/doi.org\/10.1177\/14614448211044393",
-      "source": "New Media & Society, first published online September 19, 2021",
-      "url": "https:\/\/journals.sagepub.com\/doi\/metrics\/10.1177\/14614448211044393"
-    },
-    {
-      "id": 1667,
-      "publication_year": "2021",
-      "title": "Een jaar met corona",
-      "creator": "de Klerk, M., \r\nOlsthoorn, M.,\r\nPlaisier, I.,\r\nSchaper, J.,\r\n& Wagemans, F.",
-      "publisher": "Sociaal Cultureel Planbureau",
-      "source": "Sociaal Cultureel Planbureau, March 3, 2021",
-      "url": "https:\/\/www.scp.nl\/publicaties\/publicaties\/2021\/03\/03\/een-jaar-met-corona"
-    },
-    {
-      "id": 1675,
-      "publication_year": "2019",
-      "title": "How attitudes towards immigrants are shaped by residential context: The role of ethnic diversity dynamics and immigrant visibility",
-      "creator": "van Heerden, S.,\r\n& Ruedin, D.",
-      "publisher": "SAGE Journals",
-      "intl_identifier": "https:\/\/doi.org\/10.1177\/0042098017732692",
-      "source": "Urban Studies, 56(2), 317\u2013334",
-      "url": "https:\/\/journals.sagepub.com\/doi\/10.1177\/0042098017732692"
-    },
-    {
-      "id": 977,
-      "publication_year": "2019",
-      "title": "How attitudes towards immigrants are shaped by residential context: The role of ethnic diversity dynamics and immigrant visibility",
-      "creator": "van Heerden, S., \r\n& Ruedin, D.",
-      "publisher": "SAGE Journals",
-      "intl_identifier": "https:\/\/doi.org\/10.1177\/0042098017732692",
-      "source": "Urban Studies, 56(2), 317-334",
-      "url": "https:\/\/journals.sagepub.com\/doi\/10.1177\/0042098017732692"
-    },
-    {
-      "id": 989,
-      "publication_year": "2021",
-      "title": "The Janus-face of digitalization: The relation between Internet use and civic engagement reconsidered",
-      "creator": "Erhardt, J., \r\n& Freitag, M.",
-      "publisher": "SAGE Journals",
-      "intl_identifier": "https:\/\/doi.org\/10.1177\/0894439319861966",
-      "source": "Social Science Computer Review, 39(3), 315-334",
-      "url": "https:\/\/journals.sagepub.com\/doi\/10.1177\/0894439319861966"
-    },
-    {
-      "id": 1671,
-      "publication_year": "2021",
-      "title": "Anxiety and depression symptoms, the recovery from symptoms, and loneliness before and after the COVID-19 outbreak among the general population: Findings from a Dutch population-based longitudinal study",
-      "creator": "van der Velden, P. G.,\r\nHyland, P.,\r\nContino, C.,\r\nvon Gaudecker, H. -M.,\r\nMuffels, R.,\r\n& Das, M.",
-      "publisher": "PLOS ONE",
-      "intl_identifier": "https:\/\/doi.org\/10.1371\/journal.pone.0245057",
-      "source": "PLOS ONE, 16(1), 1-17",
-      "url": "https:\/\/journals.plos.org\/plosone\/article?id=10.1371\/journal.pone.0245057"
-    },
-    {
-      "id": 1773,
-      "publication_year": "2021",
-      "title": "Contacts with benefits: How social networks affect benefit receipt dynamics in the Netherlands",
-      "creator": "Kristiansen, M. H.",
-      "source": "Utrecht University",
-      "url": "https:\/\/dspace.library.uu.nl\/handle\/1874\/400811"
-    },
-    {
-      "id": 1397,
-      "publication_year": "2021",
-      "title": "What a drag it is getting old? Mental health and loneliness beyond age 50",
-      "creator": "van Ours, J. C.",
-      "publisher": "Taylor & Francis",
-      "intl_identifier": "https:\/\/doi.org\/10.1080\/00036846.2021.1883540",
-      "source": "Applied Economics, 53(31), 3563-3576",
-      "url": "https:\/\/www.tandfonline.com\/doi\/full\/10.1080\/00036846.2021.1883540"
-    },
-    {
-      "id": 1285,
-      "publication_year": "2021",
-      "title": "Does using social media jeopardize well-being? The importance of separating within- from between-person effects",
-      "creator": "Stavrova, O.,\r\n& Denissen, J.",
-      "publisher": "SAGE Journals",
-      "intl_identifier": "https:\/\/doi.org\/10.1177\/1948550620944304",
-      "source": "Social Psychological and Personality Science, 12(6), 964-973",
-      "url": "https:\/\/journals.sagepub.com\/doi\/10.1177\/1948550620944304"
-    },
-    {
-      "id": 501,
-      "publication_year": "2015",
-      "title": "The relation between social network site usage and loneliness and mental health in community-dwelling older adults",
-      "creator": "Sil Aarts,\r\nSebastiaan T.M. Peek,\r\nEveline J Wouters",
-      "intl_identifier": "DOI: 10.1002\/gps.4241",
-      "source": "International Journal of Geriatric Psychiatry, 30(9):942-949"
-    },
-    {
-      "id": 1283,
-      "publication_year": "2021",
-      "title": "A propensity-score matched study of changes in loneliness surrounding major life events",
-      "creator": "Buecker, S.,\r\nDenissen, J. J. A.,\r\n& Luhmann, M.",
-      "publisher": "APA PsycNet",
-      "intl_identifier": "https:\/\/doi.org\/10.1037\/pspp0000373",
-      "source": "Journal of Personality and Social Psychology, 121(3), 669\u2013690",
-      "url": "https:\/\/content.apa.org\/record\/2020-80026-001"
-    },
-    {
-      "id": 1385,
-      "publication_year": "2021",
-      "title": "Log on and prosper? Little evidence for codevelopment between psychological adjustment and technology use in older adulthood",
-      "creator": "Schwaba, T.,\r\n& Bleidorn, W.",
-      "publisher": "Oxford Academic",
-      "intl_identifier": "https:\/\/doi.org\/10.1093\/geronb\/gbaa073",
-      "source": "The Journals of Gerontology: Series B, 76(1), 67\u201377",
-      "url": "https:\/\/academic.oup.com\/psychsocgerontology\/article\/76\/1\/67\/5850691"
-    },
-    {
-      "id": 1343,
-      "publication_year": "2021",
-      "title": "Lonely hearts, empty booths? The relationship between loneliness, reported voting behavior and voting as civic duty",
-      "creator": "Langenkamp, A.",
-      "publisher": "Wiley Online Library",
-      "intl_identifier": "https:\/\/doi.org\/10.1111\/ssqu.12946",
-      "source": "Social Science Quarterly, 102(4), 1239-1254",
-      "url": "https:\/\/onlinelibrary.wiley.com\/doi\/full\/10.1111\/ssqu.12946"
-    },
-    {
-      "id": 1591,
-      "publication_year": "2021",
-      "title": "Social media and job satisfaction; A challenge or hindrance stressor?",
-      "creator": "de Vries, S.,\r\n& de Mooij, S.",
-      "source": "Vrije Universiteit Amsterdam"
-    },
-    {
-      "id": 1493,
-      "publication_year": "2021",
-      "title": "Consumption and time use responses to unemployment",
-      "creator": "Been, J.,\r\nSuari-Andreu, E.,\r\nKnoef, M.,\r\n& Alessie, R.",
-      "publisher": "Netspar",
-      "source": "Network for Studies on Pensions, Aging and Retirement, Design paper No. 187",
-      "url": "https:\/\/www.netspar.nl\/assets\/uploads\/P20211011_Netspar-Design-Paper-187-WEB.pdf"
-    },
-    {
-      "id": 879,
-      "publication_year": "2019",
-      "title": "The longitudinal effect of social recognition on PTSD symptomatology and vice versa: Evidence from a population-based study",
-      "creator": "van der Velden, P. G.,\r\nOudejans, M.,\r\nDas, M.,\r\nBosmans, M. W. G.,\r\n& Maercker, A.",
-      "publisher": "Elsevier",
-      "intl_identifier": "https:\/\/doi.org\/10.1016\/j.psychres.2019.05.044",
-      "source": "Psychiatry Research, 279, 287-294",
-      "url": "https:\/\/www.sciencedirect.com\/science\/article\/pii\/S0165178119305906"
-    },
-    {
-      "id": 1852,
-      "publication_year": "2022",
-      "title": "Does pro-sociality or trust better predict staying home behavior during the Covid-19?",
-      "creator": "Umer, H.",
-      "publisher": "Elsevier",
-      "intl_identifier": "https:\/\/doi.org\/10.1016\/j.socec.2022.101926",
-      "source": "Journal of Behavioral and Experimental Economics, 100, 1-31",
-      "url": "https:\/\/www.sciencedirect.com\/science\/article\/pii\/S2214804322000982?via%3Dihub"
-    },
-    {
-      "id": 1723,
-      "publication_year": "2022",
-      "title": "Internet use and cognitive engagement in older adulthood",
-      "creator": "Schwaba, T.,\r\n& Bleidorn, W.",
-      "publisher": "SAGE Journals",
-      "intl_identifier": "https:\/\/doi.org\/10.1177\/19485506211049657",
-      "source": "Social Psychological and Personality Science, 13(5), 968\u2013977",
-      "url": "https:\/\/journals.sagepub.com\/doi\/abs\/10.1177\/19485506211049657"
-    },
-    {
-      "id": 1902,
-      "publication_year": "2022",
-      "title": "Who benefits from which activity? On the relations between personality traits, leisure activities, and well-being",
-      "creator": "Kuper, N., \r\nKroencke, L., \r\nHarari, G. M., \r\n& Denissen, J. J. A.",
-      "publisher": "APA PsycNet",
-      "intl_identifier": "https:\/\/doi.org\/10.1037\/pspp0000438",
-      "source": "Journal of Personality and Social Psychology, first published online August, 2022",
-      "url": "https:\/\/psycnet.apa.org\/record\/2023-14429-001"
-    },
-    {
-      "id": 1905,
-      "publication_year": "2022",
-      "title": "Socio-structural determinants in volunteering for humanitarian organizations: A resource-based approach",
-      "creator": "Meijeren, M.,\r\nLubbers, M., \r\n& Scheepers, P.",
-      "publisher": "SAGE Journals",
-      "intl_identifier": "https:\/\/doi.org\/10.1177\/08997640221114821",
-      "source": "Nonprofit and Voluntary Sector Quarterly, first published online August 4, 2022",
-      "url": "https:\/\/journals.sagepub.com\/doi\/full\/10.1177\/08997640221114821"
-    },
-    {
-      "id": 1906,
-      "publication_year": "2022",
-      "title": "The influence of loneliness on perceived connectedness and trust beliefs \u2013 longitudinal evidence from the Netherlands",
-      "creator": "Langenkamp, A.",
-      "publisher": "SAGE Journals",
-      "intl_identifier": "https:\/\/doi.org\/10.1177\/02654075221144716",
-      "source": "Journal of Social and Personal Relationships, first published online December 8, 2022",
-      "url": "https:\/\/journals.sagepub.com\/doi\/10.1177\/02654075221144716"
-    },
-    {
-      "id": 1919,
-      "publication_year": "2022",
-      "title": "Does the election winner\u2013loser gap extend to subjective health and well-being?",
-      "creator": "Toshkov, D., \r\n& Mazepus, H.",
-      "publisher": "SAGE Journals",
-      "intl_identifier": "https:\/\/doi.org\/10.1177\/14789299221124735",
-      "source": "Political Studies Review, first published online October 3, 2022",
-      "url": "https:\/\/journals.sagepub.com\/doi\/10.1177\/14789299221124735"
-    },
-    {
-      "id": 1925,
-      "publication_year": "2022",
-      "title": "Waarde van cultuur 2022",
-      "subtitle": "De staat van de culturele sector in Noord-Brabant",
-      "creator": "Boekmanstichting, \r\nHet PON en Telos, \r\nKunstloc Brabant, \r\n& Pyrrhula Research Consultants",
-      "publisher": "Kunstloc Brabant",
-      "source": "Kunstloc Brabant, June, 2022",
-      "url": "https:\/\/www.kunstlocbrabant.nl\/kennis-advies\/waarde-van-cultuur-2022-39255"
-    },
-    {
-      "id": 1926,
-      "publication_year": "2022",
-      "title": "Cultuurmonitor Gelderland 2022",
-      "creator": "Pyrrhula Research Consultants, \r\nHet PON & Telos,\r\n& Boekmanstichting",
-      "publisher": "Cultuur Oost",
-      "source": "Cultuur Oost, December, 2022",
-      "url": "https:\/\/www.cultuuroost.nl\/cultuurmonitor\/"
-    },
-    {
-      "id": 1932,
-      "publication_year": "2022",
-      "title": "\u201cI can\u2019t, I have to work\u201d. A study on the employment type of social contacts and feeling socially integrated",
-      "creator": "Kleefstra, R.",
-      "source": "University of Groningen"
-    },
-    {
-      "id": 1934,
-      "publication_year": "2022",
-      "title": "Leisure Time and Social Integration. The difference between online and offline leisure time and their influence on social integration",
-      "creator": "Lamain, R.",
-      "source": "University of Groningen"
-    },
-    {
-      "id": 1937,
-      "publication_year": "2022",
-      "title": "Formal leisure time and health outcomes of Dutch participants",
-      "subtitle": "What is the effect of formal leisure time (excluding physical activities) on health outcomes of Dutch participants, and is there a difference in terms of age?",
-      "creator": "Blaauw, M.",
-      "source": "University of Groningen"
-    },
-    {
-      "id": 1939,
-      "publication_year": "2022",
-      "title": "What to do with your spare time? A study of structured and formal leisure time in the Netherlands.",
-      "creator": "van Hoogstraten, J.",
-      "source": "University of Groningen"
-    },
-    {
-      "id": 1908,
-      "publication_year": "2022",
-      "title": "Geprikkeld door politieke preferenties",
-      "subtitle": "Over de invloed van politieke voorkeuren op vaccinatiebereidheid",
-      "creator": "Bliek, J.",
-      "source": "University of Groningen"
-    },
-    {
-      "id": 1897,
-      "publication_year": "2022",
-      "title": "Maakt sociale steun financieel zelfredzamer? \u2013 Does social support make us more financially selfreliant?",
-      "creator": "Wiels, T.",
-      "source": "University of Groningen"
-    },
-    {
-      "id": 1954,
-      "publication_year": "2022",
-      "title": "Equality of opportunity through education? A research to the differences in obtaining future cultural, social and economic capital through education between students from different socioeconomic backgrounds.",
-      "creator": "van Hoogstraten, R.",
-      "source": "Utrecht University",
-      "url": "https:\/\/studenttheses.uu.nl\/handle\/20.500.12932\/42983"
-    },
-    {
-      "id": 1947,
-      "publication_year": "2022",
-      "title": "Essays on social media and democracy",
-      "creator": "van Gils, F.",
-      "publisher": "CentER, Center for Economic Research",
-      "intl_identifier": "http:\/\/doi.org\/10.26116\/y9bp-2h07",
-      "source": "Tilburg University",
-      "url": "https:\/\/research.tilburguniversity.edu\/en\/publications\/essays-on-social-media-and-democracy"
-    },
-    {
-      "id": 1956,
-      "publication_year": "2022",
-      "title": "Changes in alcohol use in the Netherlands before and during the COVID-19 pandemic: Exploring the effects of personality, loneliness and gender",
-      "creator": "V\u00f6ller, M.",
-      "source": "University of Twente",
-      "url": "http:\/\/essay.utwente.nl\/93146\/"
-    },
-    {
-      "id": 1961,
-      "publication_year": "2022",
-      "title": "Social satisfaction, loneliness, and happiness before and during the COVID-19 pandemic",
-      "creator": "Sprekelmeyer, L.",
-      "source": "University of Twente",
-      "url": "http:\/\/essay.utwente.nl\/92042\/"
-    },
-    {
-      "id": 1960,
-      "publication_year": "2022",
-      "title": "Differences in civic participation between natives and immigrants living in the Netherlands",
-      "creator": "Damian, E.,\r\n& Scheepers, P.",
-      "intl_identifier": "https:\/\/doi.org\/10.31219\/osf.io\/wbgjr",
-      "source": "OSFPrePrints, first published online August 19, 2022",
-      "url": "https:\/\/osf.io\/wbgjr"
-    },
-    {
-      "id": 1973,
-      "publication_year": "2022",
-      "title": "Participating as equals? Disentangling the complex relationships between resources, incentives and political participation using Dutch panel data",
-      "creator": "Hvarfner, K.",
-      "source": "Uppsala University",
-      "url": "https:\/\/www.diva-portal.org\/smash\/record.jsf?pid=diva2%3A1702004&dswid=7026"
-    },
-    {
-      "id": 1983,
-      "publication_year": "2022",
-      "title": "What makes or breaks political trust: A fixed effects regression analysis of changes in political trust within individuals in the Netherlands between 2008 and 2018.",
-      "creator": "van Gorp, M. T. L.",
-      "source": "Radboud University",
-      "url": "https:\/\/theses.ubn.ru.nl\/handle\/123456789\/13601"
-    },
-    {
-      "id": 1985,
-      "publication_year": "2022",
-      "title": "On the relationship between personality traits and loneliness in the COVID-19 pandemic",
-      "creator": "van Rhijn, N.",
-      "source": "Utrecht University",
-      "url": "https:\/\/studenttheses.uu.nl\/handle\/20.500.12932\/43033"
-    },
-    {
-      "id": 967,
-      "publication_year": "2022",
-      "title": "How stable is leisure satisfaction over time? A latent trait-state-occasion analysis of Dutch panel data",
-      "creator": "Gelissen, J.",
-      "publisher": "Taylor & Francis",
-      "intl_identifier": "https:\/\/doi.org\/10.1080\/01490400.2018.1536567",
-      "source": "Leisure Sciences, 44(3), 267\u2013288",
-      "url": "https:\/\/www.tandfonline.com\/doi\/full\/10.1080\/01490400.2018.1536567"
-    },
-    {
-      "id": 1994,
-      "publication_year": "2022",
-      "title": "Why are general moral values poor predictors of concrete moral behavior in everyday life? A conceptual analysis and empirical study",
-      "creator": "van den Berg, T. G. C.,\r\nKroesen, M.,\r\n& Chorus, C. G.",
-      "publisher": "Frontiers",
-      "intl_identifier": "https:\/\/doi.org\/10.3389\/fpsyg.2022.817860",
-      "source": "Frontiers in Psychology, first published online June 30, 2022",
-      "url": "https:\/\/www.frontiersin.org\/articles\/10.3389\/fpsyg.2022.817860\/full"
-    },
-    {
-      "id": 2015,
-      "publication_year": "2022",
-      "title": "Using panel data to study political interest, news media trust, and news media use in the early stages of the COVID-19 pandemic",
-      "creator": "Vermeer, S.,\r\nKruikemeier, S., \r\nTrilling, D.,\r\n& de Vreese, C.",
-      "publisher": "Taylor & Francis",
-      "intl_identifier": "https:\/\/doi.org\/10.1080\/1461670X.2021.2017790",
-      "source": "Journalism Studies, 23(5-6), 740-760",
-      "url": "https:\/\/www.tandfonline.com\/doi\/full\/10.1080\/1461670X.2021.2017790"
-    },
-    {
-      "id": 2017,
-      "publication_year": "2022",
-      "title": "Personality and change in physical activity across 3\u201310 years",
-      "creator": "Caille, P.,\r\nStephan, Y.,\r\nSutin, A. R.,\r\nLuchetti, M.,\r\nCanada, B., \r\nHeraud, N.,\r\n& Terracciano, A.",
-      "publisher": "Taylor & Francis Online",
-      "intl_identifier": "https:\/\/doi.org\/10.1080\/08870446.2022.2092866",
-      "source": "Psychology & Health, first published online June 29, 2022",
-      "url": "https:\/\/www.tandfonline.com\/doi\/abs\/10.1080\/08870446.2022.2092866?journalCode=gpsh20"
-    },
-    {
-      "id": 2047,
-      "publication_year": "2022",
-      "title": "Geven in Nederland 2022",
-      "subtitle": "Maatschappelijke betrokkenheid in kaart gebracht",
-      "creator": "Bekkers, R.,\r\nvan Teunenbroek, C.,\r\nMaas, S.,\r\nGouwenberg, B.,\r\nde Gilder, D.,\r\nDe Wit, A.,\r\nvan Aken, P.,\r\nWiepking, P.,\r\n& Schuyt, T.",
-      "publisher": "Amsterdam University Press",
-      "source": "Amsterdam University Press",
-      "url": "https:\/\/www.walburgpers.nl\/nl\/book\/9789048556342\/geven-in-nederland-2022?redirect=aup"
-    },
-    {
-      "id": 2062,
-      "publication_year": "2021",
-      "title": "Intersectionele geslachts- en etniciteitsverschillen in werkloosheid; Een verklaring op basis van sociaal kapitaal",
-      "creator": "Roeleven, J. E.",
-      "source": "Utrecht University",
-      "url": "https:\/\/studenttheses.uu.nl\/handle\/20.500.12932\/40005"
-    },
-    {
-      "id": 2064,
-      "publication_year": "2013",
-      "title": "Loneliness and well-being after partner loss: A large cross-sectional study",
-      "creator": "Grimmelikhuijzen, M. R.",
-      "source": "Utrecht University",
-      "url": "https:\/\/studenttheses.uu.nl\/handle\/20.500.12932\/13719"
-    },
-    {
-      "id": 1415,
-      "publication_year": "2022",
-      "title": "A mega-analysis of personality predictions: Robustness and boundary conditions",
-      "creator": "Beck, E. D.,\r\n& Jackson, J. J.",
-      "publisher": "APA PsycNet",
-      "intl_identifier": "https:\/\/doi.org\/10.1037\/pspp0000386",
-      "source": "Journal of Personality and Social Psychology, 122(3), 523\u2013553",
-      "url": "https:\/\/psycnet.apa.org\/record\/2022-31794-002"
-    },
-    {
-      "id": 1655,
-      "publication_year": "2022",
-      "title": "Informal volunteering and socialization effects: Examining modelling and encouragement by parents and partner",
-      "creator": "Ramaekers, M. J. M., \r\nVerbakel, E., \r\n& Kraaykamp, G.",
-      "publisher": "SpringerLink",
-      "intl_identifier": "https:\/\/doi.org\/10.1007\/s11266-021-00315-z",
-      "source": "VOLUNTAS: International Journal of Voluntary and Nonprofit Organizations, 33(2), 347\u2013361",
-      "url": "https:\/\/ps.psychopen.eu\/index.php\/ps\/article\/view\/6055"
-    },
-    {
-      "id": 1847,
-      "publication_year": "2022",
-      "title": "The working hour mismatch and job satisfaction. Gender differences and the role of children",
-      "creator": "Huizen, W.",
-      "source": "University of Groningen"
-    },
-    {
-      "id": 2072,
-      "publication_year": "2019",
-      "title": "Can survey item characteristics relevant to measurement error be coded reliably? A case study on 11 Dutch general population surveys",
-      "creator": "Bais, F., \r\nSchouten, B., \r\nLugtig, P., \r\nToepoel, V., \r\nArends-T\u00f3th, J., \r\nDouhou, S., \r\nKieruj, N., \r\nMorren, M., \r\n& Vis, C.",
-      "publisher": "SAGE Journals",
-      "intl_identifier": "https:\/\/doi.org\/10.1177\/0049124117729692",
-      "source": "Sociological Methods & Research, 48(2), 263-295",
-      "url": "https:\/\/journals.sagepub.com\/doi\/10.1177\/0049124117729692"
-    },
-    {
-      "id": 1197,
-      "publication_year": "2022",
-      "title": "Assessing the relationship between lifestyle routine activities theory and online victimization using panel data",
-      "creator": "Guerra, C.,\r\n& Ingram, R. J.",
-      "publisher": "Taylor & Francis Online",
-      "intl_identifier": "https:\/\/doi.org\/10.1080\/01639625.2020.1774707",
-      "source": "Deviant Behavior, 43(1), 44\u201360",
-      "url": "https:\/\/www.tandfonline.com\/doi\/full\/10.1080\/01639625.2020.1774707"
-    },
-    {
-      "id": 1844,
-      "publication_year": "2022",
-      "title": "Preferences for in-kind and in-cash home care insurance",
-      "creator": "de Bresser J., \r\nKnoef, M., \r\n& van Ooijen, R.",
-      "publisher": "ScienceDirect",
-      "intl_identifier": "https:\/\/doi.org\/10.1016\/j.jhealeco.2022.102626",
-      "source": "Journal of Health Economics, 84, 1-26",
-      "url": "https:\/\/www.sciencedirect.com\/science\/article\/pii\/S0167629622000455?via%3Dihub"
-    },
-    {
-      "id": 1799,
-      "publication_year": "2022",
-      "title": "Stability of pro-sociality and trust amid the Covid-19: Evidence based on the panel data from the Netherlands",
-      "creator": "Umer, H.",
-      "publisher": "SSRN",
-      "intl_identifier": "http:\/\/dx.doi.org\/10.2139\/ssrn.4007903",
-      "source": "SSRN, first published online January 13, 2022",
-      "url": "https:\/\/papers.ssrn.com\/sol3\/papers.cfm?abstract_id=4007903"
-    },
-    {
-      "id": 1545,
-      "publication_year": "2022",
-      "title": "Nonlinear effect of social interaction quantity on psychological well-being: Diminishing returns or inverted U?",
-      "creator": "Ren, D., \r\nStavrova, O., \r\n& Loh, W. W.",
-      "publisher": "APA PsycNet",
-      "intl_identifier": "https:\/\/doi.org\/10.1037\/pspi0000373",
-      "source": "Journal of Personality and Social Psychology, 122(6), 1056\u20131074",
-      "url": "https:\/\/psycnet.apa.org\/doiLanding?doi=10.1037%2Fpspi0000373"
-    },
-    {
-      "id": 2069,
-      "publication_year": "2023",
-      "title": "Stability of pro-sociality and trust amid the Covid-19: panel data from the Netherlands",
-      "creator": "Umer, H.",
-      "publisher": "SpringerLink",
-      "intl_identifier": "https:\/\/doi.org\/10.1007\/s10663-022-09557-6",
-      "source": "Empirica, 50(1), 255-287",
-      "url": "https:\/\/link.springer.com\/article\/10.1007\/s10663-022-09557-6"
-    },
-    {
-      "id": 1918,
-      "publication_year": "2022",
-      "title": "Hoe leesgedrag is veranderd door corona",
-      "creator": "KVB Boekwerk,\r\nStichting Lezen,\r\n& Huysmans, F.",
-      "publisher": "KVK Boekwerk",
-      "source": "KVK Boekwerk, June 2, 2022",
-      "url": "https:\/\/kvbboekwerk.nl\/consumentenonderzoek\/hoe-leesgedrag-is-veranderd-door-corona"
-    },
-    {
-      "id": 2079,
-      "publication_year": "2023",
-      "title": "Meer Nederlanders lezen na coronaperiode dan daarvoor",
-      "creator": "KVB Boekwerk,\r\nStichting Lezen,\r\n& Huysmans, F.",
-      "publisher": "KVK Boekwerk",
-      "source": "KVK Boekwerk, March 23, 2023",
-      "url": "https:\/\/kvbboekwerk.nl\/consumentenonderzoek\/meer-nederlanders-lezen-na-coronaperiode-dan-daarvoor"
+  "response_overview": "Selected number of household members: 7517 (100.0%)\r\n Nonresponse: 1288 (17.1%)\r\n Response: 6229 (82.9%)\r\n Complete: 6043 (80.4%)\r\n Incomplete: 186 (2.5%)",
+  "questionnaires": [
+    {
+      "name": "Social Integration and Leisure, wave 10",
+      "description": "The survey was administered in Dutch.",
+      "questions": [
+        {
+          "name": "{intro}",
+          "question_text": "This questionnaire is about social relations and leisure time."
+        },
+        {
+          "name": "cs001",
+          "question_text": "How satisfied are you with the amount of leisure time that you have?"
+        },
+        {
+          "name": "cs002",
+          "question_text": "How satisfied are you with the way in which you spend your leisure time?"
+        },
+        {
+          "name": "cs003-cs062",
+          "question_text": "We now list a number of organizations that you are free to join. \r\nCan you indicate, for each of the organizations listed, what applies to you at this moment or has applied to you over the past 12 months? \r\n(more than one answer possible) \r\n1 = no connection \r\n2 = donated money \r\n3 = participated in an activity \r\n4 = member \r\n 5 = performed voluntary work"
+        },
+        {
+          "name": "cs063",
+          "question_text": "Did you perform any informal care over the past 12 months; that is, did you regularly\r\nhelp someone in your environment requiring help due to a disease or other affliction?"
+        },
+        {
+          "name": "cs064",
+          "question_text": "How were you related to this person? \r\nIf you helped more than one person, consider the person that you helped most. \r\nThe person to whom I provided informal care over the past 12 months was my:"
+        },
+        {
+          "name": "cs065",
+          "question_text": "How were you related to this person? \r\nThe person to whom I provided informal care over the past 12 months was my:"
+        },
+        {
+          "name": "cs066",
+          "question_text": "How many hours of informal care did you provide per week, on average?"
+        },
+        {
+          "name": "cs067-cs069",
+          "question_text": "What kind of help did you provide? \r\n(more than one answer possible)"
+        },
+        {
+          "name": "cs070",
+          "question_text": "Did you personally receive informal care over the past 12 months on account of a disease\r\nor other affliction; that is, did you receive help regularly from someone in your\r\nenvironment?"
+        },
+        {
+          "name": "cs071",
+          "question_text": "How were you related to this person? \r\nIf you received help from more than one person, consider the person that helped you\r\nmost. \r\nThe person from whom I received informal care over the past 12 months was my:"
+        },
+        {
+          "name": "cs072",
+          "question_text": "How were you related to this person? \r\nThe person from whom I received informal care over the past 12 months was my:"
+        },
+        {
+          "name": "cs073",
+          "question_text": "How many hours of help did you receive per week, on average?"
+        },
+        {
+          "name": "cs074-cs076",
+          "question_text": "What kind of help did you receive? \r\nmore than one answer possible"
+        },
+        {
+          "name": "cs077",
+          "question_text": "Did you perform any other voluntary work over the past 12 months, other than indicated\r\nabove?"
+        },
+        {
+          "name": "cs078",
+          "question_text": "What kind of voluntary work did you perform?"
+        },
+        {
+          "name": "cs079",
+          "question_text": "Considered all together, how much time do you spend on voluntary work and\r\ninformal care together per week, on average?"
+        },
+        {
+          "name": "cs488-cs493",
+          "question_text": "Did you visit any one of the following cultural institutions or performances\r\nover the past 12 months?"
+        },
+        {
+          "name": "cs494-cs499",
+          "question_text": "How often did you visit these cultural institutions or performances over\r\nthe past 12 months?"
+        },
+        {
+          "name": "cs102",
+          "question_text": "How often did you take a holiday within the Netherlands over the past 12 months? \r\nWe understand a holiday to be a stay (within the Netherlands) away from one\u2019s own\r\nhome environment, for relaxation or pleasure, including at least one overnight stay."
+        },
+        {
+          "name": "cs103",
+          "question_text": "How often did you take a holiday abroad over the past 12 months? \r\nWe understand a holiday to be a stay (abroad) away from one\u2019s own home environment,\r\nfor relaxation or pleasure, including at least one overnight stay."
+        },
+        {
+          "name": "cs104",
+          "question_text": "Do you practice sports?"
+        },
+        {
+          "name": "cs105",
+          "question_text": "How many hours do you spend on sports per week , on average?"
+        },
+        {
+          "name": "cs106-cs122",
+          "question_text": "What sport do you practice? \r\n(more than one answer possible)"
+        },
+        {
+          "name": "cs123",
+          "question_text": "What other sport(s) do you mean?"
+        },
+        {
+          "name": "cs124",
+          "question_text": "How many days do you watch television per week, on average? \r\nIf you do not watch television, enter a zero (0)."
+        },
+        {
+          "name": "cs125-cs126",
+          "question_text": "On the days that you watch television, how much time do you spend watching television\r\nper day, on average?"
+        },
+        {
+          "name": "cs127",
+          "question_text": "How many days do you listen to the radio per week, on average? \r\nIf you do not listen to the radio, enter a zero (0)."
+        },
+        {
+          "name": "cs128-cs129",
+          "question_text": "On the days that you listen to the radio, how much time do you spend listening to the\r\nradio per day, on average?"
+        },
+        {
+          "name": "cs130",
+          "question_text": "Did you read one or more books from beginning to end over the past month (30 days),\r\neither for study or for pleasure?"
+        },
+        {
+          "name": "cs131",
+          "question_text": "How many books did you read from beginning to end\r\nover the past month (30 days), for study or for pleasure?"
+        },
+        {
+          "name": "cs132-cs145",
+          "question_text": "Did you spend any time on a regular basis on the following matters, over the last 12\r\nmonths?"
+        },
+        {
+          "name": "cs146-cs159",
+          "question_text": "And did you spend any time on a regular basis on the following matters, over the last 12\r\nmonths?"
+        },
+        {
+          "name": "cs160-cs186",
+          "question_text": "On how many days per week, on average, do you spend time on these matters? \r\nIf less than once per week, enter zero (0)."
+        },
+        {
+          "name": "cs187-cs188",
+          "question_text": "On the days that you spent time on playing a musical instrument, how much time did you\r\nspend on this per day, on average?"
+        },
+        {
+          "name": "cs189-cs190",
+          "question_text": "On the days that you spent time on singing/choir/singing group, how much time did you\r\nspend on this per day, on average?"
+        },
+        {
+          "name": "cs191-cs192",
+          "question_text": "On the days that you spent time on small jobs in and around the house, how much time did you spend on this per day, on average?"
+        },
+        {
+          "name": "cs193-cs194",
+          "question_text": "On the days that you spent time on model building, how much time did you spend on this per day, on average?"
+        },
+        {
+          "name": "cs195-cs196",
+          "question_text": "On the days that you spent time on handicrafts, painting, drawing, clay modeling, ceramics, etc., how much time did you spend on this per day, on average?"
+        },
+        {
+          "name": "cs197-cs198",
+          "question_text": "On the days that you spent time on photography mentioned below, how much time did you spend on this per day, on average?"
+        },
+        {
+          "name": "cs199-cs200",
+          "question_text": "On the days that you spent time on \r\n\r\ncaring for plants (including garden) or animals, how much time did you spend on this per day, on average?"
+        },
+        {
+          "name": "cs201-cs202",
+          "question_text": "On the days that you spent time on handwork, how much time did you spend on this per day, on average?"
+        },
+        {
+          "name": "cs501-cs502",
+          "question_text": "On the days that you spent time on watching blu-ray/DVD/video (including streaming e.g. Netflix, HBO, etc.), how much time did you spend on this per day, on average?"
+        },
+        {
+          "name": "cs205-cs206",
+          "question_text": "On the days that you spent time on reading, how much time did you spend on this per day, on average?"
+        },
+        {
+          "name": "cs207-cs208",
+          "question_text": "On the days that you spent time on collecting stamps, how much time did you spend on this per day, on average?"
+        },
+        {
+          "name": "cs209-cs210",
+          "question_text": "On the days that you spent time on other collection, how much time did you spend on this per day, on average?"
+        },
+        {
+          "name": "cs211-cs212",
+          "question_text": "On the days that you spent time on following a course, how much time did you spend on this per day, on average?"
+        },
+        {
+          "name": "cs213-cs214",
+          "question_text": "On the days that you spent time on drama, musical, ballet, dance, how much time did you spend on this per day, on average?"
+        },
+        {
+          "name": "cs215-cs216",
+          "question_text": "On the days that you spent time on equestrian sport, how much time did you spend on this per day, on average?"
+        },
+        {
+          "name": "cs217-cs218",
+          "question_text": "On the days that you spent time on car/motor sport, how much time did you spend on this per day, on average?"
+        },
+        {
+          "name": "cs219-cs220",
+          "question_text": "On the days that you spent time on mechanical work on car/motorcycle, how much time did you spend on this per day, on average?"
+        },
+        {
+          "name": "cs221-cs222",
+          "question_text": "On the days that you spent time on card games, how much time did you spend on this per day, on average?"
+        },
+        {
+          "name": "cs223-cs224",
+          "question_text": "On the days that you spent time on billiards, pool, snooker, darts, how much time did you spend on this per day, on average?"
+        },
+        {
+          "name": "cs225-cs226",
+          "question_text": "On the days that you spent time on pigeon keeping, how much time did you spend on this per day, on average?"
+        },
+        {
+          "name": "cs227-cs228",
+          "question_text": "On the days that you spent time on going out, cinema, theatre, dining out, terrace lounging, how much time did you spend on this per day, on average?"
+        },
+        {
+          "name": "cs229-cs230 ",
+          "question_text": "On the days that you spent time on cooking, how much time did you spend on this per day, on average?"
+        },
+        {
+          "name": "cs231-cs232",
+          "question_text": "On the days that you spent time on listening to music, how much time did you spend on this per day, on average?"
+        },
+        {
+          "name": "cs233-cs234",
+          "question_text": "On the days that you spent time on fishing, how much time did you spend on this per day, on average?"
+        },
+        {
+          "name": "cs235-cs236",
+          "question_text": "On the days that you spent time on shopping, how much time did you spend on this per day, on average?"
+        },
+        {
+          "name": "cs237-cs238",
+          "question_text": "On the days that you spent time on dancing, how much time did you spend on this per day, on average?"
+        },
+        {
+          "name": "cs239-cs240",
+          "question_text": "On the days that you spent time on boating, how much time did you spend on this per day, on average?"
+        },
+        {
+          "name": "cs444-cs451",
+          "question_text": "With which of the following devices do you have access to the internet\r\nat home? More than one answer possible"
+        },
+        {
+          "name": "cs505",
+          "question_text": "Do you sometimes use a computer or laptop , for other things than completing the questionnaires of this panel?"
+        },
+        {
+          "name": "cs506",
+          "question_text": "Do you sometimes use a tablet, for other things than completing the questionnaires of this panel? A tablet is a small flat computer that can be used in your hand."
+        },
+        {
+          "name": "cs507",
+          "question_text": "Do you sometimes use a smartphone, for other things than completing the questionnaires of this panel? \r\n \r\nA smartphone is a mobile phone with computer facilities."
+        },
+        {
+          "name": "cs242-cs245",
+          "question_text": "Can you indicate how many hours you use a computer or laptop per week, on average, for other things than completing the questionnaires of this panel? If you do not use a computer at the place indicated, or do not have a computer at the place indicated, enter a zero (0)."
+        },
+        {
+          "name": "cs418",
+          "question_text": "Do you sometimes make use of the Internet on a computer or laptop, for other things than completing the questionnaires of this panel?"
+        },
+        {
+          "name": "cs419",
+          "question_text": "Do you sometimes make use of the Internet on a tablet, for other things than completing the questionnaires of this panel?"
+        },
+        {
+          "name": "cs420",
+          "question_text": "Do you sometimes make use of the Internet on a smartphone, for other things than completing the questionnaires of this panel?"
+        },
+        {
+          "name": "cs421-cs424",
+          "question_text": "Can you indicate how many hours you use the Internet on a computer or laptop per week, on average (including emailing), for other things than completing the questionnaires of this panel? If no hours or if not applicable, enter a zero (0)."
+        },
+        {
+          "name": "cs425",
+          "question_text": "Can you indicate how many hours you use the Internet on a tablet per week, on average (including emailing), for other things than completing the questionnaires of this panel? If no hours or if not applicable, enter a zero (0)."
+        },
+        {
+          "name": "cs426",
+          "question_text": "Can you indicate how many hours you use the Internet on a smartphone per week, on average (including emailing), for other things than completing the questionnaires of this panel? If no hours or if not applicable, enter a zero (0)."
+        },
+        {
+          "name": "cs427",
+          "question_text": "How often do you download apps on your tablet?"
+        },
+        {
+          "name": "cs428",
+          "question_text": "How often do you download apps on your smartphone?"
+        },
+        {
+          "name": "cs251-cs266",
+          "question_text": "Can you indicate whether you ever spend time on the following online activities?"
+        },
+        {
+          "name": "cs436",
+          "question_text": "How often did you make use of social media\r\nin the past 2 months?"
+        },
+        {
+          "name": "cs267-cs282",
+          "question_text": "Can you indicate how many hours per week, on average, you spend on these online\r\nactivities? \r\nAdd together all activities at work, at home or elsewhere."
+        },
+        {
+          "name": "cs452 - cs470 and cs471",
+          "question_text": "Which of the following social media do you use\r\n\r\n?\r\n\r\n \r\n\r\n more than one answer possible"
+        },
+        {
+          "name": "cs472 - cs474",
+          "question_text": "Can you indicate how often you use the following\r\nsocial networking sites?"
+        },
+        {
+          "name": "cs475 - cs477",
+          "question_text": "How do you mainly use these social networking\r\nsites?"
+        },
+        {
+          "name": "cs512",
+          "question_text": "To what extent do you have confidence that Facebook respects your privacy?"
+        },
+        {
+          "name": "cs513",
+          "question_text": "To what extent do you have confidence that social media respect your privacy?"
+        },
+        {
+          "name": "cs480",
+          "question_text": "In general, do you think about what information you\r\nshare on social media and about who can see this?"
+        },
+        {
+          "name": "cs481",
+          "question_text": "You have indicated previously that you do not use social networking\r\nsites (e.g. Facebook, Twitter, LinkedIn, Google+, etc.).\r\n\r\n \r\n\r\n Can\r\nyou indicate why not?"
+        },
+        {
+          "name": "cs482",
+          "question_text": "Other reason, namely\u2026"
+        },
+        {
+          "name": "cs483 - cs485",
+          "question_text": "To what extent you agree or disagree with the following statements about\r\nsocial media (e.g. WhatsApp, Snapchat, Instagram, Facebook, Twitter, LinkedIn,\r\nGoogle+).\r\n\r\n\r\n\r\n  \r\n\r\n 1 = completely disagree\r\n\r\n 5 = completely agree"
+        },
+        {
+          "name": "cs283",
+          "question_text": "The following questions are about your social contacts. We understand social contacts in\r\nthe following questions to be people you meet in \u2018real life\u2019, so not just on\r\nsocial media. How satisfied are you with your social contacts?"
+        },
+        {
+          "name": "cs284-cs289",
+          "question_text": "To what extent do the following statements apply to you, based on how you are feeling at present?"
+        },
+        {
+          "name": "cs290",
+          "question_text": "How often do you do the following? \r\nSpend an evening with family (other than members of your own household)"
+        },
+        {
+          "name": "cs291",
+          "question_text": "How often do you do the following? \r\nSpend an evening with someone from the neighborhood"
+        },
+        {
+          "name": "cs292",
+          "question_text": "How often do you do the following? \r\nSpend an evening with friends outside your neighborhood"
+        },
+        {
+          "name": "cs293",
+          "question_text": "How often do you do the following? \r\nVisit a bar or caf\u00e9"
+        },
+        {
+          "name": "cs294 - cs298",
+          "question_text": "We would like to concentrate on your closest contacts now, to form a picture of the social\r\nrelationships that people have. \r\nIt is easier to answer these types of questions by considering concrete persons.\r\nFor that reason, we ask that you list a number of persons close to you. If you wish, you\r\ncan enter nicknames or initials, as long as you can remember who they refer to. \r\nMost people discuss important things with other people.\r\nIf you look back on the last six months, with whom did you discuss important things?\r\nPlease enter their first names below (to a maximum of 5). \r\nIf with no-one, click on \u2018Continue\u2019."
+        },
+        {
+          "name": "cs299",
+          "question_text": "Are all these people equally dear to you?"
+        },
+        {
+          "name": "cs300-cs304",
+          "question_text": "Which of these people are very dear to you?"
+        },
+        {
+          "name": "cs305 - cs314 ",
+          "question_text": "How close are these people to each other? \r\n1 = very close \r\n2 = not close, but not total strangers to each other either \r\n3 = total strangers to each other \r\n? = I don\u2019t know"
+        },
+        {
+          "name": "cs315-cs319",
+          "question_text": "What is the gender of [these persons\u2026]?"
+        },
+        {
+          "name": "cs320/cs331/cs342/cs353/cs364",
+          "question_text": "The following questions are about [person 1/2/3/4/5]. Of what origin is [person 1/2/3/4/5]?"
+        },
+        {
+          "name": "cs321/cs332/cs343/cs354/cs365",
+          "question_text": "How do you do know [person 1/2/3/4/5]? [He/she] is my..."
+        },
+        {
+          "name": "cs322/cs333/cs344/cs355/cs366",
+          "question_text": "How do you know [person 1/2/3/4/5]? [He/she] is my..."
+        },
+        {
+          "name": "cs323/cs334/cs345/cs356/cs367",
+          "question_text": "How often do you talk to [person 1/2/3/4/5]?"
+        },
+        {
+          "name": "cs324/cs335/cs346/cs357/cs368 ",
+          "question_text": "How often do you discuss political issues with [person 1/2/3/4/5]?"
+        },
+        {
+          "name": "cs325/cs336/cs347/cs358/cs369 ",
+          "question_text": "How long have you known [person 1/2/3/4/5]?"
+        },
+        {
+          "name": "cs326/cs337/cs348/cs359/cs370",
+          "question_text": "What is the highest level of education that [person 1/2/3/4/5] completed? If the right educational level is not listed, you can click here to search further."
+        },
+        {
+          "name": "cs327/cs338/cs349/cs360/cs371",
+          "question_text": "Does [person 1/2/3/4/5] work full-time, part-time, or not at all?"
+        },
+        {
+          "name": "cs328/cs339/cs350/cs361/cs372",
+          "question_text": "What kind of profession does [person 1/2/3/4/5] practice?"
+        },
+        {
+          "name": "cs329/cs340/cs351/cs362/cs373",
+          "question_text": "What age is [person 1/2/3/4/5], approximately?"
+        },
+        {
+          "name": "cs330/cs341/cs352/cs363/cs374",
+          "question_text": "What is the home situation of [person 1/2/3/4/5]?"
+        },
+        {
+          "name": "cs410-cs414",
+          "question_text": "Note: Please complete the questionnaire fully until you are returned to the initial screen. \r\nOnly then will the system register the questionnaire as fully completed. \r\nFinally; what did you think of this questionnaire? \r\n1 = certainly not \r\n5 = certainly yes"
+        }
+      ]
     }
+  ],
+  "datasets": [
+    {
+      "name": "cs17j",
+      "version": "1.0",
+      "variables": [
+        {
+          "name": "nomem_encr",
+          "label": "Number of household member encrypted"
+        },
+        {
+          "name": "cs17j_m",
+          "label": "Year and month of field work period"
+        },
+        {
+          "name": "cs17j001",
+          "label": "How satisfied are you with the amount of leisure time that you have?"
+        },
+        {
+          "name": "cs17j002",
+          "label": "How satisfied are you with the way in which you spend your leisure time?"
+        },
+        {
+          "name": "cs17j003",
+          "label": "a sports club or club for outdoor activities, no connection"
+        },
+        {
+          "name": "cs17j004",
+          "label": "a sports club or club for outdoor activities, donated money"
+        },
+        {
+          "name": "cs17j005",
+          "label": "a sports club or club for outdoor activities, participated in an activity"
+        },
+        {
+          "name": "cs17j006",
+          "label": "a sports club or club for outdoor activities, member"
+        },
+        {
+          "name": "cs17j007",
+          "label": "a sports club or club for outdoor activities, performed voluntary work"
+        },
+        {
+          "name": "cs17j008",
+          "label": "a cultural association or hobby club, no connection"
+        },
+        {
+          "name": "cs17j009",
+          "label": "a cultural association or hobby club, donated money"
+        },
+        {
+          "name": "cs17j010",
+          "label": "a cultural association or hobby club, participated in an activity"
+        },
+        {
+          "name": "cs17j011",
+          "label": "a cultural association or hobby club, member"
+        },
+        {
+          "name": "cs17j012",
+          "label": "a cultural association or hobby club, performed voluntary work"
+        },
+        {
+          "name": "cs17j013",
+          "label": "a trade union, no connection"
+        },
+        {
+          "name": "cs17j014",
+          "label": "a trade union, donated money"
+        },
+        {
+          "name": "cs17j015",
+          "label": "a trade union, participated in an activity"
+        },
+        {
+          "name": "cs17j016",
+          "label": "a trade union, member"
+        },
+        {
+          "name": "cs17j017",
+          "label": "a trade union, performed voluntary work"
+        },
+        {
+          "name": "cs17j018",
+          "label": "a business, professional or agrarian organization, no connection"
+        },
+        {
+          "name": "cs17j019",
+          "label": "a business, professional or agrarian organization, donated money"
+        },
+        {
+          "name": "cs17j020",
+          "label": "a business, professional or agrarian organization, participated in an activity"
+        },
+        {
+          "name": "cs17j021",
+          "label": "a business, professional or agrarian organization, member"
+        },
+        {
+          "name": "cs17j022",
+          "label": "a business, professional or agrarian organization, performed voluntary work"
+        },
+        {
+          "name": "cs17j023",
+          "label": "a consumers\u2019 organization or automobile club, no connection"
+        },
+        {
+          "name": "cs17j024",
+          "label": "a consumers\u2019 organization or automobile club, donated money"
+        },
+        {
+          "name": "cs17j025",
+          "label": "a consumers\u2019 organization or automobile club, participated in an activity"
+        },
+        {
+          "name": "cs17j026",
+          "label": "a consumers\u2019 organization or automobile club, member"
+        },
+        {
+          "name": "cs17j027",
+          "label": "a consumers\u2019 organization or automobile club, performed voluntary work"
+        },
+        {
+          "name": "cs17j028",
+          "label": "an organization for humanitarian aid, human rights, minorities or migrants, no connection"
+        },
+        {
+          "name": "cs17j029",
+          "label": "an organization for humanitarian aid, human rights, minorities or migrants, donated money"
+        },
+        {
+          "name": "cs17j030",
+          "label": "an organization for humanitarian aid, human rights, minorities or migrants, participated in an activity"
+        },
+        {
+          "name": "cs17j031",
+          "label": "an organization for humanitarian aid, human rights, minorities or migrants, member"
+        },
+        {
+          "name": "cs17j032",
+          "label": "an organization for humanitarian aid, human rights, minorities or migrants, performed voluntary work"
+        },
+        {
+          "name": "cs17j033",
+          "label": "an organization for environmental protection, peace organization or animal rights organization, no connection"
+        },
+        {
+          "name": "cs17j034",
+          "label": "an organization for environmental protection, peace organization or animal rights organization, donated money"
+        },
+        {
+          "name": "cs17j035",
+          "label": "an organization for environmental protection, peace organization or animal rights organization, participated in an activity"
+        },
+        {
+          "name": "cs17j036",
+          "label": "an organization for environmental protection, peace organization or animal rights organization, member"
+        },
+        {
+          "name": "cs17j037",
+          "label": "an organization for environmental protection, peace organization or animal rights organization, performed voluntary work"
+        },
+        {
+          "name": "cs17j038",
+          "label": "a religious or church organization, no connection"
+        },
+        {
+          "name": "cs17j039",
+          "label": "a religious or church organization, donated money"
+        },
+        {
+          "name": "cs17j040",
+          "label": "a religious or church organization, participated in an activity"
+        },
+        {
+          "name": "cs17j041",
+          "label": "a religious or church organization, member"
+        },
+        {
+          "name": "cs17j042",
+          "label": "a religious or church organization, performed voluntary work"
+        },
+        {
+          "name": "cs17j043",
+          "label": "a political party, no connection"
+        },
+        {
+          "name": "cs17j044",
+          "label": "a political party, donated money"
+        },
+        {
+          "name": "cs17j045",
+          "label": "a political party, participated in an activity"
+        },
+        {
+          "name": "cs17j046",
+          "label": "a political party, member"
+        },
+        {
+          "name": "cs17j047",
+          "label": "a political party, performed voluntary work"
+        },
+        {
+          "name": "cs17j048",
+          "label": "a science, education, teachers' or parents' association; no connection"
+        },
+        {
+          "name": "cs17j049",
+          "label": "a science, education, teachers' or parents' association; donated money"
+        },
+        {
+          "name": "cs17j050",
+          "label": "a science, education, teachers' or parents' association; participated in an activity"
+        },
+        {
+          "name": "cs17j051",
+          "label": "a science, education, teachers' or parents' association; member"
+        },
+        {
+          "name": "cs17j052",
+          "label": "a science, education, teachers' or parents' association; performed voluntary work"
+        },
+        {
+          "name": "cs17j053",
+          "label": "a social society; an association for youth, pensioners/senior citizens, women; or friends' clubs: no connection"
+        },
+        {
+          "name": "cs17j054",
+          "label": "a social society; an association for youth, pensioners/senior citizens, women; or friends' clubs: donated money"
+        },
+        {
+          "name": "cs17j055",
+          "label": "a social society; an association for youth, pensioners/senior citizens, women; or friends' clubs: participated in an activity"
+        },
+        {
+          "name": "cs17j056",
+          "label": "a social society; an association for youth, pensioners/senior citizens, women; or friends' clubs: member"
+        },
+        {
+          "name": "cs17j057",
+          "label": "a social society; an association for youth, pensioners/senior citizens, women; or friends' clubs: performed voluntary work"
+        },
+        {
+          "name": "cs17j058",
+          "label": "other organizations that you can freely join: no connection"
+        },
+        {
+          "name": "cs17j059",
+          "label": "other organizations that you can freely join: donated money"
+        },
+        {
+          "name": "cs17j060",
+          "label": "other organizations that you can freely join: participated in an activity"
+        },
+        {
+          "name": "cs17j061",
+          "label": "other organizations that you can freely join: member"
+        },
+        {
+          "name": "cs17j062",
+          "label": "other organizations that you can freely join: performed voluntary work"
+        },
+        {
+          "name": "cs17j063",
+          "label": "Did you perform any informal care over the past 12 months?"
+        },
+        {
+          "name": "cs17j064",
+          "label": "How were you related to this person? The person to whom I provided informal care over the past 12 months was my:"
+        },
+        {
+          "name": "cs17j065",
+          "label": "How were you related to this person?\r\nThe person to whom I provided informal care over the past 12 months was my:"
+        },
+        {
+          "name": "cs17j066",
+          "label": "How many hours of informal care did you provide per week, on average?"
+        },
+        {
+          "name": "cs17j067",
+          "label": "housekeeping help (e.g. cleaning, laundry, grocery shopping)"
+        },
+        {
+          "name": "cs17j068",
+          "label": "personal care (e.g. bathing, showering, dressing)"
+        },
+        {
+          "name": "cs17j069",
+          "label": "personal support (e.g. arranging affairs, offering solace, listening)"
+        },
+        {
+          "name": "cs17j070",
+          "label": "Did you personally receive informal care over the past 12 months on account of a disease or other affliction?"
+        },
+        {
+          "name": "cs17j071",
+          "label": "How were you related to this person? The person from whom I received informal care over the past 12 months was my:"
+        },
+        {
+          "name": "cs17j072",
+          "label": "How were you related to this person?\r\nThe person from whom I received informal care over the past 12 months was my:"
+        },
+        {
+          "name": "cs17j073",
+          "label": "How many hours of help did you receive per week, on average?"
+        },
+        {
+          "name": "cs17j074",
+          "label": "housekeeping help (e.g. cleaning, laundry, grocery shopping)"
+        },
+        {
+          "name": "cs17j075",
+          "label": "personal care (e.g. bathing, showering, dressing)"
+        },
+        {
+          "name": "cs17j076",
+          "label": "personal support (e.g. arranging affairs, offering solace, listening)"
+        },
+        {
+          "name": "cs17j077",
+          "label": "Did you perform any other voluntary work over the past 12 months, other than indicated above?"
+        },
+        {
+          "name": "cs17j078",
+          "label": "What kind of voluntary work did you perform?"
+        },
+        {
+          "name": "cs17j079",
+          "label": "Considered all together, how much time do you spend on voluntary work and\r\ninformal care together per week, on average?"
+        },
+        {
+          "name": "cs17j408",
+          "label": "Helpvariable: Total amount of time spent on\r\nvoluntary work per week, if only spent on informal care."
+        },
+        {
+          "name": "cs17j488",
+          "label": "a theatre performance or theatre event"
+        },
+        {
+          "name": "cs17j489",
+          "label": "a cabaret performance or cabaret event"
+        },
+        {
+          "name": "cs17j082",
+          "label": "a classical concert"
+        },
+        {
+          "name": "cs17j083",
+          "label": "an opera or operetta"
+        },
+        {
+          "name": "cs17j514",
+          "label": "a concert or festival of popular music, pop, rock, jazz,\r\nrap, hiphop or musical"
+        },
+        {
+          "name": "cs17j490",
+          "label": "a 'dance' or house party/festival"
+        },
+        {
+          "name": "cs17j515",
+          "label": "a dance or ballet performance"
+        },
+        {
+          "name": "cs17j491",
+          "label": "a library"
+        },
+        {
+          "name": "cs17j087",
+          "label": "the cinema"
+        },
+        {
+          "name": "cs17j088",
+          "label": "a film house"
+        },
+        {
+          "name": "cs17j492",
+          "label": "a film festival"
+        },
+        {
+          "name": "cs17j089",
+          "label": "an art gallery"
+        },
+        {
+          "name": "cs17j090",
+          "label": "a museum"
+        },
+        {
+          "name": "cs17j493",
+          "label": "a 'Food Truck' festival or other food event"
+        },
+        {
+          "name": "cs17j494",
+          "label": "a theatre performance or theatre event"
+        },
+        {
+          "name": "cs17j495",
+          "label": "a cabaret performance or cabaret event"
+        },
+        {
+          "name": "cs17j093",
+          "label": "a classical concert"
+        },
+        {
+          "name": "cs17j094",
+          "label": "an opera or operetta"
+        },
+        {
+          "name": "cs17j516",
+          "label": "a concert or festival of popular music, pop, rock, jazz,\r\nrap, hiphop or musical"
+        },
+        {
+          "name": "cs17j496",
+          "label": "a 'dance' or house party/festival"
+        },
+        {
+          "name": "cs17j517",
+          "label": "a dance or ballet performance"
+        },
+        {
+          "name": "cs17j497",
+          "label": "a library"
+        },
+        {
+          "name": "cs17j098",
+          "label": "the cinema"
+        },
+        {
+          "name": "cs17j099",
+          "label": "a film house"
+        },
+        {
+          "name": "cs17j498",
+          "label": "a film festival"
+        },
+        {
+          "name": "cs17j100",
+          "label": "an art gallery"
+        },
+        {
+          "name": "cs17j101",
+          "label": "a museum"
+        },
+        {
+          "name": "cs17j499",
+          "label": "a 'Food Truck' festival or other food event"
+        },
+        {
+          "name": "cs17j102",
+          "label": "How often did you take a holiday within the Netherlands over the past 12 months?"
+        },
+        {
+          "name": "cs17j103",
+          "label": "How often did you take a holiday abroad over the past 12 months?"
+        },
+        {
+          "name": "cs17j104",
+          "label": "Do you practice sports?"
+        },
+        {
+          "name": "cs17j105",
+          "label": "How many hours do you spend on sports per week, on average?"
+        },
+        {
+          "name": "cs17j106",
+          "label": "soccer"
+        },
+        {
+          "name": "cs17j107",
+          "label": "hockey"
+        },
+        {
+          "name": "cs17j108",
+          "label": "handball"
+        },
+        {
+          "name": "cs17j109",
+          "label": "volleyball"
+        },
+        {
+          "name": "cs17j110",
+          "label": "badminton"
+        },
+        {
+          "name": "cs17j111",
+          "label": "squash"
+        },
+        {
+          "name": "cs17j112",
+          "label": "gymnastics"
+        },
+        {
+          "name": "cs17j113",
+          "label": "indoor soccer"
+        },
+        {
+          "name": "cs17j114",
+          "label": "jogging/running"
+        },
+        {
+          "name": "cs17j115",
+          "label": "inline skating"
+        },
+        {
+          "name": "cs17j116",
+          "label": "swimming"
+        },
+        {
+          "name": "cs17j117",
+          "label": "tennis"
+        },
+        {
+          "name": "cs17j118",
+          "label": "cycling"
+        },
+        {
+          "name": "cs17j119",
+          "label": "walking"
+        },
+        {
+          "name": "cs17j120",
+          "label": "golf"
+        },
+        {
+          "name": "cs17j121",
+          "label": "fitness"
+        },
+        {
+          "name": "cs17j409",
+          "label": "moving on music (for example dancing, zumba, aerobics)"
+        },
+        {
+          "name": "cs17j122",
+          "label": "other sport(s)"
+        },
+        {
+          "name": "cs17j123",
+          "label": "What other sport(s) do you mean?"
+        },
+        {
+          "name": "cs17j124",
+          "label": "How many days do you watch television per week, on average? \r\nIf you do not watch television, enter a zero (0)."
+        },
+        {
+          "name": "cs17j125",
+          "label": "hours"
+        },
+        {
+          "name": "cs17j126",
+          "label": "minutes"
+        },
+        {
+          "name": "cs17j379",
+          "label": "watching television, average time expenditure on days that apply, total, in minutes"
+        },
+        {
+          "name": "cs17j127",
+          "label": "How many days do you listen to the radio per week, on average?"
+        },
+        {
+          "name": "cs17j128",
+          "label": "listening to the radio, average time expenditure on days that apply: hours"
+        },
+        {
+          "name": "cs17j129",
+          "label": "listening to the radio, average time expenditure on days that apply: minutes"
+        },
+        {
+          "name": "cs17j380",
+          "label": "listening to the radio, average time expenditure on days that apply, total, in minutes"
+        },
+        {
+          "name": "cs17j130",
+          "label": "Did you read one or more books from beginning to end over the past month (30 days), either for study or for pleasure?"
+        },
+        {
+          "name": "cs17j131",
+          "label": "How many books did you read from beginning to end over the past month (30 days), for study or for pleasure?"
+        },
+        {
+          "name": "cs17j132",
+          "label": "last 12 months, spent time on a regular basis on: playing a musical instrument"
+        },
+        {
+          "name": "cs17j133",
+          "label": "last 12 months, spent time on a regular basis on: singing/choir/singing group"
+        },
+        {
+          "name": "cs17j134",
+          "label": "last 12 months, spent time on a regular basis on: small jobs in and around the house"
+        },
+        {
+          "name": "cs17j135",
+          "label": "last 12 months, spent time on a regular basis on: model building"
+        },
+        {
+          "name": "cs17j136",
+          "label": "last 12 months, spent time on a regular basis on: handicrafts, painting, drawing, clay modeling, ceramics, etc."
+        },
+        {
+          "name": "cs17j137",
+          "label": "last 12 months, spent time on a regular basis on: photography"
+        },
+        {
+          "name": "cs17j138",
+          "label": "last 12 months, spent time on a regular basis on: caring for plants (including garden) or animals"
+        },
+        {
+          "name": "cs17j139",
+          "label": "last 12 months, spent time on a regular basis on: handwork"
+        },
+        {
+          "name": "cs17j518",
+          "label": "last 12 months, spent time on a regular basis on: watching blu-ray/DVD/video (including streaming\r\ne.g. Netflix, HBO, etc.)"
+        },
+        {
+          "name": "cs17j141",
+          "label": "last 12 months, spent time on a regular basis on: reading"
+        },
+        {
+          "name": "cs17j142",
+          "label": "last 12 months, spent time on a regular basis on: collecting stamps"
+        },
+        {
+          "name": "cs17j143",
+          "label": "last 12 months, spent time on a regular basis on: other collection"
+        },
+        {
+          "name": "cs17j144",
+          "label": "last 12 months, spent time on a regular basis on: following a course"
+        },
+        {
+          "name": "cs17j145",
+          "label": "last 12 months, spent time on a regular basis on: drama, musical, ballet, dance"
+        },
+        {
+          "name": "cs17j146",
+          "label": "last 12 months, spent time on a regular basis on: equestrian sport"
+        },
+        {
+          "name": "cs17j147",
+          "label": "last 12 months, spent time on a regular basis on: car/motor sport"
+        },
+        {
+          "name": "cs17j148",
+          "label": "last 12 months, spent time on a regular basis on: mechanical work on car, motorcycle"
+        },
+        {
+          "name": "cs17j149",
+          "label": "last 12 months, spent time on a regular basis on: card games"
+        },
+        {
+          "name": "cs17j150",
+          "label": "last 12 months, spent time on a regular basis on: billiards, pool, snooker, darts"
+        },
+        {
+          "name": "cs17j151",
+          "label": "last 12 months, spent time on a regular basis on: pigeons"
+        },
+        {
+          "name": "cs17j152",
+          "label": "last 12 months, spent time on a regular basis on: going out, cinema, theatre, dining out, terrace lounging"
+        },
+        {
+          "name": "cs17j153",
+          "label": "last 12 months, spent time on a regular basis on: cooking"
+        },
+        {
+          "name": "cs17j154",
+          "label": "last 12 months, spent time on a regular basis on: listening to music"
+        },
+        {
+          "name": "cs17j155",
+          "label": "last 12 months, spent time on a regular basis on: fishing"
+        },
+        {
+          "name": "cs17j156",
+          "label": "last 12 months, spent time on a regular basis on: shopping"
+        },
+        {
+          "name": "cs17j157",
+          "label": "last 12 months, spent time on a regular basis on: traveling"
+        },
+        {
+          "name": "cs17j158",
+          "label": "last 12 months, spent time on a regular basis on: dancing"
+        },
+        {
+          "name": "cs17j159",
+          "label": "last 12 months, spent time on a regular basis on: boating"
+        },
+        {
+          "name": "cs17j160",
+          "label": "average number of days per week that time is spent on: playing a musical instrument"
+        },
+        {
+          "name": "cs17j161",
+          "label": "average number of days per week that time is spent on: singing/choir/singing group"
+        },
+        {
+          "name": "cs17j162",
+          "label": "average number of days per week that time is spent on: small jobs in and around the house"
+        },
+        {
+          "name": "cs17j163",
+          "label": "average number of days per week that time is spent on: model building"
+        },
+        {
+          "name": "cs17j164",
+          "label": "average number of days per week that time is spent on: handicrafts, painting, drawing, clay modeling, ceramics, etc."
+        },
+        {
+          "name": "cs17j165",
+          "label": "average number of days per week that time is spent on: photography"
+        },
+        {
+          "name": "cs17j166",
+          "label": "average number of days per week that time is spent on: caring for plants (including garden) or animals"
+        },
+        {
+          "name": "cs17j167",
+          "label": "average number of days per week that time is spent on: handwork"
+        },
+        {
+          "name": "cs17j500",
+          "label": "average number of days per week that time is spent on: watching blu-ray/DVD/video (including streaming e.g.\r\nNetflix, HBO, etc.)"
+        },
+        {
+          "name": "cs17j169",
+          "label": "average number of days per week that time is spent on: reading"
+        },
+        {
+          "name": "cs17j170",
+          "label": "average number of days per week that time is spent on: collecting stamps"
+        },
+        {
+          "name": "cs17j171",
+          "label": "average number of days per week that time is spent on: other collection"
+        },
+        {
+          "name": "cs17j172",
+          "label": "average number of days per week that time is spent on: following a course"
+        },
+        {
+          "name": "cs17j173",
+          "label": "average number of days per week that time is spent on: drama, musical, ballet, dance"
+        },
+        {
+          "name": "cs17j174",
+          "label": "average number of days per week that time is spent on: equestrian sport"
+        },
+        {
+          "name": "cs17j175",
+          "label": "average number of days per week that time is spent on: car/motor sport"
+        },
+        {
+          "name": "cs17j176",
+          "label": "average number of days per week that time is spent on: mechanical work on car/motorcycle"
+        },
+        {
+          "name": "cs17j177",
+          "label": "average number of days per week that time is spent on: card games"
+        },
+        {
+          "name": "cs17j178",
+          "label": "average number of days per week that time is spent on: billiards, pool, snooker, darts"
+        },
+        {
+          "name": "cs17j179",
+          "label": "average number of days per week that time is spent on: pigeon keeping"
+        },
+        {
+          "name": "cs17j180",
+          "label": "average number of days per week that time is spent on: going out, cinema, theatre, dining out, terrace lounging"
+        },
+        {
+          "name": "cs17j181",
+          "label": "average number of days per week that time is spent on: cooking"
+        },
+        {
+          "name": "cs17j182",
+          "label": "average number of days per week that time is spent on: listening to music"
+        },
+        {
+          "name": "cs17j183",
+          "label": "average number of days per week that time is spent on: fishing"
+        },
+        {
+          "name": "cs17j184",
+          "label": "average number of days per week that time is spent on: shopping"
+        },
+        {
+          "name": "cs17j185",
+          "label": "average number of days per week that time is spent on: dancing"
+        },
+        {
+          "name": "cs17j186",
+          "label": "average number of days per week that time is spent on: boating"
+        },
+        {
+          "name": "cs17j187",
+          "label": "playing a musical instrument, average time expenditure on days that apply, hours"
+        },
+        {
+          "name": "cs17j188",
+          "label": "playing a musical instrument, average time expenditure on days that apply, minutes"
+        },
+        {
+          "name": "cs17j381",
+          "label": "playing a musical instrument, average time expenditure on days that apply, total, in minutes"
+        },
+        {
+          "name": "cs17j189",
+          "label": "singing/choir/singing group, average time expenditure on days that apply, hours"
+        },
+        {
+          "name": "cs17j190",
+          "label": "singing/choir/singing group, average time expenditure on days that apply, minutes"
+        },
+        {
+          "name": "cs17j382",
+          "label": "singing/choir/singing group, average time expenditure on days that apply, total, in minutes"
+        },
+        {
+          "name": "cs17j191",
+          "label": "small jobs in and around the house, average time expenditure on days that apply, hours"
+        },
+        {
+          "name": "cs17j192",
+          "label": "small jobs in and around the house, average time expenditure on days that apply, minutes"
+        },
+        {
+          "name": "cs17j383",
+          "label": "small jobs in and around the house, average time expenditure on days that apply, total, in minutes"
+        },
+        {
+          "name": "cs17j193",
+          "label": "model building, average time expenditure on days that apply, hours"
+        },
+        {
+          "name": "cs17j194",
+          "label": "model building, average time expenditure on days that apply, minutes"
+        },
+        {
+          "name": "cs17j384",
+          "label": "model building, average time expenditure on days that apply, total, in minutes"
+        },
+        {
+          "name": "cs17j195",
+          "label": "handicrafts, painting, drawing, clay modeling,ceramics, etc., average time expenditure on days that apply, hours"
+        },
+        {
+          "name": "cs17j196",
+          "label": "handicrafts, painting, drawing, painting, claymodeling, ceramics, etc., average time expenditure on days that apply, minutes"
+        },
+        {
+          "name": "cs17j385",
+          "label": "handicrafts, painting, drawing, clay modeling, ceramics, etc., average time expenditure on days that apply, total, in minutes"
+        },
+        {
+          "name": "cs17j197",
+          "label": "photography, average time expenditure on days that apply, hours"
+        },
+        {
+          "name": "cs17j198",
+          "label": "photography, average time expenditure on days that apply, minutes"
+        },
+        {
+          "name": "cs17j386",
+          "label": "photography, average time expenditure on days that apply, total, in minutes"
+        },
+        {
+          "name": "cs17j199",
+          "label": "caring for plants (including garden) or animals, average time expenditure on days that apply, hours"
+        },
+        {
+          "name": "cs17j200",
+          "label": "caring for plants (including garden) or animals, average time expenditure on days that apply, minutes"
+        },
+        {
+          "name": "cs17j387",
+          "label": "caring for plants (including garden) or animals, average time expenditure on days that apply, total, in minutes"
+        },
+        {
+          "name": "cs17j201",
+          "label": "handwork, average time expenditure on days that apply, hours"
+        },
+        {
+          "name": "cs17j202",
+          "label": "handwork, average time expenditure on days that apply, minutes"
+        },
+        {
+          "name": "cs17j388",
+          "label": "handwork, average time expenditure on days that apply, total, in minutes"
+        },
+        {
+          "name": "cs17j501",
+          "label": "watching blu-ray/DVD/video (including streaming\r\ne.g. Netflix, HBO, etc.)\r\n\r\n, average time expenditure on days that apply, hours"
+        },
+        {
+          "name": "cs17j502",
+          "label": "watching blu-ray/DVD/video (including streaming\r\ne.g. Netflix, HBO, etc.), average time expenditure on days that apply, minutes"
+        },
+        {
+          "name": "cs17j503",
+          "label": "watching blu-ray/DVD/video (including streaming\r\ne.g. Netflix, HBO, etc.)\r\n\r\n, average time expenditure on days that apply, total, in minutes"
+        },
+        {
+          "name": "cs17j205",
+          "label": "reading, average time expenditure on days that apply, hours"
+        },
+        {
+          "name": "cs17j206",
+          "label": "reading, average time expenditure on days that apply, minutes"
+        },
+        {
+          "name": "cs17j390",
+          "label": "reading, average time expenditure on days that apply, total, in minutes"
+        },
+        {
+          "name": "cs17j207",
+          "label": "collecting stamps, average time expenditure on days that apply, hours"
+        },
+        {
+          "name": "cs17j208",
+          "label": "collecting stamps, average time expenditure on days that apply, minutes"
+        },
+        {
+          "name": "cs17j391",
+          "label": "collecting stamps, average time expenditure on days that apply, total, in minutes"
+        },
+        {
+          "name": "cs17j209",
+          "label": "other collection, average time expenditure on days that apply, hours"
+        },
+        {
+          "name": "cs17j210",
+          "label": "other collection, average time expenditure on days that apply, minutes"
+        },
+        {
+          "name": "cs17j392",
+          "label": "other collection, average time expenditure on days that apply, total, in minutes"
+        },
+        {
+          "name": "cs17j211",
+          "label": "following a course, average time expenditure on days that apply, hours"
+        },
+        {
+          "name": "cs17j212",
+          "label": "following a course, average time expenditure on days that apply, minutes"
+        },
+        {
+          "name": "cs17j393",
+          "label": "following a course, average time expenditure on days that apply, total, in minutes"
+        },
+        {
+          "name": "cs17j213",
+          "label": "drama, musical, ballet, dance, average time expenditure on days that apply, hours"
+        },
+        {
+          "name": "cs17j214",
+          "label": "drama, musical, ballet, dance, average time expenditure on days that apply, minutes"
+        },
+        {
+          "name": "cs17j394",
+          "label": "drama, musical, ballet, dance, average time expenditure on days that apply, total, in minutes"
+        },
+        {
+          "name": "cs17j215",
+          "label": "equestrian sport, average time expenditure on days that apply, hours"
+        },
+        {
+          "name": "cs17j216",
+          "label": "equestrian sport, average time expenditure on days that apply, minutes"
+        },
+        {
+          "name": "cs17j395",
+          "label": "equestrian sport, average time expenditure on days that apply, total, in minutes"
+        },
+        {
+          "name": "cs17j217",
+          "label": "car/motor sport, average time expenditure on days that apply, hours"
+        },
+        {
+          "name": "cs17j218",
+          "label": "car/motor sport, average time expenditure on days that apply, minutes"
+        },
+        {
+          "name": "cs17j396",
+          "label": "auto/motor sport, average time expenditure on days that apply, total, in minutes"
+        },
+        {
+          "name": "cs17j219",
+          "label": "mechanical work on car/motorcycle, average time expenditure on days that apply, hours"
+        },
+        {
+          "name": "cs17j220",
+          "label": "mechanical work on car/motorcycle, average time expenditure on days that apply, minutes"
+        },
+        {
+          "name": "cs17j397",
+          "label": "mechanical work on car/motorcycle, average time expenditure on days that apply, total, in minutes"
+        },
+        {
+          "name": "cs17j221",
+          "label": "card games, average time expenditure on days that apply, hours"
+        },
+        {
+          "name": "cs17j222",
+          "label": "card games, average time expenditure on days that apply, minutes"
+        },
+        {
+          "name": "cs17j398",
+          "label": "card games, average time expenditure on days that apply, total, in minutes"
+        },
+        {
+          "name": "cs17j223",
+          "label": "billiards, pool, snooker, darts, average time expenditure on days that apply, hours"
+        },
+        {
+          "name": "cs17j224",
+          "label": "billiards, pool, snooker, darts, average time expenditure on days that apply, minutes"
+        },
+        {
+          "name": "cs17j399",
+          "label": "billiards, pool, snooker, darts, average time expenditure on days that apply, total, in minutes"
+        },
+        {
+          "name": "cs17j225",
+          "label": "pigeons, average time expenditure on days that apply, hours"
+        },
+        {
+          "name": "cs17j226",
+          "label": "pigeons, average time expenditure on days that apply, minutes"
+        },
+        {
+          "name": "cs17j400",
+          "label": "pigeons, average time expenditure on days that apply, total, in minutes"
+        },
+        {
+          "name": "cs17j227",
+          "label": "going out, cinema, theatre, dining out, terrace lounging; average time expenditure on days that apply, hours"
+        },
+        {
+          "name": "cs17j228",
+          "label": "going out, cinema, theatre, dining out, terrace lounging; average time expenditure on days that apply, minutes"
+        },
+        {
+          "name": "cs17j401",
+          "label": "going out, cinema, theatre, dining out, terrace lounging, average time expenditure on days that apply, total, in minutes"
+        },
+        {
+          "name": "cs17j229",
+          "label": "cooking, average time expenditure on days that apply, hours"
+        },
+        {
+          "name": "cs17j230",
+          "label": "cooking, average time expenditure on days that apply, minutes"
+        },
+        {
+          "name": "cs17j402",
+          "label": "cooking, average time expenditure on days that apply, total, in minutes"
+        },
+        {
+          "name": "cs17j231",
+          "label": "listening to music, average time expenditure on days that apply, hours"
+        },
+        {
+          "name": "cs17j232",
+          "label": "listening to music, average time expenditure on days that apply, minutes"
+        },
+        {
+          "name": "cs17j403",
+          "label": "listening to music, average time expenditure on days that apply, total, in minutes"
+        },
+        {
+          "name": "cs17j233",
+          "label": "fishing, average time expenditure on days that apply, hours"
+        },
+        {
+          "name": "cs17j234",
+          "label": "fishing, average time expenditure on days that apply, minutes"
+        },
+        {
+          "name": "cs17j404",
+          "label": "fishing, average time expenditure on days that apply, total, in minutes"
+        },
+        {
+          "name": "cs17j235",
+          "label": "shopping, average time expenditure on days that apply, hours"
+        },
+        {
+          "name": "cs17j236",
+          "label": "shopping, average time expenditure on days that apply, minutes"
+        },
+        {
+          "name": "cs17j405",
+          "label": "shopping, average time expenditure on days that apply, total, in minutes"
+        },
+        {
+          "name": "cs17j237",
+          "label": "dancing, average time expenditure on days that apply, hours"
+        },
+        {
+          "name": "cs17j238",
+          "label": "dancing, average time expenditure on days that apply, minutes"
+        },
+        {
+          "name": "cs17j406",
+          "label": "dancing, average time expenditure on days that apply, total, in minutes"
+        },
+        {
+          "name": "cs17j239",
+          "label": "boating, average time expenditure on days that apply, hours"
+        },
+        {
+          "name": "cs17j240",
+          "label": "boating, average time expenditure on days that apply, minutes"
+        },
+        {
+          "name": "cs17j407",
+          "label": "boating, average time expenditure on days that apply, total, in minutes"
+        },
+        {
+          "name": "cs17j444",
+          "label": "With which of the following devices do you have access to the internet at home? a Personal Computer or desktop"
+        },
+        {
+          "name": "cs17j445",
+          "label": "With which of the following devices do you have access to the internet at home? a laptop or netbook"
+        },
+        {
+          "name": "cs17j446",
+          "label": "With which of the following devices do you have access to the internet at home? a tablet"
+        },
+        {
+          "name": "cs17j504",
+          "label": "With which of the following devices do you have access to the internet at home? a smartphone"
+        },
+        {
+          "name": "cs17j448",
+          "label": "With which of the following devices do you have access to the internet at home? a palmtop"
+        },
+        {
+          "name": "cs17j449",
+          "label": "With which of the following devices do you have access to the internet at home? a TV with set top box, for example digital TV, Apple TV, ChromeCast etc."
+        },
+        {
+          "name": "cs17j450",
+          "label": "With which of the following devices do you have access to the internet at home? a game console"
+        },
+        {
+          "name": "cs17j451",
+          "label": "With which of the following devices do you have access to the internet at home? none of these"
+        },
+        {
+          "name": "cs17j505",
+          "label": "do you sometimes use a computer or laptop, for other things than completing the questionnaires of this panel?"
+        },
+        {
+          "name": "cs17j506",
+          "label": "do you sometimes use a tablet, for other things than completing the questionnaires of this panel?"
+        },
+        {
+          "name": "cs17j507",
+          "label": "do you sometimes use a smartphone, bfor other things than completing the questionnaires of this panel?"
+        },
+        {
+          "name": "cs17j242",
+          "label": "computer or laptop use, average number of hours per week: at home"
+        },
+        {
+          "name": "cs17j243",
+          "label": "computer or laptop use, average number of hours per week: at work"
+        },
+        {
+          "name": "cs17j244",
+          "label": "computer or laptop use, average number of hours per week: in school"
+        },
+        {
+          "name": "cs17j245",
+          "label": "computer or laptop use, average number of hours per week: somewhere else (e.g. a community center, Internet caf\u00e9)"
+        },
+        {
+          "name": "cs17j418",
+          "label": "do you sometimes make use of the internet on a computer or laptop, for other things than\r\n\r\n completing the questionnaires of this panel?"
+        },
+        {
+          "name": "cs17j419",
+          "label": "do you sometimes make use of the internet on a tablet, for other things than completing the questionnaires of this panel?"
+        },
+        {
+          "name": "cs17j420",
+          "label": "do you sometimes make use of the internet on a smartphone, for other things than completing the questionnaires of this panel?"
+        },
+        {
+          "name": "cs17j421",
+          "label": "internet use on a computer or laptop, average number of hours per week: at home"
+        },
+        {
+          "name": "cs17j422",
+          "label": "internet use on a computer or laptop, average number of hours per week: at work"
+        },
+        {
+          "name": "cs17j423",
+          "label": "internet use on a computer or laptop, average number of hours per week: in school"
+        },
+        {
+          "name": "cs17j424",
+          "label": "internet use on a computer or laptop, average number of hours per week: somewhere else (e.g. a community center, Internet caf\u00e9)"
+        },
+        {
+          "name": "cs17j425",
+          "label": "internet use on a tablet, average number of hours per week"
+        },
+        {
+          "name": "cs17j426",
+          "label": "internet use on a smartphone, average number of hours per week"
+        },
+        {
+          "name": "cs17j427",
+          "label": "how often do you download apps on your tablet?"
+        },
+        {
+          "name": "cs17j428",
+          "label": "how often do you download apps on your smartphone?"
+        },
+        {
+          "name": "cs17j251",
+          "label": "ever spend time on: email"
+        },
+        {
+          "name": "cs17j252",
+          "label": "ever spend time on: searching for information on the Internet (e.g. about hobbies, work, opening hours, daytrips, etc.)"
+        },
+        {
+          "name": "cs17j253",
+          "label": "ever spend time on: searching for and comparing products/product information on the Internet"
+        },
+        {
+          "name": "cs17j254",
+          "label": "ever spend time on: purchasing items via the Internet"
+        },
+        {
+          "name": "cs17j429",
+          "label": "ever spend time on: watching online films or TV programs"
+        },
+        {
+          "name": "cs17j430",
+          "label": "ever spend time on: downloading software, music or films"
+        },
+        {
+          "name": "cs17j260",
+          "label": "ever spend time on: Internet banking"
+        },
+        {
+          "name": "cs17j261",
+          "label": "ever spend time on: playing Internet games/online gaming"
+        },
+        {
+          "name": "cs17j262",
+          "label": "ever spend time on: reading online news and magazines"
+        },
+        {
+          "name": "cs17j263",
+          "label": "ever spend time on: newsgroups"
+        },
+        {
+          "name": "cs17j431",
+          "label": "ever spend time on: reading and viewing social media (e.g. Facebook, Instagram,\r\nTwitter, YouTube, LinkedIn, Google+, Pinterest, Flickr, or similar services)"
+        },
+        {
+          "name": "cs17j432",
+          "label": "ever spend time on: reading and/or writing blogs"
+        },
+        {
+          "name": "cs17j486",
+          "label": "ever spend time on: posting messages, photos and short films on social\r\nmedia yourself (e.g. Facebook, Instagram, Twitter, YouTube, LinkedIn, Google+, Pinterest,\r\nFlickr, or similar services)"
+        },
+        {
+          "name": "cs17j264",
+          "label": "ever spend time on: chatting, video calling or sending messages via WhatsApp,\r\nTelegram, Snapchat, Skype or similar services"
+        },
+        {
+          "name": "cs17j435",
+          "label": "ever spend time on: dating websites (like Relatieplanet, Lexa, Tinder,\r\nGrindr or similar services)"
+        },
+        {
+          "name": "cs17j265",
+          "label": "ever spend time on: visiting (discussion)forums and Internet communities"
+        },
+        {
+          "name": "cs17j266",
+          "label": "ever spend time on: other activities on the Internet"
+        },
+        {
+          "name": "cs17j436",
+          "label": "How often did you make use of social media in the past 2 months?"
+        },
+        {
+          "name": "cs17j267",
+          "label": "average number of hours per week spent on: email"
+        },
+        {
+          "name": "cs17j268",
+          "label": "average number of hours per week spent on: searching for information on the Internet (e.g. about hobbies, work, opening hours, daytrips, etc.)"
+        },
+        {
+          "name": "cs17j269",
+          "label": "average number of hours per week spent on: searching for and comparing products/product information on the Internet"
+        },
+        {
+          "name": "cs17j270",
+          "label": "average number of hours per week spent on: purchasing items via the Internet"
+        },
+        {
+          "name": "cs17j437",
+          "label": "average number of hours per week spent on: watching online films or TV programs"
+        },
+        {
+          "name": "cs17j438",
+          "label": "average number of hours per week spent on: downloading software, music or films"
+        },
+        {
+          "name": "cs17j276",
+          "label": "average number of hours per week spent on: Internet banking"
+        },
+        {
+          "name": "cs17j277",
+          "label": "average number of hours per week spent on: playing Internet games/online gaming"
+        },
+        {
+          "name": "cs17j278",
+          "label": "average number of hours per week spent on: reading online news and magazines"
+        },
+        {
+          "name": "cs17j279",
+          "label": "average number of hours per week spent on: newsgroups"
+        },
+        {
+          "name": "cs17j439",
+          "label": "average number of hours per week spent on: \r\n\r\nreading and viewing social media (e.g. Facebook, Instagram, Twitter,\r\nYouTube, LinkedIn, Google+, Pinterest, Flickr, or similar services)"
+        },
+        {
+          "name": "cs17j440",
+          "label": "average number of hours per week spent on: reading and/or writing blogs"
+        },
+        {
+          "name": "cs17j487",
+          "label": "average number of hours per week spent on: posting messages, photos and short films on social\r\nmedia yourself (e.g. Facebook, Instagram, Twitter, YouTube, LinkedIn, Google+, Pinterest,\r\nFlickr, or similar services)"
+        },
+        {
+          "name": "cs17j280",
+          "label": "average number of hours per week spent on: chatting, video calling or sending messages via WhatsApp,\r\nTelegram, Snapchat, Skype or similar services"
+        },
+        {
+          "name": "cs17j443",
+          "label": "average number of hours per week spent on: dating websites (like Relatieplanet, Lexa, Tinder,\r\nGrindr or similar services)"
+        },
+        {
+          "name": "cs17j281",
+          "label": "average number of hours per week spent on: visiting (discussion)forums and Internet communities"
+        },
+        {
+          "name": "cs17j282",
+          "label": "average number of hours per week spent on: other activities on the Internet"
+        },
+        {
+          "name": "cs17j452",
+          "label": "Which social media do you use? - Facebook"
+        },
+        {
+          "name": "cs17j453",
+          "label": "Which social media do you use? - Twitter"
+        },
+        {
+          "name": "cs17j454",
+          "label": "Which social media do you use? - Pinterest"
+        },
+        {
+          "name": "cs17j455",
+          "label": "Which social media do you use? - Google+"
+        },
+        {
+          "name": "cs17j456",
+          "label": "Which social media do you use? - Tumblr"
+        },
+        {
+          "name": "cs17j457",
+          "label": "Which social media do you use? - LinkedIn"
+        },
+        {
+          "name": "cs17j458",
+          "label": "Which social media do you use? - MySpace"
+        },
+        {
+          "name": "cs17j459",
+          "label": "Which social media do you use? - Flickr"
+        },
+        {
+          "name": "cs17j460",
+          "label": "Which social media do you use? - Snapchat"
+        },
+        {
+          "name": "cs17j461",
+          "label": "Which social media do you use? - Foursquare"
+        },
+        {
+          "name": "cs17j462",
+          "label": "Which social media do you use? - Vine"
+        },
+        {
+          "name": "cs17j463",
+          "label": "Which social media do you use? - Vimeo"
+        },
+        {
+          "name": "cs17j464",
+          "label": "Which social media do you use? - YouTube"
+        },
+        {
+          "name": "cs17j465",
+          "label": "Which social media do you use? - Skype"
+        },
+        {
+          "name": "cs17j466",
+          "label": "Which social media do you use? - Instagram"
+        },
+        {
+          "name": "cs17j467",
+          "label": "Which social media do you use? - Tagged"
+        },
+        {
+          "name": "cs17j468",
+          "label": "Which social media do you use? - WhatsApp"
+        },
+        {
+          "name": "cs17j508",
+          "label": "Which social media do you use? -Telegram"
+        },
+        {
+          "name": "cs17j509",
+          "label": "Which social media do you use?- SoundCloud"
+        },
+        {
+          "name": "cs17j510",
+          "label": "Which social media do you use? - Viber"
+        },
+        {
+          "name": "cs17j511",
+          "label": "Which social media do you use? - Yammer"
+        },
+        {
+          "name": "cs17j469",
+          "label": "Which social media do you use? - Spotify"
+        },
+        {
+          "name": "cs17j519",
+          "label": "Which social media do you use? - Messenger"
+        },
+        {
+          "name": "cs17j520",
+          "label": "Which social media do you use? - WeChat"
+        },
+        {
+          "name": "cs17j521",
+          "label": "Which social media do you use? - Deezer"
+        },
+        {
+          "name": "cs17j522",
+          "label": "Which social media do you use? - FaceTime"
+        },
+        {
+          "name": "cs17j470",
+          "label": "Which social media and/or social networking sites do you use? - Other, namely"
+        },
+        {
+          "name": "cs17j471",
+          "label": "Which social media and/or social networking sites do you use? - Other, namely"
+        },
+        {
+          "name": "cs17j472",
+          "label": "Can you indicate how often you use the following social networking sites? - Facebook"
+        },
+        {
+          "name": "cs17j473",
+          "label": "Can you indicate how often you use the following social networking sites? - Twitter"
+        },
+        {
+          "name": "cs17j474",
+          "label": "Can you indicate how often you use the following social networking sites? - LinkedIn"
+        },
+        {
+          "name": "cs17j475",
+          "label": "How do you mainly use these social networking sites? - Facebook"
+        },
+        {
+          "name": "cs17j476",
+          "label": "How do you mainly use these social networking sites? - Twitter"
+        },
+        {
+          "name": "cs17j477",
+          "label": "How do you mainly use these social networking sites? - LinkedIn"
+        },
+        {
+          "name": "cs17j512",
+          "label": "To what extent do you have confidence that\r\nFacebook respects your privacy?"
+        },
+        {
+          "name": "cs17j513",
+          "label": "To what extent do you have confidence that social media\r\nrespect your privacy?"
+        },
+        {
+          "name": "cs17j480",
+          "label": "In general, do you think about what information you share on social media and about who can see this?"
+        },
+        {
+          "name": "cs17j481",
+          "label": "You have indicated previously that you do not use social networking sites (e.g. Facebook, Twitter, Instagram, WhatsApp, LinkedIn, Google+, etc.). Can you indicate why not?"
+        },
+        {
+          "name": "cs17j482",
+          "label": "Can you indicate why not? - Other reason, namely:"
+        },
+        {
+          "name": "cs17j483",
+          "label": "Because of social media and social networking sites people are less inclined to meet in real life."
+        },
+        {
+          "name": "cs17j484",
+          "label": "Because of social media and social networking sites it is easier for people to maintain friendships"
+        },
+        {
+          "name": "cs17j485",
+          "label": "When people do not use social media, this is harmful\r\nfor the 'real' (non-virtual) social life."
+        },
+        {
+          "name": "cs17j283",
+          "label": "How satisfied are you with your social contacts?"
+        },
+        {
+          "name": "cs17j284",
+          "label": "I have a sense of emptiness around me"
+        },
+        {
+          "name": "cs17j285",
+          "label": "there are enough people I can count on in case of a misfortune"
+        },
+        {
+          "name": "cs17j286",
+          "label": "I know a lot of people that I can fully rely on"
+        },
+        {
+          "name": "cs17j287",
+          "label": "there are enough people to whom I feel closely connected"
+        },
+        {
+          "name": "cs17j288",
+          "label": "I miss having people around me"
+        },
+        {
+          "name": "cs17j289",
+          "label": "I often feel deserted"
+        },
+        {
+          "name": "cs17j290",
+          "label": "How often do you do the following? Spend an evening with family (other than members of your own household)"
+        },
+        {
+          "name": "cs17j291",
+          "label": "How often do you do the following? Spend an evening with someone from the neighborhood"
+        },
+        {
+          "name": "cs17j292",
+          "label": "How often do you do the following? Spend an evening with friends outside your neighborhood"
+        },
+        {
+          "name": "cs17j293",
+          "label": "How often do you do the following? Visit a bar or caf\u00e9"
+        },
+        {
+          "name": "cs17j294",
+          "label": "Name entered for person 1?"
+        },
+        {
+          "name": "cs17j295",
+          "label": "Name entered for person 2?"
+        },
+        {
+          "name": "cs17j296",
+          "label": "Name entered for person 3?"
+        },
+        {
+          "name": "cs17j297",
+          "label": "Name entered for person 4?"
+        },
+        {
+          "name": "cs17j298",
+          "label": "Name entered for person 5?"
+        },
+        {
+          "name": "cs17j299",
+          "label": "Are all these people equally dear to you?"
+        },
+        {
+          "name": "cs17j300",
+          "label": "Which of these people are very dear to you? person 1:"
+        },
+        {
+          "name": "cs17j301",
+          "label": "Which of these people are very dear to you? person 2:"
+        },
+        {
+          "name": "cs17j302",
+          "label": "Which of these people are very dear to you? person 3:"
+        },
+        {
+          "name": "cs17j303",
+          "label": "Which of these people are very dear to you? person 4:"
+        },
+        {
+          "name": "cs17j304",
+          "label": "Which of these people are very dear to you? person 5:"
+        },
+        {
+          "name": "cs17j305",
+          "label": "How close are these people to each other? person 1 and person 2:"
+        },
+        {
+          "name": "cs17j306",
+          "label": "How close are these people to each other? person 1 and person 3:"
+        },
+        {
+          "name": "cs17j307",
+          "label": "How close are these people to each other? person 1 and person 4:"
+        },
+        {
+          "name": "cs17j308",
+          "label": "How close are these people to each other? person 1 and person 5:"
+        },
+        {
+          "name": "cs17j309",
+          "label": "How close are these people to each other? person 2 and person 3:"
+        },
+        {
+          "name": "cs17j310",
+          "label": "How close are these people to each other? person 2 and person 4"
+        },
+        {
+          "name": "cs17j311",
+          "label": "How close are these people to each other? person 2 and person 5:"
+        },
+        {
+          "name": "cs17j312",
+          "label": "How close are these people to each other? person 3 and person 4:"
+        },
+        {
+          "name": "cs17j313",
+          "label": "How close are these people to each other? person 3 and person 5:"
+        },
+        {
+          "name": "cs17j314",
+          "label": "How close are these people to each other? person 4 and person 5:"
+        },
+        {
+          "name": "cs17j315",
+          "label": "What is the gender of person 1?"
+        },
+        {
+          "name": "cs17j316",
+          "label": "What is the gender of person 2?"
+        },
+        {
+          "name": "cs17j317",
+          "label": "What is the gender of person 3?"
+        },
+        {
+          "name": "cs17j318",
+          "label": "What is the gender of person 4?"
+        },
+        {
+          "name": "cs17j319",
+          "label": "What is the gender of person 5?"
+        },
+        {
+          "name": "cs17j320",
+          "label": "Of what origin is person 1?"
+        },
+        {
+          "name": "cs17j321",
+          "label": "How do you do know person 1? He/she is my..."
+        },
+        {
+          "name": "cs17j322",
+          "label": "How do you do know person 1?"
+        },
+        {
+          "name": "cs17j323",
+          "label": "How often do you talk to person 1?"
+        },
+        {
+          "name": "cs17j324",
+          "label": "How often do you discuss political issues with person 1?"
+        },
+        {
+          "name": "cs17j325",
+          "label": "How long have you known person 1?"
+        },
+        {
+          "name": "cs17j326",
+          "label": "What is the highest level of education that person 1 completed?"
+        },
+        {
+          "name": "cs17j327",
+          "label": "Does person 1 work full-time, part-time, or not at all?"
+        },
+        {
+          "name": "cs17j328",
+          "label": "What kind of profession does person 1 have?"
+        },
+        {
+          "name": "cs17j329",
+          "label": "What age is person 1, approximately?"
+        },
+        {
+          "name": "cs17j330",
+          "label": "What is the home situation of person 1?"
+        },
+        {
+          "name": "cs17j331",
+          "label": "Of what origin is person 2?"
+        },
+        {
+          "name": "cs17j332",
+          "label": "How do you do know person 2? He/she is my..."
+        },
+        {
+          "name": "cs17j333",
+          "label": "How do you do know person 2?"
+        },
+        {
+          "name": "cs17j334",
+          "label": "How often do you talk to person 2?"
+        },
+        {
+          "name": "cs17j335",
+          "label": "How often do you discuss political issues with person 2?"
+        },
+        {
+          "name": "cs17j336",
+          "label": "How long have you known person 2?"
+        },
+        {
+          "name": "cs17j337",
+          "label": "What is the highest level of education that person 2 completed?"
+        },
+        {
+          "name": "cs17j338",
+          "label": "Does person 2 work full-time, part-time, or not at all?"
+        },
+        {
+          "name": "cs17j339",
+          "label": "What kind of profession does person 2 have?"
+        },
+        {
+          "name": "cs17j340",
+          "label": "What age is person 2, approximately?"
+        },
+        {
+          "name": "cs17j341",
+          "label": "What is the home situation of person 2?"
+        },
+        {
+          "name": "cs17j342",
+          "label": "Of what origin is person 3?"
+        },
+        {
+          "name": "cs17j343",
+          "label": "How do you do know person 3? He/she is my..."
+        },
+        {
+          "name": "cs17j344",
+          "label": "How do you do know person 3?"
+        },
+        {
+          "name": "cs17j345",
+          "label": "How often do you talk to person 3?"
+        },
+        {
+          "name": "cs17j346",
+          "label": "How often do you discuss political issues with person 3?"
+        },
+        {
+          "name": "cs17j347",
+          "label": "How long have you known person 3?"
+        },
+        {
+          "name": "cs17j348",
+          "label": "What is the highest level of education that person 3 completed?"
+        },
+        {
+          "name": "cs17j349",
+          "label": "Does person 3 work full-time, part-time, or not at all?"
+        },
+        {
+          "name": "cs17j350",
+          "label": "What kind of profession does person 3 have?"
+        },
+        {
+          "name": "cs17j351",
+          "label": "What age is person 3, approximately?"
+        },
+        {
+          "name": "cs17j352",
+          "label": "What is the home situation of person 3?"
+        },
+        {
+          "name": "cs17j353",
+          "label": "Of what origin is person 4?"
+        },
+        {
+          "name": "cs17j354",
+          "label": "How do you do know person 4? He/she is my..."
+        },
+        {
+          "name": "cs17j355",
+          "label": "How do you do know person 4?"
+        },
+        {
+          "name": "cs17j356",
+          "label": "How often do you talk to person 4?"
+        },
+        {
+          "name": "cs17j357",
+          "label": "How often do you discuss political issues with person 4?"
+        },
+        {
+          "name": "cs17j358",
+          "label": "How long have you known person 4?"
+        },
+        {
+          "name": "cs17j359",
+          "label": "What is the highest level of education that person 4 completed?"
+        },
+        {
+          "name": "cs17j360",
+          "label": "Does person 4 work full-time, part-time, or not at all?"
+        },
+        {
+          "name": "cs17j361",
+          "label": "What kind of profession does person 4 have?"
+        },
+        {
+          "name": "cs17j362",
+          "label": "What age is person 4, approximately?"
+        },
+        {
+          "name": "cs17j363",
+          "label": "What is the home situation of person 4?"
+        },
+        {
+          "name": "cs17j364",
+          "label": "Of what origin is person 5?"
+        },
+        {
+          "name": "cs17j365",
+          "label": "How do you do know person 5? He/she is my..."
+        },
+        {
+          "name": "cs17j366",
+          "label": "How do you do know person 5?"
+        },
+        {
+          "name": "cs17j367",
+          "label": "How often do you talk to person 5?"
+        },
+        {
+          "name": "cs17j368",
+          "label": "How often do you discuss political issues with person 5?"
+        },
+        {
+          "name": "cs17j369",
+          "label": "How long have you known person 5?"
+        },
+        {
+          "name": "cs17j370",
+          "label": "What is the highest level of education that person 5 completed?"
+        },
+        {
+          "name": "cs17j371",
+          "label": "Does person 5 work full-time, part-time, or not at all?"
+        },
+        {
+          "name": "cs17j372",
+          "label": "What kind of profession does person 5 have?"
+        },
+        {
+          "name": "cs17j373",
+          "label": "What age is person 5, approximately?"
+        },
+        {
+          "name": "cs17j374",
+          "label": "What is the home situation of person 5?"
+        },
+        {
+          "name": "cs17j410",
+          "label": "Was it difficult to answer the questions?"
+        },
+        {
+          "name": "cs17j411",
+          "label": "Were the questions sufficiently clear?"
+        },
+        {
+          "name": "cs17j412",
+          "label": "Did the questionnaire get you thinking about things?"
+        },
+        {
+          "name": "cs17j413",
+          "label": "Was it an interesting subject?"
+        },
+        {
+          "name": "cs17j414",
+          "label": "Did you enjoy answering the questions?"
+        },
+        {
+          "name": "cs17j375",
+          "label": "Questionnaire starting date"
+        },
+        {
+          "name": "cs17j376",
+          "label": "Questionnaire starting time"
+        },
+        {
+          "name": "cs17j377",
+          "label": "Questionnaire end date"
+        },
+        {
+          "name": "cs17j378",
+          "label": "Questionnaire end time"
+        },
+        {
+          "name": "cs17j415",
+          "label": "Duration in seconds"
+        }
+      ]
+    }
+  ],
+  "concepts": [
+    "(Leisure) activities / hobbies",
+    "Books",
+    "Computer and internet usage",
+    "Cultural participation",
+    "Holidays",
+    "Loneliness",
+    "Media usage",
+    "Satisfaction leisure",
+    "Satisfaction social integration",
+    "Social contacts",
+    "Social engagement",
+    "Sport",
+    "Time expenditure voluntary work",
+    "Volunteer aid"
   ]
 }
