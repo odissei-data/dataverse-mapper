@@ -278,3 +278,30 @@ class MetadataMapper:
             status_code=422,
             detail="No usable DOI in mapped persistent identifiers"
         )
+
+    def remove_empty_fields(self):
+        # Iterate over the metadata blocks
+        metadataBlocks = self.template['datasetVersion'][
+            'metadataBlocks'].values()
+        for metadata_block in metadataBlocks:
+            # Iterate over the fields in each metadata block
+            metadata_block['fields'] = [field for field in
+                                        metadata_block['fields'] if
+                                        field.get('value') not in ('', [])]
+            for field in metadata_block['fields']:
+                if "typeClass" in field and field["typeClass"] == "compound":
+                    remove_empty_compound_field(field)
+
+
+def remove_empty_compound_field(compoundField):
+    # TODO: leaves an empty object in the result.
+    if isinstance(compoundField["value"], list):
+        # Remove key-value pairs with empty "value" keys
+        compoundField["value"] = [
+            {
+                key: value
+                for key, value in item.items()
+                if value.get("value") not in ('', [])
+            }
+            for item in compoundField["value"]
+        ]

@@ -25,8 +25,9 @@ def map_metadata(input_data: Input):
     if input_data.has_existing_doi:
         mapper.template["datasetVersion"][
             "datasetPersistentId"] = mapper.get_persistent_identifier()
-    mapped_metadata = mapper.map_metadata()
-    return mapped_metadata
+    mapper.map_metadata()
+    mapper.remove_empty_fields()
+    return mapper.template
 
 
 def validate_dataverse_json(dataverse_json):
