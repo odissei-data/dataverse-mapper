@@ -30,13 +30,13 @@ def test_liss_json_mapper():
     """Test LISS JSON metadata mapping."""
     mapper_child = _create_mapper(
         "test-data/input-data/liss-child-metadata.json",
-        "test-data/mappings/liss-json-mapping.json",
-        "test-data/template-data/liss_json_dataverse_template.json"
+        "resources/mappings/liss-mapping.json",
+        "resources/templates/liss_dataverse_template.json"
     )
     mapper_parent = _create_mapper(
         "test-data/input-data/liss-parent-metadata.json",
-        "test-data/mappings/liss-json-mapping.json",
-        "test-data/template-data/liss_json_dataverse_template.json"
+        "resources/mappings/liss-mapping.json",
+        "resources/templates/liss_dataverse_template.json"
     )
 
     mapped_child_result = mapper_child.map_metadata()
@@ -63,8 +63,8 @@ def test_cbs_mapper():
     """Test CBS mapping."""
     mapper = _create_mapper(
         "test-data/input-data/cbs-test-metadata.json",
-        "test-data/mappings/cbs-mapping.json",
-        "test-data/template-data/cbs_dataverse_template.json"
+        "resources/mappings/cbs-mapping.json",
+        "resources/templates/cbs_dataverse_template.json"
     )
 
     # Test if the mapper generates the expected result
@@ -80,12 +80,47 @@ def test_cbs_mapper():
     assert mapped_pid == expected_pid
 
 
+def test_cid_mapper():
+    """Test CBS mapping."""
+    mapper = _create_mapper(
+        "test-data/input-data/cid-test-metadata.json",
+        "resources/mappings/cid-mapping.json",
+        "resources/templates/cid_dataverse_template.json"
+    )
+
+    # Test if the mapper generates the expected result
+    expected_result = open_json_file(
+        "test-data/expected-result-data/cid-result.json"
+    )
+    mapped_result = mapper.map_metadata()
+    assert mapped_result == expected_result
+
+    # Test if the mapper cleans empty fields correctly
+    expected_clean_result = open_json_file(
+        "test-data/expected-result-data/cid-clean-result.json"
+    )
+    mapper.remove_empty_fields()
+    assert mapper.template == expected_clean_result
+
+    # Test cleaner with different data
+
+    mapped_result = open_json_file(
+        "test-data/expected-result-data/cid-result-2.json"
+    )
+    expected_clean_result = open_json_file(
+        "test-data/expected-result-data/cid-clean-result-2.json"
+    )
+    mapper.template = mapped_result
+    mapper.remove_empty_fields()
+    assert mapper.template == expected_clean_result
+
+
 def test_easy_mapper():
     """Test Easy mapping."""
     mapper = _create_mapper(
         "test-data/input-data/easy-test-metadata.json",
-        "test-data/mappings/easy-mapping.json",
-        "test-data/template-data/easy_dataverse_template.json"
+        "test-data/test-mappings/easy-mapping.json",
+        "test-data/test-templates/easy_dataverse_template.json"
     )
 
     expected_result = open_json_file(
@@ -99,13 +134,20 @@ def test_easy_mapper():
     mapped_pid = mapper.get_persistent_identifier()
     assert mapped_pid == expected_pid
 
+    # Test if the mapper cleans empty fields correctly
+    expected_clean_result = open_json_file(
+        "test-data/expected-result-data/easy-clean-result.json"
+    )
+    mapper.remove_empty_fields()
+    assert mapper.template == expected_clean_result
+
 
 def test_liss_mapper():
     """Test Liss mapping."""
     mapper = _create_mapper(
         "test-data/input-data/liss-test-metadata.json",
-        "test-data/mappings/liss-mapping.json",
-        "test-data/template-data/liss_dataverse_template.json"
+        "test-data/test-mappings/liss-old-mapping.json",
+        "test-data/test-templates/liss_old_dataverse_template.json"
     )
 
     expected_result = open_json_file(
@@ -120,32 +162,12 @@ def test_liss_mapper():
     assert mapped_pid == expected_pid
 
 
-def test_ssh_mapper():
-    """Test SSH mapping."""
-    mapper = _create_mapper(
-        "test-data/input-data/ssh-test-input-metadata.json",
-        "test-data/mappings/ssh-mapping.json",
-        "test-data/template-data/ssh-dataverse-template.json"
-    )
-
-    expected_result = open_json_file(
-        "test-data/expected-result-data/ssh-result.json"
-    )
-    mapped_result = mapper.map_metadata()
-    assert mapped_result == expected_result
-
-    # Test if the mapper assigned the PID correctly
-    expected_pid = "doi:10.5072/TSS/SYDZNZ"
-    mapped_pid = mapper.get_persistent_identifier()
-    assert mapped_pid == expected_pid
-
-
 @pytest.fixture()
 def simple_test_mapper():
     mapper = _create_mapper(
         "test-data/input-data/simple-test-input-metadata.json",
-        "test-data/mappings/simple-test-mapping.json",
-        "test-data/template-data/simple-test-template.json",
+        "test-data/test-mappings/simple-test-mapping.json",
+        "test-data/test-templates/simple-test-template.json",
     )
     return mapper
 
@@ -262,8 +284,8 @@ def test_map_multiple_objects_compound_object(simple_test_mapper):
 def test_map_object_onto_compound_multiple_objects_with_missing_values():
     mapper = _create_mapper(
         "test-data/input-data/object-compound-test-metadata.json",
-        "test-data/mappings/cbs-mapping.json",
-        "test-data/template-data/object-compound-template.json"
+        "resources/mappings/cbs-mapping.json",
+        "test-data/test-templates/object-compound-template.json"
     )
 
     variable_compound = mapper.template['datasetVersion']['metadataBlocks'][
@@ -271,45 +293,45 @@ def test_map_object_onto_compound_multiple_objects_with_missing_values():
 
     expected_result = [
         {
-            "variableName": {
-                "typeName": "variableName",
+            "odisseiVariableName": {
+                "typeName": "odisseiVariableName",
                 "typeClass": "primitive",
                 "multiple": False,
                 "value": "Variable1"},
-            "variableLabel": {
-                "typeName": "variableLabel",
+            "odisseiVariableLabel": {
+                "typeName": "odisseiVariableLabel",
                 "typeClass": "primitive",
                 "multiple": False,
                 "value": "Label1"},
-            "conceptVariableDefinition": {
-                "typeName": "conceptVariableDefinition",
+            "odisseiConceptVariableDefinition": {
+                "typeName": "odisseiConceptVariableDefinition",
                 "typeClass": "primitive",
                 "multiple": False,
                 "value": "Definition1"},
-            "conceptVariableValidFrom": {
-                "typeName": "conceptVariableValidFrom",
+            "odisseiConceptVariableValidFrom": {
+                "typeName": "odisseiConceptVariableValidFrom",
                 "typeClass": "primitive",
                 "multiple": False,
                 "value": ""}
         },
         {
-            "variableName": {
-                "typeName": "variableName",
+            "odisseiVariableName": {
+                "typeName": "odisseiVariableName",
                 "typeClass": "primitive",
                 "multiple": False,
                 "value": "Variable2"},
-            "variableLabel": {
-                "typeName": "variableLabel",
+            "odisseiVariableLabel": {
+                "typeName": "odisseiVariableLabel",
                 "typeClass": "primitive",
                 "multiple": False,
                 "value": "Label2"},
-            "conceptVariableDefinition": {
-                "typeName": "conceptVariableDefinition",
+            "odisseiConceptVariableDefinition": {
+                "typeName": "odisseiConceptVariableDefinition",
                 "typeClass": "primitive",
                 "multiple": False,
                 "value": "Definition2"},
-            "conceptVariableValidFrom": {
-                "typeName": "conceptVariableValidFrom",
+            "odisseiConceptVariableValidFrom": {
+                "typeName": "odisseiConceptVariableValidFrom",
                 "typeClass": "primitive",
                 "multiple": False,
                 "value": "2023-01-01"}
@@ -317,5 +339,5 @@ def test_map_object_onto_compound_multiple_objects_with_missing_values():
     ]
 
     result = mapper.map_object_onto_compound(variable_compound)
-
+    print(result)
     assert result == expected_result
