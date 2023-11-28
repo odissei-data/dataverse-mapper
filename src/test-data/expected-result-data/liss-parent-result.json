@@ -1,6 +1,8 @@
 {
+  "persistentUrl": "https://doi.org/10.17026/dans-zaf-casa",
   "datasetVersion": {
-    "datasetPersistentId": "",
+    "termsOfUse": "The data is available through the LISS Data Archive at Centerdata. You can read more about the access conditions here: https://www.lissdata.nl/how-it-works-archive.",
+    "originalArchive": "LISS Data Archive",
     "metadataBlocks": {
       "citation": {
         "fields": [

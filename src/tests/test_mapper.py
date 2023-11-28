@@ -52,12 +52,6 @@ def test_liss_json_mapper():
     assert mapped_child_result == expected_child_result
     assert mapped_parent_result == expected_parent_result
 
-    expected_pid = 'doi:10.17026/dans-zaf-casa'
-    mapped_child_pid = mapper_child.get_persistent_identifier()
-    mapped_parent_pid = mapper_parent.get_persistent_identifier()
-    assert mapped_child_pid == expected_pid
-    assert mapped_parent_pid == expected_pid
-
 
 def test_cbs_mapper():
     """Test CBS mapping."""
@@ -73,11 +67,6 @@ def test_cbs_mapper():
     )
     mapped_result = mapper.map_metadata()
     assert mapped_result == expected_result
-
-    # Test if the mapper assigned the PID correctly
-    expected_pid = 'doi:10.57934/0b01e4108001d345'
-    mapped_pid = mapper.get_persistent_identifier()
-    assert mapped_pid == expected_pid
 
 
 def test_cid_mapper():
@@ -129,11 +118,6 @@ def test_easy_mapper():
     mapped_result = mapper.map_metadata()
     assert mapped_result == expected_result
 
-    # Test if the mapper assigned the PID correctly
-    expected_pid = 'doi:10.17026/dans-xnh-wt5n'
-    mapped_pid = mapper.get_persistent_identifier()
-    assert mapped_pid == expected_pid
-
     # Test if the mapper cleans empty fields correctly
     expected_clean_result = open_json_file(
         "test-data/expected-result-data/easy-clean-result.json"
@@ -155,11 +139,6 @@ def test_liss_mapper():
     )
     mapped_result = mapper.map_metadata()
     assert mapped_result == expected_result
-
-    # Test if the mapper assigned the PID correctly
-    expected_pid = 'doi:10.17026/dans-x26-tttv'
-    mapped_pid = mapper.get_persistent_identifier()
-    assert mapped_pid == expected_pid
 
 
 @pytest.fixture()
@@ -339,5 +318,4 @@ def test_map_object_onto_compound_multiple_objects_with_missing_values():
     ]
 
     result = mapper.map_object_onto_compound(variable_compound)
-    print(result)
     assert result == expected_result
