@@ -1,0 +1,1179 @@
+{
+  "author": null,
+  "author_email": null,
+  "creator_user_id": "b15f909d-199c-44e5-be62-bad5db978aad",
+  "dc_additional_info": "In YOUth, this questionnaire was included from 2018-04-05 onwards.",
+  "dc_alternate_name": "Media-opvoeding van mijn kind",
+  "dc_analysis_unit": "{Individual}",
+  "dc_cohort": "YOUth",
+  "dc_instrument_name": "Media education",
+  "dc_measure_name": "Media education",
+  "id": "d29a108c-6a99-4123-9c1d-dacbdeb8a6e1",
+  "isopen": false,
+  "license_title": null,
+  "maintainer": null,
+  "maintainer_email": null,
+  "metadata_created": "2023-10-29T07:58:43.398551",
+  "metadata_modified": "2023-10-29T08:11:32.279214",
+  "name": "0c71db9229a0da2c7f81e44c8278d650",
+  "notes": "Media education assesses how parents educate their children about the use of (social) media and how they mediate the use of (social) media of their children, such as denying them to watch certain tv series or films, telling them to limit their gaming time, or talking with them about the effects and risks of using the internet.",
+  "num_resources": 0,
+  "num_tags": 0,
+  "organization": {
+    "id": "9dfafe1b-abca-4314-adf4-c58457044afa",
+    "name": "youth",
+    "title": "YOUth",
+    "type": "organization",
+    "description": " YOUth is a large-scale longitudinal cohort study following children from the city of Utrecht and its surrounding areas in their development from pregnancy until early adulthood. The YOUth cohort focuses on neurocognitive development involved in two core characteristics of behavioral development: social competence and behavioral control. YOUth includes children from the general population to cover the whole range of variation in behavioral development, ranging from uncomplicated development, through problem behavior, to psychiatric disorders. To understand why some children develop problematic behavior, and others show resilience, YOUth measures a broad range of biological, child-related and environmental determinants. YOUth conducts repeated measurements at regular intervals (i.e. 'waves'). Specifically, the study has two inclusion moments: YOUth Baby & Child and YOUth Child & Adolescent. YOUth applies a flexible longitudinal design to the cohorts, meaning that children will be measured at broader age ranges (3-year age ranges) at each wave. The main benefit of the flexible age design is that it will provide more detailed information on the neurodevelopmental curves over time. An extensive data set is generated, including 3D-ultrasound sweeps of the fetal brain, eye tracking, EEG, (f)MRI, computer tasks, cognitive measurements and parent-child observations. We also collect a broad range of questionnaires on behavior, personality, health, lifestyle, parenting, child development, use of (social) media and more. Finally, (umbilical) blood samples, buccal swabs, saliva and hair samples are collected at each visit, and stored in the UMC Utrecht Biobank.",
+    "image_url": "http://test.data.individualdevelopment.nl/img/logo_youth.png",
+    "created": "2023-06-29T07:56:58.253611",
+    "is_organization": true,
+    "approval_status": "approved",
+    "state": "active"
+  },
+  "owner_org": "9dfafe1b-abca-4314-adf4-c58457044afa",
+  "private": false,
+  "state": "active",
+  "title": "Media education",
+  "type": "measure",
+  "cohort": [
+    {
+      "cohort_alternate_title": [
+        "YOUth Baby and Child",
+        "Baby & Child",
+        "YOUth baby en kind"
+      ],
+      "cohort_description": "The YOUth Baby & Child cohort includes 3000 pregnant women at 20 weeks of pregnancy, and their partners. The children that were born from these pregnancies visit our Child Research Center at several moments during their lives and are followed for at least 6 years.",
+      "cohort_info_description": "Dummy data for all YOUth data are publicly available via Yoda.",
+      "cohort_info_url": "https://doi.org/10.24416/UU01-729A2Y",
+      "cohort_language": "NL",
+      "cohort_purpose": "To understand brain and behavioral development of children, we measure a broad range of biological, child-related and environmental determinants. Specifically, we investigate how these determinants influence the development of social competence and behavioral control and how this relationship is mediated by the developing brain.",
+      "cohort_spatial_country_code": "NL",
+      "cohort_spatial_geographic_location": "Utrecht region",
+      "cohort_spatial_highest_reference": "country",
+      "cohort_spatial_lowest_reference": "postal code",
+      "cohort_time_method": "Longitudinal.CohortEventBased",
+      "cohort_title": "YOUth: Baby and Child",
+      "cohort_contributor": [
+        {
+          "cohort_contributor": "Ron Scholten",
+          "cohort_contributor_affiliation": "Utrecht University",
+          "cohort_contributor_identifier_type": "ORCID",
+          "cohort_contributor_pid": "0000-0002-4571-8855"
+        },
+        {
+          "cohort_contributor": "Hilleke Hulshoff Pol",
+          "cohort_contributor_affiliation": "Utrecht University",
+          "cohort_contributor_identifier_type": "ORCID",
+          "cohort_contributor_pid": "0000-0002-2038-5281"
+        },
+        {
+          "cohort_contributor": "Dienke Bos",
+          "cohort_contributor_affiliation": "Utrecht University",
+          "cohort_contributor_identifier_type": "ORCID",
+          "cohort_contributor_pid": "0000-0002-0427-4573"
+        },
+        {
+          "cohort_contributor": "Coosje Veldkamp",
+          "cohort_contributor_affiliation": "Utrecht University",
+          "cohort_contributor_identifier_type": "ORCID",
+          "cohort_contributor_pid": "0000-0003-3596-5980"
+        },
+        {
+          "cohort_contributor": "Pascal Pas",
+          "cohort_contributor_affiliation": "Utrecht University",
+          "cohort_contributor_identifier_type": "ORCID",
+          "cohort_contributor_pid": "0000-0002-2200-7591"
+        },
+        {
+          "cohort_contributor": "Lilli van Wielink",
+          "cohort_contributor_affiliation": "Utrecht University",
+          "cohort_contributor_identifier_type": "0",
+          "cohort_contributor_pid": "0"
+        },
+        {
+          "cohort_contributor": "Marije Witsenboer",
+          "cohort_contributor_affiliation": "Utrecht University",
+          "cohort_contributor_identifier_type": "0",
+          "cohort_contributor_pid": "0"
+        },
+        {
+          "cohort_contributor": "Mireille Bekker",
+          "cohort_contributor_affiliation": "University Medical Center Utrecht",
+          "cohort_contributor_identifier_type": "ORCID",
+          "cohort_contributor_pid": "0000-0002-7372-4291"
+        },
+        {
+          "cohort_contributor": "Carlijn van den Boomen",
+          "cohort_contributor_affiliation": "Utrecht University",
+          "cohort_contributor_identifier_type": "ORCID",
+          "cohort_contributor_pid": "0000-0002-0110-9919"
+        },
+        {
+          "cohort_contributor": "Ulrike Gehring",
+          "cohort_contributor_affiliation": "Utrecht University",
+          "cohort_contributor_identifier_type": "ORCID",
+          "cohort_contributor_pid": "0000-0003-3612-5780"
+        },
+        {
+          "cohort_contributor": "Roy Hessels",
+          "cohort_contributor_affiliation": "Utrecht University",
+          "cohort_contributor_identifier_type": "ORCID",
+          "cohort_contributor_pid": "0000-0002-4907-1067"
+        },
+        {
+          "cohort_contributor": "Jorg Huijding",
+          "cohort_contributor_affiliation": "Utrecht University",
+          "cohort_contributor_identifier_type": "ORCID",
+          "cohort_contributor_pid": "0000-0002-9320-9959"
+        },
+        {
+          "cohort_contributor": "Caroline Junge",
+          "cohort_contributor_affiliation": "Utrecht University",
+          "cohort_contributor_identifier_type": "ORCID",
+          "cohort_contributor_pid": "0000-0001-9876-8058"
+        },
+        {
+          "cohort_contributor": "Alexander Leemans",
+          "cohort_contributor_affiliation": "University Medical Center Utrecht",
+          "cohort_contributor_identifier_type": "ORCID",
+          "cohort_contributor_pid": "0000-0002-9306-6126"
+        },
+        {
+          "cohort_contributor": "Margot Peeters",
+          "cohort_contributor_affiliation": "Utrecht University",
+          "cohort_contributor_identifier_type": "ORCID",
+          "cohort_contributor_pid": "0000-0001-8861-5744"
+        },
+        {
+          "cohort_contributor": "Mathijs Raemaekers",
+          "cohort_contributor_affiliation": "University Medical Center Utrecht",
+          "cohort_contributor_identifier_type": "ORCID",
+          "cohort_contributor_pid": "0000-0002-3175-3756"
+        },
+        {
+          "cohort_contributor": "Hugo Schnack",
+          "cohort_contributor_affiliation": "Utrecht University",
+          "cohort_contributor_identifier_type": "ORCID",
+          "cohort_contributor_pid": "0000-0002-4620-3853"
+        },
+        {
+          "cohort_contributor": "Sonja de Zwarte",
+          "cohort_contributor_affiliation": "University Medical Center Utrecht",
+          "cohort_contributor_identifier_type": "ORCID",
+          "cohort_contributor_pid": "0000-0001-9015-3550"
+        }
+      ],
+      "cohort_creators": [
+        {
+          "cohort_creator": "Chantal Kemner",
+          "cohort_creator_affiliation": "Utrecht University",
+          "cohort_creator_identifier_type": "ORCID",
+          "cohort_creator_pid": "0000-0002-8879-2588"
+        }
+      ],
+      "cohort_funding": [
+        {
+          "cohort_funder": "Netherlands Organization for Scientific Research",
+          "cohort_grant_number": "024.001.003"
+        }
+      ],
+      "cohort_publisher": [
+        {
+          "cohort_publisher_identifier": "https://ror.org/04pp8hn57",
+          "cohort_publisher_identifier_type": "ROR",
+          "cohort_publisher_name": "Utrecht University"
+        },
+        {
+          "cohort_publisher_identifier": "https://ror.org/0575yy874",
+          "cohort_publisher_identifier_type": "ROR",
+          "cohort_publisher_name": "University Medical Center Utrecht"
+        }
+      ],
+      "cohort_references": [
+        {
+          "cohort_reference_citation": "Onland-Moret, N. C., Buizer-Voskamp, J. E., Albers, M. E., Brouwer, R. M., Buimer, E. E., Hessels, R. S., ... & Kemner, C. (2020). The YOUth study: Rationale, design, and study procedures. Developmental cognitive neuroscience, 46, 100868. https://doi.org/10.1016/j.dcn.2020.100868",
+          "cohort_reference_identifier": "https://doi.org/10.1016/j.dcn.2020.100868",
+          "cohort_reference_identifier_type": "DOI",
+          "cohort_reference_type": "IsDescribedBy"
+        }
+      ]
+    },
+    {
+      "cohort_alternate_title": [
+        "YOUth Child and Adolescent",
+        "Child & Adolescent",
+        "YOUth kind en tiener"
+      ],
+      "cohort_description": "The YOUth Child & Adolescent\u00a0cohort includes 1338 children aged 8, 9 or 10\u00a0and their parents through primary schools and events. For a subset of these children, data from a second measurement wave (Around 12 years old) is available.",
+      "cohort_info_description": "Dummy data for all YOUth data are publicly available via Yoda.",
+      "cohort_info_url": "https://doi.org/10.24416/UU01-729A2Y",
+      "cohort_language": "NL",
+      "cohort_purpose": "To understand brain and behavioral development of children, we measure a broad range of biological, child-related and environmental determinants. Specifically, we investigate how these determinants influence the development of social competence and behavioral control and how this relationship is mediated by the developing brain.",
+      "cohort_spatial_country_code": "NL",
+      "cohort_spatial_geographic_location": "Utrecht region",
+      "cohort_spatial_highest_reference": "country",
+      "cohort_spatial_lowest_reference": "postal code",
+      "cohort_time_method": "Longitudinal.CohortEventBased",
+      "cohort_title": "YOUth: Child and Adolescent",
+      "cohort_contributor": [
+        {
+          "cohort_contributor": "Ron Scholten",
+          "cohort_contributor_affiliation": "Utrecht University",
+          "cohort_contributor_identifier_type": "ORCID",
+          "cohort_contributor_pid": "0000-0002-4571-8855"
+        },
+        {
+          "cohort_contributor": "Hilleke Hulshoff Pol",
+          "cohort_contributor_affiliation": "Utrecht University",
+          "cohort_contributor_identifier_type": "ORCID",
+          "cohort_contributor_pid": "0000-0002-2038-5281"
+        },
+        {
+          "cohort_contributor": "Dienke Bos",
+          "cohort_contributor_affiliation": "Utrecht University",
+          "cohort_contributor_identifier_type": "ORCID",
+          "cohort_contributor_pid": "0000-0002-0427-4573"
+        },
+        {
+          "cohort_contributor": "Coosje Veldkamp",
+          "cohort_contributor_affiliation": "Utrecht University",
+          "cohort_contributor_identifier_type": "ORCID",
+          "cohort_contributor_pid": "0000-0003-3596-5980"
+        },
+        {
+          "cohort_contributor": "Pascal Pas",
+          "cohort_contributor_affiliation": "Utrecht University",
+          "cohort_contributor_identifier_type": "ORCID",
+          "cohort_contributor_pid": "0000-0002-2200-7591"
+        },
+        {
+          "cohort_contributor": "Lilli van Wielink",
+          "cohort_contributor_affiliation": "Utrecht University",
+          "cohort_contributor_identifier_type": "0",
+          "cohort_contributor_pid": "0"
+        },
+        {
+          "cohort_contributor": "Marije Witsenboer",
+          "cohort_contributor_affiliation": "Utrecht University",
+          "cohort_contributor_identifier_type": "0",
+          "cohort_contributor_pid": "0"
+        },
+        {
+          "cohort_contributor": "Mireille Bekker",
+          "cohort_contributor_affiliation": "University Medical Center Utrecht",
+          "cohort_contributor_identifier_type": "ORCID",
+          "cohort_contributor_pid": "0000-0002-7372-4291"
+        },
+        {
+          "cohort_contributor": "Carlijn van den Boomen",
+          "cohort_contributor_affiliation": "Utrecht University",
+          "cohort_contributor_identifier_type": "ORCID",
+          "cohort_contributor_pid": "0000-0002-0110-9919"
+        },
+        {
+          "cohort_contributor": "Ulrike Gehring",
+          "cohort_contributor_affiliation": "Utrecht University",
+          "cohort_contributor_identifier_type": "ORCID",
+          "cohort_contributor_pid": "0000-0003-3612-5780"
+        },
+        {
+          "cohort_contributor": "Roy Hessels",
+          "cohort_contributor_affiliation": "Utrecht University",
+          "cohort_contributor_identifier_type": "ORCID",
+          "cohort_contributor_pid": "0000-0002-4907-1067"
+        },
+        {
+          "cohort_contributor": "Jorg Huijding",
+          "cohort_contributor_affiliation": "Utrecht University",
+          "cohort_contributor_identifier_type": "ORCID",
+          "cohort_contributor_pid": "0000-0002-9320-9959"
+        },
+        {
+          "cohort_contributor": "Caroline Junge",
+          "cohort_contributor_affiliation": "Utrecht University",
+          "cohort_contributor_identifier_type": "ORCID",
+          "cohort_contributor_pid": "0000-0001-9876-8058"
+        },
+        {
+          "cohort_contributor": "Alexander Leemans",
+          "cohort_contributor_affiliation": "University Medical Center Utrecht",
+          "cohort_contributor_identifier_type": "ORCID",
+          "cohort_contributor_pid": "0000-0002-9306-6126"
+        },
+        {
+          "cohort_contributor": "Margot Peeters",
+          "cohort_contributor_affiliation": "Utrecht University",
+          "cohort_contributor_identifier_type": "ORCID",
+          "cohort_contributor_pid": "0000-0001-8861-5744"
+        },
+        {
+          "cohort_contributor": "Mathijs Raemaekers",
+          "cohort_contributor_affiliation": "University Medical Center Utrecht",
+          "cohort_contributor_identifier_type": "ORCID",
+          "cohort_contributor_pid": "0000-0002-3175-3756"
+        },
+        {
+          "cohort_contributor": "Hugo Schnack",
+          "cohort_contributor_affiliation": "Utrecht University",
+          "cohort_contributor_identifier_type": "ORCID",
+          "cohort_contributor_pid": "0000-0002-4620-3853"
+        },
+        {
+          "cohort_contributor": "Sonja de Zwarte",
+          "cohort_contributor_affiliation": "University Medical Center Utrecht",
+          "cohort_contributor_identifier_type": "ORCID",
+          "cohort_contributor_pid": "0000-0001-9015-3550"
+        }
+      ],
+      "cohort_creators": [
+        {
+          "cohort_creator": "Chantal Kemner",
+          "cohort_creator_affiliation": "Utrecht University",
+          "cohort_creator_identifier_type": "ORCID",
+          "cohort_creator_pid": "0000-0002-8879-2588"
+        }
+      ],
+      "cohort_funding": [
+        {
+          "cohort_funder": "Netherlands Organization for Scientific Research",
+          "cohort_grant_number": "024.001.003"
+        }
+      ],
+      "cohort_publisher": [
+        {
+          "cohort_publisher_identifier": "https://ror.org/04pp8hn57",
+          "cohort_publisher_identifier_type": "ROR",
+          "cohort_publisher_name": "Utrecht University"
+        },
+        {
+          "cohort_publisher_identifier": "https://ror.org/0575yy874",
+          "cohort_publisher_identifier_type": "ROR",
+          "cohort_publisher_name": "University Medical Center Utrecht"
+        }
+      ],
+      "cohort_references": [
+        {
+          "cohort_reference_citation": "Onland-Moret, N. C., Buizer-Voskamp, J. E., Albers, M. E., Brouwer, R. M., Buimer, E. E., Hessels, R. S., ... & Kemner, C. (2020). The YOUth study: Rationale, design, and study procedures. Developmental cognitive neuroscience, 46, 100868. https://doi.org/10.1016/j.dcn.2020.100868",
+          "cohort_reference_identifier": "https://doi.org/10.1016/j.dcn.2020.100868",
+          "cohort_reference_identifier_type": "DOI",
+          "cohort_reference_type": "IsDescribedBy"
+        },
+        {
+          "cohort_reference_citation": "Buimer, E. E., Pas, P., Brouwer, R. M., Froeling, M., Hoogduin, H., Leemans, A., ... & Mandl, R. C. (2020). The YOUth cohort study: MRI protocol and test-retest reliability in adults. Developmental cognitive neuroscience, 45, 100816. https://doi.org/10.1016/j.dcn.2020.100816",
+          "cohort_reference_identifier": "https://doi.org/10.1016/j.dcn.2020.100816",
+          "cohort_reference_identifier_type": "DOI",
+          "cohort_reference_type": "IsDescribedBy"
+        }
+      ]
+    }
+  ],
+  "dc_constructs": [
+    {
+      "dc_construct": "lifestyle"
+    },
+    {
+      "dc_construct": "demographics"
+    }
+  ],
+  "dc_labels": [
+    {
+      "dc_label": "gaming"
+    },
+    {
+      "dc_label": "social media"
+    },
+    {
+      "dc_label": "media use"
+    },
+    {
+      "dc_label": "computer games"
+    },
+    {
+      "dc_label": "mental health"
+    },
+    {
+      "dc_label": "online behavior"
+    },
+    {
+      "dc_label": "social media use"
+    },
+    {
+      "dc_label": "addiction"
+    },
+    {
+      "dc_label": "internet use"
+    },
+    {
+      "dc_label": "lifestyle"
+    },
+    {
+      "dc_label": "parenting"
+    }
+  ],
+  "dc_measurement_references": [
+    {
+      "dc_measurements_references_citation": "Valkenburg, P. M., Piotrowski, J. T., Hermanns, J., & de Leeuw, R. (2013). Developing and Validating the Perceived Parental Media Mediation Scale: A\u00a0Self-Determination Perspective. Human Communication Research, 39(4), 445\u2013469. https://doi.org/10.1111/hcre.12010\n",
+      "dc_measurements_references_doi": "https://doi.org/10.1111/hcre.12010"
+    },
+    {
+      "dc_measurements_references_citation": "Valkenburg, P. M., Krcmar, M., Peeters, A. L., & Marseille, N. M. (1999). Developing a scale to assess three styles of television mediation: \u201cInstructive mediation,\u201d \u201crestrictive mediation,\u201d and \u201csocial coviewing.\u201d Journal of Broadcasting &amp; Electronic Media, 43(1), 52\u201366. https://doi.org/10.1080/08838159909364474\n",
+      "dc_measurements_references_doi": "https://doi.org/10.1080/08838159909364474"
+    }
+  ],
+  "dc_modes_of_collection": [
+    {
+      "dc_mode_of_collection": "SelfAdministeredQuestionnaire"
+    }
+  ],
+  "measure_age_range": [
+    {
+      "measure_age_month": 96
+    },
+    {
+      "measure_age_month": 97
+    },
+    {
+      "measure_age_month": 98
+    },
+    {
+      "measure_age_month": 99
+    },
+    {
+      "measure_age_month": 100
+    },
+    {
+      "measure_age_month": 101
+    },
+    {
+      "measure_age_month": 102
+    },
+    {
+      "measure_age_month": 103
+    },
+    {
+      "measure_age_month": 104
+    },
+    {
+      "measure_age_month": 105
+    },
+    {
+      "measure_age_month": 106
+    },
+    {
+      "measure_age_month": 107
+    },
+    {
+      "measure_age_month": 108
+    },
+    {
+      "measure_age_month": 109
+    },
+    {
+      "measure_age_month": 110
+    },
+    {
+      "measure_age_month": 111
+    },
+    {
+      "measure_age_month": 112
+    },
+    {
+      "measure_age_month": 113
+    },
+    {
+      "measure_age_month": 114
+    },
+    {
+      "measure_age_month": 115
+    },
+    {
+      "measure_age_month": 116
+    },
+    {
+      "measure_age_month": 117
+    },
+    {
+      "measure_age_month": 118
+    },
+    {
+      "measure_age_month": 119
+    },
+    {
+      "measure_age_month": 120
+    },
+    {
+      "measure_age_month": 132
+    },
+    {
+      "measure_age_month": 133
+    },
+    {
+      "measure_age_month": 134
+    },
+    {
+      "measure_age_month": 135
+    },
+    {
+      "measure_age_month": 136
+    },
+    {
+      "measure_age_month": 137
+    },
+    {
+      "measure_age_month": 138
+    },
+    {
+      "measure_age_month": 139
+    },
+    {
+      "measure_age_month": 140
+    },
+    {
+      "measure_age_month": 141
+    },
+    {
+      "measure_age_month": 142
+    },
+    {
+      "measure_age_month": 143
+    },
+    {
+      "measure_age_month": 144
+    },
+    {
+      "measure_age_month": 145
+    },
+    {
+      "measure_age_month": 146
+    },
+    {
+      "measure_age_month": 147
+    },
+    {
+      "measure_age_month": 148
+    },
+    {
+      "measure_age_month": 149
+    },
+    {
+      "measure_age_month": 150
+    },
+    {
+      "measure_age_month": 151
+    },
+    {
+      "measure_age_month": 152
+    },
+    {
+      "measure_age_month": 153
+    },
+    {
+      "measure_age_month": 154
+    },
+    {
+      "measure_age_month": 155
+    },
+    {
+      "measure_age_month": 156
+    },
+    {
+      "measure_age_month": 157
+    },
+    {
+      "measure_age_month": 158
+    },
+    {
+      "measure_age_month": 159
+    },
+    {
+      "measure_age_month": 160
+    },
+    {
+      "measure_age_month": 161
+    },
+    {
+      "measure_age_month": 162
+    },
+    {
+      "measure_age_month": 163
+    },
+    {
+      "measure_age_month": 164
+    },
+    {
+      "measure_age_month": 165
+    },
+    {
+      "measure_age_month": 166
+    },
+    {
+      "measure_age_month": 167
+    },
+    {
+      "measure_age_month": 168
+    },
+    {
+      "measure_age_month": 169
+    },
+    {
+      "measure_age_month": 170
+    },
+    {
+      "measure_age_month": 171
+    },
+    {
+      "measure_age_month": 172
+    },
+    {
+      "measure_age_month": 173
+    },
+    {
+      "measure_age_month": 174
+    },
+    {
+      "measure_age_month": 175
+    },
+    {
+      "measure_age_month": 176
+    },
+    {
+      "measure_age_month": 177
+    },
+    {
+      "measure_age_month": 178
+    },
+    {
+      "measure_age_month": 179
+    },
+    {
+      "measure_age_month": 180
+    },
+    {
+      "measure_age_month": 181
+    },
+    {
+      "measure_age_month": 182
+    },
+    {
+      "measure_age_month": 183
+    },
+    {
+      "measure_age_month": 184
+    },
+    {
+      "measure_age_month": 185
+    },
+    {
+      "measure_age_month": 186
+    },
+    {
+      "measure_age_month": 187
+    },
+    {
+      "measure_age_month": 188
+    },
+    {
+      "measure_age_month": 189
+    },
+    {
+      "measure_age_month": 190
+    },
+    {
+      "measure_age_month": 191
+    },
+    {
+      "measure_age_month": 192
+    }
+  ],
+  "study": [
+    {
+      "study_alternate_title": [
+        "YOUth",
+        "YOUth cohort",
+        "YOUth cohort study"
+      ],
+      "study_language": "NL",
+      "study_purpose": "To understand brain and behavioral development of children, we measure a broad range of biological, child-related and environmental determinants. Specifically, we investigate how these determinants influence the development of social competence and behavioral control, and how this relationship is mediated by the developing brain.",
+      "study_time_method": "Longitudinal",
+      "study_universe": "YOUth stands for Youth Of Utrecht, as we aim to include a population-based sample from Utrecht and its surrounding areas in the Netherlands. The region from which the participants are recruited is a densely populated region that combines both urban and rural areas, and covers the province of Utrecht and a few cities on the borders of this province. The catchment area of YOUth represents approximately 7.6 % of the Dutch population of currently over 17 million inhabitants in the country. Approximately 16 % of the inhabitants of the province of Utrecht are 0\u201310 years old. Compared to the rest of the Netherlands, inhabitants of the province of Utrecht are relatively highly educated; In 2015 approximately 38 % of the population was highly educated compared to 28 % in the rest of the country.",
+      "title": "Youth of Utrecht",
+      "study_contact": [
+        {
+          "study_contact_affiliation": "Utrecht University",
+          "study_contact_mail": "datamanagement.fsw@uu.nl",
+          "study_contact_name": "Datamanagement FSW"
+        }
+      ],
+      "study_contributor": [
+        {
+          "study_contributor_affiliation": "Utrecht University",
+          "study_contributor_identifier_type": "ORCID",
+          "study_contributor_name": "Ron Scholten",
+          "study_contributor_pid": "0000-0002-4571-8855"
+        },
+        {
+          "study_contributor_affiliation": "Utrecht University",
+          "study_contributor_identifier_type": "ORCID",
+          "study_contributor_name": "Hilleke Hulshoff Pol",
+          "study_contributor_pid": "0000-0002-2038-5281"
+        },
+        {
+          "study_contributor_affiliation": "Utrecht University",
+          "study_contributor_identifier_type": "ORCID",
+          "study_contributor_name": "Dienke Bos",
+          "study_contributor_pid": "0000-0002-0427-4573"
+        },
+        {
+          "study_contributor_affiliation": "Utrecht University",
+          "study_contributor_identifier_type": "ORCID",
+          "study_contributor_name": "Coosje Veldkamp",
+          "study_contributor_pid": "0000-0003-3596-5980"
+        },
+        {
+          "study_contributor_affiliation": "Utrecht University",
+          "study_contributor_identifier_type": "ORCID",
+          "study_contributor_name": "Pascal Pas",
+          "study_contributor_pid": "0000-0002-2200-7591"
+        },
+        {
+          "study_contributor_affiliation": "Utrecht University",
+          "study_contributor_identifier_type": "",
+          "study_contributor_name": "Lilli van Wielink",
+          "study_contributor_pid": ""
+        },
+        {
+          "study_contributor_affiliation": "Utrecht University",
+          "study_contributor_identifier_type": "",
+          "study_contributor_name": "Marije Witsenboer",
+          "study_contributor_pid": ""
+        },
+        {
+          "study_contributor_affiliation": "University Medical Center Utrecht",
+          "study_contributor_identifier_type": "ORCID",
+          "study_contributor_name": "Mireille Bekker",
+          "study_contributor_pid": "0000-0002-7372-4291"
+        },
+        {
+          "study_contributor_affiliation": "Utrecht University",
+          "study_contributor_identifier_type": "ORCID",
+          "study_contributor_name": "Carlijn van den Boomen",
+          "study_contributor_pid": "0000-0002-0110-9919"
+        },
+        {
+          "study_contributor_affiliation": "Utrecht University",
+          "study_contributor_identifier_type": "ORCID",
+          "study_contributor_name": "Ulrike Gehring",
+          "study_contributor_pid": "0000-0003-3612-5780"
+        },
+        {
+          "study_contributor_affiliation": "Utrecht University",
+          "study_contributor_identifier_type": "ORCID",
+          "study_contributor_name": "Roy Hessels",
+          "study_contributor_pid": "0000-0002-4907-1067"
+        },
+        {
+          "study_contributor_affiliation": "Utrecht University",
+          "study_contributor_identifier_type": "ORCID",
+          "study_contributor_name": "Jorg Huijding",
+          "study_contributor_pid": "0000-0002-9320-9959"
+        },
+        {
+          "study_contributor_affiliation": "Utrecht University",
+          "study_contributor_identifier_type": "ORCID",
+          "study_contributor_name": "Caroline Junge",
+          "study_contributor_pid": "0000-0001-9876-8058"
+        },
+        {
+          "study_contributor_affiliation": "University Medical Center Utrecht",
+          "study_contributor_identifier_type": "ORCID",
+          "study_contributor_name": "Alexander Leemans",
+          "study_contributor_pid": "0000-0002-9306-6126"
+        },
+        {
+          "study_contributor_affiliation": "Utrecht University",
+          "study_contributor_identifier_type": "ORCID",
+          "study_contributor_name": "Margot Peeters",
+          "study_contributor_pid": "0000-0001-8861-5744"
+        },
+        {
+          "study_contributor_affiliation": "University Medical Center Utrecht",
+          "study_contributor_identifier_type": "ORCID",
+          "study_contributor_name": "Mathijs Raemaekers",
+          "study_contributor_pid": "0000-0002-3175-3756"
+        },
+        {
+          "study_contributor_affiliation": "Utrecht University",
+          "study_contributor_identifier_type": "ORCID",
+          "study_contributor_name": "Hugo Schnack",
+          "study_contributor_pid": "0000-0002-4620-3853"
+        },
+        {
+          "study_contributor_affiliation": "University Medical Center Utrecht",
+          "study_contributor_identifier_type": "ORCID",
+          "study_contributor_name": "Sonja de Zwarte",
+          "study_contributor_pid": "0000-0001-9015-3550"
+        }
+      ],
+      "study_data_access": [
+        {
+          "study_data_access_URL": "https://www.uu.nl/en/research/youth-cohort-study/data-access",
+          "study_data_access_description": "YOUth encourages and facilitates extensive and appropriate use of its data by bona fide research organizations and bona fide researchers. To request access, please make use of our online data request system. "
+        }
+      ],
+      "study_funding": [
+        {
+          "study_funder": "Netherlands Organization for Scientific Research",
+          "study_grant_number": "024.001.003"
+        }
+      ],
+      "study_principal_investigators": [
+        {
+          "study_pi_affiliation": "Utrecht University",
+          "study_pi_identifier_type": "ORCID",
+          "study_pi_name": "Chantal Kemner",
+          "study_pi_pid": "0000-0002-8879-2588"
+        }
+      ],
+      "study_publisher": [
+        {
+          "study_publisher_identifier": "https://ror.org/04pp8hn57",
+          "study_publisher_identifier_type": "ROR",
+          "study_publisher_name": "Utrecht University"
+        },
+        {
+          "study_publisher_identifier": "https://ror.org/0575yy874",
+          "study_publisher_identifier_type": "ROR",
+          "study_publisher_name": "University Medical Center Utrecht"
+        }
+      ],
+      "study_references": [
+        {
+          "study_reference_citation": "Onland-Moret, N. C., Buizer-Voskamp, J. E., Albers, M. E., Brouwer, R. M., Buimer, E. E., Hessels, R. S., ... & Kemner, C. (2020). The YOUth study: Rationale, design, and study procedures. Developmental cognitive neuroscience, 46, 100868. https://doi.org/10.1016/j.dcn.2020.100868",
+          "study_reference_identifier": "https://doi.org/10.1016/j.dcn.2020.100868",
+          "study_reference_identifier_type": "DOI",
+          "study_reference_type": "IsDescribedBy"
+        },
+        {
+          "study_reference_citation": "Buimer, E. E., Pas, P., Brouwer, R. M., Froeling, M., Hoogduin, H., Leemans, A., ... & Mandl, R. C. (2020). The YOUth cohort study: MRI protocol and test-retest reliability in adults. Developmental cognitive neuroscience, 45, 100816. https://doi.org/10.1016/j.dcn.2020.100816",
+          "study_reference_identifier": "https://doi.org/10.1016/j.dcn.2020.100816",
+          "study_reference_identifier_type": "DOI",
+          "study_reference_type": "IsDescribedBy"
+        }
+      ]
+    }
+  ],
+  "wave": [
+    {
+      "wave_alternate_title": [
+        "9y",
+        "Rondom 9"
+      ],
+      "wave_cohort": "YOUth: Child and Adolescent",
+      "wave_cohort_ckan_id": "47dc569cb2c2cf710f42d26898afdbc8",
+      "wave_description": "The 9y wave in the YOUth Child & Adolescent Cohort consisted of questionnaires, biological samples (blood, buccal, saliva, hair), eyetracking, Magnetic Resonance Imaging (MRI), tasks, and parent-child interaction measured among children aged 8-10 years old and their parents, and a teacher-report questionnaire.",
+      "wave_end_date_collection": "2020-04-14",
+      "wave_language": "NL",
+      "wave_physical_data_product_description": "Digital files, biomedical samples",
+      "wave_start_date_collection": "2016-03-14",
+      "wave_subject_codes": [
+        "PC"
+      ],
+      "wave_title": "9 years",
+      "wave_universe": "96-120",
+      "wave_contributor": [
+        {
+          "wave_contributor_affiliation": "Utrecht University",
+          "wave_contributor_identifier_type": "ORCID",
+          "wave_contributor_name": "Ron Scholten",
+          "wave_contributor_pid": "0000-0002-4571-8855"
+        },
+        {
+          "wave_contributor_affiliation": "Utrecht University",
+          "wave_contributor_identifier_type": "ORCID",
+          "wave_contributor_name": "Hilleke Hulshoff Pol",
+          "wave_contributor_pid": "0000-0002-2038-5281"
+        },
+        {
+          "wave_contributor_affiliation": "Utrecht University",
+          "wave_contributor_identifier_type": "ORCID",
+          "wave_contributor_name": "Dienke Bos",
+          "wave_contributor_pid": "0000-0002-0427-4573"
+        },
+        {
+          "wave_contributor_affiliation": "Utrecht University",
+          "wave_contributor_identifier_type": "ORCID",
+          "wave_contributor_name": "Coosje Veldkamp",
+          "wave_contributor_pid": "0000-0003-3596-5980"
+        },
+        {
+          "wave_contributor_affiliation": "Utrecht University",
+          "wave_contributor_identifier_type": "ORCID",
+          "wave_contributor_name": "Pascal Pas",
+          "wave_contributor_pid": "0000-0002-2200-7591"
+        },
+        {
+          "wave_contributor_affiliation": "Utrecht University",
+          "wave_contributor_identifier_type": "0",
+          "wave_contributor_name": "Lilli van Wielink",
+          "wave_contributor_pid": "0"
+        },
+        {
+          "wave_contributor_affiliation": "Utrecht University",
+          "wave_contributor_identifier_type": "0",
+          "wave_contributor_name": "Marije Witsenboer",
+          "wave_contributor_pid": "0"
+        },
+        {
+          "wave_contributor_affiliation": "University Medical Center Utrecht",
+          "wave_contributor_identifier_type": "ORCID",
+          "wave_contributor_name": "Mireille Bekker",
+          "wave_contributor_pid": "0000-0002-7372-4291"
+        },
+        {
+          "wave_contributor_affiliation": "Utrecht University",
+          "wave_contributor_identifier_type": "ORCID",
+          "wave_contributor_name": "Carlijn van den Boomen",
+          "wave_contributor_pid": "0000-0002-0110-9919"
+        },
+        {
+          "wave_contributor_affiliation": "Utrecht University",
+          "wave_contributor_identifier_type": "ORCID",
+          "wave_contributor_name": "Ulrike Gehring",
+          "wave_contributor_pid": "0000-0003-3612-5780"
+        },
+        {
+          "wave_contributor_affiliation": "Utrecht University",
+          "wave_contributor_identifier_type": "ORCID",
+          "wave_contributor_name": "Roy Hessels",
+          "wave_contributor_pid": "0000-0002-4907-1067"
+        },
+        {
+          "wave_contributor_affiliation": "Utrecht University",
+          "wave_contributor_identifier_type": "ORCID",
+          "wave_contributor_name": "Jorg Huijding",
+          "wave_contributor_pid": "0000-0002-9320-9959"
+        },
+        {
+          "wave_contributor_affiliation": "Utrecht University",
+          "wave_contributor_identifier_type": "ORCID",
+          "wave_contributor_name": "Caroline Junge",
+          "wave_contributor_pid": "0000-0001-9876-8058"
+        },
+        {
+          "wave_contributor_affiliation": "University Medical Center Utrecht",
+          "wave_contributor_identifier_type": "ORCID",
+          "wave_contributor_name": "Alexander Leemans",
+          "wave_contributor_pid": "0000-0002-9306-6126"
+        },
+        {
+          "wave_contributor_affiliation": "Utrecht University",
+          "wave_contributor_identifier_type": "ORCID",
+          "wave_contributor_name": "Margot Peeters",
+          "wave_contributor_pid": "0000-0001-8861-5744"
+        },
+        {
+          "wave_contributor_affiliation": "University Medical Center Utrecht",
+          "wave_contributor_identifier_type": "ORCID",
+          "wave_contributor_name": "Mathijs Raemaekers",
+          "wave_contributor_pid": "0000-0002-3175-3756"
+        },
+        {
+          "wave_contributor_affiliation": "Utrecht University",
+          "wave_contributor_identifier_type": "ORCID",
+          "wave_contributor_name": "Hugo Schnack",
+          "wave_contributor_pid": "0000-0002-4620-3853"
+        },
+        {
+          "wave_contributor_affiliation": "University Medical Center Utrecht",
+          "wave_contributor_identifier_type": "ORCID",
+          "wave_contributor_name": "Sonja de Zwarte",
+          "wave_contributor_pid": "0000-0001-9015-3550"
+        }
+      ],
+      "wave_creator": [
+        {
+          "wave_creator_affiliation": "Utrecht University",
+          "wave_creator_name": "Chantal Kemner",
+          "wave_creator_pid": "0000-0002-8879-2588"
+        }
+      ],
+      "wave_funding": [
+        {
+          "wave_funder": "Netherlands Organization for Scientific Research",
+          "wave_grant_number": "024.001.003"
+        }
+      ],
+      "wave_publisher": [
+        {
+          "wave_publisher_identifier": "https://ror.org/04pp8hn57",
+          "wave_publisher_identifier_type": "ROR",
+          "wave_publisher_name": "Utrecht University"
+        },
+        {
+          "wave_publisher_identifier": "https://ror.org/0575yy874",
+          "wave_publisher_identifier_type": "ROR",
+          "wave_publisher_name": "University Medical Center Utrecht"
+        }
+      ]
+    },
+    {
+      "wave_alternate_title": [
+        "12y",
+        "Rondom 12"
+      ],
+      "wave_cohort": "YOUth: Child and Adolescent",
+      "wave_cohort_ckan_id": "47dc569cb2c2cf710f42d26898afdbc8",
+      "wave_description": "The 12y wave in the YOUth Child & Adolescent Cohort consisted of questionnaires, biological samples (blood, buccal, saliva, hair), eyetracking, Magnetic Resonance Imaging (MRI), tasks, and parent-child interaction measured among children aged 11-16 years old, and questionnaires filled out by their parents. Originally, the 12y wave was intended to measure 11-13 year old children, but due to the Covid-19 pandemic and other factors, the 12y and the 15y waves had to merged.",
+      "wave_end_date_collection": "2022-12-01",
+      "wave_language": "NL",
+      "wave_physical_data_product_description": "Digital files, biomedical samples",
+      "wave_start_date_collection": "2019-07-04",
+      "wave_subject_codes": [
+        "PC"
+      ],
+      "wave_title": "12 years",
+      "wave_universe": "132-192",
+      "wave_contributor": [
+        {
+          "wave_contributor_affiliation": "Utrecht University",
+          "wave_contributor_identifier_type": "ORCID",
+          "wave_contributor_name": "Ron Scholten",
+          "wave_contributor_pid": "0000-0002-4571-8855"
+        },
+        {
+          "wave_contributor_affiliation": "Utrecht University",
+          "wave_contributor_identifier_type": "ORCID",
+          "wave_contributor_name": "Hilleke Hulshoff Pol",
+          "wave_contributor_pid": "0000-0002-2038-5281"
+        },
+        {
+          "wave_contributor_affiliation": "Utrecht University",
+          "wave_contributor_identifier_type": "ORCID",
+          "wave_contributor_name": "Dienke Bos",
+          "wave_contributor_pid": "0000-0002-0427-4573"
+        },
+        {
+          "wave_contributor_affiliation": "Utrecht University",
+          "wave_contributor_identifier_type": "ORCID",
+          "wave_contributor_name": "Coosje Veldkamp",
+          "wave_contributor_pid": "0000-0003-3596-5980"
+        },
+        {
+          "wave_contributor_affiliation": "Utrecht University",
+          "wave_contributor_identifier_type": "ORCID",
+          "wave_contributor_name": "Pascal Pas",
+          "wave_contributor_pid": "0000-0002-2200-7591"
+        },
+        {
+          "wave_contributor_affiliation": "Utrecht University",
+          "wave_contributor_identifier_type": "0",
+          "wave_contributor_name": "Lilli van Wielink",
+          "wave_contributor_pid": "0"
+        },
+        {
+          "wave_contributor_affiliation": "Utrecht University",
+          "wave_contributor_identifier_type": "0",
+          "wave_contributor_name": "Marije Witsenboer",
+          "wave_contributor_pid": "0"
+        },
+        {
+          "wave_contributor_affiliation": "University Medical Center Utrecht",
+          "wave_contributor_identifier_type": "ORCID",
+          "wave_contributor_name": "Mireille Bekker",
+          "wave_contributor_pid": "0000-0002-7372-4291"
+        },
+        {
+          "wave_contributor_affiliation": "Utrecht University",
+          "wave_contributor_identifier_type": "ORCID",
+          "wave_contributor_name": "Carlijn van den Boomen",
+          "wave_contributor_pid": "0000-0002-0110-9919"
+        },
+        {
+          "wave_contributor_affiliation": "Utrecht University",
+          "wave_contributor_identifier_type": "ORCID",
+          "wave_contributor_name": "Ulrike Gehring",
+          "wave_contributor_pid": "0000-0003-3612-5780"
+        },
+        {
+          "wave_contributor_affiliation": "Utrecht University",
+          "wave_contributor_identifier_type": "ORCID",
+          "wave_contributor_name": "Roy Hessels",
+          "wave_contributor_pid": "0000-0002-4907-1067"
+        },
+        {
+          "wave_contributor_affiliation": "Utrecht University",
+          "wave_contributor_identifier_type": "ORCID",
+          "wave_contributor_name": "Jorg Huijding",
+          "wave_contributor_pid": "0000-0002-9320-9959"
+        },
+        {
+          "wave_contributor_affiliation": "Utrecht University",
+          "wave_contributor_identifier_type": "ORCID",
+          "wave_contributor_name": "Caroline Junge",
+          "wave_contributor_pid": "0000-0001-9876-8058"
+        },
+        {
+          "wave_contributor_affiliation": "University Medical Center Utrecht",
+          "wave_contributor_identifier_type": "ORCID",
+          "wave_contributor_name": "Alexander Leemans",
+          "wave_contributor_pid": "0000-0002-9306-6126"
+        },
+        {
+          "wave_contributor_affiliation": "Utrecht University",
+          "wave_contributor_identifier_type": "ORCID",
+          "wave_contributor_name": "Margot Peeters",
+          "wave_contributor_pid": "0000-0001-8861-5744"
+        },
+        {
+          "wave_contributor_affiliation": "University Medical Center Utrecht",
+          "wave_contributor_identifier_type": "ORCID",
+          "wave_contributor_name": "Mathijs Raemaekers",
+          "wave_contributor_pid": "0000-0002-3175-3756"
+        },
+        {
+          "wave_contributor_affiliation": "Utrecht University",
+          "wave_contributor_identifier_type": "ORCID",
+          "wave_contributor_name": "Hugo Schnack",
+          "wave_contributor_pid": "0000-0002-4620-3853"
+        },
+        {
+          "wave_contributor_affiliation": "University Medical Center Utrecht",
+          "wave_contributor_identifier_type": "ORCID",
+          "wave_contributor_name": "Sonja de Zwarte",
+          "wave_contributor_pid": "0000-0001-9015-3550"
+        }
+      ],
+      "wave_creator": [
+        {
+          "wave_creator_affiliation": "Utrecht University",
+          "wave_creator_name": "Chantal Kemner",
+          "wave_creator_pid": "0000-0002-8879-2588"
+        }
+      ],
+      "wave_funding": [
+        {
+          "wave_funder": "Netherlands Organization for Scientific Research",
+          "wave_grant_number": "024.001.003"
+        }
+      ],
+      "wave_publisher": [
+        {
+          "wave_publisher_identifier": "https://ror.org/04pp8hn57",
+          "wave_publisher_identifier_type": "ROR",
+          "wave_publisher_name": "Utrecht University"
+        },
+        {
+          "wave_publisher_identifier": "https://ror.org/0575yy874",
+          "wave_publisher_identifier_type": "ROR",
+          "wave_publisher_name": "University Medical Center Utrecht"
+        }
+      ]
+    }
+  ],
+  "resources": [],
+  "tags": [],
+  "groups": [],
+  "relationships_as_subject": [],
+  "relationships_as_object": []
+}

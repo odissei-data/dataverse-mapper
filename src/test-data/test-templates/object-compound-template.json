@@ -4,31 +4,31 @@
       "variableInformation": {
         "fields": [
           {
-            "typeName": "variable",
+            "typeName": "odisseiVariable",
             "typeClass": "compound",
             "multiple": true,
             "value": [
               {
-                "variableName": {
-                  "typeName": "variableName",
+                "odisseiVariableName": {
+                  "typeName": "odisseiVariableName",
                   "typeClass": "primitive",
                   "multiple": false,
                   "value": ""
                 },
-                "variableLabel": {
-                  "typeName": "variableLabel",
+                "odisseiVariableLabel": {
+                  "typeName": "odisseiVariableLabel",
                   "typeClass": "primitive",
                   "multiple": false,
                   "value": ""
                 },
-                "conceptVariableDefinition": {
-                  "typeName": "conceptVariableDefinition",
+                "odisseiConceptVariableDefinition": {
+                  "typeName": "odisseiConceptVariableDefinition",
                   "typeClass": "primitive",
                   "multiple": false,
                   "value": ""
                 },
-                "conceptVariableValidFrom": {
-                  "typeName": "conceptVariableValidFrom",
+                "odisseiConceptVariableValidFrom": {
+                  "typeName": "odisseiConceptVariableValidFrom",
                   "typeClass": "primitive",
                   "multiple": false,
                   "value": ""

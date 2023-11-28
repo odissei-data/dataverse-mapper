@@ -38,6 +38,40 @@ class MetadataMapper:
         self.template = template
 
     def map_metadata(self):
+        """ Maps the source metadata to a dataverse template.
+
+        First maps all fields in the top level of the dataverse metadata.
+        After maps the metadataBlocks inside the dataverseVersion field.
+
+        :return: The mapped metadata, specificly the filled out template.
+        """
+        self.map_metadata_header()
+        self.map_metadata_blocks()
+        return self.template
+
+    def map_metadata_header(self):
+        """ Maps the source to the header of the dataverse template
+
+        First, the top level of the dictionary is mapped to the template.
+        After, the values inside the datasetVersion dictionary are mapped.
+
+        This excludes the mapping of the metadataBlocks inside datasetVersion.
+        This is done in the map_metadata_blocks method.
+        """
+
+        self.process_dictionary(self.template)
+        dataset_version = self.template["datasetVersion"]
+        self.process_dictionary(dataset_version)
+
+    def process_dictionary(self, dictionary):
+        """ Maps all values in a give dict (data) """
+        for key, value in dictionary.items():
+            if key in self.mapping:
+                mapped_values = self.map_value(key)
+                if mapped_values:
+                    dictionary[key] = self.map_value(key)[0]
+
+    def map_metadata_blocks(self):
         """ Maps the values in the metadata on to the template
 
         The map_metadata method loops over the fields in the Dataverse JSON
@@ -258,23 +292,29 @@ class MetadataMapper:
             result_dict_list.append(dict_copy)
         return result_dict_list
 
-    def get_persistent_identifier(self):
-        """ Maps the dataset's doi to a specific field in the template.
+    def remove_empty_fields(self):
+        # Iterate over the metadata blocks
+        metadataBlocks = self.template['datasetVersion'][
+            'metadataBlocks'].values()
+        for metadata_block in metadataBlocks:
+            # Iterate over the fields in each metadata block
+            metadata_block['fields'] = [field for field in
+                                        metadata_block['fields'] if
+                                        field.get('value') not in ('', [])]
+            for field in metadata_block['fields']:
+                if "typeClass" in field and field["typeClass"] == "compound":
+                    remove_empty_compound_field(field)
 
-        TODO: Needs exception handling
-        Uses a mapping to retrieve the dataset's doi from the metadata.
-        Because there can be multiple persistent identifier, this method checks
-        if the id is an actual doi. It also formats the doi to the expected
-        format if needed.
-        """
-        persistent_ids = self.map_value("datasetPersistentId")
-        for pid in persistent_ids:
-            if "https://doi.org/" in pid:
-                return 'doi:' + pid.split("/", 3)[3]
-            elif "doi:" in pid:
-                return pid
 
-        raise HTTPException(
-            status_code=422,
-            detail="No usable DOI in mapped persistent identifiers"
-        )
+def remove_empty_compound_field(compoundField):
+    # TODO: leaves an empty object in the result.
+    if isinstance(compoundField["value"], list):
+        # Remove key-value pairs with empty "value" keys
+        compoundField["value"] = [
+            {
+                key: value
+                for key, value in item.items()
+                if value.get("value") not in ('', [])
+            }
+            for item in compoundField["value"]
+        ]

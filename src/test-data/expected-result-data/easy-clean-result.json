@@ -11,18 +11,6 @@
             "value": "Cultural differences between European countries : Centerdata Telepanel"
           },
           {
-            "typeName": "subtitle",
-            "multiple": false,
-            "typeClass": "primitive",
-            "value": ""
-          },
-          {
-            "typeName": "alternativeTitle",
-            "multiple": false,
-            "typeClass": "primitive",
-            "value": ""
-          },
-          {
             "typeName": "author",
             "multiple": true,
             "typeClass": "compound",
@@ -192,18 +180,6 @@
                 }
               }
             ]
-          },
-          {
-            "typeName": "distributionDate",
-            "multiple": false,
-            "typeClass": "primitive",
-            "value": ""
-          },
-          {
-            "typeName": "timePeriodCovered",
-            "multiple": true,
-            "typeClass": "compound",
-            "value": []
           }
         ]
       }
