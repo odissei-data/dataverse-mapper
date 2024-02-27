@@ -1,0 +1,311 @@
+{
+  "persistentUrl": "https://doi.org/10.17026/dans-zvf-q335",
+  "datasetVersion": {
+    "termsOfUse": "",
+    "originalArchive": "",
+    "datasetPersistentId": "doi:10.17026/dans-zvf-q335",
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Project Ongekend Bijzonder, Amsterdam, interview 21"
+          },
+          {
+            "typeName": "otherId",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "otherIdValue": {
+                  "typeName": "otherIdValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "OB_A_21"
+                }
+              },
+              {
+                "otherIdAgency": {
+                  "typeName": "otherIdAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "DANS-KNAW"
+                },
+                "otherIdValue": {
+                  "typeName": "otherIdValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "easy-dataset:64340"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Stichting Bevordering Maatschappelijke Participatie - BMP"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "geslacht: Vrouw\nland van herkomst: Iran\nleeftijd aankomst Nederland: 33\nstad: Amsterdam\nvluchtreden: Vrijheid en veiligheid. Als idealisten hadden zij andere gedachten dan die ze daar mochten hebben en ze wilden een betere toekomst voor haar kinderen cre\u00ebren. \nrelaties met eigen gemeenschap: Heeft (bijna) alleen Nederlandse vrienden en heeft geen familie hier. \u201cWant voor mij, je baseert je vriendschap en je priv\u00e9leven niet aan het feit dat je van hetzelfde land ben gekomen. Natuurlijk dat kan een rol spelen, zeker weten. Maar alleen maar met iemand omgaan omdat die hetzelfde achtergrond heeft. Like [alsof], woont in Teheran 14 miljoen mensen. Ik was toch niet bevriend met allemaal. En dat is ook niet, het is niet een bewuste keuze geweest. Het is gewoon zo voorgekomen.\u201d\nopleiding: Universiteit van Amsterdam: Lerarenopleiding  (docent Engels)\nberoep land van herkomst: Docent Engels\nberoep in Nederland: Docent Engels\nkinderen: 2\nbijdrage aan de stad: Werkt vrijwillig bij een instantie die mantelzorgers ondersteunt. \nopvallend/bijzonder: \u201cIk weet niet wie ik ben? Ben ik Perzisch? Ben ik Hollander?\u201d Ziet Iran als \u2018het land waar ze geboren is\u2019, en Nederland als \u2018het land waar ze woont\u2019. Ze noemt expliciet dat ze niet perse beiden in haar hart heeft. Ze is kritisch op omgangsvormen in Iran, ook die zogenaamd \u2018modern\u2019 zijn. Ze voelt zich hier vrijer en zegt dat ze hier directer is geworden en dat fijn vindt. Ziet veel overeenkomsten tussen Westerse landen / \u2018Europese cultuur\u2019 en had geen cultuurshock toen ze hier kwam omdat ze al in andere Westerse landen was geweest. Ze hecht niet perse veel waarde aan Iraanse tradities en viert bijvoorbeeld ook Kerst. Ze wil haar dochters bijvoorbeeld wel Noroez meegeven maar als die liever naar een ander feest gaan die dag vindt ze dat ook prima. \u201cIk blijf optimistisch. Pluk de dag.\u201d Socialisme meegekregen vanuit huis, was ook links politiek actief in Iran en ziet Nederland steeds minder socialistisch worden."
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Arts and Humanities",
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vluchtelingen"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Levensverhalen"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Oral History"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Dutch"
+            ]
+          },
+          {
+            "typeName": "productionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2014-11-30"
+          },
+          {
+            "typeName": "contributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "F.N. Nayeri"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "distributionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2016-04-07"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2016-04-07"
+          },
+          {
+            "typeName": "series",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "seriesInformation": {
+                  "typeName": "seriesInformation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "<p>Ongekend Bijzonder is een oral history project. In totaal 248 vluchtelingen, vooral mensen die de afgelopen veertig jaar hun land noodgedwongen moesten verlaten, doen aan het project mee. In diepgaande, gefilmde interviews, vertellen zij hun levensverhaal. De focus ligt op hoe zij in Nederland een nieuw leven hebben opgebouwd en op hun bijdrage aan de vier grote steden van ons land.</p><p>Behalve per stad is ook onderscheid gemaakt tussen de periode van binnenkomst. 4 x 50 interviews zijn gehouden met vluchtelingen die al enige tijd, soms tientallen jaren, in Nederland wonen. 4 x 12 interviews zijn gehouden met nieuwkomers. Het project is dus niet enkel een verslag van gebeurtenissen in het verleden, maar ook in het heden.</p><p>Ieder interview is in EASY opgenomen als een afzonderlijke dataset. In deze datasets vindt u de video, de transcriptie en de beschrijving van het interview. Sommige interviews zijn op aanvraag, andere zijn toegankelijk voor in EASY ingelogde gebruikers.</p><p>Bij de afronding van het project is het beheer van de interviews overgedragen aan de stadsarchieven. De afhandeling van aanvragen voor interviews op aanvraag vindt in eerste instantie plaats door Stichting BMP, en op termijn door het desbetreffende stadsarchief.</p><p>Hieronder vindt u links naar de interviews voor zover beschikbaar. De overige interviews komen in de loop van 2016 beschikbaar.</p><p>Het veld 'Temporal Coverage' van ieder interview bevat 3 tijdsaanduidingen:<br>1. de periode tussen geboorte van ge\u00efnterviewde en de datum van het interview<br>2. het jaar van aankomst in Nederland<br>3. het jaar van erkenning als vluchteling</p><p>Indien het jaar van aankomst en jaar van erkenning als vluchteling  gelijk zijn aan elkaar, staat 2x hetzelfde jaartal genoemd.</p>"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "dansMetadata": {
+        "displayName": "DANS Specific Metadata",
+        "name": "dansMetadata",
+        "fields": [
+          {
+            "typeName": "dansTemporalCoverage",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "1959-2014",
+              "1993",
+              "1998"
+            ]
+          },
+          {
+            "typeName": "dansRightsHolder",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Stadsarchief Gemeente Amsterdam"
+            ]
+          },
+          {
+            "typeName": "dansPersonalDataPresent",
+            "multiple": false,
+            "typeClass": "controlledVocabulary",
+            "value": "Unknown"
+          },
+          {
+            "typeName": "dansMetadataLanguage",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Dutch"
+            ]
+          },
+          {
+            "typeName": "dansAudience",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "https://www.narcis.nl/classification/D34300",
+              "https://www.narcis.nl/classification/D61000",
+              "https://www.narcis.nl/classification/E14000",
+              "https://www.narcis.nl/classification/D63000"
+            ]
+          },
+          {
+            "typeName": "dansCollection",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "https://vocabularies.dans.knaw.nl/collections/ssh/cfa04ed6-4cd0-4651-80cb-ed4ca8fa14f3",
+              "https://vocabularies.dans.knaw.nl/collections/ssh/629c9308-7a87-4d83-876b-1704dd1f8c32"
+            ]
+          },
+          {
+            "typeName": "dansRelation",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dansRelationType": {
+                  "typeName": "dansRelationType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "relation"
+                },
+                "dansRelationText": {
+                  "typeName": "dansRelationText",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Website Ongekend Bijzonder"
+                },
+                "dansRelationURI": {
+                  "typeName": "dansRelationURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ongekendbijzonder.nl/"
+                }
+              },
+              {
+                "dansRelationType": {
+                  "typeName": "dansRelationType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "relation"
+                },
+                "dansRelationText": {
+                  "typeName": "dansRelationText",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Website Stadsarchief Amsterdam"
+                },
+                "dansRelationURI": {
+                  "typeName": "dansRelationURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.amsterdam.nl/stadsarchief/"
+                }
+              },
+              {
+                "dansRelationType": {
+                  "typeName": "dansRelationType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "relation"
+                },
+                "dansRelationText": {
+                  "typeName": "dansRelationText",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "IsPartOf: Thematische collectie: Ongekend Bijzonder in EASY"
+                },
+                "dansRelationURI": {
+                  "typeName": "dansRelationURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://dx.doi.org/10.17026/dans-zbd-b88x"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dansElsstClassification",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "https://elsst.cessda.eu/id/4/9ae3450d-5429-4752-865d-6398dc9bfbda",
+              "https://elsst.cessda.eu/id/4/842d1098-3f00-4ada-ad3d-447b2108fce2"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -8612,8 +8612,23 @@
             ]
           }
         ]
+      },
+      "enrichments": {
+        "fields": [
+          {
+            "typeName": "cbsLinkage",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Yes"
+          },
+          {
+            "typeName": "cbsLinkageDetails",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "This dataset can be linked to CBS microdata in the Remote Access environment. Find more information on <a href=\"https://www.cbs.nl/nl-nl/onze-diensten/maatwerk-en-microdata/microdata-zelf-onderzoek-doen/microdatabestanden/lisspanel-procedure-lisspanel-met-cbs-microdata\">LISSPANEL: procedure Lisspanel met CBS microdata</a>.\n"
+          }
+        ]
       }
-    },
-    "license": "LISS Licence"
+    }
   }
 }
