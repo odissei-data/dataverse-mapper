@@ -1,7 +1,7 @@
 {
   "datasetVersion": {
     "termsOfUse": "Deze dataset is alleen beschikbaar onder stricte voorwaarden binnen de Remote-Access-omgeving van het CBS. Lees hier meer over de voorwaarden voor toegang en gebruik van de data: https://www.cbs.nl/nl-nl/onze-diensten/maatwerk-en-microdata/microdata-zelf-onderzoek-doen",
-    "dataAccessPlace": "De data is alleen toegankelijk binnen de Remote-Access-omgeving (RA-omgeving) van het CBS.",
+    "dataAccessPlace": "<a href=\"https://dab.surf.nl\">https://dab.surf.nl</a>",
     "originalArchive": "CBS",
     "availabilityStatus": "Standaard beschikbaar in Beveiligde Microdata Omgeving",
     "metadataBlocks": {
@@ -16,8 +16,10 @@
           {
             "typeName": "alternativeTitle",
             "typeClass": "primitive",
-            "multiple": false,
-            "value": "PS Detailhandel"
+            "multiple": true,
+            "value": [
+              "PS Detailhandel"
+            ]
           },
           {
             "typeName": "otherId",

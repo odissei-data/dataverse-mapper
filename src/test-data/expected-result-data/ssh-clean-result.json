@@ -1,9 +1,17 @@
 {
+  "publicationDate": "2014-11-30",
   "persistentUrl": "https://doi.org/10.17026/dans-zvf-q335",
   "datasetVersion": {
+    "termsOfAccess": "",
     "termsOfUse": "",
     "originalArchive": "",
     "datasetPersistentId": "doi:10.17026/dans-zvf-q335",
+    "dataAccessPlace": "<a href=\"https://dab.surf.nl\">https://dab.surf.nl</a>",
+    "license": {
+      "name": "DANS Licence",
+      "uri": "https://doi.org/10.17026/fp39-0x58",
+      "iconUri": ""
+    },
     "metadataBlocks": {
       "citation": {
         "displayName": "Citation Metadata",
@@ -55,6 +63,21 @@
                   "multiple": false,
                   "typeClass": "primitive",
                   "value": "Stichting Bevordering Maatschappelijke Participatie - BMP"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactEmail": {
+                  "typeName": "datasetContactEmail",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "portal@odissei.nl"
                 }
               }
             ]
@@ -172,6 +195,27 @@
           }
         ]
       },
+      "geospatial": {
+        "displayName": "Geospatial Metadata",
+        "fields": []
+      },
+      "socialscience": {
+        "displayName": "Social Science and Humanities Metadata",
+        "fields": [
+          {
+            "typeName": "targetSampleSize",
+            "multiple": false,
+            "typeClass": "compound",
+            "value": {}
+          },
+          {
+            "typeName": "socialScienceNotes",
+            "multiple": false,
+            "typeClass": "compound",
+            "value": {}
+          }
+        ]
+      },
       "dansMetadata": {
         "displayName": "DANS Specific Metadata",
         "name": "dansMetadata",
@@ -203,7 +247,7 @@
           {
             "typeName": "dansMetadataLanguage",
             "multiple": true,
-            "typeClass": "primitive",
+            "typeClass": "controlledVocabulary",
             "value": [
               "Dutch"
             ]
@@ -237,7 +281,7 @@
                 "dansRelationType": {
                   "typeName": "dansRelationType",
                   "multiple": false,
-                  "typeClass": "controlledVocabulary",
+                  "typeClass": "primitive",
                   "value": "relation"
                 },
                 "dansRelationText": {
@@ -257,7 +301,7 @@
                 "dansRelationType": {
                   "typeName": "dansRelationType",
                   "multiple": false,
-                  "typeClass": "controlledVocabulary",
+                  "typeClass": "primitive",
                   "value": "relation"
                 },
                 "dansRelationText": {
@@ -277,7 +321,7 @@
                 "dansRelationType": {
                   "typeName": "dansRelationType",
                   "multiple": false,
-                  "typeClass": "controlledVocabulary",
+                  "typeClass": "primitive",
                   "value": "relation"
                 },
                 "dansRelationText": {

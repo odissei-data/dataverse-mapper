@@ -3,6 +3,7 @@
   "datasetVersion": {
     "termsOfUse": "The data is available through the LISS Data Archive at Centerdata. You can read more about the access conditions here: https://www.lissdata.nl/how-it-works-archive.",
     "originalArchive": "LISS Data Archive",
+    "dataAccessPlace": "<a href=\"https://dab.surf.nl\">https://dab.surf.nl</a>",
     "metadataBlocks": {
       "citation": {
         "fields": [
