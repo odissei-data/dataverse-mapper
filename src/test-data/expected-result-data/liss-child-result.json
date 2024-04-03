@@ -1,7 +1,7 @@
 {
   "persistentUrl": "https://doi.org/10.17026/dans-zaf-casa",
   "datasetVersion": {
-    "termsOfUse": "The data is available through the LISS Data Archive at Centerdata. You can read more about the access conditions here: https://www.lissdata.nl/how-it-works-archive.",
+    "termsOfUse": "The data is available through the LISS Data Archive at Centerdata. You can read more about the access conditions here: <a href=\"https://www.lissdata.nl/how-it-works-archive\">https://www.lissdata.nl/how-it-works-archive</a>.",
     "originalArchive": "LISS Data Archive",
     "dataAccessPlace": "<a href=\"https://dab.surf.nl\">https://dab.surf.nl</a>",
     "metadataBlocks": {
@@ -264,6 +264,15 @@
       },
       "socialscience": {
         "fields": [
+          {
+            "typeName": "collectionMode",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "internet survey",
+              "internet survey"
+            ]
+          },
           {
             "typeName": "dataCollectionSituation",
             "multiple": false,
