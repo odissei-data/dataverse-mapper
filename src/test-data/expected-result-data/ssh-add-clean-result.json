@@ -594,7 +594,51 @@
       },
       "geospatial": {
         "displayName": "Geospatial Metadata",
-        "fields": []
+        "fields": [
+          {
+            "typeName": "geographicCoverage",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "country": {
+                  "typeName": "country",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Afghanistan"
+                },
+                "otherGeographicCoverage": {
+                  "typeName": "otherGeographicCoverage",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Spatial Coverage (Free Text) 1"
+                }
+              },
+              {
+                "country": {
+                  "typeName": "country",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Albania"
+                },
+                "otherGeographicCoverage": {
+                  "typeName": "otherGeographicCoverage",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Spatial Coverage (Free Text) 2"
+                }
+              },
+              {
+                "country": {
+                  "typeName": "country",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Algeria"
+                }
+              }
+            ]
+          }
+        ]
       },
       "socialscience": {
         "displayName": "Social Science and Humanities Metadata",
@@ -620,12 +664,6 @@
             "value": "Sampling Procedure"
           },
           {
-            "typeName": "targetSampleSize",
-            "multiple": false,
-            "typeClass": "compound",
-            "value": {}
-          },
-          {
             "typeName": "dataCollectionSituation",
             "multiple": false,
             "typeClass": "primitive",
@@ -648,12 +686,6 @@
             "multiple": false,
             "typeClass": "primitive",
             "value": "Response Rate"
-          },
-          {
-            "typeName": "socialScienceNotes",
-            "multiple": false,
-            "typeClass": "compound",
-            "value": {}
           }
         ]
       },

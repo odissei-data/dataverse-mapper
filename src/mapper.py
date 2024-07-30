@@ -298,12 +298,12 @@ class MetadataMapper:
             'metadataBlocks'].values()
         for metadata_block in metadataBlocks:
             # Iterate over the fields in each metadata block
-            metadata_block['fields'] = [field for field in
-                                        metadata_block['fields'] if
-                                        field.get('value') not in ('', [])]
             for field in metadata_block['fields']:
                 if "typeClass" in field and field["typeClass"] == "compound":
                     remove_empty_compound_field(field)
+            metadata_block['fields'] = [field for field in
+                                        metadata_block['fields'] if
+                                        field.get('value') not in ('', [], {})]
 
 
 def remove_empty_compound_field(compoundField):

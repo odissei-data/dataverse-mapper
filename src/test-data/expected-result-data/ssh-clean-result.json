@@ -197,24 +197,41 @@
       },
       "geospatial": {
         "displayName": "Geospatial Metadata",
-        "fields": []
+        "fields": [
+          {
+            "typeName": "geographicCoverage",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "country": {
+                  "typeName": "country",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Iran, Islamic Republic of"
+                },
+                "otherGeographicCoverage": {
+                  "typeName": "otherGeographicCoverage",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Amsterdam"
+                }
+              },
+              {
+                "otherGeographicCoverage": {
+                  "typeName": "otherGeographicCoverage",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Iran"
+                }
+              }
+            ]
+          }
+        ]
       },
       "socialscience": {
         "displayName": "Social Science and Humanities Metadata",
-        "fields": [
-          {
-            "typeName": "targetSampleSize",
-            "multiple": false,
-            "typeClass": "compound",
-            "value": {}
-          },
-          {
-            "typeName": "socialScienceNotes",
-            "multiple": false,
-            "typeClass": "compound",
-            "value": {}
-          }
-        ]
+        "fields": []
       },
       "dansMetadata": {
         "displayName": "DANS Specific Metadata",

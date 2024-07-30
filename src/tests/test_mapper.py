@@ -159,6 +159,23 @@ def test_ssh_additional():
     assert mapper.template == expected_clean_result
 
 
+def test_ssh_coverage_field():
+    mapper = _create_mapper(
+        "test-data/input-data/ssh-coverage-input-metadata.json",
+        "resources/mappings/ssh-mapping.json",
+        "resources/templates/ssh_dataverse_template.json"
+    )
+
+    expected_clean_result = open_json_file(
+        "test-data/expected-result-data/ssh-coverage-clean-result.json"
+    )
+
+    mapper.map_metadata()
+    mapper.remove_empty_fields()
+
+    assert mapper.template == expected_clean_result
+
+
 def test_liss_mapper():
     """Test Liss mapping."""
     mapper = _create_mapper(

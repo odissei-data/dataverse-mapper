@@ -1,0 +1,301 @@
+{
+  "publicationDate": "2024-02-12",
+  "persistentUrl": "https://doi.org/10.17026/SS/1REFES",
+  "datasetVersion": {
+    "termsOfAccess": "https://dans.knaw.nl/wp-content/uploads/2022/01/DANS_Licence_EN.pdf\n",
+    "termsOfUse": "",
+    "originalArchive": "",
+    "datasetPersistentId": "doi:10.17026/SS/1REFES",
+    "dataAccessPlace": "<a href=\"https://dab.surf.nl\">https://dab.surf.nl</a>",
+    "license": {
+      "name": "DANS Licence",
+      "uri": "https://doi.org/10.17026/fp39-0x58",
+      "iconUri": ""
+    },
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Consumentenconjunctuuronderzoek - CCO 2023"
+          },
+          {
+            "typeName": "subtitle",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "CCO 2023"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Centraal Bureau voor de Statistiek, C.B.S."
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Centraal Bureau voor de Statistiek"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactEmail": {
+                  "typeName": "datasetContactEmail",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "portal@odissei.nl"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Doel: Het verschaffen van actuele informatie over consumentenopvattingen met betrekking tot de algemene economische ontwikkeling en de financi\u00eble situatie van het eigen huishouden. Met behulp van het onderzoek wordt inzicht verkregen in de opvattingen van consumenten, onder meer ten aanzien van de aankoop van duurzame consumptiegoederen. Tevens worden veranderingen in optimisme of pessimisme op korte termijn gesignaleerd, waarmee vroegtijdig een indicatie van een mogelijke trendwijziging van de particuliere consumptie beschikbaar is. Soort onderzoek: De steekproefeenheid van het CCO is het particuliere huishouden en de steekproefeenheden worden getrokken op basis van een een aselecte tweetrapssteekproef. In de eerste trap wordt een steekproef van gemeenten getrokken en in de tweede trap een steekproef van adressen. Doelpopulatie: Nederlandse consumenten. Waarnemingsmethode: De verzameling van de gegevens vond in de periode 1972\u20131983 plaats aan de hand van een gestructureerde vragenlijst, waarmee door enqu\u00eatrices mondelinge interviews werden afgenomen bij Nederlandse particuliere huishoudens. Van het huishouden werd het hoofd of zijn/haar echtgeno(o)t(e)/vaste partner ondervraagd. Behalve in het eerste jaar, waarin alleen in de maanden mei en oktober werd ge\u00ebnqu\u00eateerd, werd het onderzoek steeds driemaal per jaar uitgevoerd, in de maanden januari, mei en oktober. Met ingang van januari 1984 heeft de dataverzameling van het CCO telefonisch plaatsgevonden. Naast de methode van waarneming veranderde in die maand ook de onderzoeksfrequentie. Deze werd verhoogd van drie- tot viermaal per jaar, met als enqu\u00eateperiodes de maanden januari, april, juli en oktober. In april 1986 werd de frequentie opnieuw verhoogd. Het onderzoek wordt sinds die datum maandelijks gehouden. Berichtgevers: Van het huishouden wordt het hoofd van het huishouden of zijn/haar echtgeno(o)t(e)/vaste partner ondervraagd. Steekproefomvang: De steekproefomvang bedraagt ruim 1600 huishoudens. Controle- en correctiemethoden: Er wordt gecontroleerd op interne consistentie waarbij gekeken wordt naar de achtergrondkenmerken van de respondenten en de plausibiliteit van de uitkomsten met voorgaande perioden. De conjunctuuronderzoeken bij Nederlandse consumenten, waarmee het CBS in 1972 is gestart, worden mede op verzoek van de Europese Commissie uitgevoerd. --------- Dit betreft een beveiligd microbestand van het Centraal Bureau voor de Statistiek-CBS. Beveiligde micro-bestanden zijn bestanden die zodanig bewerkt zijn dat herkenning van individuen en huishoudens uitgesloten is."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2024-02-09"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Particuliere consumptie; Duurzame consumptiegoederen; Conjunctuur onderzoek"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Dutch"
+            ]
+          },
+          {
+            "typeName": "productionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2023-12-20"
+          },
+          {
+            "typeName": "distributionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2024-02-09"
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Centraal Bureau voor de Statistiek, C.B.S."
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2024-02-09"
+          }
+        ]
+      },
+      "geospatial": {
+        "displayName": "Geospatial Metadata",
+        "fields": [
+          {
+            "typeName": "geographicCoverage",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "country": {
+                  "typeName": "country",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Netherlands"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "socialscience": {
+        "displayName": "Social Science and Humanities Metadata",
+        "fields": []
+      },
+      "dansMetadata": {
+        "displayName": "DANS Specific Metadata",
+        "name": "dansMetadata",
+        "fields": [
+          {
+            "typeName": "dansTemporalCoverage",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "2023"
+            ]
+          },
+          {
+            "typeName": "dansRightsHolder",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Centraal Bureau voor de Statistiek"
+            ]
+          },
+          {
+            "typeName": "dansPersonalDataPresent",
+            "multiple": false,
+            "typeClass": "controlledVocabulary",
+            "value": "Unknown"
+          },
+          {
+            "typeName": "dansMetadataLanguage",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Dutch"
+            ]
+          },
+          {
+            "typeName": "dansAudience",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "https://www.narcis.nl/classification/D60000"
+            ]
+          },
+          {
+            "typeName": "dansCollection",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "https://vocabularies.dans.knaw.nl/collections/ssh/7e30e380-9e02-4b15-a0af-f35286c3ecec",
+              "https://vocabularies.dans.knaw.nl/collections/ssh/eed01e9e-a251-4f56-bc87-140903814169"
+            ]
+          },
+          {
+            "typeName": "dansRelation",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dansRelationType": {
+                  "typeName": "dansRelationType",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "references"
+                },
+                "dansRelationText": {
+                  "typeName": "dansRelationText",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Consumenten Conjunctuuronderzoek (CCO)"
+                },
+                "dansRelationURI": {
+                  "typeName": "dansRelationURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/onderzoeksomschrijvingen/korte-onderzoeksomschrijvingen/consumenten-conjunctuuronderzoek--cco--"
+                }
+              },
+              {
+                "dansRelationType": {
+                  "typeName": "dansRelationType",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "relation"
+                },
+                "dansRelationText": {
+                  "typeName": "dansRelationText",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Consumentenconjunctuuronderzoek - CCO 2022"
+                },
+                "dansRelationURI": {
+                  "typeName": "dansRelationURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ssh.datastations.nl/dataset.xhtml?persistentId=doi:10.17026/SS/78HHDK"
+                }
+              },
+              {
+                "dansRelationType": {
+                  "typeName": "dansRelationType",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "relation"
+                },
+                "dansRelationText": {
+                  "typeName": "dansRelationText",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Thematische collectie: Beveiligde microbestanden CBS en over de toegang tot CBS data"
+                },
+                "dansRelationURI": {
+                  "typeName": "dansRelationURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://dx.doi.org/10.17026/dans-z5j-9bkf"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dansElsstClassification",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "https://elsst.cessda.eu/id/4/23ee9573-c0fe-4679-afc2-ee385995f317",
+              "https://elsst.cessda.eu/id/4/8a80f878-851c-4f47-a451-a8fe75b81aad"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
