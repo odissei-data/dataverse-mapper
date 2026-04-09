@@ -15,3 +15,6 @@ COPY pyproject.toml ./stub.toml
 
 EXPOSE 7070
 RUN pip install uvicorn
+
+LABEL org.opencontainers.image.source="https://github.com/odissei-data/dataverse-mapper"
+LABEL org.opencontainers.image.description="Service to map any JSON metadata to Dataverse JSON format."
