@@ -6,29 +6,33 @@ on:
       - '*'
 
 env:
-  TAG: $GITHUB_REF_NAME
-  ORG: odissei
+  IMAGE: ghcr.io/odissei-data/dataverse-mapper
 
 jobs:
   push:
     name: Push to registry.
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Login to registry
+      - name: Login to GHCR
         uses: docker/login-action@v3
         with:
-          username: ${{ secrets.DOCKER_HUB_USERNAME }}
-          password: ${{ secrets.DOCKER_HUB_ACCESS_PASSWORD }}
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Build and push Prefect Worker Image
+      - name: Build and push image
         uses: docker/build-push-action@v5
         with:
           context: .
           file: Dockerfile
           push: true
           tags: |
-            ${{ env.ORG }}/dataverse-mapper:${{ github.ref_name }}
-            ${{ env.ORG }}/dataverse-mapper:latest
+            ${{ env.IMAGE }}:${{ github.ref_name }}
+            ${{ env.IMAGE }}:${{ github.sha }}
+            ${{ env.IMAGE }}:latest
