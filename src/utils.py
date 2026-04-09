@@ -27,6 +27,9 @@ def clean_mapping(mapping):
     for key in mapping.keys():
         path_list = mapping[key]
 
+        if isinstance(path_list, dict):
+            continue
+
         for counter, path in enumerate(path_list):
             if any(character in path for character in SPECIAL_CHARACTERS_LIST):
                 cleaned_path = clean_path(path)

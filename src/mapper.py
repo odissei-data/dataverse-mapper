@@ -149,10 +149,15 @@ class MetadataMapper:
 
         :param field: The compound field that requires mapping.
         """
-        if not field['multiple']:
+        if field['typeName'] in self.mapping and isinstance(
+                self.mapping[field['typeName']], dict):
+            results = self.map_object_onto_compound(field)
+            if not field['multiple']:
+                field['value'] = results[0] if results else {}
+            else:
+                field['value'] = results
+        elif not field['multiple']:
             field['value'] = self.map_compound_field(field)
-        elif field['typeName'] in self.mapping:
-            field['value'] = self.map_object_onto_compound(field)
         else:
             field['value'] = self.map_compound_multiple_field(field)
 
@@ -179,7 +184,11 @@ class MetadataMapper:
         result_dict_list = []
         for compound_object in compound_objects:
             # Make a copy of the template object to use for mapping to.
-            compound_template_children = copy.deepcopy(field['value'][0])
+            template_value = field['value']
+            if isinstance(template_value, list):
+                compound_template_children = copy.deepcopy(template_value[0])
+            else:
+                compound_template_children = copy.deepcopy(template_value)
             for _, child in compound_template_children.items():
                 type_name = child['typeName']
                 mapped_values = self.map_value(type_name, child_mappings,
