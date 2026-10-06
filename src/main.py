@@ -7,12 +7,6 @@ from version import get_version
 app = FastAPI()
 
 
-@app.get("/version")
-async def info():
-    result = get_version()
-    return {"version": result}
-
-
 @app.get("/health")
 async def health():
     return {"status": "ok", "version": get_version()}
