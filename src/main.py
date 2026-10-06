@@ -13,6 +13,11 @@ async def info():
     return {"version": result}
 
 
+@app.get("/health")
+async def health():
+    return {"status": "ok", "version": get_version()}
+
+
 # TODO: use Response model
 @app.post("/mapper")
 def map_metadata(input_data: Input):
