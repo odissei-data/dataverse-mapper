@@ -37,6 +37,3 @@ shell: ## Enter system shell in backend container
 	@docker-compose exec ${CONTAINER_NAME} sh
 python-shell-be: ## Enter into IPython shell in backend container
 	@docker-compose exec ${CONTAINER_NAME} python -m IPython
-version:  ## Export version
-	@docker cp ./pyproject.toml ${CONTAINER_NAME}:/src/stub.toml
-	@docker exec -it ${CONTAINER_NAME} python version.py
