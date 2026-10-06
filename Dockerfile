@@ -17,6 +17,8 @@ RUN pip install uvicorn
 
 ARG APP_VERSION=v0.0.0-dev
 ENV APP_VERSION=${APP_VERSION}
+ARG APP_IMAGE
+ENV APP_IMAGE=${APP_IMAGE}
 LABEL org.opencontainers.image.version="${APP_VERSION}"
 
 LABEL org.opencontainers.image.source="https://github.com/odissei-data/dataverse-mapper"

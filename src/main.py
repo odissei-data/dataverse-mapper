@@ -2,14 +2,14 @@ from fastapi import FastAPI
 
 from mapper import MetadataMapper
 from schema.input import Input
-from version import get_version
+from version import get_image, get_version
 
 app = FastAPI()
 
 
 @app.get("/health")
 async def health():
-    return {"status": "ok", "version": get_version()}
+    return {"status": "ok", "version": get_version(), "image": get_image()}
 
 
 # TODO: use Response model
