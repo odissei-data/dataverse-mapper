@@ -1,4 +1,4 @@
-from version import get_image, get_version
+from version import get_image, get_source, get_version
 
 
 def test_version_comes_from_the_build(monkeypatch):
@@ -22,3 +22,13 @@ def test_image_comes_from_the_build(monkeypatch):
 def test_no_image_without_a_build(monkeypatch):
     monkeypatch.delenv("APP_IMAGE", raising=False)
     assert get_image() is None
+
+
+def test_source_comes_from_the_build(monkeypatch):
+    monkeypatch.setenv("APP_SOURCE", "https://github.com/odissei-data/example/releases/tag/v1.2.3")
+    assert get_source() == "https://github.com/odissei-data/example/releases/tag/v1.2.3"
+
+
+def test_no_source_without_a_build(monkeypatch):
+    monkeypatch.delenv("APP_SOURCE", raising=False)
+    assert get_source() is None

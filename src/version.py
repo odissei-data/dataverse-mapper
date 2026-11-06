@@ -11,5 +11,10 @@ def get_image():
     return f'{image}:{get_version()}' if image else None
 
 
+def get_source():
+    """The release page baked in at build time (APP_SOURCE)."""
+    return os.getenv('APP_SOURCE') or None
+
+
 if __name__ == '__main__':
     print(get_version())
